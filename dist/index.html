@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FAF8F2">
+  <title>Lernhaus | میز مطالعه</title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('lernhaus-theme') || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="lessons.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">رفتن به محتوای اصلی</a>
+  <div id="layout">
+    <aside id="sidebar" aria-label="منوی کناری"></aside>
+    <div id="scrim" hidden></div>
+    <div id="workspace"><header id="topbar"></header><main id="main" tabindex="-1"></main></div>
+  </div>
+  <dialog id="sheet" aria-labelledby="sheet-title"><header class="sheet-head"><h2 id="sheet-title"></h2><button class="icon-btn" data-act="close" aria-label="بستن" id="sheet-close"></button></header><div id="sheet-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
