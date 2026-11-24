@@ -6,13 +6,27 @@ const APP_ROOT = __DIR__ . '/..';
 
 function db(bool $admin = false): PDO
 {
-    $config = json_decode(file_get_contents(LOCAL_DIR . '/mysql.json'), true, flags: JSON_THROW_ON_ERROR);
-    return new PDO('mysql:unix_socket=' . realpath(LOCAL_DIR) . '/mysql.sock;dbname=lernhaus;charset=utf8mb4',
-        $admin ? 'root' : 'lernhaus_app', $config[$admin ? 'admin' : 'app'], [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_EMULATE_PREPARES => false,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        ]);
+    $dsn = getenv('LERNHAUS_DB_DSN');
+    if ($dsn !== false && $dsn !== '') {
+        $user = getenv('LERNHAUS_DB_USER');
+        $password = getenv('LERNHAUS_DB_PASSWORD');
+        if (!$user || $password === false) throw new PDOException('Hosted database configuration is incomplete');
+    } elseif (is_file(LOCAL_DIR . '/hosted-db.json')) {
+        $config = json_decode(file_get_contents(LOCAL_DIR . '/hosted-db.json'), true, flags: JSON_THROW_ON_ERROR);
+        $dsn = $config['dsn'];
+        $user = $config['user'];
+        $password = $config['password'];
+    } else {
+        $config = json_decode(file_get_contents(LOCAL_DIR . '/mysql.json'), true, flags: JSON_THROW_ON_ERROR);
+        $dsn = 'mysql:unix_socket=' . realpath(LOCAL_DIR) . '/mysql.sock;dbname=lernhaus;charset=utf8mb4';
+        $user = $admin ? 'root' : 'lernhaus_app';
+        $password = $config[$admin ? 'admin' : 'app'];
+    }
+    return new PDO($dsn, $user, $password, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_EMULATE_PREPARES => false,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    ]);
 }
 
 function curriculum(PDO $db): array

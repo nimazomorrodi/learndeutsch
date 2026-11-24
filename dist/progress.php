@@ -32,7 +32,7 @@ try {
     $update->execute([$state, $userId, $input->revision]);
     if (!$update->rowCount()) {
         // A successful write whose response was lost may be safely acknowledged on retry.
-        $check = $pdo->prepare('SELECT revision, state=CAST(? AS JSON) AS identical FROM user_progress WHERE user_id=?');
+        $check = $pdo->prepare("SELECT revision, JSON_EXTRACT(state,'$')=JSON_EXTRACT(?,'$') AS identical FROM user_progress WHERE user_id=?");
         $check->execute([$state, $userId]);
         $row = $check->fetch();
         if (!$row || !(int)$row['identical'] || (int)$row['revision'] !== $input->revision + 1) {

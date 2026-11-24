@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# Runs in the GitHub production environment.
+set -euo pipefail
+required=(DEPLOY_SSH_KEY DEPLOY_KNOWN_HOSTS DEPLOY_HOST DEPLOY_USER DEPLOY_PORT)
+if [[ ${1:-} != --check ]]; then required+=(DB_NAME DB_USER DB_PASSWORD); fi
+for name in "${required[@]}"; do
+    [[ -n "${!name:-}" ]] || { echo "::error::Missing production setting: $name"; exit 1; }
+done
+[[ "$DEPLOY_PORT" =~ ^[0-9]+$ && "$DEPLOY_USER" =~ ^[a-zA-Z0-9_][a-zA-Z0-9_-]*$ && "$DEPLOY_HOST" =~ ^[a-zA-Z0-9][a-zA-Z0-9.-]*$ ]]
+webroot=${DEPLOY_WEBROOT:-domains/learn.nimazomorrodi.com/public_html}
+[[ "$webroot" =~ ^[a-zA-Z0-9_./-]+$ && "$webroot" != *..* && "$webroot" != -* ]]
+release="$GITHUB_SHA-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+[[ "$release" =~ ^[0-9a-f]{40}-[0-9]+-[0-9]+$ ]]
+work=$(mktemp -d)
+trap 'rm -rf -- "$work"' EXIT
+(umask 077; printf '%s\n' "$DEPLOY_SSH_KEY" | tr -d '\r' > "$work/key"; printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$work/known_hosts")
+unset DEPLOY_SSH_KEY
+ssh_cmd=(ssh -T -o BatchMode=yes -o ConnectTimeout=15 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes
+    -o "UserKnownHostsFile=$work/known_hosts" -i "$work/key" -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST")
+remote=".lernhaus/releases/$release"
+"${ssh_cmd[@]}" "test -d '$webroot' && test -w '$webroot' || { echo 'Check the subdomain document root: $webroot' >&2; exit 1; }"
+if [[ ${1:-} == --check ]]; then
+    echo 'SSH and the subdomain document root are ready.'
+    exit 0
+fi
+"${ssh_cmd[@]}" "set -e; mkdir -p .lernhaus/releases; mkdir '$remote'; mkdir -m 700 '$remote/.local'"
+python3 - <<'PY' | "${ssh_cmd[@]}" "umask 077; cat > '$remote/.local/hosted-db.json'"
+import json, os, re, sys
+env = os.environ
+host = env.get("DB_HOST") or "localhost"
+name = env["DB_NAME"]
+if not re.fullmatch(r"[\w.-]+", host) or not re.fullmatch(r"[\w-]+", name):
+    sys.exit("Invalid database host or name")
+json.dump({"dsn": f"mysql:host={host};dbname={name};charset=utf8mb4",
+           "user": env["DB_USER"], "password": env["DB_PASSWORD"]},sys.stdout)
+PY
+unset DB_PASSWORD
+tar -czf - app database dist bin/migrate.php | "${ssh_cmd[@]}" "tar -xzf - -C '$remote'"
+"${ssh_cmd[@]}" "bash -s -- '$release' '$webroot'" < bin/deploy-host.sh

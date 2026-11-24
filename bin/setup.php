@@ -50,31 +50,8 @@ try {
         if (file_exists($init)) unlink($init);
     }
 }
-$pdo->exec(file_get_contents(APP_ROOT . '/database/schema.sql'));
-if (!$pdo->query("SHOW COLUMNS FROM users WHERE Field = 'display_name'")->fetch()) {
-    $pdo->exec('ALTER TABLE users ADD COLUMN display_name VARCHAR(80) NULL');
-}
-if (!$pdo->query("SHOW COLUMNS FROM users WHERE Field = 'review_direction'")->fetch()) {
-    $pdo->exec("ALTER TABLE users ADD COLUMN review_direction ENUM('de-fa', 'fa-de') NOT NULL DEFAULT 'de-fa'");
-}
-$seed = json_decode(file_get_contents(APP_ROOT . '/database/curriculum.json'), flags: JSON_THROW_ON_ERROR);
-$pdo->beginTransaction();
-$level = $pdo->prepare('INSERT INTO levels (code,position,content) VALUES (?,?,?) AS new
-    ON DUPLICATE KEY UPDATE position=new.position, content=new.content');
-foreach ($seed->levels as $i => $item) {
-    $level->execute([$item->code, $i, json_encode($item, JSON_THROW_ON_ERROR)]);
-}
-$lesson = $pdo->prepare('INSERT INTO lessons (id,level_code,position,content) VALUES (?,?,?,?) AS new
-    ON DUPLICATE KEY UPDATE level_code=new.level_code, position=new.position, content=new.content');
-foreach ($seed->lessons as $i => $item) {
-    $lesson->execute([$item->id, $item->level, $i, json_encode($item, JSON_THROW_ON_ERROR)]);
-}
-$reference = $pdo->prepare('INSERT INTO reference_materials (name,content) VALUES (?,?) AS new
-    ON DUPLICATE KEY UPDATE content=new.content');
-foreach (['grammar' => 'grammar-reference', 'verbs' => 'verb-forms', 'nouns' => 'noun-forms', 'senses' => 'dictionary-senses'] as $name => $file) {
-    $reference->execute([$name, file_get_contents(APP_ROOT . "/database/$file.json")]);
-}
-$pdo->commit();
+require __DIR__ . '/../app/install.php';
+installCurriculum($pdo);
 foreach (['levels' => 'SELECT', 'lessons' => 'SELECT', 'reference_materials' => 'SELECT', 'users' => 'SELECT, INSERT',
     'user_progress' => 'SELECT, INSERT, UPDATE'] as $table => $rights) {
     $pdo->exec("GRANT $rights ON lernhaus.$table TO 'lernhaus_app'@'localhost'");

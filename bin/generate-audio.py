@@ -1,6 +1,7 @@
 """Render the curriculum's German recordings with the local Supertonic 3 model."""
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -48,31 +49,60 @@ def main():
     parser.add_argument("lessons", nargs="*", help="Optional lesson IDs to rebuild")
     parser.add_argument("--model-dir", type=Path, default=ROOT / ".local/supertonic-3")
     parser.add_argument("--clip", choices=["de", "fa"], help="Render a single Leitner text from stdin")
+    parser.add_argument("--deck", choices=["de", "fa"], help="Render this language's missing Leitner MP3s for deployment")
+    parser.add_argument("--shard", choices=[0, 1], type=int, help="Render one of two deterministic deck partitions")
     parser.add_argument("--output", type=Path, help="MP3 destination for --clip")
     args = parser.parse_args()
     onnxruntime.disable_telemetry_events()
-    if bool(args.clip) != bool(args.output) or (args.clip and args.lessons):
+    if bool(args.clip) != bool(args.output) or (args.clip and (args.lessons or args.deck)) or (args.shard is not None and not args.deck):
         parser.error("--clip and --output are used together, without lesson IDs")
     if args.clip:
         text = sys.stdin.buffer.read().decode("utf-8").strip()
         if not text:
             parser.error("Pronunciation text is empty")
-        if args.clip == "fa":
-            from piper import PiperVoice
-
-            voice = PiperVoice.load(ROOT / ".local/piper/fa_IR-amir-medium.onnx")
-            chunks = []
-            for chunk in voice.synthesize(text):
-                if chunks:
-                    chunks.append(np.zeros(round(chunk.sample_rate * 0.2), dtype=np.float32))
-                chunks.append(chunk.audio_float_array)
-            save_mp3(args.output, np.concatenate(chunks), voice.config.sample_rate)
-            return
     else:
         lessons = json.loads((ROOT / "database/curriculum.json").read_text())["lessons"]
         missing = set(args.lessons) - {lesson["id"] for lesson in lessons}
         if missing:
             parser.error("Unknown lesson IDs: " + ", ".join(sorted(missing)))
+
+    def render_deck(render_clip):
+        col = 0 if args.deck == "de" else 1
+        texts = set()
+        for lesson in lessons:
+            if args.lessons and lesson["id"] not in args.lessons:
+                continue
+            for word in lesson["words"]:
+                texts.add(word[col])
+                pair = next(p for p in lesson["examples"][word[0]] if all(p))
+                texts.add(pair[col])
+        out = ROOT / "dist/assets/audio/leitner/v1" / args.deck
+        for n, value in enumerate(sorted(texts), 1):
+            digest = hashlib.sha256(value.encode("utf-8")).hexdigest()
+            if args.shard is not None and int(digest[0], 16) % 2 != args.shard:
+                continue
+            path = out / (digest + ".mp3")
+            if not path.is_file() or path.stat().st_size == 0:
+                render_clip(value, path)
+            if n % 50 == 0:
+                print(f"{args.deck}: {n}/{len(texts)}", flush=True)
+
+    if (args.clip or args.deck) == "fa":
+        from piper import PiperVoice
+
+        voice = PiperVoice.load(ROOT / ".local/piper/fa_IR-amir-medium.onnx")
+        def render_fa(value, path):
+            chunks = []
+            for chunk in voice.synthesize(value):
+                if chunks:
+                    chunks.append(np.zeros(round(chunk.sample_rate * 0.2), dtype=np.float32))
+                chunks.append(chunk.audio_float_array)
+            save_mp3(path, np.concatenate(chunks), voice.config.sample_rate)
+        if args.deck:
+            render_deck(render_fa)
+        else:
+            render_fa(text, args.output)
+        return
 
     tts = TTS(model="supertonic-3", model_dir=args.model_dir, auto_download=False,
               intra_op_num_threads=4, inter_op_num_threads=1)
@@ -92,6 +122,9 @@ def main():
 
     if args.clip:
         save_mp3(args.output, render(text, "F1", 0.95), rate)
+        return
+    if args.deck:
+        render_deck(lambda value, path: save_mp3(path, render(value, "F1", 0.95), rate))
         return
 
     for lesson in lessons:
