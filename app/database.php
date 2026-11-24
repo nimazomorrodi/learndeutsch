@@ -11,8 +11,10 @@ function db(bool $admin = false): PDO
         $user = getenv('LERNHAUS_DB_USER');
         $password = getenv('LERNHAUS_DB_PASSWORD');
         if (!$user || $password === false) throw new PDOException('Hosted database configuration is incomplete');
-    } elseif (is_file(LOCAL_DIR . '/hosted-db.json')) {
-        $config = json_decode(file_get_contents(LOCAL_DIR . '/hosted-db.json'), true, flags: JSON_THROW_ON_ERROR);
+    } elseif (is_file(LOCAL_DIR . '/hosted-db.php') || is_file(LOCAL_DIR . '/hosted-db.json')) {
+        $config = is_file(LOCAL_DIR . '/hosted-db.php')
+            ? require LOCAL_DIR . '/hosted-db.php'
+            : json_decode(file_get_contents(LOCAL_DIR . '/hosted-db.json'), true, flags: JSON_THROW_ON_ERROR);
         $dsn = $config['dsn'];
         $user = $config['user'];
         $password = $config['password'];

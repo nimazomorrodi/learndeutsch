@@ -7,8 +7,8 @@ for name in "${required[@]}"; do
     [[ -n "${!name:-}" ]] || { echo "::error::Missing production setting: $name"; exit 1; }
 done
 [[ "$DEPLOY_PORT" =~ ^[0-9]+$ && "$DEPLOY_USER" =~ ^[a-zA-Z0-9_][a-zA-Z0-9_-]*$ && "$DEPLOY_HOST" =~ ^[a-zA-Z0-9][a-zA-Z0-9.-]*$ ]]
-webroot=${DEPLOY_WEBROOT:-domains/learn.nimazomorrodi.com/public_html}
-[[ "$webroot" =~ ^[a-zA-Z0-9_./-]+$ && "$webroot" != *..* && "$webroot" != -* ]]
+webroot=domains/nimazomorrodi.com/public_html/learn
+[[ "${DEPLOY_WEBROOT:-$webroot}" == "$webroot" ]] || { echo 'DEPLOY_WEBROOT must point to the learn folder.' >&2; exit 1; }
 release="$GITHUB_SHA-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
 [[ "$release" =~ ^[0-9a-f]{40}-[0-9]+-[0-9]+$ ]]
 work=$(mktemp -d)
@@ -18,7 +18,10 @@ unset DEPLOY_SSH_KEY
 ssh_cmd=(ssh -T -o BatchMode=yes -o ConnectTimeout=15 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes
     -o "UserKnownHostsFile=$work/known_hosts" -i "$work/key" -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST")
 remote=".lernhaus/releases/$release"
-"${ssh_cmd[@]}" "test -d '$webroot' && test -w '$webroot' || { echo 'Check the subdomain document root: $webroot' >&2; exit 1; }"
+in_learn="cd '$webroot' &&"
+if [[ ${1:-} != --check-db ]]; then
+    "${ssh_cmd[@]}" "$in_learn bash -s" < bin/deploy-prepare.sh
+fi
 if [[ ${1:-} == --check ]]; then
     echo 'SSH and the subdomain document root are ready.'
     exit 0
@@ -36,7 +39,7 @@ json.dump({"dsn": f"mysql:host={host};port={port};dbname={name};charset=utf8mb4"
 PY
 unset DB_PASSWORD
 if [[ ${1:-} == --check-db ]]; then
-    "${ssh_cmd[@]}" "php -r '"'
+    "${ssh_cmd[@]}" "$in_learn php -r '"'
         try {
             $c=json_decode(stream_get_contents(STDIN),true,flags:JSON_THROW_ON_ERROR);
             $db=new PDO($c["dsn"],$c["user"],$c["password"]);
@@ -63,6 +66,7 @@ if [[ ${1:-} == --check-db ]]; then
     '"'" < "$work/database.json"
     exit 0
 fi
-"${ssh_cmd[@]}" "set -e; mkdir -p .lernhaus/releases; mkdir '$remote'; mkdir -m 700 '$remote/.local'; umask 077; cat > '$remote/.local/hosted-db.json'" < "$work/database.json"
-tar -czf - app database dist bin/migrate.php | "${ssh_cmd[@]}" "tar -xzf - -C '$remote'"
-"${ssh_cmd[@]}" "bash -s -- '$release' '$webroot'" < bin/deploy-host.sh
+php -r '$config = json_decode(stream_get_contents(STDIN), true, flags: JSON_THROW_ON_ERROR); echo "<?php\nreturn ", var_export($config, true), ";\n";' < "$work/database.json" |
+    "${ssh_cmd[@]}" "$in_learn (set -e; mkdir -p .lernhaus/releases; mkdir '$remote'; mkdir -m 700 '$remote/.local'; umask 077; cat > '$remote/.local/hosted-db.php')"
+tar -czf - app database dist bin/migrate.php | "${ssh_cmd[@]}" "$in_learn tar -xzf - -C '$remote'"
+"${ssh_cmd[@]}" "$in_learn bash -s -- '$release'" < bin/deploy-host.sh

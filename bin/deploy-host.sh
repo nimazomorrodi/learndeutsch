@@ -2,13 +2,12 @@
 # Executed over SSH after a complete release has been uploaded.
 set -euo pipefail
 release=$1
-webroot=$2
-base="$HOME/.lernhaus"
+webroot=$(pwd -P)
+[[ "$webroot" == "$HOME/domains/nimazomorrodi.com/public_html/learn" ]]
+base="$webroot/.lernhaus"
 root="$base/releases/$release"
 [[ "$release" =~ ^[0-9a-f]{40}-[0-9]+-[0-9]+$ ]]
-[[ "$webroot" == /* ]] || webroot="$HOME/$webroot"
-[[ -d "$webroot" ]] || { echo "Subdomain document root not found: $webroot" >&2; exit 1; }
-[[ -d "$root/dist" && -s "$root/.local/hosted-db.json" ]]
+[[ -d "$root/dist" && -s "$root/.local/hosted-db.php" ]]
 mkdir -p "$base/shared/sessions"
 chmod 700 "$base/shared" "$base/shared/sessions" "$root/.local"
 ln -s "$base/shared/sessions" "$root/.local/sessions"
