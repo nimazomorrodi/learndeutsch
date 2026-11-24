@@ -42,7 +42,24 @@ if [[ ${1:-} == --check-db ]]; then
             $db=new PDO($c["dsn"],$c["user"],$c["password"]);
             $db->query("SELECT 1")->fetchColumn();
             echo "Database login verified on the hosting server.\n";
-        } catch (Throwable $e) {fwrite(STDERR, "Database login failed. Check DB_HOST, DB_PORT, DB_NAME, DB_USER and DB_PASS.\n");exit(1);}
+        } catch (PDOException $e) {
+            $message=$e->getMessage();
+            preg_match("~SQLSTATE\\[[^]]+\\]\\s*\\[([0-9]+)\\]~", $message, $match);
+            $code=(int)($e->errorInfo[1] ?? $match[1] ?? $e->getCode());
+            $hint=match($code) {
+                1045 => "Check the database username and password.",
+                1044 => "The database user lacks access to this database.",
+                1049 => "Check the full database name in the hosting panel.",
+                2002, 2003, 2005, 2006 => match(true) {
+                    str_contains($message, "No such file or directory") => "The configured local MySQL socket was not found.",
+                    str_contains($message, "getaddrinfo") => "The hosting server could not resolve the database hostname.",
+                    str_contains($message, "Connection refused") => "The database host refused the TCP connection.",
+                    default => "Check the database host, socket and port."
+                },
+                default => "Check the hosting database settings."
+            };
+            fwrite(STDERR, "Database login failed (driver $code). $hint\n");exit(1);
+        }
     '"'" < "$work/database.json"
     exit 0
 fi
