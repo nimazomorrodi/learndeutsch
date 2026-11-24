@@ -23,17 +23,29 @@ if [[ ${1:-} == --check ]]; then
     echo 'SSH and the subdomain document root are ready.'
     exit 0
 fi
-"${ssh_cmd[@]}" "set -e; mkdir -p .lernhaus/releases; mkdir '$remote'; mkdir -m 700 '$remote/.local'"
-python3 - <<'PY' | "${ssh_cmd[@]}" "umask 077; cat > '$remote/.local/hosted-db.json'"
+python3 - <<'PY' > "$work/database.json"
 import json, os, re, sys
 env = os.environ
 host = env.get("DB_HOST") or "localhost"
+port = env.get("DB_PORT") or "3306"
 name = env["DB_NAME"]
-if not re.fullmatch(r"[\w.-]+", host) or not re.fullmatch(r"[\w-]+", name):
-    sys.exit("Invalid database host or name")
-json.dump({"dsn": f"mysql:host={host};dbname={name};charset=utf8mb4",
+if not re.fullmatch(r"[\w.-]+", host) or not re.fullmatch(r"[\w-]+", name) or not port.isascii() or not port.isdigit() or not 1 <= int(port) <= 65535:
+    sys.exit("Invalid database host, port or name")
+json.dump({"dsn": f"mysql:host={host};port={port};dbname={name};charset=utf8mb4",
            "user": env["DB_USER"], "password": env["DB_PASSWORD"]},sys.stdout)
 PY
 unset DB_PASSWORD
+if [[ ${1:-} == --check-db ]]; then
+    "${ssh_cmd[@]}" "php -r '"'
+        try {
+            $c=json_decode(stream_get_contents(STDIN),true,flags:JSON_THROW_ON_ERROR);
+            $db=new PDO($c["dsn"],$c["user"],$c["password"]);
+            $db->query("SELECT 1")->fetchColumn();
+            echo "Database login verified on the hosting server.\n";
+        } catch (Throwable $e) {fwrite(STDERR, "Database login failed. Check DB_HOST, DB_PORT, DB_NAME, DB_USER and DB_PASS.\n");exit(1);}
+    '"'" < "$work/database.json"
+    exit 0
+fi
+"${ssh_cmd[@]}" "set -e; mkdir -p .lernhaus/releases; mkdir '$remote'; mkdir -m 700 '$remote/.local'; umask 077; cat > '$remote/.local/hosted-db.json'" < "$work/database.json"
 tar -czf - app database dist bin/migrate.php | "${ssh_cmd[@]}" "tar -xzf - -C '$remote'"
 "${ssh_cmd[@]}" "bash -s -- '$release' '$webroot'" < bin/deploy-host.sh

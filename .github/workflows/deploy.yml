@@ -3,14 +3,20 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      connections_only:
+        description: 'Only test SSH, document root and MySQL credentials'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
-  group: lernhaus-production
+  group: ${{ inputs.connections_only && 'lernhaus-connection-test' || 'lernhaus-production' }}
   cancel-in-progress: false
 
 jobs:
   validate:
+    if: ${{ !inputs.connections_only }}
     runs-on: ubuntu-24.04
     services:
       mariadb:
@@ -54,6 +60,20 @@ jobs:
           DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
         run: bash bin/deploy-runner.sh --check
+      - name: Verify database login from the hosting account
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_WEBROOT: ${{ vars.DEPLOY_WEBROOT }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DB_HOST: ${{ vars.DB_HOST || secrets.DB_HOST }}
+          DB_PORT: ${{ vars.DB_PORT || secrets.DB_PORT }}
+          DB_NAME: ${{ vars.DB_NAME || secrets.DB_NAME }}
+          DB_USER: ${{ vars.DB_USER || secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD || secrets.DB_PASS }}
+        run: bash bin/deploy-runner.sh --check-db
 
   pronunciation:
     needs: validate
@@ -138,7 +158,8 @@ jobs:
           DEPLOY_WEBROOT: ${{ vars.DEPLOY_WEBROOT }}
           DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          DB_HOST: ${{ vars.DB_HOST }}
+          DB_HOST: ${{ vars.DB_HOST || secrets.DB_HOST }}
+          DB_PORT: ${{ vars.DB_PORT || secrets.DB_PORT }}
           DB_NAME: ${{ vars.DB_NAME || secrets.DB_NAME }}
           DB_USER: ${{ vars.DB_USER || secrets.DB_USER }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD || secrets.DB_PASS }}
