@@ -38,7 +38,7 @@ npm run build:css
 | نوع | نام | مقدار |
 | --- | --- | --- |
 | Secret | `DEPLOY_SSH_KEY` | کلید خصوصی اختصاصی که کلید عمومی آن در پنل SSH هاست ثبت شده |
-| Secret | `DB_PASSWORD` | رمز کاربر دیتابیس مخصوص Lernhaus |
+| Secret | `DB_PASSWORD` یا `DB_PASS` | رمز کاربر دیتابیس مخصوص Lernhaus |
 | Variable | `DB_NAME` و `DB_USER` | نام کامل دیتابیس و کاربر، با پیشوند حساب هاست |
 | Variable | `DEPLOY_HOST`، `DEPLOY_PORT` و `DEPLOY_USER` | مشخصات اتصال SSH به سرور اصلی |
 | Variable | `DEPLOY_KNOWN_HOSTS` | رکورد کلید عمومی میزبان در قالب OpenSSH و با پورت مقصد |

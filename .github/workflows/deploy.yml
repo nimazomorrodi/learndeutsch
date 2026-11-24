@@ -70,8 +70,8 @@ jobs:
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: dist/assets/audio/leitner/v1/${{ matrix.language }}
-          key: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-${{ hashFiles('bin/generate-audio.py','.github/workflows/deploy.yml') }}-${{ hashFiles('database/curriculum.json') }}
-          restore-keys: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-${{ hashFiles('bin/generate-audio.py','.github/workflows/deploy.yml') }}-
+          key: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-${{ hashFiles('database/curriculum.json') }}
+          restore-keys: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         if: steps.clips.outputs.cache-hit != 'true'
         with: {python-version: '3.11'}
@@ -139,7 +139,7 @@ jobs:
           DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
           DB_HOST: ${{ vars.DB_HOST }}
-          DB_NAME: ${{ vars.DB_NAME }}
-          DB_USER: ${{ vars.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ vars.DB_NAME || secrets.DB_NAME }}
+          DB_USER: ${{ vars.DB_USER || secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD || secrets.DB_PASS }}
         run: bash bin/deploy-runner.sh
