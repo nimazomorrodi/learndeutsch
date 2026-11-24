@@ -75,7 +75,7 @@ if [[ ${1:-} == --check-db ]]; then
     fi
     if [[ "$status" == 2 ]]; then
         # Give field-specific hPanel hints without logging secret values.
-        if [[ "${DB_HOST:-localhost}" != localhost ]]; then
+        if [[ "${DB_HOST:-localhost}" != localhost && "$DB_HOST" != 127.0.0.1 ]]; then
             echo "::notice::Check DB_HOST: Hostinger specifies localhost for MySQL connections from the hosting account."
         fi
         for field in DB_USER DB_NAME; do
