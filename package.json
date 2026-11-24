@@ -1,0 +1,10 @@
+{
+  "name": "lernhaus-local",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.cjs -i resources/tailwind.css -o dist/tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

@@ -1,0 +1,4 @@
+/.local/
+/node_modules/
+/dist/assets/audio/leitner/
+__pycache__/

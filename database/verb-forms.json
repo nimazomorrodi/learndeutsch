@@ -1,0 +1,8495 @@
+{
+  "Anschluss finden": {
+    "present": [
+      "finde Anschluss",
+      "findest Anschluss",
+      "findet Anschluss",
+      "finden Anschluss",
+      "findet Anschluss",
+      "finden Anschluss"
+    ],
+    "past": [
+      "fand Anschluss",
+      "fandest Anschluss",
+      "fand Anschluss",
+      "fanden Anschluss",
+      "fandet Anschluss",
+      "fanden Anschluss"
+    ],
+    "aux": "haben",
+    "perfect": "Anschluss gefunden",
+    "infinitive": "Anschluss finden",
+    "faInfinitive": "با جمع ارتباط گرفتن",
+    "imperative": [
+      "finde Anschluss",
+      "findet Anschluss",
+      "finden Sie Anschluss"
+    ]
+  },
+  "Bescheid geben": {
+    "present": [
+      "gebe Bescheid",
+      "gibst Bescheid",
+      "gibt Bescheid",
+      "geben Bescheid",
+      "gebt Bescheid",
+      "geben Bescheid"
+    ],
+    "past": [
+      "gab Bescheid",
+      "gabst Bescheid",
+      "gab Bescheid",
+      "gaben Bescheid",
+      "gabt Bescheid",
+      "gaben Bescheid"
+    ],
+    "aux": "haben",
+    "perfect": "Bescheid gegeben",
+    "infinitive": "Bescheid geben",
+    "faInfinitive": "خبر دادن",
+    "imperative": [
+      "gib Bescheid",
+      "gebt Bescheid",
+      "geben Sie Bescheid"
+    ]
+  },
+  "Bescheid sagen": {
+    "present": [
+      "sage Bescheid",
+      "sagst Bescheid",
+      "sagt Bescheid",
+      "sagen Bescheid",
+      "sagt Bescheid",
+      "sagen Bescheid"
+    ],
+    "past": [
+      "sagte Bescheid",
+      "sagtest Bescheid",
+      "sagte Bescheid",
+      "sagten Bescheid",
+      "sagtet Bescheid",
+      "sagten Bescheid"
+    ],
+    "aux": "haben",
+    "perfect": "Bescheid gesagt",
+    "infinitive": "Bescheid sagen",
+    "faInfinitive": "اطلاع دادن",
+    "imperative": [
+      "sag Bescheid",
+      "sagt Bescheid",
+      "sagen Sie Bescheid"
+    ]
+  },
+  "Platz nehmen": {
+    "present": [
+      "nehme Platz",
+      "nimmst Platz",
+      "nimmt Platz",
+      "nehmen Platz",
+      "nehmt Platz",
+      "nehmen Platz"
+    ],
+    "past": [
+      "nahm Platz",
+      "nahmst Platz",
+      "nahm Platz",
+      "nahmen Platz",
+      "nahmt Platz",
+      "nahmen Platz"
+    ],
+    "aux": "haben",
+    "perfect": "Platz genommen",
+    "infinitive": "Platz nehmen",
+    "faInfinitive": "نشستن",
+    "imperative": [
+      "nimm Platz",
+      "nehmt Platz",
+      "nehmen Sie Platz"
+    ]
+  },
+  "Rücksicht nehmen auf": {
+    "present": [
+      "nehme Rücksicht auf …",
+      "nimmst Rücksicht auf …",
+      "nimmt Rücksicht auf …",
+      "nehmen Rücksicht auf …",
+      "nehmt Rücksicht auf …",
+      "nehmen Rücksicht auf …"
+    ],
+    "past": [
+      "nahm Rücksicht auf …",
+      "nahmst Rücksicht auf …",
+      "nahm Rücksicht auf …",
+      "nahmen Rücksicht auf …",
+      "nahmt Rücksicht auf …",
+      "nahmen Rücksicht auf …"
+    ],
+    "aux": "haben",
+    "perfect": "Rücksicht auf … genommen",
+    "infinitive": "Rücksicht auf … nehmen",
+    "faInfinitive": "ملاحظه کردن",
+    "imperative": [
+      "nimm Rücksicht auf …",
+      "nehmt Rücksicht auf …",
+      "nehmen Sie Rücksicht auf …"
+    ]
+  },
+  "Strom sparen": {
+    "present": [
+      "spare Strom",
+      "sparst Strom",
+      "spart Strom",
+      "sparen Strom",
+      "spart Strom",
+      "sparen Strom"
+    ],
+    "past": [
+      "sparte Strom",
+      "spartest Strom",
+      "sparte Strom",
+      "sparten Strom",
+      "spartet Strom",
+      "sparten Strom"
+    ],
+    "aux": "haben",
+    "perfect": "Strom gespart",
+    "infinitive": "Strom sparen",
+    "faInfinitive": "در مصرف برق صرفه‌جویی کردن",
+    "imperative": [
+      "spar Strom",
+      "spart Strom",
+      "sparen Sie Strom"
+    ]
+  },
+  "abbuchen": {
+    "present": [
+      "buche ab",
+      "buchst ab",
+      "bucht ab",
+      "buchen ab",
+      "bucht ab",
+      "buchen ab"
+    ],
+    "past": [
+      "buchte ab",
+      "buchtest ab",
+      "buchte ab",
+      "buchten ab",
+      "buchtet ab",
+      "buchten ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgebucht",
+    "infinitive": "abbuchen",
+    "faInfinitive": "از حساب برداشت کردن",
+    "imperative": [
+      "buch ab",
+      "bucht ab",
+      "buchen Sie ab"
+    ]
+  },
+  "abfahren": {
+    "present": [
+      "fahre ab",
+      "fährst ab",
+      "fährt ab",
+      "fahren ab",
+      "fahrt ab",
+      "fahren ab"
+    ],
+    "past": [
+      "fuhr ab",
+      "fuhrst ab",
+      "fuhr ab",
+      "fuhren ab",
+      "fuhrt ab",
+      "fuhren ab"
+    ],
+    "aux": "sein",
+    "perfect": "abgefahren",
+    "infinitive": "abfahren",
+    "faInfinitive": "حرکت کردن",
+    "imperative": [
+      "fahr ab",
+      "fahrt ab",
+      "fahren Sie ab"
+    ]
+  },
+  "abgeben": {
+    "present": [
+      "gebe ab",
+      "gibst ab",
+      "gibt ab",
+      "geben ab",
+      "gebt ab",
+      "geben ab"
+    ],
+    "past": [
+      "gab ab",
+      "gabst ab",
+      "gab ab",
+      "gaben ab",
+      "gabt ab",
+      "gaben ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgegeben",
+    "infinitive": "abgeben",
+    "faInfinitive": "تحویل دادن",
+    "imperative": [
+      "gib ab",
+      "gebt ab",
+      "geben Sie ab"
+    ]
+  },
+  "abheben": {
+    "present": [
+      "hebe ab",
+      "hebst ab",
+      "hebt ab",
+      "heben ab",
+      "hebt ab",
+      "heben ab"
+    ],
+    "past": [
+      "hob ab",
+      "hobst ab",
+      "hob ab",
+      "hoben ab",
+      "hobt ab",
+      "hoben ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgehoben",
+    "infinitive": "abheben",
+    "faInfinitive": "پول برداشت کردن",
+    "imperative": [
+      "heb ab",
+      "hebt ab",
+      "heben Sie ab"
+    ]
+  },
+  "abholen": {
+    "present": [
+      "hole ab",
+      "holst ab",
+      "holt ab",
+      "holen ab",
+      "holt ab",
+      "holen ab"
+    ],
+    "past": [
+      "holte ab",
+      "holtest ab",
+      "holte ab",
+      "holten ab",
+      "holtet ab",
+      "holten ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgeholt",
+    "infinitive": "abholen",
+    "faInfinitive": "دنبال کسی رفتن",
+    "imperative": [
+      "hol ab",
+      "holt ab",
+      "holen Sie ab"
+    ]
+  },
+  "ablaufen": {
+    "present": [
+      "laufe ab",
+      "läufst ab",
+      "läuft ab",
+      "laufen ab",
+      "lauft ab",
+      "laufen ab"
+    ],
+    "past": [
+      "lief ab",
+      "liefst ab",
+      "lief ab",
+      "liefen ab",
+      "lieft ab",
+      "liefen ab"
+    ],
+    "aux": "sein",
+    "perfect": "abgelaufen",
+    "infinitive": "ablaufen",
+    "faInfinitive": "منقضی شدن",
+    "imperative": null
+  },
+  "absagen": {
+    "present": [
+      "sage ab",
+      "sagst ab",
+      "sagt ab",
+      "sagen ab",
+      "sagt ab",
+      "sagen ab"
+    ],
+    "past": [
+      "sagte ab",
+      "sagtest ab",
+      "sagte ab",
+      "sagten ab",
+      "sagtet ab",
+      "sagten ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgesagt",
+    "infinitive": "absagen",
+    "faInfinitive": "لغو کردن",
+    "imperative": [
+      "sag ab",
+      "sagt ab",
+      "sagen Sie ab"
+    ]
+  },
+  "abschließen": {
+    "present": [
+      "schließe ab",
+      "schließt ab",
+      "schließt ab",
+      "schließen ab",
+      "schließt ab",
+      "schließen ab"
+    ],
+    "past": [
+      "schloss ab",
+      "schlossest ab",
+      "schloss ab",
+      "schlossen ab",
+      "schlosst ab",
+      "schlossen ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgeschlossen",
+    "infinitive": "abschließen",
+    "faInfinitive": "قفل کردن",
+    "imperative": [
+      "schließ ab",
+      "schließt ab",
+      "schließen Sie ab"
+    ]
+  },
+  "absolvieren": {
+    "present": [
+      "absolviere",
+      "absolvierst",
+      "absolviert",
+      "absolvieren",
+      "absolviert",
+      "absolvieren"
+    ],
+    "past": [
+      "absolvierte",
+      "absolviertest",
+      "absolvierte",
+      "absolvierten",
+      "absolviertet",
+      "absolvierten"
+    ],
+    "aux": "haben",
+    "perfect": "absolviert",
+    "infinitive": "absolvieren",
+    "faInfinitive": "گذراندن",
+    "imperative": [
+      "absolvier",
+      "absolviert",
+      "absolvieren Sie"
+    ]
+  },
+  "abtrocknen": {
+    "present": [
+      "trockne ab",
+      "trocknest ab",
+      "trocknet ab",
+      "trocknen ab",
+      "trocknet ab",
+      "trocknen ab"
+    ],
+    "past": [
+      "trocknete ab",
+      "trocknetest ab",
+      "trocknete ab",
+      "trockneten ab",
+      "trocknetet ab",
+      "trockneten ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgetrocknet",
+    "infinitive": "abtrocknen",
+    "faInfinitive": "خشک کردن",
+    "imperative": [
+      "trockne ab",
+      "trocknet ab",
+      "trocknen Sie ab"
+    ]
+  },
+  "abwarten": {
+    "present": [
+      "warte ab",
+      "wartest ab",
+      "wartet ab",
+      "warten ab",
+      "wartet ab",
+      "warten ab"
+    ],
+    "past": [
+      "wartete ab",
+      "wartetest ab",
+      "wartete ab",
+      "warteten ab",
+      "wartetet ab",
+      "warteten ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgewartet",
+    "infinitive": "abwarten",
+    "faInfinitive": "منتظر ماندن",
+    "imperative": [
+      "warte ab",
+      "wartet ab",
+      "warten Sie ab"
+    ]
+  },
+  "abwägen": {
+    "present": [
+      "wäge ab",
+      "wägst ab",
+      "wägt ab",
+      "wägen ab",
+      "wägt ab",
+      "wägen ab"
+    ],
+    "past": [
+      "wog ab",
+      "wogst ab",
+      "wog ab",
+      "wogen ab",
+      "wogt ab",
+      "wogen ab"
+    ],
+    "aux": "haben",
+    "perfect": "abgewogen",
+    "infinitive": "abwägen",
+    "note": "در کنار wog ab، شکل گذشتهٔ wägte ab هم رایج است.",
+    "faInfinitive": "سنجیدن",
+    "imperative": [
+      "wäge ab",
+      "wägt ab",
+      "wägen Sie ab"
+    ]
+  },
+  "aktualisieren": {
+    "present": [
+      "aktualisiere",
+      "aktualisierst",
+      "aktualisiert",
+      "aktualisieren",
+      "aktualisiert",
+      "aktualisieren"
+    ],
+    "past": [
+      "aktualisierte",
+      "aktualisiertest",
+      "aktualisierte",
+      "aktualisierten",
+      "aktualisiertet",
+      "aktualisierten"
+    ],
+    "aux": "haben",
+    "perfect": "aktualisiert",
+    "infinitive": "aktualisieren",
+    "faInfinitive": "به‌روزرسانی کردن",
+    "imperative": [
+      "aktualisier",
+      "aktualisiert",
+      "aktualisieren Sie"
+    ]
+  },
+  "anbieten": {
+    "present": [
+      "biete an",
+      "bietest an",
+      "bietet an",
+      "bieten an",
+      "bietet an",
+      "bieten an"
+    ],
+    "past": [
+      "bot an",
+      "botest an",
+      "bot an",
+      "boten an",
+      "botet an",
+      "boten an"
+    ],
+    "aux": "haben",
+    "perfect": "angeboten",
+    "infinitive": "anbieten",
+    "faInfinitive": "پیشنهاد دادن",
+    "imperative": [
+      "biete an",
+      "bietet an",
+      "bieten Sie an"
+    ]
+  },
+  "anfallen": {
+    "present": [
+      "falle an",
+      "fällst an",
+      "fällt an",
+      "fallen an",
+      "fallt an",
+      "fallen an"
+    ],
+    "past": [
+      "fiel an",
+      "fielst an",
+      "fiel an",
+      "fielen an",
+      "fielt an",
+      "fielen an"
+    ],
+    "aux": "sein",
+    "perfect": "angefallen",
+    "infinitive": "anfallen",
+    "thirdPerson": true,
+    "faInfinitive": "پیش آمدن",
+    "imperative": null
+  },
+  "anfangen": {
+    "present": [
+      "fange an",
+      "fängst an",
+      "fängt an",
+      "fangen an",
+      "fangt an",
+      "fangen an"
+    ],
+    "past": [
+      "fing an",
+      "fingst an",
+      "fing an",
+      "fingen an",
+      "fingt an",
+      "fingen an"
+    ],
+    "aux": "haben",
+    "perfect": "angefangen",
+    "infinitive": "anfangen",
+    "faInfinitive": "شروع کردن",
+    "imperative": [
+      "fang an",
+      "fangt an",
+      "fangen Sie an"
+    ]
+  },
+  "anfordern": {
+    "present": [
+      "fordere an",
+      "forderst an",
+      "fordert an",
+      "fordern an",
+      "fordert an",
+      "fordern an"
+    ],
+    "past": [
+      "forderte an",
+      "fordertest an",
+      "forderte an",
+      "forderten an",
+      "fordertet an",
+      "forderten an"
+    ],
+    "aux": "haben",
+    "perfect": "angefordert",
+    "infinitive": "anfordern",
+    "faInfinitive": "درخواست کردن",
+    "imperative": [
+      "fordere an",
+      "fordert an",
+      "fordern Sie an"
+    ]
+  },
+  "angeben": {
+    "present": [
+      "gebe an",
+      "gibst an",
+      "gibt an",
+      "geben an",
+      "gebt an",
+      "geben an"
+    ],
+    "past": [
+      "gab an",
+      "gabst an",
+      "gab an",
+      "gaben an",
+      "gabt an",
+      "gaben an"
+    ],
+    "aux": "haben",
+    "perfect": "angegeben",
+    "infinitive": "angeben",
+    "faInfinitive": "ذکر کردن",
+    "imperative": [
+      "gib an",
+      "gebt an",
+      "geben Sie an"
+    ]
+  },
+  "ankommen": {
+    "present": [
+      "komme an",
+      "kommst an",
+      "kommt an",
+      "kommen an",
+      "kommt an",
+      "kommen an"
+    ],
+    "past": [
+      "kam an",
+      "kamst an",
+      "kam an",
+      "kamen an",
+      "kamt an",
+      "kamen an"
+    ],
+    "aux": "sein",
+    "perfect": "angekommen",
+    "infinitive": "ankommen",
+    "faInfinitive": "رسیدن",
+    "imperative": [
+      "komm an",
+      "kommt an",
+      "kommen Sie an"
+    ]
+  },
+  "ankündigen": {
+    "present": [
+      "kündige an",
+      "kündigst an",
+      "kündigt an",
+      "kündigen an",
+      "kündigt an",
+      "kündigen an"
+    ],
+    "past": [
+      "kündigte an",
+      "kündigtest an",
+      "kündigte an",
+      "kündigten an",
+      "kündigtet an",
+      "kündigten an"
+    ],
+    "aux": "haben",
+    "perfect": "angekündigt",
+    "infinitive": "ankündigen",
+    "faInfinitive": "از پیش اعلام کردن",
+    "imperative": [
+      "kündige an",
+      "kündigt an",
+      "kündigen Sie an"
+    ]
+  },
+  "anprobieren": {
+    "present": [
+      "probiere an",
+      "probierst an",
+      "probiert an",
+      "probieren an",
+      "probiert an",
+      "probieren an"
+    ],
+    "past": [
+      "probierte an",
+      "probiertest an",
+      "probierte an",
+      "probierten an",
+      "probiertet an",
+      "probierten an"
+    ],
+    "aux": "haben",
+    "perfect": "anprobiert",
+    "infinitive": "anprobieren",
+    "faInfinitive": "پرو کردن",
+    "imperative": [
+      "probier an",
+      "probiert an",
+      "probieren Sie an"
+    ]
+  },
+  "anrufen": {
+    "present": [
+      "rufe an",
+      "rufst an",
+      "ruft an",
+      "rufen an",
+      "ruft an",
+      "rufen an"
+    ],
+    "past": [
+      "rief an",
+      "riefst an",
+      "rief an",
+      "riefen an",
+      "rieft an",
+      "riefen an"
+    ],
+    "aux": "haben",
+    "perfect": "angerufen",
+    "infinitive": "anrufen",
+    "faInfinitive": "زنگ زدن",
+    "imperative": [
+      "ruf an",
+      "ruft an",
+      "rufen Sie an"
+    ]
+  },
+  "antworten": {
+    "present": [
+      "antworte",
+      "antwortest",
+      "antwortet",
+      "antworten",
+      "antwortet",
+      "antworten"
+    ],
+    "past": [
+      "antwortete",
+      "antwortetest",
+      "antwortete",
+      "antworteten",
+      "antwortetet",
+      "antworteten"
+    ],
+    "aux": "haben",
+    "perfect": "geantwortet",
+    "infinitive": "antworten",
+    "faInfinitive": "پاسخ دادن",
+    "imperative": [
+      "antworte",
+      "antwortet",
+      "antworten Sie"
+    ]
+  },
+  "anwenden": {
+    "present": [
+      "wende an",
+      "wendest an",
+      "wendet an",
+      "wenden an",
+      "wendet an",
+      "wenden an"
+    ],
+    "past": [
+      "wendete an",
+      "wendetest an",
+      "wendete an",
+      "wendeten an",
+      "wendetet an",
+      "wendeten an"
+    ],
+    "aux": "haben",
+    "perfect": "angewendet",
+    "infinitive": "anwenden",
+    "faInfinitive": "به کار بردن",
+    "imperative": [
+      "wende an",
+      "wendet an",
+      "wenden Sie an"
+    ]
+  },
+  "anzeigen": {
+    "present": [
+      "zeige an",
+      "zeigst an",
+      "zeigt an",
+      "zeigen an",
+      "zeigt an",
+      "zeigen an"
+    ],
+    "past": [
+      "zeigte an",
+      "zeigtest an",
+      "zeigte an",
+      "zeigten an",
+      "zeigtet an",
+      "zeigten an"
+    ],
+    "aux": "haben",
+    "perfect": "angezeigt",
+    "infinitive": "anzeigen",
+    "faInfinitive": "نشان دادن",
+    "imperative": [
+      "zeige an",
+      "zeigt an",
+      "zeigen Sie an"
+    ]
+  },
+  "arbeiten": {
+    "present": [
+      "arbeite",
+      "arbeitest",
+      "arbeitet",
+      "arbeiten",
+      "arbeitet",
+      "arbeiten"
+    ],
+    "past": [
+      "arbeitete",
+      "arbeitetest",
+      "arbeitete",
+      "arbeiteten",
+      "arbeitetet",
+      "arbeiteten"
+    ],
+    "aux": "haben",
+    "perfect": "gearbeitet",
+    "infinitive": "arbeiten",
+    "faInfinitive": "کار کردن",
+    "imperative": [
+      "arbeite",
+      "arbeitet",
+      "arbeiten Sie"
+    ]
+  },
+  "aufbauen": {
+    "present": [
+      "baue auf",
+      "baust auf",
+      "baut auf",
+      "bauen auf",
+      "baut auf",
+      "bauen auf"
+    ],
+    "past": [
+      "baute auf",
+      "bautest auf",
+      "baute auf",
+      "bauten auf",
+      "bautet auf",
+      "bauten auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgebaut",
+    "infinitive": "aufbauen",
+    "faInfinitive": "سرهم کردن",
+    "imperative": [
+      "bau auf",
+      "baut auf",
+      "bauen Sie auf"
+    ]
+  },
+  "aufbewahren": {
+    "present": [
+      "bewahre auf",
+      "bewahrst auf",
+      "bewahrt auf",
+      "bewahren auf",
+      "bewahrt auf",
+      "bewahren auf"
+    ],
+    "past": [
+      "bewahrte auf",
+      "bewahrtest auf",
+      "bewahrte auf",
+      "bewahrten auf",
+      "bewahrtet auf",
+      "bewahrten auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufbewahrt",
+    "infinitive": "aufbewahren",
+    "faInfinitive": "نگه داشتن",
+    "imperative": [
+      "bewahr auf",
+      "bewahrt auf",
+      "bewahren Sie auf"
+    ]
+  },
+  "auffallen": {
+    "present": [
+      "falle auf",
+      "fällst auf",
+      "fällt auf",
+      "fallen auf",
+      "fallt auf",
+      "fallen auf"
+    ],
+    "past": [
+      "fiel auf",
+      "fielst auf",
+      "fiel auf",
+      "fielen auf",
+      "fielt auf",
+      "fielen auf"
+    ],
+    "aux": "sein",
+    "perfect": "aufgefallen",
+    "infinitive": "auffallen",
+    "faInfinitive": "جلب توجه کردن",
+    "imperative": [
+      "fall auf",
+      "fallt auf",
+      "fallen Sie auf"
+    ]
+  },
+  "aufführen": {
+    "present": [
+      "führe auf",
+      "führst auf",
+      "führt auf",
+      "führen auf",
+      "führt auf",
+      "führen auf"
+    ],
+    "past": [
+      "führte auf",
+      "führtest auf",
+      "führte auf",
+      "führten auf",
+      "führtet auf",
+      "führten auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgeführt",
+    "infinitive": "aufführen",
+    "faInfinitive": "فهرست کردن",
+    "imperative": [
+      "führ auf",
+      "führt auf",
+      "führen Sie auf"
+    ]
+  },
+  "aufheben": {
+    "present": [
+      "hebe auf",
+      "hebst auf",
+      "hebt auf",
+      "heben auf",
+      "hebt auf",
+      "heben auf"
+    ],
+    "past": [
+      "hob auf",
+      "hobst auf",
+      "hob auf",
+      "hoben auf",
+      "hobt auf",
+      "hoben auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgehoben",
+    "infinitive": "aufheben",
+    "faInfinitive": "نگه داشتن",
+    "imperative": [
+      "heb auf",
+      "hebt auf",
+      "heben Sie auf"
+    ]
+  },
+  "aufkleben": {
+    "present": [
+      "klebe auf",
+      "klebst auf",
+      "klebt auf",
+      "kleben auf",
+      "klebt auf",
+      "kleben auf"
+    ],
+    "past": [
+      "klebte auf",
+      "klebtest auf",
+      "klebte auf",
+      "klebten auf",
+      "klebtet auf",
+      "klebten auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgeklebt",
+    "infinitive": "aufkleben",
+    "faInfinitive": "چسباندن",
+    "imperative": [
+      "kleb auf",
+      "klebt auf",
+      "kleben Sie auf"
+    ]
+  },
+  "aufladen": {
+    "present": [
+      "lade auf",
+      "lädst auf",
+      "lädt auf",
+      "laden auf",
+      "ladet auf",
+      "laden auf"
+    ],
+    "past": [
+      "lud auf",
+      "ludst auf",
+      "lud auf",
+      "luden auf",
+      "ludet auf",
+      "luden auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgeladen",
+    "infinitive": "aufladen",
+    "faInfinitive": "شارژ کردن",
+    "imperative": [
+      "lade auf",
+      "ladet auf",
+      "laden Sie auf"
+    ]
+  },
+  "aufrufen": {
+    "present": [
+      "rufe auf",
+      "rufst auf",
+      "ruft auf",
+      "rufen auf",
+      "ruft auf",
+      "rufen auf"
+    ],
+    "past": [
+      "rief auf",
+      "riefst auf",
+      "rief auf",
+      "riefen auf",
+      "rieft auf",
+      "riefen auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgerufen",
+    "infinitive": "aufrufen",
+    "faInfinitive": "صدا زدن",
+    "imperative": [
+      "ruf auf",
+      "ruft auf",
+      "rufen Sie auf"
+    ]
+  },
+  "aufstehen": {
+    "present": [
+      "stehe auf",
+      "stehst auf",
+      "steht auf",
+      "stehen auf",
+      "steht auf",
+      "stehen auf"
+    ],
+    "past": [
+      "stand auf",
+      "standest auf",
+      "stand auf",
+      "standen auf",
+      "standet auf",
+      "standen auf"
+    ],
+    "aux": "sein",
+    "perfect": "aufgestanden",
+    "infinitive": "aufstehen",
+    "faInfinitive": "بلند شدن",
+    "imperative": [
+      "steh auf",
+      "steht auf",
+      "stehen Sie auf"
+    ]
+  },
+  "aufteilen": {
+    "present": [
+      "teile auf",
+      "teilst auf",
+      "teilt auf",
+      "teilen auf",
+      "teilt auf",
+      "teilen auf"
+    ],
+    "past": [
+      "teilte auf",
+      "teiltest auf",
+      "teilte auf",
+      "teilten auf",
+      "teiltet auf",
+      "teilten auf"
+    ],
+    "aux": "haben",
+    "perfect": "aufgeteilt",
+    "infinitive": "aufteilen",
+    "faInfinitive": "تقسیم کردن",
+    "imperative": [
+      "teil auf",
+      "teilt auf",
+      "teilen Sie auf"
+    ]
+  },
+  "auftreten": {
+    "present": [
+      "trete auf",
+      "trittst auf",
+      "tritt auf",
+      "treten auf",
+      "tretet auf",
+      "treten auf"
+    ],
+    "past": [
+      "trat auf",
+      "tratest auf",
+      "trat auf",
+      "traten auf",
+      "tratet auf",
+      "traten auf"
+    ],
+    "aux": "sein",
+    "perfect": "aufgetreten",
+    "infinitive": "auftreten",
+    "faInfinitive": "روی صحنه اجرا کردن",
+    "imperative": [
+      "tritt auf",
+      "tretet auf",
+      "treten Sie auf"
+    ]
+  },
+  "aufwachsen": {
+    "present": [
+      "wachse auf",
+      "wächst auf",
+      "wächst auf",
+      "wachsen auf",
+      "wachst auf",
+      "wachsen auf"
+    ],
+    "past": [
+      "wuchs auf",
+      "wuchsest auf",
+      "wuchs auf",
+      "wuchsen auf",
+      "wuchst auf",
+      "wuchsen auf"
+    ],
+    "aux": "sein",
+    "perfect": "aufgewachsen",
+    "infinitive": "aufwachsen",
+    "faInfinitive": "بزرگ شدن",
+    "imperative": null
+  },
+  "ausdrucken": {
+    "present": [
+      "drucke aus",
+      "druckst aus",
+      "druckt aus",
+      "drucken aus",
+      "druckt aus",
+      "drucken aus"
+    ],
+    "past": [
+      "druckte aus",
+      "drucktest aus",
+      "druckte aus",
+      "druckten aus",
+      "drucktet aus",
+      "druckten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgedruckt",
+    "infinitive": "ausdrucken",
+    "faInfinitive": "چاپ کردن",
+    "imperative": [
+      "druck aus",
+      "druckt aus",
+      "drucken Sie aus"
+    ]
+  },
+  "ausfallen": {
+    "present": [
+      "falle aus",
+      "fällst aus",
+      "fällt aus",
+      "fallen aus",
+      "fallt aus",
+      "fallen aus"
+    ],
+    "past": [
+      "fiel aus",
+      "fielst aus",
+      "fiel aus",
+      "fielen aus",
+      "fielt aus",
+      "fielen aus"
+    ],
+    "aux": "sein",
+    "perfect": "ausgefallen",
+    "infinitive": "ausfallen",
+    "faInfinitive": "لغو شدن",
+    "imperative": null
+  },
+  "ausfüllen": {
+    "present": [
+      "fülle aus",
+      "füllst aus",
+      "füllt aus",
+      "füllen aus",
+      "füllt aus",
+      "füllen aus"
+    ],
+    "past": [
+      "füllte aus",
+      "fülltest aus",
+      "füllte aus",
+      "füllten aus",
+      "fülltet aus",
+      "füllten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgefüllt",
+    "infinitive": "ausfüllen",
+    "faInfinitive": "پر کردن",
+    "imperative": [
+      "füll aus",
+      "füllt aus",
+      "füllen Sie aus"
+    ]
+  },
+  "ausgebucht sein": {
+    "present": [
+      "bin ausgebucht",
+      "bist ausgebucht",
+      "ist ausgebucht",
+      "sind ausgebucht",
+      "seid ausgebucht",
+      "sind ausgebucht"
+    ],
+    "past": [
+      "war ausgebucht",
+      "warst ausgebucht",
+      "war ausgebucht",
+      "waren ausgebucht",
+      "wart ausgebucht",
+      "waren ausgebucht"
+    ],
+    "aux": "sein",
+    "perfect": "ausgebucht gewesen",
+    "infinitive": "ausgebucht sein",
+    "subjunctive": [
+      "wäre ausgebucht",
+      "wärest ausgebucht",
+      "wäre ausgebucht",
+      "wären ausgebucht",
+      "wäret ausgebucht",
+      "wären ausgebucht"
+    ],
+    "faInfinitive": "کاملاً رزرو شده بودن",
+    "imperative": null
+  },
+  "ausgleichen": {
+    "present": [
+      "gleiche aus",
+      "gleichst aus",
+      "gleicht aus",
+      "gleichen aus",
+      "gleicht aus",
+      "gleichen aus"
+    ],
+    "past": [
+      "glich aus",
+      "glichst aus",
+      "glich aus",
+      "glichen aus",
+      "glicht aus",
+      "glichen aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgeglichen",
+    "infinitive": "ausgleichen",
+    "faInfinitive": "جبران کردن",
+    "imperative": [
+      "gleich aus",
+      "gleicht aus",
+      "gleichen Sie aus"
+    ]
+  },
+  "aushandeln": {
+    "present": [
+      "handle aus",
+      "handelst aus",
+      "handelt aus",
+      "handeln aus",
+      "handelt aus",
+      "handeln aus"
+    ],
+    "past": [
+      "handelte aus",
+      "handeltest aus",
+      "handelte aus",
+      "handelten aus",
+      "handeltet aus",
+      "handelten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgehandelt",
+    "infinitive": "aushandeln",
+    "faInfinitive": "با مذاکره به توافق رسیدن",
+    "imperative": [
+      "handle aus",
+      "handelt aus",
+      "handeln Sie aus"
+    ]
+  },
+  "ausreichen": {
+    "present": [
+      "reiche aus",
+      "reichst aus",
+      "reicht aus",
+      "reichen aus",
+      "reicht aus",
+      "reichen aus"
+    ],
+    "past": [
+      "reichte aus",
+      "reichtest aus",
+      "reichte aus",
+      "reichten aus",
+      "reichtet aus",
+      "reichten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgereicht",
+    "infinitive": "ausreichen",
+    "faInfinitive": "کافی بودن",
+    "imperative": null
+  },
+  "ausschalten": {
+    "present": [
+      "schalte aus",
+      "schaltest aus",
+      "schaltet aus",
+      "schalten aus",
+      "schaltet aus",
+      "schalten aus"
+    ],
+    "past": [
+      "schaltete aus",
+      "schaltetest aus",
+      "schaltete aus",
+      "schalteten aus",
+      "schaltetet aus",
+      "schalteten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgeschaltet",
+    "infinitive": "ausschalten",
+    "faInfinitive": "خاموش کردن",
+    "imperative": [
+      "schalte aus",
+      "schaltet aus",
+      "schalten Sie aus"
+    ]
+  },
+  "aussteigen": {
+    "present": [
+      "steige aus",
+      "steigst aus",
+      "steigt aus",
+      "steigen aus",
+      "steigt aus",
+      "steigen aus"
+    ],
+    "past": [
+      "stieg aus",
+      "stiegst aus",
+      "stieg aus",
+      "stiegen aus",
+      "stiegt aus",
+      "stiegen aus"
+    ],
+    "aux": "sein",
+    "perfect": "ausgestiegen",
+    "infinitive": "aussteigen",
+    "faInfinitive": "پیاده شدن",
+    "imperative": [
+      "steige aus",
+      "steigt aus",
+      "steigen Sie aus"
+    ]
+  },
+  "ausstellen": {
+    "present": [
+      "stelle aus",
+      "stellst aus",
+      "stellt aus",
+      "stellen aus",
+      "stellt aus",
+      "stellen aus"
+    ],
+    "past": [
+      "stellte aus",
+      "stelltest aus",
+      "stellte aus",
+      "stellten aus",
+      "stelltet aus",
+      "stellten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgestellt",
+    "infinitive": "ausstellen",
+    "faInfinitive": "صادر کردن",
+    "imperative": [
+      "stell aus",
+      "stellt aus",
+      "stellen Sie aus"
+    ]
+  },
+  "auswählen": {
+    "present": [
+      "wähle aus",
+      "wählst aus",
+      "wählt aus",
+      "wählen aus",
+      "wählt aus",
+      "wählen aus"
+    ],
+    "past": [
+      "wählte aus",
+      "wähltest aus",
+      "wählte aus",
+      "wählten aus",
+      "wähltet aus",
+      "wählten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgewählt",
+    "infinitive": "auswählen",
+    "faInfinitive": "انتخاب کردن",
+    "imperative": [
+      "wähl aus",
+      "wählt aus",
+      "wählen Sie aus"
+    ]
+  },
+  "ausüben": {
+    "present": [
+      "übe aus",
+      "übst aus",
+      "übt aus",
+      "üben aus",
+      "übt aus",
+      "üben aus"
+    ],
+    "past": [
+      "übte aus",
+      "übtest aus",
+      "übte aus",
+      "übten aus",
+      "übtet aus",
+      "übten aus"
+    ],
+    "aux": "haben",
+    "perfect": "ausgeübt",
+    "infinitive": "ausüben",
+    "faInfinitive": "به کاری پرداختن",
+    "imperative": [
+      "üb aus",
+      "übt aus",
+      "üben Sie aus"
+    ]
+  },
+  "beachten": {
+    "present": [
+      "beachte",
+      "beachtest",
+      "beachtet",
+      "beachten",
+      "beachtet",
+      "beachten"
+    ],
+    "past": [
+      "beachtete",
+      "beachtetest",
+      "beachtete",
+      "beachteten",
+      "beachtetet",
+      "beachteten"
+    ],
+    "aux": "haben",
+    "perfect": "beachtet",
+    "infinitive": "beachten",
+    "faInfinitive": "رعایت کردن",
+    "imperative": [
+      "beachte",
+      "beachtet",
+      "beachten Sie"
+    ]
+  },
+  "beantragen": {
+    "present": [
+      "beantrage",
+      "beantragst",
+      "beantragt",
+      "beantragen",
+      "beantragt",
+      "beantragen"
+    ],
+    "past": [
+      "beantragte",
+      "beantragtest",
+      "beantragte",
+      "beantragten",
+      "beantragtet",
+      "beantragten"
+    ],
+    "aux": "haben",
+    "perfect": "beantragt",
+    "infinitive": "beantragen",
+    "faInfinitive": "درخواست رسمی دادن",
+    "imperative": [
+      "beantrag",
+      "beantragt",
+      "beantragen Sie"
+    ]
+  },
+  "bearbeiten": {
+    "present": [
+      "bearbeite",
+      "bearbeitest",
+      "bearbeitet",
+      "bearbeiten",
+      "bearbeitet",
+      "bearbeiten"
+    ],
+    "past": [
+      "bearbeitete",
+      "bearbeitetest",
+      "bearbeitete",
+      "bearbeiteten",
+      "bearbeitetet",
+      "bearbeiteten"
+    ],
+    "aux": "haben",
+    "perfect": "bearbeitet",
+    "infinitive": "bearbeiten",
+    "faInfinitive": "رسیدگی کردن",
+    "imperative": [
+      "bearbeite",
+      "bearbeitet",
+      "bearbeiten Sie"
+    ]
+  },
+  "beginnen": {
+    "present": [
+      "beginne",
+      "beginnst",
+      "beginnt",
+      "beginnen",
+      "beginnt",
+      "beginnen"
+    ],
+    "past": [
+      "begann",
+      "begannst",
+      "begann",
+      "begannen",
+      "begannt",
+      "begannen"
+    ],
+    "aux": "haben",
+    "perfect": "begonnen",
+    "infinitive": "beginnen",
+    "faInfinitive": "آغاز شدن",
+    "imperative": [
+      "beginn",
+      "beginnt",
+      "beginnen Sie"
+    ]
+  },
+  "begleichen": {
+    "present": [
+      "begleiche",
+      "begleichst",
+      "begleicht",
+      "begleichen",
+      "begleicht",
+      "begleichen"
+    ],
+    "past": [
+      "beglich",
+      "beglichst",
+      "beglich",
+      "beglichen",
+      "beglicht",
+      "beglichen"
+    ],
+    "aux": "haben",
+    "perfect": "beglichen",
+    "infinitive": "begleichen",
+    "faInfinitive": "تسویه کردن",
+    "imperative": [
+      "begleich",
+      "begleicht",
+      "begleichen Sie"
+    ]
+  },
+  "begründen": {
+    "present": [
+      "begründe",
+      "begründest",
+      "begründet",
+      "begründen",
+      "begründet",
+      "begründen"
+    ],
+    "past": [
+      "begründete",
+      "begründetest",
+      "begründete",
+      "begründeten",
+      "begründetet",
+      "begründeten"
+    ],
+    "aux": "haben",
+    "perfect": "begründet",
+    "infinitive": "begründen",
+    "faInfinitive": "دلیل آوردن",
+    "imperative": [
+      "begründe",
+      "begründet",
+      "begründen Sie"
+    ]
+  },
+  "beheben": {
+    "present": [
+      "behebe",
+      "behebst",
+      "behebt",
+      "beheben",
+      "behebt",
+      "beheben"
+    ],
+    "past": [
+      "behob",
+      "behobst",
+      "behob",
+      "behoben",
+      "behobt",
+      "behoben"
+    ],
+    "aux": "haben",
+    "perfect": "behoben",
+    "infinitive": "beheben",
+    "faInfinitive": "رفع کردن",
+    "imperative": [
+      "behebe",
+      "behebt",
+      "beheben Sie"
+    ]
+  },
+  "beilegen": {
+    "present": [
+      "lege bei",
+      "legst bei",
+      "legt bei",
+      "legen bei",
+      "legt bei",
+      "legen bei"
+    ],
+    "past": [
+      "legte bei",
+      "legtest bei",
+      "legte bei",
+      "legten bei",
+      "legtet bei",
+      "legten bei"
+    ],
+    "aux": "haben",
+    "perfect": "beigelegt",
+    "infinitive": "beilegen",
+    "faInfinitive": "ضمیمه کردن",
+    "imperative": [
+      "leg bei",
+      "legt bei",
+      "legen Sie bei"
+    ]
+  },
+  "beitreten": {
+    "present": [
+      "trete bei",
+      "trittst bei",
+      "tritt bei",
+      "treten bei",
+      "tretet bei",
+      "treten bei"
+    ],
+    "past": [
+      "trat bei",
+      "tratest bei",
+      "trat bei",
+      "traten bei",
+      "tratet bei",
+      "traten bei"
+    ],
+    "aux": "sein",
+    "perfect": "beigetreten",
+    "infinitive": "beitreten",
+    "faInfinitive": "عضو شدن",
+    "imperative": [
+      "tritt bei",
+      "tretet bei",
+      "treten Sie bei"
+    ]
+  },
+  "belegen": {
+    "present": [
+      "belege",
+      "belegst",
+      "belegt",
+      "belegen",
+      "belegt",
+      "belegen"
+    ],
+    "past": [
+      "belegte",
+      "belegtest",
+      "belegte",
+      "belegten",
+      "belegtet",
+      "belegten"
+    ],
+    "aux": "haben",
+    "perfect": "belegt",
+    "infinitive": "belegen",
+    "faInfinitive": "مستند کردن",
+    "imperative": [
+      "beleg",
+      "belegt",
+      "belegen Sie"
+    ]
+  },
+  "benachrichtigen": {
+    "present": [
+      "benachrichtige",
+      "benachrichtigst",
+      "benachrichtigt",
+      "benachrichtigen",
+      "benachrichtigt",
+      "benachrichtigen"
+    ],
+    "past": [
+      "benachrichtigte",
+      "benachrichtigtest",
+      "benachrichtigte",
+      "benachrichtigten",
+      "benachrichtigtet",
+      "benachrichtigten"
+    ],
+    "aux": "haben",
+    "perfect": "benachrichtigt",
+    "infinitive": "benachrichtigen",
+    "faInfinitive": "اطلاع دادن",
+    "imperative": [
+      "benachrichtige",
+      "benachrichtigt",
+      "benachrichtigen Sie"
+    ]
+  },
+  "bereitstehen": {
+    "present": [
+      "stehe bereit",
+      "stehst bereit",
+      "steht bereit",
+      "stehen bereit",
+      "steht bereit",
+      "stehen bereit"
+    ],
+    "past": [
+      "stand bereit",
+      "standest bereit",
+      "stand bereit",
+      "standen bereit",
+      "standet bereit",
+      "standen bereit"
+    ],
+    "aux": "haben",
+    "perfect": "bereitgestanden",
+    "infinitive": "bereitstehen",
+    "faInfinitive": "آمادهٔ حرکت بودن",
+    "imperative": [
+      "steh bereit",
+      "steht bereit",
+      "stehen Sie bereit"
+    ]
+  },
+  "berücksichtigen": {
+    "present": [
+      "berücksichtige",
+      "berücksichtigst",
+      "berücksichtigt",
+      "berücksichtigen",
+      "berücksichtigt",
+      "berücksichtigen"
+    ],
+    "past": [
+      "berücksichtigte",
+      "berücksichtigtest",
+      "berücksichtigte",
+      "berücksichtigten",
+      "berücksichtigtet",
+      "berücksichtigten"
+    ],
+    "aux": "haben",
+    "perfect": "berücksichtigt",
+    "infinitive": "berücksichtigen",
+    "faInfinitive": "در نظر گرفتن",
+    "imperative": [
+      "berücksichtige",
+      "berücksichtigt",
+      "berücksichtigen Sie"
+    ]
+  },
+  "beschreiben": {
+    "present": [
+      "beschreibe",
+      "beschreibst",
+      "beschreibt",
+      "beschreiben",
+      "beschreibt",
+      "beschreiben"
+    ],
+    "past": [
+      "beschrieb",
+      "beschriebst",
+      "beschrieb",
+      "beschrieben",
+      "beschriebt",
+      "beschrieben"
+    ],
+    "aux": "haben",
+    "perfect": "beschrieben",
+    "infinitive": "beschreiben",
+    "faInfinitive": "توصیف کردن",
+    "imperative": [
+      "beschreib",
+      "beschreibt",
+      "beschreiben Sie"
+    ]
+  },
+  "beschriften": {
+    "present": [
+      "beschrifte",
+      "beschriftest",
+      "beschriftet",
+      "beschriften",
+      "beschriftet",
+      "beschriften"
+    ],
+    "past": [
+      "beschriftete",
+      "beschriftetest",
+      "beschriftete",
+      "beschrifteten",
+      "beschriftetet",
+      "beschrifteten"
+    ],
+    "aux": "haben",
+    "perfect": "beschriftet",
+    "infinitive": "beschriften",
+    "faInfinitive": "برچسب زدن",
+    "imperative": [
+      "beschrifte",
+      "beschriftet",
+      "beschriften Sie"
+    ]
+  },
+  "beschränken": {
+    "present": [
+      "beschränke",
+      "beschränkst",
+      "beschränkt",
+      "beschränken",
+      "beschränkt",
+      "beschränken"
+    ],
+    "past": [
+      "beschränkte",
+      "beschränktest",
+      "beschränkte",
+      "beschränkten",
+      "beschränktet",
+      "beschränkten"
+    ],
+    "aux": "haben",
+    "perfect": "beschränkt",
+    "infinitive": "beschränken",
+    "faInfinitive": "محدود کردن",
+    "imperative": [
+      "beschränk",
+      "beschränkt",
+      "beschränken Sie"
+    ]
+  },
+  "beschäftigen": {
+    "present": [
+      "beschäftige",
+      "beschäftigst",
+      "beschäftigt",
+      "beschäftigen",
+      "beschäftigt",
+      "beschäftigen"
+    ],
+    "past": [
+      "beschäftigte",
+      "beschäftigtest",
+      "beschäftigte",
+      "beschäftigten",
+      "beschäftigtet",
+      "beschäftigten"
+    ],
+    "aux": "haben",
+    "perfect": "beschäftigt",
+    "infinitive": "beschäftigen",
+    "faInfinitive": "استخدام کردن",
+    "imperative": [
+      "beschäftige",
+      "beschäftigt",
+      "beschäftigen Sie"
+    ]
+  },
+  "besichtigen": {
+    "present": [
+      "besichtige",
+      "besichtigst",
+      "besichtigt",
+      "besichtigen",
+      "besichtigt",
+      "besichtigen"
+    ],
+    "past": [
+      "besichtigte",
+      "besichtigtest",
+      "besichtigte",
+      "besichtigten",
+      "besichtigtet",
+      "besichtigten"
+    ],
+    "aux": "haben",
+    "perfect": "besichtigt",
+    "infinitive": "besichtigen",
+    "faInfinitive": "بازدید کردن",
+    "imperative": [
+      "besichtige",
+      "besichtigt",
+      "besichtigen Sie"
+    ]
+  },
+  "besprechen": {
+    "present": [
+      "bespreche",
+      "besprichst",
+      "bespricht",
+      "besprechen",
+      "besprecht",
+      "besprechen"
+    ],
+    "past": [
+      "besprach",
+      "besprachst",
+      "besprach",
+      "besprachen",
+      "bespracht",
+      "besprachen"
+    ],
+    "aux": "haben",
+    "perfect": "besprochen",
+    "infinitive": "besprechen",
+    "faInfinitive": "دربارهٔ موضوع صحبت کردن",
+    "imperative": [
+      "besprich",
+      "besprecht",
+      "besprechen Sie"
+    ]
+  },
+  "bestehen": {
+    "present": [
+      "bestehe",
+      "bestehst",
+      "besteht",
+      "bestehen",
+      "besteht",
+      "bestehen"
+    ],
+    "past": [
+      "bestand",
+      "bestandest",
+      "bestand",
+      "bestanden",
+      "bestandet",
+      "bestanden"
+    ],
+    "aux": "haben",
+    "perfect": "bestanden",
+    "infinitive": "bestehen",
+    "faInfinitive": "در آزمون قبول شدن",
+    "imperative": [
+      "besteh",
+      "besteht",
+      "bestehen Sie"
+    ]
+  },
+  "bestellen": {
+    "present": [
+      "bestelle",
+      "bestellst",
+      "bestellt",
+      "bestellen",
+      "bestellt",
+      "bestellen"
+    ],
+    "past": [
+      "bestellte",
+      "bestelltest",
+      "bestellte",
+      "bestellten",
+      "bestelltet",
+      "bestellten"
+    ],
+    "aux": "haben",
+    "perfect": "bestellt",
+    "infinitive": "bestellen",
+    "faInfinitive": "سفارش دادن",
+    "imperative": [
+      "bestell",
+      "bestellt",
+      "bestellen Sie"
+    ]
+  },
+  "bestätigen": {
+    "present": [
+      "bestätige",
+      "bestätigst",
+      "bestätigt",
+      "bestätigen",
+      "bestätigt",
+      "bestätigen"
+    ],
+    "past": [
+      "bestätigte",
+      "bestätigtest",
+      "bestätigte",
+      "bestätigten",
+      "bestätigtet",
+      "bestätigten"
+    ],
+    "aux": "haben",
+    "perfect": "bestätigt",
+    "infinitive": "bestätigen",
+    "faInfinitive": "تأیید کردن",
+    "imperative": [
+      "bestätige",
+      "bestätigt",
+      "bestätigen Sie"
+    ]
+  },
+  "bestätigen lassen": {
+    "present": [
+      "lasse … bestätigen",
+      "lässt … bestätigen",
+      "lässt … bestätigen",
+      "lassen … bestätigen",
+      "lasst … bestätigen",
+      "lassen … bestätigen"
+    ],
+    "past": [
+      "ließ … bestätigen",
+      "ließest … bestätigen",
+      "ließ … bestätigen",
+      "ließen … bestätigen",
+      "ließt … bestätigen",
+      "ließen … bestätigen"
+    ],
+    "aux": "haben",
+    "perfect": "… bestätigen lassen",
+    "infinitive": "… bestätigen lassen",
+    "note": "بعد از فعل کمکیِ گذشته، هر دو فعل به شکل مصدر می‌آیند. جای سه‌نقطه می‌توانی مفعول یا جزئیات کار را قرار دهی.",
+    "faInfinitive": "درخواست تأیید کردن",
+    "imperative": [
+      "lass … bestätigen",
+      "lasst … bestätigen",
+      "lassen Sie … bestätigen"
+    ]
+  },
+  "besuchen": {
+    "present": [
+      "besuche",
+      "besuchst",
+      "besucht",
+      "besuchen",
+      "besucht",
+      "besuchen"
+    ],
+    "past": [
+      "besuchte",
+      "besuchtest",
+      "besuchte",
+      "besuchten",
+      "besuchtet",
+      "besuchten"
+    ],
+    "aux": "haben",
+    "perfect": "besucht",
+    "infinitive": "besuchen",
+    "faInfinitive": "به دیدن رفتن",
+    "imperative": [
+      "besuch",
+      "besucht",
+      "besuchen Sie"
+    ]
+  },
+  "betragen": {
+    "present": [
+      "betrage",
+      "beträgst",
+      "beträgt",
+      "betragen",
+      "betragt",
+      "betragen"
+    ],
+    "past": [
+      "betrug",
+      "betrugst",
+      "betrug",
+      "betrugen",
+      "betrugt",
+      "betrugen"
+    ],
+    "aux": "haben",
+    "perfect": "betragen",
+    "infinitive": "betragen",
+    "thirdPerson": true,
+    "note": "در معنی «بالغ شدن به»، مقدار یا هزینه فاعل جمله است.",
+    "faInfinitive": "معادل بودن",
+    "imperative": null
+  },
+  "bevorzugen": {
+    "present": [
+      "bevorzuge",
+      "bevorzugst",
+      "bevorzugt",
+      "bevorzugen",
+      "bevorzugt",
+      "bevorzugen"
+    ],
+    "past": [
+      "bevorzugte",
+      "bevorzugtest",
+      "bevorzugte",
+      "bevorzugten",
+      "bevorzugtet",
+      "bevorzugten"
+    ],
+    "aux": "haben",
+    "perfect": "bevorzugt",
+    "infinitive": "bevorzugen",
+    "faInfinitive": "ترجیح دادن",
+    "imperative": [
+      "bevorzug",
+      "bevorzugt",
+      "bevorzugen Sie"
+    ]
+  },
+  "bewältigen": {
+    "present": [
+      "bewältige",
+      "bewältigst",
+      "bewältigt",
+      "bewältigen",
+      "bewältigt",
+      "bewältigen"
+    ],
+    "past": [
+      "bewältigte",
+      "bewältigtest",
+      "bewältigte",
+      "bewältigten",
+      "bewältigtet",
+      "bewältigten"
+    ],
+    "aux": "haben",
+    "perfect": "bewältigt",
+    "infinitive": "bewältigen",
+    "faInfinitive": "با موفقیت انجام دادن",
+    "imperative": [
+      "bewältige",
+      "bewältigt",
+      "bewältigen Sie"
+    ]
+  },
+  "bezahlen": {
+    "present": [
+      "bezahle",
+      "bezahlst",
+      "bezahlt",
+      "bezahlen",
+      "bezahlt",
+      "bezahlen"
+    ],
+    "past": [
+      "bezahlte",
+      "bezahltest",
+      "bezahlte",
+      "bezahlten",
+      "bezahltet",
+      "bezahlten"
+    ],
+    "aux": "haben",
+    "perfect": "bezahlt",
+    "infinitive": "bezahlen",
+    "faInfinitive": "پرداخت کردن",
+    "imperative": [
+      "bezahl",
+      "bezahlt",
+      "bezahlen Sie"
+    ]
+  },
+  "bleiben": {
+    "present": [
+      "bleibe",
+      "bleibst",
+      "bleibt",
+      "bleiben",
+      "bleibt",
+      "bleiben"
+    ],
+    "past": [
+      "blieb",
+      "bliebst",
+      "blieb",
+      "blieben",
+      "bliebt",
+      "blieben"
+    ],
+    "aux": "sein",
+    "perfect": "geblieben",
+    "infinitive": "bleiben",
+    "faInfinitive": "ماندن",
+    "imperative": [
+      "bleib",
+      "bleibt",
+      "bleiben Sie"
+    ]
+  },
+  "bringen": {
+    "present": [
+      "bringe",
+      "bringst",
+      "bringt",
+      "bringen",
+      "bringt",
+      "bringen"
+    ],
+    "past": [
+      "brachte",
+      "brachtest",
+      "brachte",
+      "brachten",
+      "brachtet",
+      "brachten"
+    ],
+    "aux": "haben",
+    "perfect": "gebracht",
+    "infinitive": "bringen",
+    "faInfinitive": "آوردن",
+    "imperative": [
+      "bring",
+      "bringt",
+      "bringen Sie"
+    ]
+  },
+  "buchen": {
+    "present": [
+      "buche",
+      "buchst",
+      "bucht",
+      "buchen",
+      "bucht",
+      "buchen"
+    ],
+    "past": [
+      "buchte",
+      "buchtest",
+      "buchte",
+      "buchten",
+      "buchtet",
+      "buchten"
+    ],
+    "aux": "haben",
+    "perfect": "gebucht",
+    "infinitive": "buchen",
+    "faInfinitive": "رزرو کردن",
+    "imperative": [
+      "buch",
+      "bucht",
+      "buchen Sie"
+    ]
+  },
+  "buchstabieren": {
+    "present": [
+      "buchstabiere",
+      "buchstabierst",
+      "buchstabiert",
+      "buchstabieren",
+      "buchstabiert",
+      "buchstabieren"
+    ],
+    "past": [
+      "buchstabierte",
+      "buchstabiertest",
+      "buchstabierte",
+      "buchstabierten",
+      "buchstabiertet",
+      "buchstabierten"
+    ],
+    "aux": "haben",
+    "perfect": "buchstabiert",
+    "infinitive": "buchstabieren",
+    "faInfinitive": "هجی کردن",
+    "imperative": [
+      "buchstabier",
+      "buchstabiert",
+      "buchstabieren Sie"
+    ]
+  },
+  "dafür sein": {
+    "present": [
+      "bin dafür",
+      "bist dafür",
+      "ist dafür",
+      "sind dafür",
+      "seid dafür",
+      "sind dafür"
+    ],
+    "past": [
+      "war dafür",
+      "warst dafür",
+      "war dafür",
+      "waren dafür",
+      "wart dafür",
+      "waren dafür"
+    ],
+    "aux": "sein",
+    "perfect": "dafür gewesen",
+    "infinitive": "dafür sein",
+    "subjunctive": [
+      "wäre dafür",
+      "wärest dafür",
+      "wäre dafür",
+      "wären dafür",
+      "wäret dafür",
+      "wären dafür"
+    ],
+    "faInfinitive": "موافق بودن",
+    "imperative": [
+      "sei dafür",
+      "seid dafür",
+      "seien Sie dafür"
+    ]
+  },
+  "dauern": {
+    "present": [
+      "dauere",
+      "dauerst",
+      "dauert",
+      "dauern",
+      "dauert",
+      "dauern"
+    ],
+    "past": [
+      "dauerte",
+      "dauertest",
+      "dauerte",
+      "dauerten",
+      "dauertet",
+      "dauerten"
+    ],
+    "aux": "haben",
+    "perfect": "gedauert",
+    "infinitive": "dauern",
+    "faInfinitive": "طول کشیدن",
+    "imperative": null
+  },
+  "die Karte sperren": {
+    "present": [
+      "sperre die Karte",
+      "sperrst die Karte",
+      "sperrt die Karte",
+      "sperren die Karte",
+      "sperrt die Karte",
+      "sperren die Karte"
+    ],
+    "past": [
+      "sperrte die Karte",
+      "sperrtest die Karte",
+      "sperrte die Karte",
+      "sperrten die Karte",
+      "sperrtet die Karte",
+      "sperrten die Karte"
+    ],
+    "aux": "haben",
+    "perfect": "die Karte gesperrt",
+    "infinitive": "die Karte sperren",
+    "faInfinitive": "کارت را مسدود کردن",
+    "imperative": [
+      "sperr die Karte",
+      "sperrt die Karte",
+      "sperren Sie die Karte"
+    ]
+  },
+  "dürfen": {
+    "present": [
+      "darf",
+      "darfst",
+      "darf",
+      "dürfen",
+      "dürft",
+      "dürfen"
+    ],
+    "past": [
+      "durfte",
+      "durftest",
+      "durfte",
+      "durften",
+      "durftet",
+      "durften"
+    ],
+    "aux": "haben",
+    "perfect": "gedurft",
+    "infinitive": "dürfen",
+    "subjunctive": [
+      "dürfte",
+      "dürftest",
+      "dürfte",
+      "dürften",
+      "dürftet",
+      "dürften"
+    ],
+    "note": "این شکلِ گذشته برای کاربرد مستقل فعل است. همراه یک فعل دیگر، هر دو مصدر به آخر می‌روند؛ مثل Ich habe arbeiten dürfen.",
+    "faInfinitive": "اجازه داشتن",
+    "imperative": null
+  },
+  "einbauen": {
+    "present": [
+      "baue ein",
+      "baust ein",
+      "baut ein",
+      "bauen ein",
+      "baut ein",
+      "bauen ein"
+    ],
+    "past": [
+      "baute ein",
+      "bautest ein",
+      "baute ein",
+      "bauten ein",
+      "bautet ein",
+      "bauten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingebaut",
+    "infinitive": "einbauen",
+    "faInfinitive": "نصب کردن",
+    "imperative": [
+      "bau ein",
+      "baut ein",
+      "bauen Sie ein"
+    ]
+  },
+  "eine Absprache treffen": {
+    "present": [
+      "treffe eine Absprache",
+      "triffst eine Absprache",
+      "trifft eine Absprache",
+      "treffen eine Absprache",
+      "trefft eine Absprache",
+      "treffen eine Absprache"
+    ],
+    "past": [
+      "traf eine Absprache",
+      "trafst eine Absprache",
+      "traf eine Absprache",
+      "trafen eine Absprache",
+      "traft eine Absprache",
+      "trafen eine Absprache"
+    ],
+    "aux": "haben",
+    "perfect": "eine Absprache getroffen",
+    "infinitive": "eine Absprache treffen",
+    "faInfinitive": "با کسی هماهنگ کردن",
+    "imperative": [
+      "triff eine Absprache",
+      "trefft eine Absprache",
+      "treffen Sie eine Absprache"
+    ]
+  },
+  "einhalten": {
+    "present": [
+      "halte ein",
+      "hältst ein",
+      "hält ein",
+      "halten ein",
+      "haltet ein",
+      "halten ein"
+    ],
+    "past": [
+      "hielt ein",
+      "hieltest ein",
+      "hielt ein",
+      "hielten ein",
+      "hieltet ein",
+      "hielten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingehalten",
+    "infinitive": "einhalten",
+    "faInfinitive": "رعایت کردن",
+    "imperative": [
+      "halte ein",
+      "haltet ein",
+      "halten Sie ein"
+    ]
+  },
+  "einholen": {
+    "present": [
+      "hole ein",
+      "holst ein",
+      "holt ein",
+      "holen ein",
+      "holt ein",
+      "holen ein"
+    ],
+    "past": [
+      "holte ein",
+      "holtest ein",
+      "holte ein",
+      "holten ein",
+      "holtet ein",
+      "holten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingeholt",
+    "infinitive": "einholen",
+    "faInfinitive": "نظر یا اجازه گرفتن",
+    "imperative": [
+      "hol ein",
+      "holt ein",
+      "holen Sie ein"
+    ]
+  },
+  "einladen": {
+    "present": [
+      "lade ein",
+      "lädst ein",
+      "lädt ein",
+      "laden ein",
+      "ladet ein",
+      "laden ein"
+    ],
+    "past": [
+      "lud ein",
+      "ludst ein",
+      "lud ein",
+      "luden ein",
+      "ludet ein",
+      "luden ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingeladen",
+    "infinitive": "einladen",
+    "faInfinitive": "دعوت کردن",
+    "imperative": [
+      "lade ein",
+      "ladet ein",
+      "laden Sie ein"
+    ]
+  },
+  "einlösen": {
+    "present": [
+      "löse ein",
+      "löst ein",
+      "löst ein",
+      "lösen ein",
+      "löst ein",
+      "lösen ein"
+    ],
+    "past": [
+      "löste ein",
+      "löstest ein",
+      "löste ein",
+      "lösten ein",
+      "löstet ein",
+      "lösten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingelöst",
+    "infinitive": "einlösen",
+    "faInfinitive": "از بن خرید استفاده کردن",
+    "imperative": [
+      "lös ein",
+      "löst ein",
+      "lösen Sie ein"
+    ]
+  },
+  "einpacken": {
+    "present": [
+      "packe ein",
+      "packst ein",
+      "packt ein",
+      "packen ein",
+      "packt ein",
+      "packen ein"
+    ],
+    "past": [
+      "packte ein",
+      "packtest ein",
+      "packte ein",
+      "packten ein",
+      "packtet ein",
+      "packten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingepackt",
+    "infinitive": "einpacken",
+    "faInfinitive": "بسته‌بندی کردن",
+    "imperative": [
+      "pack ein",
+      "packt ein",
+      "packen Sie ein"
+    ]
+  },
+  "einplanen": {
+    "present": [
+      "plane ein",
+      "planst ein",
+      "plant ein",
+      "planen ein",
+      "plant ein",
+      "planen ein"
+    ],
+    "past": [
+      "plante ein",
+      "plantest ein",
+      "plante ein",
+      "planten ein",
+      "plantet ein",
+      "planten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingeplant",
+    "infinitive": "einplanen",
+    "faInfinitive": "در برنامه گنجاندن",
+    "imperative": [
+      "plane ein",
+      "plant ein",
+      "planen Sie ein"
+    ]
+  },
+  "einreichen": {
+    "present": [
+      "reiche ein",
+      "reichst ein",
+      "reicht ein",
+      "reichen ein",
+      "reicht ein",
+      "reichen ein"
+    ],
+    "past": [
+      "reichte ein",
+      "reichtest ein",
+      "reichte ein",
+      "reichten ein",
+      "reichtet ein",
+      "reichten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingereicht",
+    "infinitive": "einreichen",
+    "faInfinitive": "ارائه کردن",
+    "imperative": [
+      "reich ein",
+      "reicht ein",
+      "reichen Sie ein"
+    ]
+  },
+  "einrichten": {
+    "present": [
+      "richte ein",
+      "richtest ein",
+      "richtet ein",
+      "richten ein",
+      "richtet ein",
+      "richten ein"
+    ],
+    "past": [
+      "richtete ein",
+      "richtetest ein",
+      "richtete ein",
+      "richteten ein",
+      "richtetet ein",
+      "richteten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingerichtet",
+    "infinitive": "einrichten",
+    "faInfinitive": "راه‌اندازی کردن",
+    "imperative": [
+      "richte ein",
+      "richtet ein",
+      "richten Sie ein"
+    ]
+  },
+  "einspringen": {
+    "present": [
+      "springe ein",
+      "springst ein",
+      "springt ein",
+      "springen ein",
+      "springt ein",
+      "springen ein"
+    ],
+    "past": [
+      "sprang ein",
+      "sprangst ein",
+      "sprang ein",
+      "sprangen ein",
+      "sprangt ein",
+      "sprangen ein"
+    ],
+    "aux": "sein",
+    "perfect": "eingesprungen",
+    "infinitive": "einspringen",
+    "faInfinitive": "جای کسی کار کردن",
+    "imperative": [
+      "spring ein",
+      "springt ein",
+      "springen Sie ein"
+    ]
+  },
+  "einsteigen": {
+    "present": [
+      "steige ein",
+      "steigst ein",
+      "steigt ein",
+      "steigen ein",
+      "steigt ein",
+      "steigen ein"
+    ],
+    "past": [
+      "stieg ein",
+      "stiegst ein",
+      "stieg ein",
+      "stiegen ein",
+      "stiegt ein",
+      "stiegen ein"
+    ],
+    "aux": "sein",
+    "perfect": "eingestiegen",
+    "infinitive": "einsteigen",
+    "faInfinitive": "سوار شدن",
+    "imperative": [
+      "steige ein",
+      "steigt ein",
+      "steigen Sie ein"
+    ]
+  },
+  "eintragen": {
+    "present": [
+      "trage ein",
+      "trägst ein",
+      "trägt ein",
+      "tragen ein",
+      "tragt ein",
+      "tragen ein"
+    ],
+    "past": [
+      "trug ein",
+      "trugst ein",
+      "trug ein",
+      "trugen ein",
+      "trugt ein",
+      "trugen ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingetragen",
+    "infinitive": "eintragen",
+    "faInfinitive": "وارد کردن",
+    "imperative": [
+      "trage ein",
+      "tragt ein",
+      "tragen Sie ein"
+    ]
+  },
+  "einzahlen": {
+    "present": [
+      "zahle ein",
+      "zahlst ein",
+      "zahlt ein",
+      "zahlen ein",
+      "zahlt ein",
+      "zahlen ein"
+    ],
+    "past": [
+      "zahlte ein",
+      "zahltest ein",
+      "zahlte ein",
+      "zahlten ein",
+      "zahltet ein",
+      "zahlten ein"
+    ],
+    "aux": "haben",
+    "perfect": "eingezahlt",
+    "infinitive": "einzahlen",
+    "faInfinitive": "به حساب واریز کردن",
+    "imperative": [
+      "zahl ein",
+      "zahlt ein",
+      "zahlen Sie ein"
+    ]
+  },
+  "einziehen": {
+    "present": [
+      "ziehe ein",
+      "ziehst ein",
+      "zieht ein",
+      "ziehen ein",
+      "zieht ein",
+      "ziehen ein"
+    ],
+    "past": [
+      "zog ein",
+      "zogst ein",
+      "zog ein",
+      "zogen ein",
+      "zogt ein",
+      "zogen ein"
+    ],
+    "aux": "sein",
+    "perfect": "eingezogen",
+    "infinitive": "einziehen",
+    "faInfinitive": "به خانهٔ جدید آمدن",
+    "imperative": [
+      "zieh ein",
+      "zieht ein",
+      "ziehen Sie ein"
+    ]
+  },
+  "enthalten": {
+    "present": [
+      "enthalte",
+      "enthältst",
+      "enthält",
+      "enthalten",
+      "enthaltet",
+      "enthalten"
+    ],
+    "past": [
+      "enthielt",
+      "enthieltest",
+      "enthielt",
+      "enthielten",
+      "enthieltet",
+      "enthielten"
+    ],
+    "aux": "haben",
+    "perfect": "enthalten",
+    "infinitive": "enthalten",
+    "faInfinitive": "شامل بودن",
+    "imperative": null
+  },
+  "enthalten sein": {
+    "present": [
+      "bin enthalten",
+      "bist enthalten",
+      "ist enthalten",
+      "sind enthalten",
+      "seid enthalten",
+      "sind enthalten"
+    ],
+    "past": [
+      "war enthalten",
+      "warst enthalten",
+      "war enthalten",
+      "waren enthalten",
+      "wart enthalten",
+      "waren enthalten"
+    ],
+    "aux": "sein",
+    "perfect": "enthalten gewesen",
+    "infinitive": "enthalten sein",
+    "subjunctive": [
+      "wäre enthalten",
+      "wärest enthalten",
+      "wäre enthalten",
+      "wären enthalten",
+      "wäret enthalten",
+      "wären enthalten"
+    ],
+    "faInfinitive": "گنجانده شده بودن",
+    "imperative": null
+  },
+  "entsorgen": {
+    "present": [
+      "entsorge",
+      "entsorgst",
+      "entsorgt",
+      "entsorgen",
+      "entsorgt",
+      "entsorgen"
+    ],
+    "past": [
+      "entsorgte",
+      "entsorgtest",
+      "entsorgte",
+      "entsorgten",
+      "entsorgtet",
+      "entsorgten"
+    ],
+    "aux": "haben",
+    "perfect": "entsorgt",
+    "infinitive": "entsorgen",
+    "faInfinitive": "به شیوهٔ مناسب دور انداختن",
+    "imperative": [
+      "entsorg",
+      "entsorgt",
+      "entsorgen Sie"
+    ]
+  },
+  "erfüllen": {
+    "present": [
+      "erfülle",
+      "erfüllst",
+      "erfüllt",
+      "erfüllen",
+      "erfüllt",
+      "erfüllen"
+    ],
+    "past": [
+      "erfüllte",
+      "erfülltest",
+      "erfüllte",
+      "erfüllten",
+      "erfülltet",
+      "erfüllten"
+    ],
+    "aux": "haben",
+    "perfect": "erfüllt",
+    "infinitive": "erfüllen",
+    "faInfinitive": "برآورده کردن",
+    "imperative": [
+      "erfüll",
+      "erfüllt",
+      "erfüllen Sie"
+    ]
+  },
+  "ergänzen": {
+    "present": [
+      "ergänze",
+      "ergänzt",
+      "ergänzt",
+      "ergänzen",
+      "ergänzt",
+      "ergänzen"
+    ],
+    "past": [
+      "ergänzte",
+      "ergänztest",
+      "ergänzte",
+      "ergänzten",
+      "ergänztet",
+      "ergänzten"
+    ],
+    "aux": "haben",
+    "perfect": "ergänzt",
+    "infinitive": "ergänzen",
+    "faInfinitive": "تکمیل کردن",
+    "imperative": [
+      "ergänz",
+      "ergänzt",
+      "ergänzen Sie"
+    ]
+  },
+  "erhalten": {
+    "present": [
+      "erhalte",
+      "erhältst",
+      "erhält",
+      "erhalten",
+      "erhaltet",
+      "erhalten"
+    ],
+    "past": [
+      "erhielt",
+      "erhieltest",
+      "erhielt",
+      "erhielten",
+      "erhieltet",
+      "erhielten"
+    ],
+    "aux": "haben",
+    "perfect": "erhalten",
+    "infinitive": "erhalten",
+    "faInfinitive": "دریافت کردن",
+    "imperative": [
+      "erhalte",
+      "erhaltet",
+      "erhalten Sie"
+    ]
+  },
+  "erledigen": {
+    "present": [
+      "erledige",
+      "erledigst",
+      "erledigt",
+      "erledigen",
+      "erledigt",
+      "erledigen"
+    ],
+    "past": [
+      "erledigte",
+      "erledigtest",
+      "erledigte",
+      "erledigten",
+      "erledigtet",
+      "erledigten"
+    ],
+    "aux": "haben",
+    "perfect": "erledigt",
+    "infinitive": "erledigen",
+    "faInfinitive": "انجام دادن",
+    "imperative": [
+      "erledige",
+      "erledigt",
+      "erledigen Sie"
+    ]
+  },
+  "erläutern": {
+    "present": [
+      "erläutere",
+      "erläuterst",
+      "erläutert",
+      "erläutern",
+      "erläutert",
+      "erläutern"
+    ],
+    "past": [
+      "erläuterte",
+      "erläutertest",
+      "erläuterte",
+      "erläuterten",
+      "erläutertet",
+      "erläuterten"
+    ],
+    "aux": "haben",
+    "perfect": "erläutert",
+    "infinitive": "erläutern",
+    "faInfinitive": "توضیح دادن",
+    "imperative": [
+      "erläutere",
+      "erläutert",
+      "erläutern Sie"
+    ]
+  },
+  "ermöglichen": {
+    "present": [
+      "ermögliche",
+      "ermöglichst",
+      "ermöglicht",
+      "ermöglichen",
+      "ermöglicht",
+      "ermöglichen"
+    ],
+    "past": [
+      "ermöglichte",
+      "ermöglichtest",
+      "ermöglichte",
+      "ermöglichten",
+      "ermöglichtet",
+      "ermöglichten"
+    ],
+    "aux": "haben",
+    "perfect": "ermöglicht",
+    "infinitive": "ermöglichen",
+    "faInfinitive": "ممکن کردن",
+    "imperative": [
+      "ermögliche",
+      "ermöglicht",
+      "ermöglichen Sie"
+    ]
+  },
+  "erneuern": {
+    "present": [
+      "erneuere",
+      "erneuerst",
+      "erneuert",
+      "erneuern",
+      "erneuert",
+      "erneuern"
+    ],
+    "past": [
+      "erneuerte",
+      "erneuertest",
+      "erneuerte",
+      "erneuerten",
+      "erneuertet",
+      "erneuerten"
+    ],
+    "aux": "haben",
+    "perfect": "erneuert",
+    "infinitive": "erneuern",
+    "faInfinitive": "نو کردن",
+    "imperative": [
+      "erneuere",
+      "erneuert",
+      "erneuern Sie"
+    ]
+  },
+  "erreichen": {
+    "present": [
+      "erreiche",
+      "erreichst",
+      "erreicht",
+      "erreichen",
+      "erreicht",
+      "erreichen"
+    ],
+    "past": [
+      "erreichte",
+      "erreichtest",
+      "erreichte",
+      "erreichten",
+      "erreichtet",
+      "erreichten"
+    ],
+    "aux": "haben",
+    "perfect": "erreicht",
+    "infinitive": "erreichen",
+    "faInfinitive": "به مقصد رسیدن",
+    "imperative": [
+      "erreich",
+      "erreicht",
+      "erreichen Sie"
+    ]
+  },
+  "erwarten": {
+    "present": [
+      "erwarte",
+      "erwartest",
+      "erwartet",
+      "erwarten",
+      "erwartet",
+      "erwarten"
+    ],
+    "past": [
+      "erwartete",
+      "erwartetest",
+      "erwartete",
+      "erwarteten",
+      "erwartetet",
+      "erwarteten"
+    ],
+    "aux": "haben",
+    "perfect": "erwartet",
+    "infinitive": "erwarten",
+    "faInfinitive": "انتظار داشتن",
+    "imperative": [
+      "erwarte",
+      "erwartet",
+      "erwarten Sie"
+    ]
+  },
+  "eröffnen": {
+    "present": [
+      "eröffne",
+      "eröffnest",
+      "eröffnet",
+      "eröffnen",
+      "eröffnet",
+      "eröffnen"
+    ],
+    "past": [
+      "eröffnete",
+      "eröffnetest",
+      "eröffnete",
+      "eröffneten",
+      "eröffnetet",
+      "eröffneten"
+    ],
+    "aux": "haben",
+    "perfect": "eröffnet",
+    "infinitive": "eröffnen",
+    "faInfinitive": "افتتاح کردن",
+    "imperative": [
+      "eröffne",
+      "eröffnet",
+      "eröffnen Sie"
+    ]
+  },
+  "essen": {
+    "present": [
+      "esse",
+      "isst",
+      "isst",
+      "essen",
+      "esst",
+      "essen"
+    ],
+    "past": [
+      "aß",
+      "aßest",
+      "aß",
+      "aßen",
+      "aßt",
+      "aßen"
+    ],
+    "aux": "haben",
+    "perfect": "gegessen",
+    "infinitive": "essen",
+    "faInfinitive": "خوردن",
+    "imperative": [
+      "iss",
+      "esst",
+      "essen Sie"
+    ]
+  },
+  "fahren": {
+    "present": [
+      "fahre",
+      "fährst",
+      "fährt",
+      "fahren",
+      "fahrt",
+      "fahren"
+    ],
+    "past": [
+      "fuhr",
+      "fuhrst",
+      "fuhr",
+      "fuhren",
+      "fuhrt",
+      "fuhren"
+    ],
+    "aux": "sein",
+    "perfect": "gefahren",
+    "infinitive": "fahren",
+    "note": "اینجا معنی «با وسیله رفتن» با sein آمده است. برای راندنِ یک خودرو به‌عنوان مفعول، haben هم به کار می‌رود.",
+    "faInfinitive": "با وسیلهٔ نقلیه رفتن",
+    "imperative": [
+      "fahr",
+      "fahrt",
+      "fahren Sie"
+    ]
+  },
+  "fegen": {
+    "present": [
+      "fege",
+      "fegst",
+      "fegt",
+      "fegen",
+      "fegt",
+      "fegen"
+    ],
+    "past": [
+      "fegte",
+      "fegtest",
+      "fegte",
+      "fegten",
+      "fegtet",
+      "fegten"
+    ],
+    "aux": "haben",
+    "perfect": "gefegt",
+    "infinitive": "fegen",
+    "faInfinitive": "جارو کردن",
+    "imperative": [
+      "fege",
+      "fegt",
+      "fegen Sie"
+    ]
+  },
+  "fehlen": {
+    "present": [
+      "fehle",
+      "fehlst",
+      "fehlt",
+      "fehlen",
+      "fehlt",
+      "fehlen"
+    ],
+    "past": [
+      "fehlte",
+      "fehltest",
+      "fehlte",
+      "fehlten",
+      "fehltet",
+      "fehlten"
+    ],
+    "aux": "haben",
+    "perfect": "gefehlt",
+    "infinitive": "fehlen",
+    "faInfinitive": "غایب بودن",
+    "imperative": null
+  },
+  "feiern": {
+    "present": [
+      "feiere",
+      "feierst",
+      "feiert",
+      "feiern",
+      "feiert",
+      "feiern"
+    ],
+    "past": [
+      "feierte",
+      "feiertest",
+      "feierte",
+      "feierten",
+      "feiertet",
+      "feierten"
+    ],
+    "aux": "haben",
+    "perfect": "gefeiert",
+    "infinitive": "feiern",
+    "faInfinitive": "جشن گرفتن",
+    "imperative": [
+      "feier",
+      "feiert",
+      "feiern Sie"
+    ]
+  },
+  "fertigstellen": {
+    "present": [
+      "stelle fertig",
+      "stellst fertig",
+      "stellt fertig",
+      "stellen fertig",
+      "stellt fertig",
+      "stellen fertig"
+    ],
+    "past": [
+      "stellte fertig",
+      "stelltest fertig",
+      "stellte fertig",
+      "stellten fertig",
+      "stelltet fertig",
+      "stellten fertig"
+    ],
+    "aux": "haben",
+    "perfect": "fertiggestellt",
+    "infinitive": "fertigstellen",
+    "faInfinitive": "تکمیل کردن",
+    "imperative": [
+      "stell fertig",
+      "stellt fertig",
+      "stellen Sie fertig"
+    ]
+  },
+  "festhalten": {
+    "present": [
+      "halte fest",
+      "hältst fest",
+      "hält fest",
+      "halten fest",
+      "haltet fest",
+      "halten fest"
+    ],
+    "past": [
+      "hielt fest",
+      "hieltest fest",
+      "hielt fest",
+      "hielten fest",
+      "hieltet fest",
+      "hielten fest"
+    ],
+    "aux": "haben",
+    "perfect": "festgehalten",
+    "infinitive": "festhalten",
+    "faInfinitive": "ثبت کردن",
+    "imperative": [
+      "halte fest",
+      "haltet fest",
+      "halten Sie fest"
+    ]
+  },
+  "festlegen": {
+    "present": [
+      "lege fest",
+      "legst fest",
+      "legt fest",
+      "legen fest",
+      "legt fest",
+      "legen fest"
+    ],
+    "past": [
+      "legte fest",
+      "legtest fest",
+      "legte fest",
+      "legten fest",
+      "legtet fest",
+      "legten fest"
+    ],
+    "aux": "haben",
+    "perfect": "festgelegt",
+    "infinitive": "festlegen",
+    "faInfinitive": "تعیین کردن",
+    "imperative": [
+      "leg fest",
+      "legt fest",
+      "legen Sie fest"
+    ]
+  },
+  "feststehen": {
+    "present": [
+      "stehe fest",
+      "stehst fest",
+      "steht fest",
+      "stehen fest",
+      "steht fest",
+      "stehen fest"
+    ],
+    "past": [
+      "stand fest",
+      "standest fest",
+      "stand fest",
+      "standen fest",
+      "standet fest",
+      "standen fest"
+    ],
+    "aux": "haben",
+    "perfect": "festgestanden",
+    "infinitive": "feststehen",
+    "thirdPerson": true,
+    "faInfinitive": "قطعی و مشخص بودن",
+    "imperative": null
+  },
+  "feststellen": {
+    "present": [
+      "stelle fest",
+      "stellst fest",
+      "stellt fest",
+      "stellen fest",
+      "stellt fest",
+      "stellen fest"
+    ],
+    "past": [
+      "stellte fest",
+      "stelltest fest",
+      "stellte fest",
+      "stellten fest",
+      "stelltet fest",
+      "stellten fest"
+    ],
+    "aux": "haben",
+    "perfect": "festgestellt",
+    "infinitive": "feststellen",
+    "faInfinitive": "تشخیص دادن",
+    "imperative": [
+      "stell fest",
+      "stellt fest",
+      "stellen Sie fest"
+    ]
+  },
+  "finden": {
+    "present": [
+      "finde",
+      "findest",
+      "findet",
+      "finden",
+      "findet",
+      "finden"
+    ],
+    "past": [
+      "fand",
+      "fandest",
+      "fand",
+      "fanden",
+      "fandet",
+      "fanden"
+    ],
+    "aux": "haben",
+    "perfect": "gefunden",
+    "infinitive": "finden",
+    "faInfinitive": "پیدا کردن",
+    "imperative": [
+      "finde",
+      "findet",
+      "finden Sie"
+    ]
+  },
+  "folgen": {
+    "present": [
+      "folge",
+      "folgst",
+      "folgt",
+      "folgen",
+      "folgt",
+      "folgen"
+    ],
+    "past": [
+      "folgte",
+      "folgtest",
+      "folgte",
+      "folgten",
+      "folgtet",
+      "folgten"
+    ],
+    "aux": "sein",
+    "perfect": "gefolgt",
+    "infinitive": "folgen",
+    "faInfinitive": "دنبال کردن",
+    "imperative": [
+      "folg",
+      "folgt",
+      "folgen Sie"
+    ]
+  },
+  "freihalten": {
+    "present": [
+      "halte frei",
+      "hältst frei",
+      "hält frei",
+      "halten frei",
+      "haltet frei",
+      "halten frei"
+    ],
+    "past": [
+      "hielt frei",
+      "hieltest frei",
+      "hielt frei",
+      "hielten frei",
+      "hieltet frei",
+      "hielten frei"
+    ],
+    "aux": "haben",
+    "perfect": "freigehalten",
+    "infinitive": "freihalten",
+    "faInfinitive": "خالی نگه داشتن",
+    "imperative": [
+      "halte frei",
+      "haltet frei",
+      "halten Sie frei"
+    ]
+  },
+  "frühstücken": {
+    "present": [
+      "frühstücke",
+      "frühstückst",
+      "frühstückt",
+      "frühstücken",
+      "frühstückt",
+      "frühstücken"
+    ],
+    "past": [
+      "frühstückte",
+      "frühstücktest",
+      "frühstückte",
+      "frühstückten",
+      "frühstücktet",
+      "frühstückten"
+    ],
+    "aux": "haben",
+    "perfect": "gefrühstückt",
+    "infinitive": "frühstücken",
+    "faInfinitive": "صبحانه خوردن",
+    "imperative": [
+      "frühstück",
+      "frühstückt",
+      "frühstücken Sie"
+    ]
+  },
+  "geben": {
+    "present": [
+      "gebe",
+      "gibst",
+      "gibt",
+      "geben",
+      "gebt",
+      "geben"
+    ],
+    "past": [
+      "gab",
+      "gabst",
+      "gab",
+      "gaben",
+      "gabt",
+      "gaben"
+    ],
+    "aux": "haben",
+    "perfect": "gegeben",
+    "infinitive": "geben",
+    "faInfinitive": "دادن",
+    "imperative": [
+      "gib",
+      "gebt",
+      "geben Sie"
+    ]
+  },
+  "gehen": {
+    "present": [
+      "gehe",
+      "gehst",
+      "geht",
+      "gehen",
+      "geht",
+      "gehen"
+    ],
+    "past": [
+      "ging",
+      "gingst",
+      "ging",
+      "gingen",
+      "gingt",
+      "gingen"
+    ],
+    "aux": "sein",
+    "perfect": "gegangen",
+    "infinitive": "gehen",
+    "faInfinitive": "رفتن",
+    "imperative": [
+      "geh",
+      "geht",
+      "gehen Sie"
+    ]
+  },
+  "gehören": {
+    "present": [
+      "gehöre",
+      "gehörst",
+      "gehört",
+      "gehören",
+      "gehört",
+      "gehören"
+    ],
+    "past": [
+      "gehörte",
+      "gehörtest",
+      "gehörte",
+      "gehörten",
+      "gehörtet",
+      "gehörten"
+    ],
+    "aux": "haben",
+    "perfect": "gehört",
+    "infinitive": "gehören",
+    "faInfinitive": "به کسی تعلق داشتن",
+    "imperative": null
+  },
+  "gelingen": {
+    "present": [
+      "gelinge",
+      "gelingst",
+      "gelingt",
+      "gelingen",
+      "gelingt",
+      "gelingen"
+    ],
+    "past": [
+      "gelang",
+      "gelangst",
+      "gelang",
+      "gelangen",
+      "gelangt",
+      "gelangen"
+    ],
+    "aux": "sein",
+    "perfect": "gelungen",
+    "infinitive": "gelingen",
+    "thirdPerson": true,
+    "note": "کار یا نتیجه فاعل است. در Der Plan gelingt mir، برنامه موفق می‌شود و mir به شخص اشاره می‌کند.",
+    "faInfinitive": "با موفقیت انجام شدن",
+    "imperative": null
+  },
+  "genehmigen": {
+    "present": [
+      "genehmige",
+      "genehmigst",
+      "genehmigt",
+      "genehmigen",
+      "genehmigt",
+      "genehmigen"
+    ],
+    "past": [
+      "genehmigte",
+      "genehmigtest",
+      "genehmigte",
+      "genehmigten",
+      "genehmigtet",
+      "genehmigten"
+    ],
+    "aux": "haben",
+    "perfect": "genehmigt",
+    "infinitive": "genehmigen",
+    "faInfinitive": "تأیید کردن",
+    "imperative": [
+      "genehmige",
+      "genehmigt",
+      "genehmigen Sie"
+    ]
+  },
+  "genügen": {
+    "present": [
+      "genüge",
+      "genügst",
+      "genügt",
+      "genügen",
+      "genügt",
+      "genügen"
+    ],
+    "past": [
+      "genügte",
+      "genügtest",
+      "genügte",
+      "genügten",
+      "genügtet",
+      "genügten"
+    ],
+    "aux": "haben",
+    "perfect": "genügt",
+    "infinitive": "genügen",
+    "faInfinitive": "کافی بودن",
+    "imperative": null
+  },
+  "gewähren": {
+    "present": [
+      "gewähre",
+      "gewährst",
+      "gewährt",
+      "gewähren",
+      "gewährt",
+      "gewähren"
+    ],
+    "past": [
+      "gewährte",
+      "gewährtest",
+      "gewährte",
+      "gewährten",
+      "gewährtet",
+      "gewährten"
+    ],
+    "aux": "haben",
+    "perfect": "gewährt",
+    "infinitive": "gewähren",
+    "faInfinitive": "اعطا کردن",
+    "imperative": [
+      "gewähr",
+      "gewährt",
+      "gewähren Sie"
+    ]
+  },
+  "gründen": {
+    "present": [
+      "gründe",
+      "gründest",
+      "gründet",
+      "gründen",
+      "gründet",
+      "gründen"
+    ],
+    "past": [
+      "gründete",
+      "gründetest",
+      "gründete",
+      "gründeten",
+      "gründetet",
+      "gründeten"
+    ],
+    "aux": "haben",
+    "perfect": "gegründet",
+    "infinitive": "gründen",
+    "faInfinitive": "تأسیس کردن",
+    "imperative": [
+      "gründe",
+      "gründet",
+      "gründen Sie"
+    ]
+  },
+  "haben": {
+    "present": [
+      "habe",
+      "hast",
+      "hat",
+      "haben",
+      "habt",
+      "haben"
+    ],
+    "past": [
+      "hatte",
+      "hattest",
+      "hatte",
+      "hatten",
+      "hattet",
+      "hatten"
+    ],
+    "aux": "haben",
+    "perfect": "gehabt",
+    "infinitive": "haben",
+    "subjunctive": [
+      "hätte",
+      "hättest",
+      "hätte",
+      "hätten",
+      "hättet",
+      "hätten"
+    ],
+    "faInfinitive": "داشتن",
+    "imperative": [
+      "hab",
+      "habt",
+      "haben Sie"
+    ]
+  },
+  "heißen": {
+    "present": [
+      "heiße",
+      "heißt",
+      "heißt",
+      "heißen",
+      "heißt",
+      "heißen"
+    ],
+    "past": [
+      "hieß",
+      "hießest",
+      "hieß",
+      "hießen",
+      "hießt",
+      "hießen"
+    ],
+    "aux": "haben",
+    "perfect": "geheißen",
+    "infinitive": "heißen",
+    "faInfinitive": "نام داشتن",
+    "imperative": [
+      "heiße",
+      "heißt",
+      "heißen Sie"
+    ]
+  },
+  "helfen": {
+    "present": [
+      "helfe",
+      "hilfst",
+      "hilft",
+      "helfen",
+      "helft",
+      "helfen"
+    ],
+    "past": [
+      "half",
+      "halfst",
+      "half",
+      "halfen",
+      "halft",
+      "halfen"
+    ],
+    "aux": "haben",
+    "perfect": "geholfen",
+    "infinitive": "helfen",
+    "faInfinitive": "کمک کردن",
+    "imperative": [
+      "hilf",
+      "helft",
+      "helfen Sie"
+    ]
+  },
+  "herunterladen": {
+    "present": [
+      "lade herunter",
+      "lädst herunter",
+      "lädt herunter",
+      "laden herunter",
+      "ladet herunter",
+      "laden herunter"
+    ],
+    "past": [
+      "lud herunter",
+      "ludst herunter",
+      "lud herunter",
+      "luden herunter",
+      "ludet herunter",
+      "luden herunter"
+    ],
+    "aux": "haben",
+    "perfect": "heruntergeladen",
+    "infinitive": "herunterladen",
+    "faInfinitive": "دانلود کردن",
+    "imperative": [
+      "lade herunter",
+      "ladet herunter",
+      "laden Sie herunter"
+    ]
+  },
+  "hinterlegen": {
+    "present": [
+      "hinterlege",
+      "hinterlegst",
+      "hinterlegt",
+      "hinterlegen",
+      "hinterlegt",
+      "hinterlegen"
+    ],
+    "past": [
+      "hinterlegte",
+      "hinterlegtest",
+      "hinterlegte",
+      "hinterlegten",
+      "hinterlegtet",
+      "hinterlegten"
+    ],
+    "aux": "haben",
+    "perfect": "hinterlegt",
+    "infinitive": "hinterlegen",
+    "faInfinitive": "به امانت گذاشتن",
+    "imperative": [
+      "hinterleg",
+      "hinterlegt",
+      "hinterlegen Sie"
+    ]
+  },
+  "in Kauf nehmen": {
+    "present": [
+      "nehme … in Kauf",
+      "nimmst … in Kauf",
+      "nimmt … in Kauf",
+      "nehmen … in Kauf",
+      "nehmt … in Kauf",
+      "nehmen … in Kauf"
+    ],
+    "past": [
+      "nahm … in Kauf",
+      "nahmst … in Kauf",
+      "nahm … in Kauf",
+      "nahmen … in Kauf",
+      "nahmt … in Kauf",
+      "nahmen … in Kauf"
+    ],
+    "aux": "haben",
+    "perfect": "… in Kauf genommen",
+    "infinitive": "… in Kauf nehmen",
+    "faInfinitive": "به جان خریدن",
+    "imperative": [
+      "nimm … in Kauf",
+      "nehmt … in Kauf",
+      "nehmen Sie … in Kauf"
+    ]
+  },
+  "infrage kommen": {
+    "present": [
+      "komme infrage",
+      "kommst infrage",
+      "kommt infrage",
+      "kommen infrage",
+      "kommt infrage",
+      "kommen infrage"
+    ],
+    "past": [
+      "kam infrage",
+      "kamst infrage",
+      "kam infrage",
+      "kamen infrage",
+      "kamt infrage",
+      "kamen infrage"
+    ],
+    "aux": "sein",
+    "perfect": "infrage gekommen",
+    "infinitive": "infrage kommen",
+    "faInfinitive": "گزینه‌ای ممکن بودن",
+    "imperative": null
+  },
+  "jemanden vermissen": {
+    "present": [
+      "vermisse jemanden",
+      "vermisst jemanden",
+      "vermisst jemanden",
+      "vermissen jemanden",
+      "vermisst jemanden",
+      "vermissen jemanden"
+    ],
+    "past": [
+      "vermisste jemanden",
+      "vermisstest jemanden",
+      "vermisste jemanden",
+      "vermissten jemanden",
+      "vermisstet jemanden",
+      "vermissten jemanden"
+    ],
+    "aux": "haben",
+    "perfect": "jemanden vermisst",
+    "infinitive": "jemanden vermissen",
+    "faInfinitive": "دلتنگِ کسی بودن",
+    "imperative": [
+      "vermiss jemanden",
+      "vermisst jemanden",
+      "vermissen Sie jemanden"
+    ]
+  },
+  "kaufen": {
+    "present": [
+      "kaufe",
+      "kaufst",
+      "kauft",
+      "kaufen",
+      "kauft",
+      "kaufen"
+    ],
+    "past": [
+      "kaufte",
+      "kauftest",
+      "kaufte",
+      "kauften",
+      "kauftet",
+      "kauften"
+    ],
+    "aux": "haben",
+    "perfect": "gekauft",
+    "infinitive": "kaufen",
+    "faInfinitive": "خریدن",
+    "imperative": [
+      "kauf",
+      "kauft",
+      "kaufen Sie"
+    ]
+  },
+  "klatschen": {
+    "present": [
+      "klatsche",
+      "klatschst",
+      "klatscht",
+      "klatschen",
+      "klatscht",
+      "klatschen"
+    ],
+    "past": [
+      "klatschte",
+      "klatschtest",
+      "klatschte",
+      "klatschten",
+      "klatschtet",
+      "klatschten"
+    ],
+    "aux": "haben",
+    "perfect": "geklatscht",
+    "infinitive": "klatschen",
+    "faInfinitive": "دست زدن",
+    "imperative": [
+      "klatsch",
+      "klatscht",
+      "klatschen Sie"
+    ]
+  },
+  "klemmen": {
+    "present": [
+      "klemme",
+      "klemmst",
+      "klemmt",
+      "klemmen",
+      "klemmt",
+      "klemmen"
+    ],
+    "past": [
+      "klemmte",
+      "klemmtest",
+      "klemmte",
+      "klemmten",
+      "klemmtet",
+      "klemmten"
+    ],
+    "aux": "haben",
+    "perfect": "geklemmt",
+    "infinitive": "klemmen",
+    "faInfinitive": "گیر کردن",
+    "imperative": null
+  },
+  "klären": {
+    "present": [
+      "kläre",
+      "klärst",
+      "klärt",
+      "klären",
+      "klärt",
+      "klären"
+    ],
+    "past": [
+      "klärte",
+      "klärtest",
+      "klärte",
+      "klärten",
+      "klärtet",
+      "klärten"
+    ],
+    "aux": "haben",
+    "perfect": "geklärt",
+    "infinitive": "klären",
+    "faInfinitive": "روشن کردن",
+    "imperative": [
+      "klär",
+      "klärt",
+      "klären Sie"
+    ]
+  },
+  "kommen": {
+    "present": [
+      "komme",
+      "kommst",
+      "kommt",
+      "kommen",
+      "kommt",
+      "kommen"
+    ],
+    "past": [
+      "kam",
+      "kamst",
+      "kam",
+      "kamen",
+      "kamt",
+      "kamen"
+    ],
+    "aux": "sein",
+    "perfect": "gekommen",
+    "infinitive": "kommen",
+    "faInfinitive": "آمدن",
+    "imperative": [
+      "komm",
+      "kommt",
+      "kommen Sie"
+    ]
+  },
+  "kontaktieren": {
+    "present": [
+      "kontaktiere",
+      "kontaktierst",
+      "kontaktiert",
+      "kontaktieren",
+      "kontaktiert",
+      "kontaktieren"
+    ],
+    "past": [
+      "kontaktierte",
+      "kontaktiertest",
+      "kontaktierte",
+      "kontaktierten",
+      "kontaktiertet",
+      "kontaktierten"
+    ],
+    "aux": "haben",
+    "perfect": "kontaktiert",
+    "infinitive": "kontaktieren",
+    "faInfinitive": "تماس گرفتن",
+    "imperative": [
+      "kontaktier",
+      "kontaktiert",
+      "kontaktieren Sie"
+    ]
+  },
+  "korrigieren": {
+    "present": [
+      "korrigiere",
+      "korrigierst",
+      "korrigiert",
+      "korrigieren",
+      "korrigiert",
+      "korrigieren"
+    ],
+    "past": [
+      "korrigierte",
+      "korrigiertest",
+      "korrigierte",
+      "korrigierten",
+      "korrigiertet",
+      "korrigierten"
+    ],
+    "aux": "haben",
+    "perfect": "korrigiert",
+    "infinitive": "korrigieren",
+    "faInfinitive": "تصحیح کردن",
+    "imperative": [
+      "korrigier",
+      "korrigiert",
+      "korrigieren Sie"
+    ]
+  },
+  "kosten": {
+    "present": [
+      "koste",
+      "kostest",
+      "kostet",
+      "kosten",
+      "kostet",
+      "kosten"
+    ],
+    "past": [
+      "kostete",
+      "kostetest",
+      "kostete",
+      "kosteten",
+      "kostetet",
+      "kosteten"
+    ],
+    "aux": "haben",
+    "perfect": "gekostet",
+    "infinitive": "kosten",
+    "faInfinitive": "قیمت داشتن",
+    "imperative": null
+  },
+  "können": {
+    "present": [
+      "kann",
+      "kannst",
+      "kann",
+      "können",
+      "könnt",
+      "können"
+    ],
+    "past": [
+      "konnte",
+      "konntest",
+      "konnte",
+      "konnten",
+      "konntet",
+      "konnten"
+    ],
+    "aux": "haben",
+    "perfect": "gekonnt",
+    "infinitive": "können",
+    "subjunctive": [
+      "könnte",
+      "könntest",
+      "könnte",
+      "könnten",
+      "könntet",
+      "könnten"
+    ],
+    "note": "این شکلِ گذشته برای کاربرد مستقل فعل است. همراه یک فعل دیگر، هر دو مصدر به آخر می‌روند؛ مثل Ich habe arbeiten können.",
+    "faInfinitive": "توانستن",
+    "imperative": null
+  },
+  "kündigen": {
+    "present": [
+      "kündige",
+      "kündigst",
+      "kündigt",
+      "kündigen",
+      "kündigt",
+      "kündigen"
+    ],
+    "past": [
+      "kündigte",
+      "kündigtest",
+      "kündigte",
+      "kündigten",
+      "kündigtet",
+      "kündigten"
+    ],
+    "aux": "haben",
+    "perfect": "gekündigt",
+    "infinitive": "kündigen",
+    "faInfinitive": "فسخ کردن",
+    "imperative": [
+      "kündige",
+      "kündigt",
+      "kündigen Sie"
+    ]
+  },
+  "lagern": {
+    "present": [
+      "lagere",
+      "lagerst",
+      "lagert",
+      "lagern",
+      "lagert",
+      "lagern"
+    ],
+    "past": [
+      "lagerte",
+      "lagertest",
+      "lagerte",
+      "lagerten",
+      "lagertet",
+      "lagerten"
+    ],
+    "aux": "haben",
+    "perfect": "gelagert",
+    "infinitive": "lagern",
+    "faInfinitive": "انبار کردن",
+    "imperative": [
+      "lagere",
+      "lagert",
+      "lagern Sie"
+    ]
+  },
+  "lassen": {
+    "present": [
+      "lasse",
+      "lässt",
+      "lässt",
+      "lassen",
+      "lasst",
+      "lassen"
+    ],
+    "past": [
+      "ließ",
+      "ließest",
+      "ließ",
+      "ließen",
+      "ließt",
+      "ließen"
+    ],
+    "aux": "haben",
+    "perfect": "gelassen",
+    "infinitive": "lassen",
+    "note": "در معنی «گذاشتن» شکل گذشته gelassen است. اگر مصدر دیگری همراهش باشد معمولاً خودِ lassen در پایان می‌آید؛ مثل Ich habe das Rad reparieren lassen.",
+    "faInfinitive": "اجازه دادن",
+    "imperative": [
+      "lass",
+      "lasst",
+      "lassen Sie"
+    ]
+  },
+  "leeren": {
+    "present": [
+      "leere",
+      "leerst",
+      "leert",
+      "leeren",
+      "leert",
+      "leeren"
+    ],
+    "past": [
+      "leerte",
+      "leertest",
+      "leerte",
+      "leerten",
+      "leertet",
+      "leerten"
+    ],
+    "aux": "haben",
+    "perfect": "geleert",
+    "infinitive": "leeren",
+    "faInfinitive": "خالی کردن",
+    "imperative": [
+      "leer",
+      "leert",
+      "leeren Sie"
+    ]
+  },
+  "legen": {
+    "present": [
+      "lege",
+      "legst",
+      "legt",
+      "legen",
+      "legt",
+      "legen"
+    ],
+    "past": [
+      "legte",
+      "legtest",
+      "legte",
+      "legten",
+      "legtet",
+      "legten"
+    ],
+    "aux": "haben",
+    "perfect": "gelegt",
+    "infinitive": "legen",
+    "faInfinitive": "به حالت افقی گذاشتن",
+    "imperative": [
+      "leg",
+      "legt",
+      "legen Sie"
+    ]
+  },
+  "lernen": {
+    "present": [
+      "lerne",
+      "lernst",
+      "lernt",
+      "lernen",
+      "lernt",
+      "lernen"
+    ],
+    "past": [
+      "lernte",
+      "lerntest",
+      "lernte",
+      "lernten",
+      "lerntet",
+      "lernten"
+    ],
+    "aux": "haben",
+    "perfect": "gelernt",
+    "infinitive": "lernen",
+    "faInfinitive": "یاد گرفتن",
+    "imperative": [
+      "lern",
+      "lernt",
+      "lernen Sie"
+    ]
+  },
+  "lesen": {
+    "present": [
+      "lese",
+      "liest",
+      "liest",
+      "lesen",
+      "lest",
+      "lesen"
+    ],
+    "past": [
+      "las",
+      "lasest",
+      "las",
+      "lasen",
+      "last",
+      "lasen"
+    ],
+    "aux": "haben",
+    "perfect": "gelesen",
+    "infinitive": "lesen",
+    "faInfinitive": "خواندن",
+    "imperative": [
+      "lies",
+      "lest",
+      "lesen Sie"
+    ]
+  },
+  "liegen": {
+    "present": [
+      "liege",
+      "liegst",
+      "liegt",
+      "liegen",
+      "liegt",
+      "liegen"
+    ],
+    "past": [
+      "lag",
+      "lagst",
+      "lag",
+      "lagen",
+      "lagt",
+      "lagen"
+    ],
+    "aux": "haben",
+    "perfect": "gelegen",
+    "infinitive": "liegen",
+    "faInfinitive": "به حالت افقی قرار داشتن",
+    "imperative": [
+      "lieg",
+      "liegt",
+      "liegen Sie"
+    ]
+  },
+  "löschen": {
+    "present": [
+      "lösche",
+      "löschst",
+      "löscht",
+      "löschen",
+      "löscht",
+      "löschen"
+    ],
+    "past": [
+      "löschte",
+      "löschtest",
+      "löschte",
+      "löschten",
+      "löschtet",
+      "löschten"
+    ],
+    "aux": "haben",
+    "perfect": "gelöscht",
+    "infinitive": "löschen",
+    "faInfinitive": "حذف کردن",
+    "imperative": [
+      "lösch",
+      "löscht",
+      "löschen Sie"
+    ]
+  },
+  "machen": {
+    "present": [
+      "mache",
+      "machst",
+      "macht",
+      "machen",
+      "macht",
+      "machen"
+    ],
+    "past": [
+      "machte",
+      "machtest",
+      "machte",
+      "machten",
+      "machtet",
+      "machten"
+    ],
+    "aux": "haben",
+    "perfect": "gemacht",
+    "infinitive": "machen",
+    "faInfinitive": "انجام دادن",
+    "imperative": [
+      "mach",
+      "macht",
+      "machen Sie"
+    ]
+  },
+  "melden": {
+    "present": [
+      "melde",
+      "meldest",
+      "meldet",
+      "melden",
+      "meldet",
+      "melden"
+    ],
+    "past": [
+      "meldete",
+      "meldetest",
+      "meldete",
+      "meldeten",
+      "meldetet",
+      "meldeten"
+    ],
+    "aux": "haben",
+    "perfect": "gemeldet",
+    "infinitive": "melden",
+    "faInfinitive": "گزارش کردن",
+    "imperative": [
+      "melde",
+      "meldet",
+      "melden Sie"
+    ]
+  },
+  "mieten": {
+    "present": [
+      "miete",
+      "mietest",
+      "mietet",
+      "mieten",
+      "mietet",
+      "mieten"
+    ],
+    "past": [
+      "mietete",
+      "mietetest",
+      "mietete",
+      "mieteten",
+      "mietetet",
+      "mieteten"
+    ],
+    "aux": "haben",
+    "perfect": "gemietet",
+    "infinitive": "mieten",
+    "faInfinitive": "اجاره کردن",
+    "imperative": [
+      "miete",
+      "mietet",
+      "mieten Sie"
+    ]
+  },
+  "mitbringen": {
+    "present": [
+      "bringe mit",
+      "bringst mit",
+      "bringt mit",
+      "bringen mit",
+      "bringt mit",
+      "bringen mit"
+    ],
+    "past": [
+      "brachte mit",
+      "brachtest mit",
+      "brachte mit",
+      "brachten mit",
+      "brachtet mit",
+      "brachten mit"
+    ],
+    "aux": "haben",
+    "perfect": "mitgebracht",
+    "infinitive": "mitbringen",
+    "faInfinitive": "همراه آوردن",
+    "imperative": [
+      "bring mit",
+      "bringt mit",
+      "bringen Sie mit"
+    ]
+  },
+  "mitfahren": {
+    "present": [
+      "fahre mit",
+      "fährst mit",
+      "fährt mit",
+      "fahren mit",
+      "fahrt mit",
+      "fahren mit"
+    ],
+    "past": [
+      "fuhr mit",
+      "fuhrst mit",
+      "fuhr mit",
+      "fuhren mit",
+      "fuhrt mit",
+      "fuhren mit"
+    ],
+    "aux": "sein",
+    "perfect": "mitgefahren",
+    "infinitive": "mitfahren",
+    "faInfinitive": "همراه کسی سوار شدن",
+    "imperative": [
+      "fahr mit",
+      "fahrt mit",
+      "fahren Sie mit"
+    ]
+  },
+  "mitnehmen": {
+    "present": [
+      "nehme mit",
+      "nimmst mit",
+      "nimmt mit",
+      "nehmen mit",
+      "nehmt mit",
+      "nehmen mit"
+    ],
+    "past": [
+      "nahm mit",
+      "nahmst mit",
+      "nahm mit",
+      "nahmen mit",
+      "nahmt mit",
+      "nahmen mit"
+    ],
+    "aux": "haben",
+    "perfect": "mitgenommen",
+    "infinitive": "mitnehmen",
+    "faInfinitive": "همراه بردن",
+    "imperative": [
+      "nimm mit",
+      "nehmt mit",
+      "nehmen Sie mit"
+    ]
+  },
+  "mögen": {
+    "present": [
+      "mag",
+      "magst",
+      "mag",
+      "mögen",
+      "mögt",
+      "mögen"
+    ],
+    "past": [
+      "mochte",
+      "mochtest",
+      "mochte",
+      "mochten",
+      "mochtet",
+      "mochten"
+    ],
+    "aux": "haben",
+    "perfect": "gemocht",
+    "infinitive": "mögen",
+    "subjunctive": [
+      "möchte",
+      "möchtest",
+      "möchte",
+      "möchten",
+      "möchtet",
+      "möchten"
+    ],
+    "note": "mag یعنی «دوست دارم». شکل möchte در حالت Konjunktiv II برای درخواست مؤدبانه به معنی «میل دارم» پرکاربرد است.",
+    "aliases": [
+      "möchten"
+    ],
+    "faInfinitive": "دوست داشتن",
+    "imperative": null
+  },
+  "müssen": {
+    "present": [
+      "muss",
+      "musst",
+      "muss",
+      "müssen",
+      "müsst",
+      "müssen"
+    ],
+    "past": [
+      "musste",
+      "musstest",
+      "musste",
+      "mussten",
+      "musstet",
+      "mussten"
+    ],
+    "aux": "haben",
+    "perfect": "gemusst",
+    "infinitive": "müssen",
+    "subjunctive": [
+      "müsste",
+      "müsstest",
+      "müsste",
+      "müssten",
+      "müsstet",
+      "müssten"
+    ],
+    "note": "این شکلِ گذشته برای کاربرد مستقل فعل است. همراه یک فعل دیگر، هر دو مصدر به آخر می‌روند؛ مثل Ich habe arbeiten müssen.",
+    "faInfinitive": "ناچار بودن",
+    "imperative": null
+  },
+  "nachholen": {
+    "present": [
+      "hole nach",
+      "holst nach",
+      "holt nach",
+      "holen nach",
+      "holt nach",
+      "holen nach"
+    ],
+    "past": [
+      "holte nach",
+      "holtest nach",
+      "holte nach",
+      "holten nach",
+      "holtet nach",
+      "holten nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgeholt",
+    "infinitive": "nachholen",
+    "faInfinitive": "جبران کردن",
+    "imperative": [
+      "hol nach",
+      "holt nach",
+      "holen Sie nach"
+    ]
+  },
+  "nachlassen": {
+    "present": [
+      "lasse nach",
+      "lässt nach",
+      "lässt nach",
+      "lassen nach",
+      "lasst nach",
+      "lassen nach"
+    ],
+    "past": [
+      "ließ nach",
+      "ließest nach",
+      "ließ nach",
+      "ließen nach",
+      "ließt nach",
+      "ließen nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgelassen",
+    "infinitive": "nachlassen",
+    "faInfinitive": "کم شدن",
+    "imperative": null
+  },
+  "nachreichen": {
+    "present": [
+      "reiche nach",
+      "reichst nach",
+      "reicht nach",
+      "reichen nach",
+      "reicht nach",
+      "reichen nach"
+    ],
+    "past": [
+      "reichte nach",
+      "reichtest nach",
+      "reichte nach",
+      "reichten nach",
+      "reichtet nach",
+      "reichten nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgereicht",
+    "infinitive": "nachreichen",
+    "faInfinitive": "بعداً تحویل دادن",
+    "imperative": [
+      "reich nach",
+      "reicht nach",
+      "reichen Sie nach"
+    ]
+  },
+  "nachschlagen": {
+    "present": [
+      "schlage nach",
+      "schlägst nach",
+      "schlägt nach",
+      "schlagen nach",
+      "schlagt nach",
+      "schlagen nach"
+    ],
+    "past": [
+      "schlug nach",
+      "schlugst nach",
+      "schlug nach",
+      "schlugen nach",
+      "schlugt nach",
+      "schlugen nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgeschlagen",
+    "infinitive": "nachschlagen",
+    "faInfinitive": "در فرهنگ یا مرجع جست‌وجو کردن",
+    "imperative": [
+      "schlag nach",
+      "schlagt nach",
+      "schlagen Sie nach"
+    ]
+  },
+  "nachweisen": {
+    "present": [
+      "weise nach",
+      "weist nach",
+      "weist nach",
+      "weisen nach",
+      "weist nach",
+      "weisen nach"
+    ],
+    "past": [
+      "wies nach",
+      "wiesest nach",
+      "wies nach",
+      "wiesen nach",
+      "wiest nach",
+      "wiesen nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgewiesen",
+    "infinitive": "nachweisen",
+    "faInfinitive": "اثبات یا مستند کردن",
+    "imperative": [
+      "weis nach",
+      "weist nach",
+      "weisen Sie nach"
+    ]
+  },
+  "nachzählen": {
+    "present": [
+      "zähle nach",
+      "zählst nach",
+      "zählt nach",
+      "zählen nach",
+      "zählt nach",
+      "zählen nach"
+    ],
+    "past": [
+      "zählte nach",
+      "zähltest nach",
+      "zählte nach",
+      "zählten nach",
+      "zähltet nach",
+      "zählten nach"
+    ],
+    "aux": "haben",
+    "perfect": "nachgezählt",
+    "infinitive": "nachzählen",
+    "faInfinitive": "دوباره شمردن",
+    "imperative": [
+      "zähl nach",
+      "zählt nach",
+      "zählen Sie nach"
+    ]
+  },
+  "nehmen": {
+    "present": [
+      "nehme",
+      "nimmst",
+      "nimmt",
+      "nehmen",
+      "nehmt",
+      "nehmen"
+    ],
+    "past": [
+      "nahm",
+      "nahmst",
+      "nahm",
+      "nahmen",
+      "nahmt",
+      "nahmen"
+    ],
+    "aux": "haben",
+    "perfect": "genommen",
+    "infinitive": "nehmen",
+    "faInfinitive": "گرفتن",
+    "imperative": [
+      "nimm",
+      "nehmt",
+      "nehmen Sie"
+    ]
+  },
+  "nennen": {
+    "present": [
+      "nenne",
+      "nennst",
+      "nennt",
+      "nennen",
+      "nennt",
+      "nennen"
+    ],
+    "past": [
+      "nannte",
+      "nanntest",
+      "nannte",
+      "nannten",
+      "nanntet",
+      "nannten"
+    ],
+    "aux": "haben",
+    "perfect": "genannt",
+    "infinitive": "nennen",
+    "faInfinitive": "ذکر کردن",
+    "imperative": [
+      "nenn",
+      "nennt",
+      "nennen Sie"
+    ]
+  },
+  "organisieren": {
+    "present": [
+      "organisiere",
+      "organisierst",
+      "organisiert",
+      "organisieren",
+      "organisiert",
+      "organisieren"
+    ],
+    "past": [
+      "organisierte",
+      "organisiertest",
+      "organisierte",
+      "organisierten",
+      "organisiertet",
+      "organisierten"
+    ],
+    "aux": "haben",
+    "perfect": "organisiert",
+    "infinitive": "organisieren",
+    "faInfinitive": "سازمان‌دهی کردن",
+    "imperative": [
+      "organisier",
+      "organisiert",
+      "organisieren Sie"
+    ]
+  },
+  "passen": {
+    "present": [
+      "passe",
+      "passt",
+      "passt",
+      "passen",
+      "passt",
+      "passen"
+    ],
+    "past": [
+      "passte",
+      "passtest",
+      "passte",
+      "passten",
+      "passtet",
+      "passten"
+    ],
+    "aux": "haben",
+    "perfect": "gepasst",
+    "infinitive": "passen",
+    "faInfinitive": "مناسب بودن",
+    "imperative": [
+      "pass",
+      "passt",
+      "passen Sie"
+    ]
+  },
+  "passieren": {
+    "present": [
+      "passiere",
+      "passierst",
+      "passiert",
+      "passieren",
+      "passiert",
+      "passieren"
+    ],
+    "past": [
+      "passierte",
+      "passiertest",
+      "passierte",
+      "passierten",
+      "passiertet",
+      "passierten"
+    ],
+    "aux": "sein",
+    "perfect": "passiert",
+    "infinitive": "passieren",
+    "faInfinitive": "اتفاق افتادن",
+    "imperative": null
+  },
+  "prüfen": {
+    "present": [
+      "prüfe",
+      "prüfst",
+      "prüft",
+      "prüfen",
+      "prüft",
+      "prüfen"
+    ],
+    "past": [
+      "prüfte",
+      "prüftest",
+      "prüfte",
+      "prüften",
+      "prüftet",
+      "prüften"
+    ],
+    "aux": "haben",
+    "perfect": "geprüft",
+    "infinitive": "prüfen",
+    "faInfinitive": "بررسی کردن",
+    "imperative": [
+      "prüf",
+      "prüft",
+      "prüfen Sie"
+    ]
+  },
+  "renovieren": {
+    "present": [
+      "renoviere",
+      "renovierst",
+      "renoviert",
+      "renovieren",
+      "renoviert",
+      "renovieren"
+    ],
+    "past": [
+      "renovierte",
+      "renoviertest",
+      "renovierte",
+      "renovierten",
+      "renoviertet",
+      "renovierten"
+    ],
+    "aux": "haben",
+    "perfect": "renoviert",
+    "infinitive": "renovieren",
+    "faInfinitive": "بازسازی کردن",
+    "imperative": [
+      "renovier",
+      "renoviert",
+      "renovieren Sie"
+    ]
+  },
+  "reparieren": {
+    "present": [
+      "repariere",
+      "reparierst",
+      "repariert",
+      "reparieren",
+      "repariert",
+      "reparieren"
+    ],
+    "past": [
+      "reparierte",
+      "repariertest",
+      "reparierte",
+      "reparierten",
+      "repariertet",
+      "reparierten"
+    ],
+    "aux": "haben",
+    "perfect": "repariert",
+    "infinitive": "reparieren",
+    "faInfinitive": "تعمیر کردن",
+    "imperative": [
+      "reparier",
+      "repariert",
+      "reparieren Sie"
+    ]
+  },
+  "sammeln": {
+    "present": [
+      "sammle",
+      "sammelst",
+      "sammelt",
+      "sammeln",
+      "sammelt",
+      "sammeln"
+    ],
+    "past": [
+      "sammelte",
+      "sammeltest",
+      "sammelte",
+      "sammelten",
+      "sammeltet",
+      "sammelten"
+    ],
+    "aux": "haben",
+    "perfect": "gesammelt",
+    "infinitive": "sammeln",
+    "faInfinitive": "جمع‌آوری کردن",
+    "imperative": [
+      "sammle",
+      "sammelt",
+      "sammeln Sie"
+    ]
+  },
+  "schenken": {
+    "present": [
+      "schenke",
+      "schenkst",
+      "schenkt",
+      "schenken",
+      "schenkt",
+      "schenken"
+    ],
+    "past": [
+      "schenkte",
+      "schenktest",
+      "schenkte",
+      "schenkten",
+      "schenktet",
+      "schenkten"
+    ],
+    "aux": "haben",
+    "perfect": "geschenkt",
+    "infinitive": "schenken",
+    "faInfinitive": "هدیه دادن",
+    "imperative": [
+      "schenk",
+      "schenkt",
+      "schenken Sie"
+    ]
+  },
+  "schildern": {
+    "present": [
+      "schildere",
+      "schilderst",
+      "schildert",
+      "schildern",
+      "schildert",
+      "schildern"
+    ],
+    "past": [
+      "schilderte",
+      "schildertest",
+      "schilderte",
+      "schilderten",
+      "schildertet",
+      "schilderten"
+    ],
+    "aux": "haben",
+    "perfect": "geschildert",
+    "infinitive": "schildern",
+    "faInfinitive": "شرح دادن",
+    "imperative": [
+      "schildere",
+      "schildert",
+      "schildern Sie"
+    ]
+  },
+  "schlafen": {
+    "present": [
+      "schlafe",
+      "schläfst",
+      "schläft",
+      "schlafen",
+      "schlaft",
+      "schlafen"
+    ],
+    "past": [
+      "schlief",
+      "schliefst",
+      "schlief",
+      "schliefen",
+      "schlieft",
+      "schliefen"
+    ],
+    "aux": "haben",
+    "perfect": "geschlafen",
+    "infinitive": "schlafen",
+    "faInfinitive": "خوابیدن",
+    "imperative": [
+      "schlaf",
+      "schlaft",
+      "schlafen Sie"
+    ]
+  },
+  "schonen": {
+    "present": [
+      "schone",
+      "schonst",
+      "schont",
+      "schonen",
+      "schont",
+      "schonen"
+    ],
+    "past": [
+      "schonte",
+      "schontest",
+      "schonte",
+      "schonten",
+      "schontet",
+      "schonten"
+    ],
+    "aux": "haben",
+    "perfect": "geschont",
+    "infinitive": "schonen",
+    "faInfinitive": "محافظت کردن",
+    "imperative": [
+      "schon",
+      "schont",
+      "schonen Sie"
+    ]
+  },
+  "schreiben": {
+    "present": [
+      "schreibe",
+      "schreibst",
+      "schreibt",
+      "schreiben",
+      "schreibt",
+      "schreiben"
+    ],
+    "past": [
+      "schrieb",
+      "schriebst",
+      "schrieb",
+      "schrieben",
+      "schriebt",
+      "schrieben"
+    ],
+    "aux": "haben",
+    "perfect": "geschrieben",
+    "infinitive": "schreiben",
+    "faInfinitive": "نوشتن",
+    "imperative": [
+      "schreib",
+      "schreibt",
+      "schreiben Sie"
+    ]
+  },
+  "schwimmen": {
+    "present": [
+      "schwimme",
+      "schwimmst",
+      "schwimmt",
+      "schwimmen",
+      "schwimmt",
+      "schwimmen"
+    ],
+    "past": [
+      "schwamm",
+      "schwammst",
+      "schwamm",
+      "schwammen",
+      "schwammt",
+      "schwammen"
+    ],
+    "aux": "sein",
+    "perfect": "geschwommen",
+    "infinitive": "schwimmen",
+    "note": "برای حرکت در آب در این جدول sein آمده است. برای خودِ فعالیت شنا، haben هم به کار می‌رود.",
+    "faInfinitive": "شنا کردن",
+    "imperative": [
+      "schwimm",
+      "schwimmt",
+      "schwimmen Sie"
+    ]
+  },
+  "schätzen": {
+    "present": [
+      "schätze",
+      "schätzt",
+      "schätzt",
+      "schätzen",
+      "schätzt",
+      "schätzen"
+    ],
+    "past": [
+      "schätzte",
+      "schätztest",
+      "schätzte",
+      "schätzten",
+      "schätztet",
+      "schätzten"
+    ],
+    "aux": "haben",
+    "perfect": "geschätzt",
+    "infinitive": "schätzen",
+    "faInfinitive": "تخمین زدن",
+    "imperative": [
+      "schätz",
+      "schätzt",
+      "schätzen Sie"
+    ]
+  },
+  "sehen": {
+    "present": [
+      "sehe",
+      "siehst",
+      "sieht",
+      "sehen",
+      "seht",
+      "sehen"
+    ],
+    "past": [
+      "sah",
+      "sahst",
+      "sah",
+      "sahen",
+      "saht",
+      "sahen"
+    ],
+    "aux": "haben",
+    "perfect": "gesehen",
+    "infinitive": "sehen",
+    "faInfinitive": "دیدن",
+    "imperative": [
+      "sieh",
+      "seht",
+      "sehen Sie"
+    ]
+  },
+  "sein": {
+    "present": [
+      "bin",
+      "bist",
+      "ist",
+      "sind",
+      "seid",
+      "sind"
+    ],
+    "past": [
+      "war",
+      "warst",
+      "war",
+      "waren",
+      "wart",
+      "waren"
+    ],
+    "aux": "sein",
+    "perfect": "gewesen",
+    "infinitive": "sein",
+    "subjunctive": [
+      "wäre",
+      "wärest",
+      "wäre",
+      "wären",
+      "wäret",
+      "wären"
+    ],
+    "faInfinitive": "بودن",
+    "imperative": [
+      "sei",
+      "seid",
+      "seien Sie"
+    ]
+  },
+  "senken": {
+    "present": [
+      "senke",
+      "senkst",
+      "senkt",
+      "senken",
+      "senkt",
+      "senken"
+    ],
+    "past": [
+      "senkte",
+      "senktest",
+      "senkte",
+      "senkten",
+      "senktet",
+      "senkten"
+    ],
+    "aux": "haben",
+    "perfect": "gesenkt",
+    "infinitive": "senken",
+    "faInfinitive": "کاهش دادن",
+    "imperative": [
+      "senk",
+      "senkt",
+      "senken Sie"
+    ]
+  },
+  "sich ausruhen": {
+    "present": [
+      "ruhe mich aus",
+      "ruhst dich aus",
+      "ruht sich aus",
+      "ruhen uns aus",
+      "ruht euch aus",
+      "ruhen sich aus"
+    ],
+    "past": [
+      "ruhte mich aus",
+      "ruhtest dich aus",
+      "ruhte sich aus",
+      "ruhten uns aus",
+      "ruhtet euch aus",
+      "ruhten sich aus"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} ausgeruht",
+    "infinitive": "{sich} ausruhen",
+    "faInfinitive": "استراحت کردن",
+    "imperative": [
+      "ruh dich aus",
+      "ruht euch aus",
+      "ruhen Sie sich aus"
+    ]
+  },
+  "sich ausweisen": {
+    "present": [
+      "weise mich aus",
+      "weist dich aus",
+      "weist sich aus",
+      "weisen uns aus",
+      "weist euch aus",
+      "weisen sich aus"
+    ],
+    "past": [
+      "wies mich aus",
+      "wiesest dich aus",
+      "wies sich aus",
+      "wiesen uns aus",
+      "wiest euch aus",
+      "wiesen sich aus"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} ausgewiesen",
+    "infinitive": "{sich} ausweisen",
+    "faInfinitive": "هویت خود را با مدرک نشان دادن",
+    "imperative": [
+      "weis dich aus",
+      "weist euch aus",
+      "weisen Sie sich aus"
+    ]
+  },
+  "sich beteiligen": {
+    "present": [
+      "beteilige mich",
+      "beteiligst dich",
+      "beteiligt sich",
+      "beteiligen uns",
+      "beteiligt euch",
+      "beteiligen sich"
+    ],
+    "past": [
+      "beteiligte mich",
+      "beteiligtest dich",
+      "beteiligte sich",
+      "beteiligten uns",
+      "beteiligtet euch",
+      "beteiligten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} beteiligt",
+    "infinitive": "{sich} beteiligen",
+    "faInfinitive": "مشارکت کردن",
+    "imperative": [
+      "beteilige dich",
+      "beteiligt euch",
+      "beteiligen Sie sich"
+    ]
+  },
+  "sich bewegen": {
+    "present": [
+      "bewege mich",
+      "bewegst dich",
+      "bewegt sich",
+      "bewegen uns",
+      "bewegt euch",
+      "bewegen sich"
+    ],
+    "past": [
+      "bewegte mich",
+      "bewegtest dich",
+      "bewegte sich",
+      "bewegten uns",
+      "bewegtet euch",
+      "bewegten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} bewegt",
+    "infinitive": "{sich} bewegen",
+    "faInfinitive": "حرکت کردن",
+    "imperative": [
+      "beweg dich",
+      "bewegt euch",
+      "bewegen Sie sich"
+    ]
+  },
+  "sich bewerben um": {
+    "present": [
+      "bewerbe mich um …",
+      "bewirbst dich um …",
+      "bewirbt sich um …",
+      "bewerben uns um …",
+      "bewerbt euch um …",
+      "bewerben sich um …"
+    ],
+    "past": [
+      "bewarb mich um …",
+      "bewarbst dich um …",
+      "bewarb sich um …",
+      "bewarben uns um …",
+      "bewarbt euch um …",
+      "bewarben sich um …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} um … beworben",
+    "infinitive": "{sich} um … bewerben",
+    "faInfinitive": "برای چیزی درخواست دادن",
+    "imperative": [
+      "bewirb dich um …",
+      "bewerbt euch um …",
+      "bewerben Sie sich um …"
+    ]
+  },
+  "sich einigen auf": {
+    "present": [
+      "einige mich auf …",
+      "einigst dich auf …",
+      "einigt sich auf …",
+      "einigen uns auf …",
+      "einigt euch auf …",
+      "einigen sich auf …"
+    ],
+    "past": [
+      "einigte mich auf …",
+      "einigtest dich auf …",
+      "einigte sich auf …",
+      "einigten uns auf …",
+      "einigtet euch auf …",
+      "einigten sich auf …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} auf … geeinigt",
+    "infinitive": "{sich} auf … einigen",
+    "faInfinitive": "بر سر چیزی توافق کردن",
+    "imperative": [
+      "einige dich auf …",
+      "einigt euch auf …",
+      "einigen Sie sich auf …"
+    ]
+  },
+  "sich entschuldigen": {
+    "present": [
+      "entschuldige mich",
+      "entschuldigst dich",
+      "entschuldigt sich",
+      "entschuldigen uns",
+      "entschuldigt euch",
+      "entschuldigen sich"
+    ],
+    "past": [
+      "entschuldigte mich",
+      "entschuldigtest dich",
+      "entschuldigte sich",
+      "entschuldigten uns",
+      "entschuldigtet euch",
+      "entschuldigten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} entschuldigt",
+    "infinitive": "{sich} entschuldigen",
+    "faInfinitive": "عذرخواهی کردن",
+    "imperative": [
+      "entschuldige dich",
+      "entschuldigt euch",
+      "entschuldigen Sie sich"
+    ]
+  },
+  "sich entwickeln": {
+    "present": [
+      "entwickle mich",
+      "entwickelst dich",
+      "entwickelt sich",
+      "entwickeln uns",
+      "entwickelt euch",
+      "entwickeln sich"
+    ],
+    "past": [
+      "entwickelte mich",
+      "entwickeltest dich",
+      "entwickelte sich",
+      "entwickelten uns",
+      "entwickeltet euch",
+      "entwickelten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} entwickelt",
+    "infinitive": "{sich} entwickeln",
+    "faInfinitive": "رشد کردن",
+    "imperative": [
+      "entwickle dich",
+      "entwickelt euch",
+      "entwickeln Sie sich"
+    ]
+  },
+  "sich erholen": {
+    "present": [
+      "erhole mich",
+      "erholst dich",
+      "erholt sich",
+      "erholen uns",
+      "erholt euch",
+      "erholen sich"
+    ],
+    "past": [
+      "erholte mich",
+      "erholtest dich",
+      "erholte sich",
+      "erholten uns",
+      "erholtet euch",
+      "erholten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} erholt",
+    "infinitive": "{sich} erholen",
+    "faInfinitive": "تجدید قوا کردن",
+    "imperative": [
+      "erhol dich",
+      "erholt euch",
+      "erholen Sie sich"
+    ]
+  },
+  "sich erinnern an": {
+    "present": [
+      "erinnere mich an …",
+      "erinnerst dich an …",
+      "erinnert sich an …",
+      "erinnern uns an …",
+      "erinnert euch an …",
+      "erinnern sich an …"
+    ],
+    "past": [
+      "erinnerte mich an …",
+      "erinnertest dich an …",
+      "erinnerte sich an …",
+      "erinnerten uns an …",
+      "erinnertet euch an …",
+      "erinnerten sich an …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} an … erinnert",
+    "infinitive": "{sich} an … erinnern",
+    "faInfinitive": "به یاد آوردن",
+    "imperative": [
+      "erinnere dich an …",
+      "erinnert euch an …",
+      "erinnern Sie sich an …"
+    ]
+  },
+  "sich freuen auf": {
+    "present": [
+      "freue mich auf …",
+      "freust dich auf …",
+      "freut sich auf …",
+      "freuen uns auf …",
+      "freut euch auf …",
+      "freuen sich auf …"
+    ],
+    "past": [
+      "freute mich auf …",
+      "freutest dich auf …",
+      "freute sich auf …",
+      "freuten uns auf …",
+      "freutet euch auf …",
+      "freuten sich auf …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} auf … gefreut",
+    "infinitive": "{sich} auf … freuen",
+    "faInfinitive": "بی‌صبرانه منتظر بودن",
+    "imperative": [
+      "freu dich auf …",
+      "freut euch auf …",
+      "freuen Sie sich auf …"
+    ]
+  },
+  "sich interessieren für": {
+    "present": [
+      "interessiere mich für …",
+      "interessierst dich für …",
+      "interessiert sich für …",
+      "interessieren uns für …",
+      "interessiert euch für …",
+      "interessieren sich für …"
+    ],
+    "past": [
+      "interessierte mich für …",
+      "interessiertest dich für …",
+      "interessierte sich für …",
+      "interessierten uns für …",
+      "interessiertet euch für …",
+      "interessierten sich für …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} für … interessiert",
+    "infinitive": "{sich} für … interessieren",
+    "faInfinitive": "علاقه‌مند بودن",
+    "imperative": [
+      "interessier dich für …",
+      "interessiert euch für …",
+      "interessieren Sie sich für …"
+    ]
+  },
+  "sich konzentrieren": {
+    "present": [
+      "konzentriere mich",
+      "konzentrierst dich",
+      "konzentriert sich",
+      "konzentrieren uns",
+      "konzentriert euch",
+      "konzentrieren sich"
+    ],
+    "past": [
+      "konzentrierte mich",
+      "konzentriertest dich",
+      "konzentrierte sich",
+      "konzentrierten uns",
+      "konzentriertet euch",
+      "konzentrierten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} konzentriert",
+    "infinitive": "{sich} konzentrieren",
+    "faInfinitive": "تمرکز کردن",
+    "imperative": [
+      "konzentrier dich",
+      "konzentriert euch",
+      "konzentrieren Sie sich"
+    ]
+  },
+  "sich kämmen": {
+    "present": [
+      "kämme mich",
+      "kämmst dich",
+      "kämmt sich",
+      "kämmen uns",
+      "kämmt euch",
+      "kämmen sich"
+    ],
+    "past": [
+      "kämmte mich",
+      "kämmtest dich",
+      "kämmte sich",
+      "kämmten uns",
+      "kämmtet euch",
+      "kämmten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} gekämmt",
+    "infinitive": "{sich} kämmen",
+    "faInfinitive": "موهای خود را شانه کردن",
+    "imperative": [
+      "kämme dich",
+      "kämmt euch",
+      "kämmen Sie sich"
+    ]
+  },
+  "sich kümmern um": {
+    "present": [
+      "kümmere mich um …",
+      "kümmerst dich um …",
+      "kümmert sich um …",
+      "kümmern uns um …",
+      "kümmert euch um …",
+      "kümmern sich um …"
+    ],
+    "past": [
+      "kümmerte mich um …",
+      "kümmertest dich um …",
+      "kümmerte sich um …",
+      "kümmerten uns um …",
+      "kümmertet euch um …",
+      "kümmerten sich um …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} um … gekümmert",
+    "infinitive": "{sich} um … kümmern",
+    "faInfinitive": "رسیدگی کردن",
+    "imperative": [
+      "kümmere dich um …",
+      "kümmert euch um …",
+      "kümmern Sie sich um …"
+    ]
+  },
+  "sich lohnen": {
+    "present": [
+      "lohne mich",
+      "lohnst dich",
+      "lohnt sich",
+      "lohnen uns",
+      "lohnt euch",
+      "lohnen sich"
+    ],
+    "past": [
+      "lohnte mich",
+      "lohntest dich",
+      "lohnte sich",
+      "lohnten uns",
+      "lohntet euch",
+      "lohnten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} gelohnt",
+    "infinitive": "{sich} lohnen",
+    "note": "در این معنی معمولاً کار یا چیز ارزشمند فاعل است؛ برای نمونه Es lohnt sich یعنی ارزشش را دارد.",
+    "faInfinitive": "ارزش داشتن",
+    "imperative": null
+  },
+  "sich melden bei": {
+    "present": [
+      "melde mich bei …",
+      "meldest dich bei …",
+      "meldet sich bei …",
+      "melden uns bei …",
+      "meldet euch bei …",
+      "melden sich bei …"
+    ],
+    "past": [
+      "meldete mich bei …",
+      "meldetest dich bei …",
+      "meldete sich bei …",
+      "meldeten uns bei …",
+      "meldetet euch bei …",
+      "meldeten sich bei …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} bei … gemeldet",
+    "infinitive": "{sich} bei … melden",
+    "faInfinitive": "با کسی تماس گرفتن",
+    "imperative": [
+      "melde dich bei …",
+      "meldet euch bei …",
+      "melden Sie sich bei …"
+    ]
+  },
+  "sich verabreden": {
+    "present": [
+      "verabrede mich",
+      "verabredest dich",
+      "verabredet sich",
+      "verabreden uns",
+      "verabredet euch",
+      "verabreden sich"
+    ],
+    "past": [
+      "verabredete mich",
+      "verabredetest dich",
+      "verabredete sich",
+      "verabredeten uns",
+      "verabredetet euch",
+      "verabredeten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} verabredet",
+    "infinitive": "{sich} verabreden",
+    "faInfinitive": "قرار گذاشتن",
+    "imperative": [
+      "verabrede dich",
+      "verabredet euch",
+      "verabreden Sie sich"
+    ]
+  },
+  "sich verlassen auf": {
+    "present": [
+      "verlasse mich auf …",
+      "verlässt dich auf …",
+      "verlässt sich auf …",
+      "verlassen uns auf …",
+      "verlasst euch auf …",
+      "verlassen sich auf …"
+    ],
+    "past": [
+      "verließ mich auf …",
+      "verließest dich auf …",
+      "verließ sich auf …",
+      "verließen uns auf …",
+      "verließt euch auf …",
+      "verließen sich auf …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} auf … verlassen",
+    "infinitive": "{sich} auf … verlassen",
+    "faInfinitive": "روی کسی حساب کردن",
+    "imperative": [
+      "verlass dich auf …",
+      "verlasst euch auf …",
+      "verlassen Sie sich auf …"
+    ]
+  },
+  "sich verspäten": {
+    "present": [
+      "verspäte mich",
+      "verspätest dich",
+      "verspätet sich",
+      "verspäten uns",
+      "verspätet euch",
+      "verspäten sich"
+    ],
+    "past": [
+      "verspätete mich",
+      "verspätetest dich",
+      "verspätete sich",
+      "verspäteten uns",
+      "verspätetet euch",
+      "verspäteten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} verspätet",
+    "infinitive": "{sich} verspäten",
+    "faInfinitive": "دیر رسیدن",
+    "imperative": [
+      "verspäte dich",
+      "verspätet euch",
+      "verspäten Sie sich"
+    ]
+  },
+  "sich verzögern": {
+    "present": [
+      "verzögere mich",
+      "verzögerst dich",
+      "verzögert sich",
+      "verzögern uns",
+      "verzögert euch",
+      "verzögern sich"
+    ],
+    "past": [
+      "verzögerte mich",
+      "verzögertest dich",
+      "verzögerte sich",
+      "verzögerten uns",
+      "verzögertet euch",
+      "verzögerten sich"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} verzögert",
+    "infinitive": "{sich} verzögern",
+    "faInfinitive": "با تأخیر انجام شدن",
+    "imperative": null
+  },
+  "sich vorbereiten auf": {
+    "present": [
+      "bereite mich auf … vor",
+      "bereitest dich auf … vor",
+      "bereitet sich auf … vor",
+      "bereiten uns auf … vor",
+      "bereitet euch auf … vor",
+      "bereiten sich auf … vor"
+    ],
+    "past": [
+      "bereitete mich auf … vor",
+      "bereitetest dich auf … vor",
+      "bereitete sich auf … vor",
+      "bereiteten uns auf … vor",
+      "bereitetet euch auf … vor",
+      "bereiteten sich auf … vor"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} auf … vorbereitet",
+    "infinitive": "{sich} auf … vorbereiten",
+    "faInfinitive": "برای چیزی آماده شدن",
+    "imperative": [
+      "bereite dich auf … vor",
+      "bereitet euch auf … vor",
+      "bereiten Sie sich auf … vor"
+    ]
+  },
+  "sich vorstellen": {
+    "present": [
+      "stelle mich vor",
+      "stellst dich vor",
+      "stellt sich vor",
+      "stellen uns vor",
+      "stellt euch vor",
+      "stellen sich vor"
+    ],
+    "past": [
+      "stellte mich vor",
+      "stelltest dich vor",
+      "stellte sich vor",
+      "stellten uns vor",
+      "stelltet euch vor",
+      "stellten sich vor"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} vorgestellt",
+    "infinitive": "{sich} vorstellen",
+    "faInfinitive": "خود را معرفی کردن",
+    "imperative": [
+      "stell dich vor",
+      "stellt euch vor",
+      "stellen Sie sich vor"
+    ]
+  },
+  "sich wenden an": {
+    "present": [
+      "wende mich an …",
+      "wendest dich an …",
+      "wendet sich an …",
+      "wenden uns an …",
+      "wendet euch an …",
+      "wenden sich an …"
+    ],
+    "past": [
+      "wendete mich an …",
+      "wendetest dich an …",
+      "wendete sich an …",
+      "wendeten uns an …",
+      "wendetet euch an …",
+      "wendeten sich an …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} an … gewendet",
+    "infinitive": "{sich} an … wenden",
+    "note": "برای این کاربرد شکل‌های wandte و gewandt هم در کنار wendete و gewendet به کار می‌روند.",
+    "faInfinitive": "مراجعه کردن",
+    "imperative": [
+      "wende dich an …",
+      "wendet euch an …",
+      "wenden Sie sich an …"
+    ]
+  },
+  "sich ärgern über": {
+    "present": [
+      "ärgere mich über …",
+      "ärgerst dich über …",
+      "ärgert sich über …",
+      "ärgern uns über …",
+      "ärgert euch über …",
+      "ärgern sich über …"
+    ],
+    "past": [
+      "ärgerte mich über …",
+      "ärgertest dich über …",
+      "ärgerte sich über …",
+      "ärgerten uns über …",
+      "ärgertet euch über …",
+      "ärgerten sich über …"
+    ],
+    "aux": "haben",
+    "perfect": "{sich} über … geärgert",
+    "infinitive": "{sich} über … ärgern",
+    "faInfinitive": "از چیزی ناراحت شدن",
+    "imperative": [
+      "ärgere dich über …",
+      "ärgert euch über …",
+      "ärgern Sie sich über …"
+    ]
+  },
+  "sitzen": {
+    "present": [
+      "sitze",
+      "sitzt",
+      "sitzt",
+      "sitzen",
+      "sitzt",
+      "sitzen"
+    ],
+    "past": [
+      "saß",
+      "saßest",
+      "saß",
+      "saßen",
+      "saßt",
+      "saßen"
+    ],
+    "aux": "haben",
+    "perfect": "gesessen",
+    "infinitive": "sitzen",
+    "faInfinitive": "نشسته بودن",
+    "imperative": [
+      "sitz",
+      "sitzt",
+      "sitzen Sie"
+    ]
+  },
+  "sollen": {
+    "present": [
+      "soll",
+      "sollst",
+      "soll",
+      "sollen",
+      "sollt",
+      "sollen"
+    ],
+    "past": [
+      "sollte",
+      "solltest",
+      "sollte",
+      "sollten",
+      "solltet",
+      "sollten"
+    ],
+    "aux": "haben",
+    "perfect": "gesollt",
+    "infinitive": "sollen",
+    "subjunctive": [
+      "sollte",
+      "solltest",
+      "sollte",
+      "sollten",
+      "solltet",
+      "sollten"
+    ],
+    "note": "این شکلِ گذشته برای کاربرد مستقل فعل است. همراه یک فعل دیگر، هر دو مصدر به آخر می‌روند؛ مثل Ich habe arbeiten sollen.",
+    "faInfinitive": "موظف بودن",
+    "imperative": null
+  },
+  "sortieren": {
+    "present": [
+      "sortiere",
+      "sortierst",
+      "sortiert",
+      "sortieren",
+      "sortiert",
+      "sortieren"
+    ],
+    "past": [
+      "sortierte",
+      "sortiertest",
+      "sortierte",
+      "sortierten",
+      "sortiertet",
+      "sortierten"
+    ],
+    "aux": "haben",
+    "perfect": "sortiert",
+    "infinitive": "sortieren",
+    "faInfinitive": "جدا و دسته‌بندی کردن",
+    "imperative": [
+      "sortier",
+      "sortiert",
+      "sortieren Sie"
+    ]
+  },
+  "sparen": {
+    "present": [
+      "spare",
+      "sparst",
+      "spart",
+      "sparen",
+      "spart",
+      "sparen"
+    ],
+    "past": [
+      "sparte",
+      "spartest",
+      "sparte",
+      "sparten",
+      "spartet",
+      "sparten"
+    ],
+    "aux": "haben",
+    "perfect": "gespart",
+    "infinitive": "sparen",
+    "faInfinitive": "پس‌انداز کردن",
+    "imperative": [
+      "spar",
+      "spart",
+      "sparen Sie"
+    ]
+  },
+  "spazieren gehen": {
+    "present": [
+      "gehe spazieren",
+      "gehst spazieren",
+      "geht spazieren",
+      "gehen spazieren",
+      "geht spazieren",
+      "gehen spazieren"
+    ],
+    "past": [
+      "ging spazieren",
+      "gingst spazieren",
+      "ging spazieren",
+      "gingen spazieren",
+      "gingt spazieren",
+      "gingen spazieren"
+    ],
+    "aux": "sein",
+    "perfect": "spazieren gegangen",
+    "infinitive": "spazieren gehen",
+    "faInfinitive": "به پیاده‌روی رفتن",
+    "imperative": [
+      "geh spazieren",
+      "geht spazieren",
+      "gehen Sie spazieren"
+    ]
+  },
+  "speichern": {
+    "present": [
+      "speichere",
+      "speicherst",
+      "speichert",
+      "speichern",
+      "speichert",
+      "speichern"
+    ],
+    "past": [
+      "speicherte",
+      "speichertest",
+      "speicherte",
+      "speicherten",
+      "speichertet",
+      "speicherten"
+    ],
+    "aux": "haben",
+    "perfect": "gespeichert",
+    "infinitive": "speichern",
+    "faInfinitive": "ذخیره کردن",
+    "imperative": [
+      "speichere",
+      "speichert",
+      "speichern Sie"
+    ]
+  },
+  "spielen": {
+    "present": [
+      "spiele",
+      "spielst",
+      "spielt",
+      "spielen",
+      "spielt",
+      "spielen"
+    ],
+    "past": [
+      "spielte",
+      "spieltest",
+      "spielte",
+      "spielten",
+      "spieltet",
+      "spielten"
+    ],
+    "aux": "haben",
+    "perfect": "gespielt",
+    "infinitive": "spielen",
+    "faInfinitive": "بازی کردن",
+    "imperative": [
+      "spiel",
+      "spielt",
+      "spielen Sie"
+    ]
+  },
+  "sprechen": {
+    "present": [
+      "spreche",
+      "sprichst",
+      "spricht",
+      "sprechen",
+      "sprecht",
+      "sprechen"
+    ],
+    "past": [
+      "sprach",
+      "sprachst",
+      "sprach",
+      "sprachen",
+      "spracht",
+      "sprachen"
+    ],
+    "aux": "haben",
+    "perfect": "gesprochen",
+    "infinitive": "sprechen",
+    "faInfinitive": "صحبت کردن",
+    "imperative": [
+      "sprich",
+      "sprecht",
+      "sprechen Sie"
+    ]
+  },
+  "stapeln": {
+    "present": [
+      "staple",
+      "stapelst",
+      "stapelt",
+      "stapeln",
+      "stapelt",
+      "stapeln"
+    ],
+    "past": [
+      "stapelte",
+      "stapeltest",
+      "stapelte",
+      "stapelten",
+      "stapeltet",
+      "stapelten"
+    ],
+    "aux": "haben",
+    "perfect": "gestapelt",
+    "infinitive": "stapeln",
+    "faInfinitive": "روی هم چیدن",
+    "imperative": [
+      "staple",
+      "stapelt",
+      "stapeln Sie"
+    ]
+  },
+  "stattfinden": {
+    "present": [
+      "finde statt",
+      "findest statt",
+      "findet statt",
+      "finden statt",
+      "findet statt",
+      "finden statt"
+    ],
+    "past": [
+      "fand statt",
+      "fandest statt",
+      "fand statt",
+      "fanden statt",
+      "fandet statt",
+      "fanden statt"
+    ],
+    "aux": "haben",
+    "perfect": "stattgefunden",
+    "infinitive": "stattfinden",
+    "thirdPerson": true,
+    "faInfinitive": "برگزار شدن",
+    "imperative": null
+  },
+  "stehen": {
+    "present": [
+      "stehe",
+      "stehst",
+      "steht",
+      "stehen",
+      "steht",
+      "stehen"
+    ],
+    "past": [
+      "stand",
+      "standest",
+      "stand",
+      "standen",
+      "standet",
+      "standen"
+    ],
+    "aux": "haben",
+    "perfect": "gestanden",
+    "infinitive": "stehen",
+    "faInfinitive": "ایستاده بودن",
+    "imperative": [
+      "steh",
+      "steht",
+      "stehen Sie"
+    ]
+  },
+  "steigen": {
+    "present": [
+      "steige",
+      "steigst",
+      "steigt",
+      "steigen",
+      "steigt",
+      "steigen"
+    ],
+    "past": [
+      "stieg",
+      "stiegst",
+      "stieg",
+      "stiegen",
+      "stiegt",
+      "stiegen"
+    ],
+    "aux": "sein",
+    "perfect": "gestiegen",
+    "infinitive": "steigen",
+    "faInfinitive": "افزایش یافتن",
+    "imperative": [
+      "steige",
+      "steigt",
+      "steigen Sie"
+    ]
+  },
+  "stellen": {
+    "present": [
+      "stelle",
+      "stellst",
+      "stellt",
+      "stellen",
+      "stellt",
+      "stellen"
+    ],
+    "past": [
+      "stellte",
+      "stelltest",
+      "stellte",
+      "stellten",
+      "stelltet",
+      "stellten"
+    ],
+    "aux": "haben",
+    "perfect": "gestellt",
+    "infinitive": "stellen",
+    "faInfinitive": "قرار دادن",
+    "imperative": [
+      "stell",
+      "stellt",
+      "stellen Sie"
+    ]
+  },
+  "stornieren": {
+    "present": [
+      "storniere",
+      "stornierst",
+      "storniert",
+      "stornieren",
+      "storniert",
+      "stornieren"
+    ],
+    "past": [
+      "stornierte",
+      "storniertest",
+      "stornierte",
+      "stornierten",
+      "storniertet",
+      "stornierten"
+    ],
+    "aux": "haben",
+    "perfect": "storniert",
+    "infinitive": "stornieren",
+    "faInfinitive": "رزرو را لغو کردن",
+    "imperative": [
+      "stornier",
+      "storniert",
+      "stornieren Sie"
+    ]
+  },
+  "streichen": {
+    "present": [
+      "streiche",
+      "streichst",
+      "streicht",
+      "streichen",
+      "streicht",
+      "streichen"
+    ],
+    "past": [
+      "strich",
+      "strichst",
+      "strich",
+      "strichen",
+      "stricht",
+      "strichen"
+    ],
+    "aux": "haben",
+    "perfect": "gestrichen",
+    "infinitive": "streichen",
+    "faInfinitive": "رنگ زدن",
+    "imperative": [
+      "streich",
+      "streicht",
+      "streichen Sie"
+    ]
+  },
+  "suchen": {
+    "present": [
+      "suche",
+      "suchst",
+      "sucht",
+      "suchen",
+      "sucht",
+      "suchen"
+    ],
+    "past": [
+      "suchte",
+      "suchtest",
+      "suchte",
+      "suchten",
+      "suchtet",
+      "suchten"
+    ],
+    "aux": "haben",
+    "perfect": "gesucht",
+    "infinitive": "suchen",
+    "faInfinitive": "جست‌وجو کردن",
+    "imperative": [
+      "such",
+      "sucht",
+      "suchen Sie"
+    ]
+  },
+  "tanzen": {
+    "present": [
+      "tanze",
+      "tanzt",
+      "tanzt",
+      "tanzen",
+      "tanzt",
+      "tanzen"
+    ],
+    "past": [
+      "tanzte",
+      "tanztest",
+      "tanzte",
+      "tanzten",
+      "tanztet",
+      "tanzten"
+    ],
+    "aux": "haben",
+    "perfect": "getanzt",
+    "infinitive": "tanzen",
+    "faInfinitive": "رقصیدن",
+    "imperative": [
+      "tanz",
+      "tanzt",
+      "tanzen Sie"
+    ]
+  },
+  "tauschen": {
+    "present": [
+      "tausche",
+      "tauschst",
+      "tauscht",
+      "tauschen",
+      "tauscht",
+      "tauschen"
+    ],
+    "past": [
+      "tauschte",
+      "tauschtest",
+      "tauschte",
+      "tauschten",
+      "tauschtet",
+      "tauschten"
+    ],
+    "aux": "haben",
+    "perfect": "getauscht",
+    "infinitive": "tauschen",
+    "faInfinitive": "عوض کردن",
+    "imperative": [
+      "tausch",
+      "tauscht",
+      "tauschen Sie"
+    ]
+  },
+  "teilen": {
+    "present": [
+      "teile",
+      "teilst",
+      "teilt",
+      "teilen",
+      "teilt",
+      "teilen"
+    ],
+    "past": [
+      "teilte",
+      "teiltest",
+      "teilte",
+      "teilten",
+      "teiltet",
+      "teilten"
+    ],
+    "aux": "haben",
+    "perfect": "geteilt",
+    "infinitive": "teilen",
+    "faInfinitive": "تقسیم کردن",
+    "imperative": [
+      "teil",
+      "teilt",
+      "teilen Sie"
+    ]
+  },
+  "teilnehmen an": {
+    "present": [
+      "nehme an … teil",
+      "nimmst an … teil",
+      "nimmt an … teil",
+      "nehmen an … teil",
+      "nehmt an … teil",
+      "nehmen an … teil"
+    ],
+    "past": [
+      "nahm an … teil",
+      "nahmst an … teil",
+      "nahm an … teil",
+      "nahmen an … teil",
+      "nahmt an … teil",
+      "nahmen an … teil"
+    ],
+    "aux": "haben",
+    "perfect": "an … teilgenommen",
+    "infinitive": "an … teilnehmen",
+    "faInfinitive": "شرکت کردن",
+    "imperative": [
+      "nimm an … teil",
+      "nehmt an … teil",
+      "nehmen Sie an … teil"
+    ]
+  },
+  "trainieren": {
+    "present": [
+      "trainiere",
+      "trainierst",
+      "trainiert",
+      "trainieren",
+      "trainiert",
+      "trainieren"
+    ],
+    "past": [
+      "trainierte",
+      "trainiertest",
+      "trainierte",
+      "trainierten",
+      "trainiertet",
+      "trainierten"
+    ],
+    "aux": "haben",
+    "perfect": "trainiert",
+    "infinitive": "trainieren",
+    "faInfinitive": "تمرین دادن",
+    "imperative": [
+      "trainier",
+      "trainiert",
+      "trainieren Sie"
+    ]
+  },
+  "treffen": {
+    "present": [
+      "treffe",
+      "triffst",
+      "trifft",
+      "treffen",
+      "trefft",
+      "treffen"
+    ],
+    "past": [
+      "traf",
+      "trafst",
+      "traf",
+      "trafen",
+      "traft",
+      "trafen"
+    ],
+    "aux": "haben",
+    "perfect": "getroffen",
+    "infinitive": "treffen",
+    "faInfinitive": "ملاقات کردن",
+    "imperative": [
+      "triff",
+      "trefft",
+      "treffen Sie"
+    ]
+  },
+  "trennen": {
+    "present": [
+      "trenne",
+      "trennst",
+      "trennt",
+      "trennen",
+      "trennt",
+      "trennen"
+    ],
+    "past": [
+      "trennte",
+      "trenntest",
+      "trennte",
+      "trennten",
+      "trenntet",
+      "trennten"
+    ],
+    "aux": "haben",
+    "perfect": "getrennt",
+    "infinitive": "trennen",
+    "faInfinitive": "تفکیک کردن",
+    "imperative": [
+      "trenn",
+      "trennt",
+      "trennen Sie"
+    ]
+  },
+  "trinken": {
+    "present": [
+      "trinke",
+      "trinkst",
+      "trinkt",
+      "trinken",
+      "trinkt",
+      "trinken"
+    ],
+    "past": [
+      "trank",
+      "trankst",
+      "trank",
+      "tranken",
+      "trankt",
+      "tranken"
+    ],
+    "aux": "haben",
+    "perfect": "getrunken",
+    "infinitive": "trinken",
+    "faInfinitive": "نوشیدن",
+    "imperative": [
+      "trink",
+      "trinkt",
+      "trinken Sie"
+    ]
+  },
+  "tropfen": {
+    "present": [
+      "tropfe",
+      "tropfst",
+      "tropft",
+      "tropfen",
+      "tropft",
+      "tropfen"
+    ],
+    "past": [
+      "tropfte",
+      "tropftest",
+      "tropfte",
+      "tropften",
+      "tropftet",
+      "tropften"
+    ],
+    "aux": "haben",
+    "perfect": "getropft",
+    "infinitive": "tropfen",
+    "faInfinitive": "چکه کردن",
+    "imperative": null
+  },
+  "trösten": {
+    "present": [
+      "tröste",
+      "tröstest",
+      "tröstet",
+      "trösten",
+      "tröstet",
+      "trösten"
+    ],
+    "past": [
+      "tröstete",
+      "tröstetest",
+      "tröstete",
+      "trösteten",
+      "tröstetet",
+      "trösteten"
+    ],
+    "aux": "haben",
+    "perfect": "getröstet",
+    "infinitive": "trösten",
+    "faInfinitive": "دلداری دادن",
+    "imperative": [
+      "tröste",
+      "tröstet",
+      "trösten Sie"
+    ]
+  },
+  "tun": {
+    "present": [
+      "tue",
+      "tust",
+      "tut",
+      "tun",
+      "tut",
+      "tun"
+    ],
+    "past": [
+      "tat",
+      "tatest",
+      "tat",
+      "taten",
+      "tatet",
+      "taten"
+    ],
+    "aux": "haben",
+    "perfect": "getan",
+    "infinitive": "tun",
+    "faInfinitive": "انجام دادن",
+    "imperative": [
+      "tu",
+      "tut",
+      "tun Sie"
+    ]
+  },
+  "umbuchen": {
+    "present": [
+      "buche um",
+      "buchst um",
+      "bucht um",
+      "buchen um",
+      "bucht um",
+      "buchen um"
+    ],
+    "past": [
+      "buchte um",
+      "buchtest um",
+      "buchte um",
+      "buchten um",
+      "buchtet um",
+      "buchten um"
+    ],
+    "aux": "haben",
+    "perfect": "umgebucht",
+    "infinitive": "umbuchen",
+    "faInfinitive": "رزرو را تغییر دادن",
+    "imperative": [
+      "buch um",
+      "bucht um",
+      "buchen Sie um"
+    ]
+  },
+  "umsteigen": {
+    "present": [
+      "steige um",
+      "steigst um",
+      "steigt um",
+      "steigen um",
+      "steigt um",
+      "steigen um"
+    ],
+    "past": [
+      "stieg um",
+      "stiegst um",
+      "stieg um",
+      "stiegen um",
+      "stiegt um",
+      "stiegen um"
+    ],
+    "aux": "sein",
+    "perfect": "umgestiegen",
+    "infinitive": "umsteigen",
+    "faInfinitive": "وسیلهٔ نقلیه را عوض کردن",
+    "imperative": [
+      "steige um",
+      "steigt um",
+      "steigen Sie um"
+    ]
+  },
+  "umtauschen": {
+    "present": [
+      "tausche um",
+      "tauschst um",
+      "tauscht um",
+      "tauschen um",
+      "tauscht um",
+      "tauschen um"
+    ],
+    "past": [
+      "tauschte um",
+      "tauschtest um",
+      "tauschte um",
+      "tauschten um",
+      "tauschtet um",
+      "tauschten um"
+    ],
+    "aux": "haben",
+    "perfect": "umgetauscht",
+    "infinitive": "umtauschen",
+    "faInfinitive": "کالا را تعویض کردن",
+    "imperative": [
+      "tausch um",
+      "tauscht um",
+      "tauschen Sie um"
+    ]
+  },
+  "umziehen": {
+    "present": [
+      "ziehe um",
+      "ziehst um",
+      "zieht um",
+      "ziehen um",
+      "zieht um",
+      "ziehen um"
+    ],
+    "past": [
+      "zog um",
+      "zogst um",
+      "zog um",
+      "zogen um",
+      "zogt um",
+      "zogen um"
+    ],
+    "aux": "sein",
+    "perfect": "umgezogen",
+    "infinitive": "umziehen",
+    "faInfinitive": "نقل مکان کردن",
+    "imperative": [
+      "zieh um",
+      "zieht um",
+      "ziehen Sie um"
+    ]
+  },
+  "unterschreiben": {
+    "present": [
+      "unterschreibe",
+      "unterschreibst",
+      "unterschreibt",
+      "unterschreiben",
+      "unterschreibt",
+      "unterschreiben"
+    ],
+    "past": [
+      "unterschrieb",
+      "unterschriebst",
+      "unterschrieb",
+      "unterschrieben",
+      "unterschriebt",
+      "unterschrieben"
+    ],
+    "aux": "haben",
+    "perfect": "unterschrieben",
+    "infinitive": "unterschreiben",
+    "faInfinitive": "امضا کردن",
+    "imperative": [
+      "unterschreib",
+      "unterschreibt",
+      "unterschreiben Sie"
+    ]
+  },
+  "veranstalten": {
+    "present": [
+      "veranstalte",
+      "veranstaltest",
+      "veranstaltet",
+      "veranstalten",
+      "veranstaltet",
+      "veranstalten"
+    ],
+    "past": [
+      "veranstaltete",
+      "veranstaltetest",
+      "veranstaltete",
+      "veranstalteten",
+      "veranstaltetet",
+      "veranstalteten"
+    ],
+    "aux": "haben",
+    "perfect": "veranstaltet",
+    "infinitive": "veranstalten",
+    "faInfinitive": "برگزار کردن",
+    "imperative": [
+      "veranstalte",
+      "veranstaltet",
+      "veranstalten Sie"
+    ]
+  },
+  "verbessern": {
+    "present": [
+      "verbessere",
+      "verbesserst",
+      "verbessert",
+      "verbessern",
+      "verbessert",
+      "verbessern"
+    ],
+    "past": [
+      "verbesserte",
+      "verbessertest",
+      "verbesserte",
+      "verbesserten",
+      "verbessertet",
+      "verbesserten"
+    ],
+    "aux": "haben",
+    "perfect": "verbessert",
+    "infinitive": "verbessern",
+    "faInfinitive": "بهتر کردن",
+    "imperative": [
+      "verbessere",
+      "verbessert",
+      "verbessern Sie"
+    ]
+  },
+  "verbessern lassen": {
+    "present": [
+      "lasse … verbessern",
+      "lässt … verbessern",
+      "lässt … verbessern",
+      "lassen … verbessern",
+      "lasst … verbessern",
+      "lassen … verbessern"
+    ],
+    "past": [
+      "ließ … verbessern",
+      "ließest … verbessern",
+      "ließ … verbessern",
+      "ließen … verbessern",
+      "ließt … verbessern",
+      "ließen … verbessern"
+    ],
+    "aux": "haben",
+    "perfect": "… verbessern lassen",
+    "infinitive": "… verbessern lassen",
+    "note": "بعد از فعل کمکیِ گذشته، هر دو فعل به شکل مصدر می‌آیند. جای سه‌نقطه می‌توانی مفعول یا جزئیات کار را قرار دهی.",
+    "faInfinitive": "برای اصلاح به کسی سپردن",
+    "imperative": [
+      "lass … verbessern",
+      "lasst … verbessern",
+      "lassen Sie … verbessern"
+    ]
+  },
+  "verbreiten": {
+    "present": [
+      "verbreite",
+      "verbreitest",
+      "verbreitet",
+      "verbreiten",
+      "verbreitet",
+      "verbreiten"
+    ],
+    "past": [
+      "verbreitete",
+      "verbreitetest",
+      "verbreitete",
+      "verbreiteten",
+      "verbreitetet",
+      "verbreiteten"
+    ],
+    "aux": "haben",
+    "perfect": "verbreitet",
+    "infinitive": "verbreiten",
+    "faInfinitive": "پخش کردن",
+    "imperative": [
+      "verbreite",
+      "verbreitet",
+      "verbreiten Sie"
+    ]
+  },
+  "vereinbaren": {
+    "present": [
+      "vereinbare",
+      "vereinbarst",
+      "vereinbart",
+      "vereinbaren",
+      "vereinbart",
+      "vereinbaren"
+    ],
+    "past": [
+      "vereinbarte",
+      "vereinbartest",
+      "vereinbarte",
+      "vereinbarten",
+      "vereinbartet",
+      "vereinbarten"
+    ],
+    "aux": "haben",
+    "perfect": "vereinbart",
+    "infinitive": "vereinbaren",
+    "faInfinitive": "هماهنگ کردن",
+    "imperative": [
+      "vereinbare",
+      "vereinbart",
+      "vereinbaren Sie"
+    ]
+  },
+  "verfolgen": {
+    "present": [
+      "verfolge",
+      "verfolgst",
+      "verfolgt",
+      "verfolgen",
+      "verfolgt",
+      "verfolgen"
+    ],
+    "past": [
+      "verfolgte",
+      "verfolgtest",
+      "verfolgte",
+      "verfolgten",
+      "verfolgtet",
+      "verfolgten"
+    ],
+    "aux": "haben",
+    "perfect": "verfolgt",
+    "infinitive": "verfolgen",
+    "faInfinitive": "پیگیری کردن",
+    "imperative": [
+      "verfolg",
+      "verfolgt",
+      "verfolgen Sie"
+    ]
+  },
+  "vergleichen": {
+    "present": [
+      "vergleiche",
+      "vergleichst",
+      "vergleicht",
+      "vergleichen",
+      "vergleicht",
+      "vergleichen"
+    ],
+    "past": [
+      "verglich",
+      "verglichst",
+      "verglich",
+      "verglichen",
+      "verglicht",
+      "verglichen"
+    ],
+    "aux": "haben",
+    "perfect": "verglichen",
+    "infinitive": "vergleichen",
+    "faInfinitive": "مقایسه کردن",
+    "imperative": [
+      "vergleich",
+      "vergleicht",
+      "vergleichen Sie"
+    ]
+  },
+  "verkehren": {
+    "present": [
+      "verkehre",
+      "verkehrst",
+      "verkehrt",
+      "verkehren",
+      "verkehrt",
+      "verkehren"
+    ],
+    "past": [
+      "verkehrte",
+      "verkehrtest",
+      "verkehrte",
+      "verkehrten",
+      "verkehrtet",
+      "verkehrten"
+    ],
+    "aux": "haben",
+    "perfect": "verkehrt",
+    "infinitive": "verkehren",
+    "faInfinitive": "در یک مسیر تردد کردن",
+    "imperative": [
+      "verkehr",
+      "verkehrt",
+      "verkehren Sie"
+    ]
+  },
+  "verkürzen": {
+    "present": [
+      "verkürze",
+      "verkürzt",
+      "verkürzt",
+      "verkürzen",
+      "verkürzt",
+      "verkürzen"
+    ],
+    "past": [
+      "verkürzte",
+      "verkürztest",
+      "verkürzte",
+      "verkürzten",
+      "verkürztet",
+      "verkürzten"
+    ],
+    "aux": "haben",
+    "perfect": "verkürzt",
+    "infinitive": "verkürzen",
+    "faInfinitive": "کوتاه کردن",
+    "imperative": [
+      "verkürz",
+      "verkürzt",
+      "verkürzen Sie"
+    ]
+  },
+  "verlegen": {
+    "present": [
+      "verlege",
+      "verlegst",
+      "verlegt",
+      "verlegen",
+      "verlegt",
+      "verlegen"
+    ],
+    "past": [
+      "verlegte",
+      "verlegtest",
+      "verlegte",
+      "verlegten",
+      "verlegtet",
+      "verlegten"
+    ],
+    "aux": "haben",
+    "perfect": "verlegt",
+    "infinitive": "verlegen",
+    "faInfinitive": "جابه‌جا کردن",
+    "imperative": [
+      "verleg",
+      "verlegt",
+      "verlegen Sie"
+    ]
+  },
+  "verlängern": {
+    "present": [
+      "verlängere",
+      "verlängerst",
+      "verlängert",
+      "verlängern",
+      "verlängert",
+      "verlängern"
+    ],
+    "past": [
+      "verlängerte",
+      "verlängertest",
+      "verlängerte",
+      "verlängerten",
+      "verlängertet",
+      "verlängerten"
+    ],
+    "aux": "haben",
+    "perfect": "verlängert",
+    "infinitive": "verlängern",
+    "faInfinitive": "افزایش دادن",
+    "imperative": [
+      "verlängere",
+      "verlängert",
+      "verlängern Sie"
+    ]
+  },
+  "vermeiden": {
+    "present": [
+      "vermeide",
+      "vermeidest",
+      "vermeidet",
+      "vermeiden",
+      "vermeidet",
+      "vermeiden"
+    ],
+    "past": [
+      "vermied",
+      "vermiedest",
+      "vermied",
+      "vermieden",
+      "vermiedet",
+      "vermieden"
+    ],
+    "aux": "haben",
+    "perfect": "vermieden",
+    "infinitive": "vermeiden",
+    "faInfinitive": "اجتناب کردن",
+    "imperative": [
+      "vermeide",
+      "vermeidet",
+      "vermeiden Sie"
+    ]
+  },
+  "vermissen": {
+    "present": [
+      "vermisse",
+      "vermisst",
+      "vermisst",
+      "vermissen",
+      "vermisst",
+      "vermissen"
+    ],
+    "past": [
+      "vermisste",
+      "vermisstest",
+      "vermisste",
+      "vermissten",
+      "vermisstet",
+      "vermissten"
+    ],
+    "aux": "haben",
+    "perfect": "vermisst",
+    "infinitive": "vermissen",
+    "faInfinitive": "دلتنگ بودن",
+    "imperative": [
+      "vermiss",
+      "vermisst",
+      "vermissen Sie"
+    ]
+  },
+  "verpassen": {
+    "present": [
+      "verpasse",
+      "verpasst",
+      "verpasst",
+      "verpassen",
+      "verpasst",
+      "verpassen"
+    ],
+    "past": [
+      "verpasste",
+      "verpasstest",
+      "verpasste",
+      "verpassten",
+      "verpasstet",
+      "verpassten"
+    ],
+    "aux": "haben",
+    "perfect": "verpasst",
+    "infinitive": "verpassen",
+    "faInfinitive": "از دست دادن",
+    "imperative": [
+      "verpass",
+      "verpasst",
+      "verpassen Sie"
+    ]
+  },
+  "verschieben": {
+    "present": [
+      "verschiebe",
+      "verschiebst",
+      "verschiebt",
+      "verschieben",
+      "verschiebt",
+      "verschieben"
+    ],
+    "past": [
+      "verschob",
+      "verschobst",
+      "verschob",
+      "verschoben",
+      "verschobt",
+      "verschoben"
+    ],
+    "aux": "haben",
+    "perfect": "verschoben",
+    "infinitive": "verschieben",
+    "faInfinitive": "به تعویق انداختن",
+    "imperative": [
+      "verschieb",
+      "verschiebt",
+      "verschieben Sie"
+    ]
+  },
+  "verschieben lassen": {
+    "present": [
+      "lasse … verschieben",
+      "lässt … verschieben",
+      "lässt … verschieben",
+      "lassen … verschieben",
+      "lasst … verschieben",
+      "lassen … verschieben"
+    ],
+    "past": [
+      "ließ … verschieben",
+      "ließest … verschieben",
+      "ließ … verschieben",
+      "ließen … verschieben",
+      "ließt … verschieben",
+      "ließen … verschieben"
+    ],
+    "aux": "haben",
+    "perfect": "… verschieben lassen",
+    "infinitive": "… verschieben lassen",
+    "note": "بعد از فعل کمکیِ گذشته، هر دو فعل به شکل مصدر می‌آیند. جای سه‌نقطه می‌توانی مفعول یا جزئیات کار را قرار دهی.",
+    "faInfinitive": "درخواست جابه‌جایی دادن",
+    "imperative": [
+      "lass … verschieben",
+      "lasst … verschieben",
+      "lassen Sie … verschieben"
+    ]
+  },
+  "verstehen": {
+    "present": [
+      "verstehe",
+      "verstehst",
+      "versteht",
+      "verstehen",
+      "versteht",
+      "verstehen"
+    ],
+    "past": [
+      "verstand",
+      "verstandest",
+      "verstand",
+      "verstanden",
+      "verstandet",
+      "verstanden"
+    ],
+    "aux": "haben",
+    "perfect": "verstanden",
+    "infinitive": "verstehen",
+    "faInfinitive": "فهمیدن",
+    "imperative": [
+      "versteh",
+      "versteht",
+      "verstehen Sie"
+    ]
+  },
+  "verstreichen": {
+    "present": [
+      "verstreiche",
+      "verstreichst",
+      "verstreicht",
+      "verstreichen",
+      "verstreicht",
+      "verstreichen"
+    ],
+    "past": [
+      "verstrich",
+      "verstrichst",
+      "verstrich",
+      "verstrichen",
+      "verstricht",
+      "verstrichen"
+    ],
+    "aux": "sein",
+    "perfect": "verstrichen",
+    "infinitive": "verstreichen",
+    "faInfinitive": "سپری شدن",
+    "imperative": null
+  },
+  "verteilen": {
+    "present": [
+      "verteile",
+      "verteilst",
+      "verteilt",
+      "verteilen",
+      "verteilt",
+      "verteilen"
+    ],
+    "past": [
+      "verteilte",
+      "verteiltest",
+      "verteilte",
+      "verteilten",
+      "verteiltet",
+      "verteilten"
+    ],
+    "aux": "haben",
+    "perfect": "verteilt",
+    "infinitive": "verteilen",
+    "faInfinitive": "توزیع کردن",
+    "imperative": [
+      "verteil",
+      "verteilt",
+      "verteilen Sie"
+    ]
+  },
+  "verwechseln": {
+    "present": [
+      "verwechsle",
+      "verwechselst",
+      "verwechselt",
+      "verwechseln",
+      "verwechselt",
+      "verwechseln"
+    ],
+    "past": [
+      "verwechselte",
+      "verwechseltest",
+      "verwechselte",
+      "verwechselten",
+      "verwechseltet",
+      "verwechselten"
+    ],
+    "aux": "haben",
+    "perfect": "verwechselt",
+    "infinitive": "verwechseln",
+    "faInfinitive": "اشتباه گرفتن",
+    "imperative": [
+      "verwechsle",
+      "verwechselt",
+      "verwechseln Sie"
+    ]
+  },
+  "veröffentlichen": {
+    "present": [
+      "veröffentliche",
+      "veröffentlichst",
+      "veröffentlicht",
+      "veröffentlichen",
+      "veröffentlicht",
+      "veröffentlichen"
+    ],
+    "past": [
+      "veröffentlichte",
+      "veröffentlichtest",
+      "veröffentlichte",
+      "veröffentlichten",
+      "veröffentlichtet",
+      "veröffentlichten"
+    ],
+    "aux": "haben",
+    "perfect": "veröffentlicht",
+    "infinitive": "veröffentlichen",
+    "faInfinitive": "منتشر کردن",
+    "imperative": [
+      "veröffentliche",
+      "veröffentlicht",
+      "veröffentlichen Sie"
+    ]
+  },
+  "vorliegen": {
+    "present": [
+      "liege vor",
+      "liegst vor",
+      "liegt vor",
+      "liegen vor",
+      "liegt vor",
+      "liegen vor"
+    ],
+    "past": [
+      "lag vor",
+      "lagst vor",
+      "lag vor",
+      "lagen vor",
+      "lagt vor",
+      "lagen vor"
+    ],
+    "aux": "haben",
+    "perfect": "vorgelegen",
+    "infinitive": "vorliegen",
+    "thirdPerson": true,
+    "faInfinitive": "در دسترس بودن",
+    "imperative": null
+  },
+  "vorschlagen": {
+    "present": [
+      "schlage vor",
+      "schlägst vor",
+      "schlägt vor",
+      "schlagen vor",
+      "schlagt vor",
+      "schlagen vor"
+    ],
+    "past": [
+      "schlug vor",
+      "schlugst vor",
+      "schlug vor",
+      "schlugen vor",
+      "schlugt vor",
+      "schlugen vor"
+    ],
+    "aux": "haben",
+    "perfect": "vorgeschlagen",
+    "infinitive": "vorschlagen",
+    "faInfinitive": "پیشنهاد دادن",
+    "imperative": [
+      "schlag vor",
+      "schlagt vor",
+      "schlagen Sie vor"
+    ]
+  },
+  "vorsehen": {
+    "present": [
+      "sehe vor",
+      "siehst vor",
+      "sieht vor",
+      "sehen vor",
+      "seht vor",
+      "sehen vor"
+    ],
+    "past": [
+      "sah vor",
+      "sahst vor",
+      "sah vor",
+      "sahen vor",
+      "saht vor",
+      "sahen vor"
+    ],
+    "aux": "haben",
+    "perfect": "vorgesehen",
+    "infinitive": "vorsehen",
+    "faInfinitive": "در نظر گرفتن",
+    "imperative": [
+      "sieh vor",
+      "seht vor",
+      "sehen Sie vor"
+    ]
+  },
+  "vorverlegen": {
+    "present": [
+      "verlege vor",
+      "verlegst vor",
+      "verlegt vor",
+      "verlegen vor",
+      "verlegt vor",
+      "verlegen vor"
+    ],
+    "past": [
+      "verlegte vor",
+      "verlegtest vor",
+      "verlegte vor",
+      "verlegten vor",
+      "verlegtet vor",
+      "verlegten vor"
+    ],
+    "aux": "haben",
+    "perfect": "vorverlegt",
+    "infinitive": "vorverlegen",
+    "faInfinitive": "جلو انداختن",
+    "imperative": [
+      "verleg vor",
+      "verlegt vor",
+      "verlegen Sie vor"
+    ]
+  },
+  "vorzeigen": {
+    "present": [
+      "zeige vor",
+      "zeigst vor",
+      "zeigt vor",
+      "zeigen vor",
+      "zeigt vor",
+      "zeigen vor"
+    ],
+    "past": [
+      "zeigte vor",
+      "zeigtest vor",
+      "zeigte vor",
+      "zeigten vor",
+      "zeigtet vor",
+      "zeigten vor"
+    ],
+    "aux": "haben",
+    "perfect": "vorgezeigt",
+    "infinitive": "vorzeigen",
+    "faInfinitive": "نشان دادن",
+    "imperative": [
+      "zeige vor",
+      "zeigt vor",
+      "zeigen Sie vor"
+    ]
+  },
+  "wagen": {
+    "present": [
+      "wage",
+      "wagst",
+      "wagt",
+      "wagen",
+      "wagt",
+      "wagen"
+    ],
+    "past": [
+      "wagte",
+      "wagtest",
+      "wagte",
+      "wagten",
+      "wagtet",
+      "wagten"
+    ],
+    "aux": "haben",
+    "perfect": "gewagt",
+    "infinitive": "wagen",
+    "faInfinitive": "جرئت انجام کاری داشتن",
+    "imperative": [
+      "wag",
+      "wagt",
+      "wagen Sie"
+    ]
+  },
+  "warten": {
+    "present": [
+      "warte",
+      "wartest",
+      "wartet",
+      "warten",
+      "wartet",
+      "warten"
+    ],
+    "past": [
+      "wartete",
+      "wartetest",
+      "wartete",
+      "warteten",
+      "wartetet",
+      "warteten"
+    ],
+    "aux": "haben",
+    "perfect": "gewartet",
+    "infinitive": "warten",
+    "faInfinitive": "منتظر ماندن",
+    "imperative": [
+      "warte",
+      "wartet",
+      "warten Sie"
+    ]
+  },
+  "wechseln": {
+    "present": [
+      "wechsle",
+      "wechselst",
+      "wechselt",
+      "wechseln",
+      "wechselt",
+      "wechseln"
+    ],
+    "past": [
+      "wechselte",
+      "wechseltest",
+      "wechselte",
+      "wechselten",
+      "wechseltet",
+      "wechselten"
+    ],
+    "aux": "haben",
+    "perfect": "gewechselt",
+    "infinitive": "wechseln",
+    "faInfinitive": "عوض کردن",
+    "imperative": [
+      "wechsle",
+      "wechselt",
+      "wechseln Sie"
+    ]
+  },
+  "wehtun": {
+    "present": [
+      "tue weh",
+      "tust weh",
+      "tut weh",
+      "tun weh",
+      "tut weh",
+      "tun weh"
+    ],
+    "past": [
+      "tat weh",
+      "tatest weh",
+      "tat weh",
+      "taten weh",
+      "tatet weh",
+      "taten weh"
+    ],
+    "aux": "haben",
+    "perfect": "wehgetan",
+    "infinitive": "wehtun",
+    "thirdPerson": true,
+    "note": "در معنی «درد کردن»، عضو بدن فاعل است. برای مثال Mein Knie tut mir weh یعنی زانویم درد می‌کند.",
+    "faInfinitive": "درد کردن",
+    "imperative": null
+  },
+  "weiterleiten": {
+    "present": [
+      "leite weiter",
+      "leitest weiter",
+      "leitet weiter",
+      "leiten weiter",
+      "leitet weiter",
+      "leiten weiter"
+    ],
+    "past": [
+      "leitete weiter",
+      "leitetest weiter",
+      "leitete weiter",
+      "leiteten weiter",
+      "leitetet weiter",
+      "leiteten weiter"
+    ],
+    "aux": "haben",
+    "perfect": "weitergeleitet",
+    "infinitive": "weiterleiten",
+    "faInfinitive": "ارجاع دادن",
+    "imperative": [
+      "leite weiter",
+      "leitet weiter",
+      "leiten Sie weiter"
+    ]
+  },
+  "werden": {
+    "present": [
+      "werde",
+      "wirst",
+      "wird",
+      "werden",
+      "werdet",
+      "werden"
+    ],
+    "past": [
+      "wurde",
+      "wurdest",
+      "wurde",
+      "wurden",
+      "wurdet",
+      "wurden"
+    ],
+    "aux": "sein",
+    "perfect": "geworden",
+    "infinitive": "werden",
+    "subjunctive": [
+      "würde",
+      "würdest",
+      "würde",
+      "würden",
+      "würdet",
+      "würden"
+    ],
+    "note": "برای خودِ فعل به معنی «شدن»، شکل گذشته geworden است. در مجهولِ Perfekt از worden استفاده می‌شود.",
+    "faInfinitive": "شدن",
+    "imperative": [
+      "werde",
+      "werdet",
+      "werden Sie"
+    ]
+  },
+  "widersprechen": {
+    "present": [
+      "widerspreche",
+      "widersprichst",
+      "widerspricht",
+      "widersprechen",
+      "widersprecht",
+      "widersprechen"
+    ],
+    "past": [
+      "widersprach",
+      "widersprachst",
+      "widersprach",
+      "widersprachen",
+      "widerspracht",
+      "widersprachen"
+    ],
+    "aux": "haben",
+    "perfect": "widersprochen",
+    "infinitive": "widersprechen",
+    "faInfinitive": "مخالفت کردن",
+    "imperative": [
+      "widersprich",
+      "widersprecht",
+      "widersprechen Sie"
+    ]
+  },
+  "wiederholen": {
+    "present": [
+      "wiederhole",
+      "wiederholst",
+      "wiederholt",
+      "wiederholen",
+      "wiederholt",
+      "wiederholen"
+    ],
+    "past": [
+      "wiederholte",
+      "wiederholtest",
+      "wiederholte",
+      "wiederholten",
+      "wiederholtet",
+      "wiederholten"
+    ],
+    "aux": "haben",
+    "perfect": "wiederholt",
+    "infinitive": "wiederholen",
+    "faInfinitive": "تکرار کردن",
+    "imperative": [
+      "wiederhol",
+      "wiederholt",
+      "wiederholen Sie"
+    ]
+  },
+  "wiederverwenden": {
+    "present": [
+      "verwende wieder",
+      "verwendest wieder",
+      "verwendet wieder",
+      "verwenden wieder",
+      "verwendet wieder",
+      "verwenden wieder"
+    ],
+    "past": [
+      "verwendete wieder",
+      "verwendetest wieder",
+      "verwendete wieder",
+      "verwendeten wieder",
+      "verwendetet wieder",
+      "verwendeten wieder"
+    ],
+    "aux": "haben",
+    "perfect": "wiederverwendet",
+    "infinitive": "wiederverwenden",
+    "faInfinitive": "دوباره استفاده کردن",
+    "imperative": [
+      "verwende wieder",
+      "verwendet wieder",
+      "verwenden Sie wieder"
+    ]
+  },
+  "wirken": {
+    "present": [
+      "wirke",
+      "wirkst",
+      "wirkt",
+      "wirken",
+      "wirkt",
+      "wirken"
+    ],
+    "past": [
+      "wirkte",
+      "wirktest",
+      "wirkte",
+      "wirkten",
+      "wirktet",
+      "wirkten"
+    ],
+    "aux": "haben",
+    "perfect": "gewirkt",
+    "infinitive": "wirken",
+    "faInfinitive": "به نظر رسیدن",
+    "imperative": [
+      "wirk",
+      "wirkt",
+      "wirken Sie"
+    ]
+  },
+  "wissen": {
+    "present": [
+      "weiß",
+      "weißt",
+      "weiß",
+      "wissen",
+      "wisst",
+      "wissen"
+    ],
+    "past": [
+      "wusste",
+      "wusstest",
+      "wusste",
+      "wussten",
+      "wusstet",
+      "wussten"
+    ],
+    "aux": "haben",
+    "perfect": "gewusst",
+    "infinitive": "wissen",
+    "subjunctive": [
+      "wüsste",
+      "wüsstest",
+      "wüsste",
+      "wüssten",
+      "wüsstet",
+      "wüssten"
+    ],
+    "faInfinitive": "دانستن",
+    "imperative": [
+      "wisse",
+      "wisst",
+      "wissen Sie"
+    ]
+  },
+  "wohnen": {
+    "present": [
+      "wohne",
+      "wohnst",
+      "wohnt",
+      "wohnen",
+      "wohnt",
+      "wohnen"
+    ],
+    "past": [
+      "wohnte",
+      "wohntest",
+      "wohnte",
+      "wohnten",
+      "wohntet",
+      "wohnten"
+    ],
+    "aux": "haben",
+    "perfect": "gewohnt",
+    "infinitive": "wohnen",
+    "faInfinitive": "زندگی کردن",
+    "imperative": [
+      "wohn",
+      "wohnt",
+      "wohnen Sie"
+    ]
+  },
+  "wollen": {
+    "present": [
+      "will",
+      "willst",
+      "will",
+      "wollen",
+      "wollt",
+      "wollen"
+    ],
+    "past": [
+      "wollte",
+      "wolltest",
+      "wollte",
+      "wollten",
+      "wolltet",
+      "wollten"
+    ],
+    "aux": "haben",
+    "perfect": "gewollt",
+    "infinitive": "wollen",
+    "subjunctive": [
+      "wollte",
+      "wolltest",
+      "wollte",
+      "wollten",
+      "wolltet",
+      "wollten"
+    ],
+    "note": "این شکلِ گذشته برای کاربرد مستقل فعل است. همراه یک فعل دیگر، هر دو مصدر به آخر می‌روند؛ مثل Ich habe arbeiten wollen.",
+    "faInfinitive": "خواستن",
+    "imperative": null
+  },
+  "ziehen": {
+    "present": [
+      "ziehe",
+      "ziehst",
+      "zieht",
+      "ziehen",
+      "zieht",
+      "ziehen"
+    ],
+    "past": [
+      "zog",
+      "zogst",
+      "zog",
+      "zogen",
+      "zogt",
+      "zogen"
+    ],
+    "aux": "haben",
+    "perfect": "gezogen",
+    "infinitive": "ziehen",
+    "note": "در این مدخل یعنی گرفتن یا بیرون کشیدن چیزی و با haben می‌آید. در معنیِ نقل مکان کردن معمولاً با sein ساخته می‌شود.",
+    "faInfinitive": "کشیدن",
+    "imperative": [
+      "zieh",
+      "zieht",
+      "ziehen Sie"
+    ]
+  },
+  "zuhören": {
+    "present": [
+      "höre zu",
+      "hörst zu",
+      "hört zu",
+      "hören zu",
+      "hört zu",
+      "hören zu"
+    ],
+    "past": [
+      "hörte zu",
+      "hörtest zu",
+      "hörte zu",
+      "hörten zu",
+      "hörtet zu",
+      "hörten zu"
+    ],
+    "aux": "haben",
+    "perfect": "zugehört",
+    "infinitive": "zuhören",
+    "faInfinitive": "گوش دادن",
+    "imperative": [
+      "hör zu",
+      "hört zu",
+      "hören Sie zu"
+    ]
+  },
+  "zurück sein": {
+    "present": [
+      "bin zurück",
+      "bist zurück",
+      "ist zurück",
+      "sind zurück",
+      "seid zurück",
+      "sind zurück"
+    ],
+    "past": [
+      "war zurück",
+      "warst zurück",
+      "war zurück",
+      "waren zurück",
+      "wart zurück",
+      "waren zurück"
+    ],
+    "aux": "sein",
+    "perfect": "zurück gewesen",
+    "infinitive": "zurück sein",
+    "subjunctive": [
+      "wäre zurück",
+      "wärest zurück",
+      "wäre zurück",
+      "wären zurück",
+      "wäret zurück",
+      "wären zurück"
+    ],
+    "faInfinitive": "برگشته بودن",
+    "imperative": [
+      "sei zurück",
+      "seid zurück",
+      "seien Sie zurück"
+    ]
+  },
+  "zurückbekommen": {
+    "present": [
+      "bekomme zurück",
+      "bekommst zurück",
+      "bekommt zurück",
+      "bekommen zurück",
+      "bekommt zurück",
+      "bekommen zurück"
+    ],
+    "past": [
+      "bekam zurück",
+      "bekamst zurück",
+      "bekam zurück",
+      "bekamen zurück",
+      "bekamt zurück",
+      "bekamen zurück"
+    ],
+    "aux": "haben",
+    "perfect": "zurückbekommen",
+    "infinitive": "zurückbekommen",
+    "faInfinitive": "پس گرفتن",
+    "imperative": [
+      "bekomm zurück",
+      "bekommt zurück",
+      "bekommen Sie zurück"
+    ]
+  },
+  "zurückgeben": {
+    "present": [
+      "gebe zurück",
+      "gibst zurück",
+      "gibt zurück",
+      "geben zurück",
+      "gebt zurück",
+      "geben zurück"
+    ],
+    "past": [
+      "gab zurück",
+      "gabst zurück",
+      "gab zurück",
+      "gaben zurück",
+      "gabt zurück",
+      "gaben zurück"
+    ],
+    "aux": "haben",
+    "perfect": "zurückgegeben",
+    "infinitive": "zurückgeben",
+    "faInfinitive": "پس دادن",
+    "imperative": [
+      "gib zurück",
+      "gebt zurück",
+      "geben Sie zurück"
+    ]
+  },
+  "zurücksenden": {
+    "present": [
+      "sende zurück",
+      "sendest zurück",
+      "sendet zurück",
+      "senden zurück",
+      "sendet zurück",
+      "senden zurück"
+    ],
+    "past": [
+      "sendete zurück",
+      "sendetest zurück",
+      "sendete zurück",
+      "sendeten zurück",
+      "sendetet zurück",
+      "sendeten zurück"
+    ],
+    "aux": "haben",
+    "perfect": "zurückgesendet",
+    "infinitive": "zurücksenden",
+    "faInfinitive": "پس فرستادن",
+    "imperative": [
+      "sende zurück",
+      "sendet zurück",
+      "senden Sie zurück"
+    ]
+  },
+  "zurücksetzen": {
+    "present": [
+      "setze zurück",
+      "setzt zurück",
+      "setzt zurück",
+      "setzen zurück",
+      "setzt zurück",
+      "setzen zurück"
+    ],
+    "past": [
+      "setzte zurück",
+      "setztest zurück",
+      "setzte zurück",
+      "setzten zurück",
+      "setztet zurück",
+      "setzten zurück"
+    ],
+    "aux": "haben",
+    "perfect": "zurückgesetzt",
+    "infinitive": "zurücksetzen",
+    "faInfinitive": "بازنشانی کردن",
+    "imperative": [
+      "setz zurück",
+      "setzt zurück",
+      "setzen Sie zurück"
+    ]
+  },
+  "zustimmen": {
+    "present": [
+      "stimme zu",
+      "stimmst zu",
+      "stimmt zu",
+      "stimmen zu",
+      "stimmt zu",
+      "stimmen zu"
+    ],
+    "past": [
+      "stimmte zu",
+      "stimmtest zu",
+      "stimmte zu",
+      "stimmten zu",
+      "stimmtet zu",
+      "stimmten zu"
+    ],
+    "aux": "haben",
+    "perfect": "zugestimmt",
+    "infinitive": "zustimmen",
+    "faInfinitive": "موافقت کردن",
+    "imperative": [
+      "stimm zu",
+      "stimmt zu",
+      "stimmen Sie zu"
+    ]
+  },
+  "zählen auf": {
+    "present": [
+      "zähle auf …",
+      "zählst auf …",
+      "zählt auf …",
+      "zählen auf …",
+      "zählt auf …",
+      "zählen auf …"
+    ],
+    "past": [
+      "zählte auf …",
+      "zähltest auf …",
+      "zählte auf …",
+      "zählten auf …",
+      "zähltet auf …",
+      "zählten auf …"
+    ],
+    "aux": "haben",
+    "perfect": "auf … gezählt",
+    "infinitive": "auf … zählen",
+    "faInfinitive": "روی کسی یا چیزی حساب کردن",
+    "imperative": [
+      "zähl auf …",
+      "zählt auf …",
+      "zählen Sie auf …"
+    ]
+  },
+  "öffnen": {
+    "present": [
+      "öffne",
+      "öffnest",
+      "öffnet",
+      "öffnen",
+      "öffnet",
+      "öffnen"
+    ],
+    "past": [
+      "öffnete",
+      "öffnetest",
+      "öffnete",
+      "öffneten",
+      "öffnetet",
+      "öffneten"
+    ],
+    "aux": "haben",
+    "perfect": "geöffnet",
+    "infinitive": "öffnen",
+    "faInfinitive": "باز کردن",
+    "imperative": [
+      "öffne",
+      "öffnet",
+      "öffnen Sie"
+    ]
+  },
+  "übernachten": {
+    "present": [
+      "übernachte",
+      "übernachtest",
+      "übernachtet",
+      "übernachten",
+      "übernachtet",
+      "übernachten"
+    ],
+    "past": [
+      "übernachtete",
+      "übernachtetest",
+      "übernachtete",
+      "übernachteten",
+      "übernachtetet",
+      "übernachteten"
+    ],
+    "aux": "haben",
+    "perfect": "übernachtet",
+    "infinitive": "übernachten",
+    "faInfinitive": "شب را گذراندن",
+    "imperative": [
+      "übernachte",
+      "übernachtet",
+      "übernachten Sie"
+    ]
+  },
+  "übernehmen": {
+    "present": [
+      "übernehme",
+      "übernimmst",
+      "übernimmt",
+      "übernehmen",
+      "übernehmt",
+      "übernehmen"
+    ],
+    "past": [
+      "übernahm",
+      "übernahmst",
+      "übernahm",
+      "übernahmen",
+      "übernahmt",
+      "übernahmen"
+    ],
+    "aux": "haben",
+    "perfect": "übernommen",
+    "infinitive": "übernehmen",
+    "faInfinitive": "به عهده گرفتن",
+    "imperative": [
+      "übernimm",
+      "übernehmt",
+      "übernehmen Sie"
+    ]
+  },
+  "übernehmen können": {
+    "present": [
+      "kann … übernehmen",
+      "kannst … übernehmen",
+      "kann … übernehmen",
+      "können … übernehmen",
+      "könnt … übernehmen",
+      "können … übernehmen"
+    ],
+    "past": [
+      "konnte … übernehmen",
+      "konntest … übernehmen",
+      "konnte … übernehmen",
+      "konnten … übernehmen",
+      "konntet … übernehmen",
+      "konnten … übernehmen"
+    ],
+    "aux": "haben",
+    "perfect": "… übernehmen können",
+    "infinitive": "… übernehmen können",
+    "subjunctive": [
+      "könnte … übernehmen",
+      "könntest … übernehmen",
+      "könnte … übernehmen",
+      "könnten … übernehmen",
+      "könntet … übernehmen",
+      "könnten … übernehmen"
+    ],
+    "note": "بعد از فعل کمکیِ گذشته، هر دو فعل به شکل مصدر می‌آیند. جای سه‌نقطه می‌توانی مفعول یا جزئیات کار را قرار دهی.",
+    "faInfinitive": "توان به عهده گرفتن داشتن",
+    "imperative": null
+  },
+  "überprüfen": {
+    "present": [
+      "überprüfe",
+      "überprüfst",
+      "überprüft",
+      "überprüfen",
+      "überprüft",
+      "überprüfen"
+    ],
+    "past": [
+      "überprüfte",
+      "überprüftest",
+      "überprüfte",
+      "überprüften",
+      "überprüftet",
+      "überprüften"
+    ],
+    "aux": "haben",
+    "perfect": "überprüft",
+    "infinitive": "überprüfen",
+    "faInfinitive": "بررسی کردن",
+    "imperative": [
+      "überprüf",
+      "überprüft",
+      "überprüfen Sie"
+    ]
+  },
+  "überqueren": {
+    "present": [
+      "überquere",
+      "überquerst",
+      "überquert",
+      "überqueren",
+      "überquert",
+      "überqueren"
+    ],
+    "past": [
+      "überquerte",
+      "überquertest",
+      "überquerte",
+      "überquerten",
+      "überquertet",
+      "überquerten"
+    ],
+    "aux": "haben",
+    "perfect": "überquert",
+    "infinitive": "überqueren",
+    "faInfinitive": "عبور کردن",
+    "imperative": [
+      "überquere",
+      "überquert",
+      "überqueren Sie"
+    ]
+  },
+  "überweisen": {
+    "present": [
+      "überweise",
+      "überweist",
+      "überweist",
+      "überweisen",
+      "überweist",
+      "überweisen"
+    ],
+    "past": [
+      "überwies",
+      "überwiesest",
+      "überwies",
+      "überwiesen",
+      "überwiest",
+      "überwiesen"
+    ],
+    "aux": "haben",
+    "perfect": "überwiesen",
+    "infinitive": "überweisen",
+    "faInfinitive": "پول واریز کردن",
+    "imperative": [
+      "überweis",
+      "überweist",
+      "überweisen Sie"
+    ]
+  },
+  "überzeugen": {
+    "present": [
+      "überzeuge",
+      "überzeugst",
+      "überzeugt",
+      "überzeugen",
+      "überzeugt",
+      "überzeugen"
+    ],
+    "past": [
+      "überzeugte",
+      "überzeugtest",
+      "überzeugte",
+      "überzeugten",
+      "überzeugtet",
+      "überzeugten"
+    ],
+    "aux": "haben",
+    "perfect": "überzeugt",
+    "infinitive": "überzeugen",
+    "faInfinitive": "قانع کردن",
+    "imperative": [
+      "überzeug",
+      "überzeugt",
+      "überzeugen Sie"
+    ]
+  }
+}

@@ -1,0 +1,1107 @@
+{
+  "gehen": [
+    [
+      "کار کردن، درست عمل کردن",
+      "Meine Uhr geht wieder.",
+      "ساعتم دوباره کار می‌کند."
+    ],
+    [
+      "ممکن یا عملی بودن",
+      "Heute geht es bei mir erst nach fünf.",
+      "امروز فقط بعد از ساعت پنج برایم امکان دارد."
+    ],
+    [
+      "حال داشتن، در عبارت «wie geht es …?»",
+      "Wie geht es deiner Schwester?",
+      "حال خواهرت چطور است؟"
+    ]
+  ],
+  "kommen": [
+    [
+      "رسیدنِ نوبت یا زمان",
+      "Nach dem Essen kommt die Pause.",
+      "بعد از غذا نوبت استراحت است."
+    ]
+  ],
+  "fahren": [
+    [
+      "راندنِ وسیلهٔ نقلیه",
+      "Heute fahre ich den Lieferwagen.",
+      "امروز من وانت را می‌رانم."
+    ]
+  ],
+  "nehmen": [
+    [
+      "سوار شدن به یک وسیله",
+      "Wir nehmen den Bus zum Bahnhof.",
+      "تا ایستگاه قطار اتوبوس می‌گیریم."
+    ]
+  ],
+  "geben": [
+    [
+      "وجود داشتن، در ساختار «es gibt»",
+      "In unserem Haus gibt es einen Aufzug.",
+      "در ساختمان ما آسانسور وجود دارد."
+    ],
+    [
+      "برگزار کردن",
+      "Die Band gibt am Freitag ein Konzert.",
+      "گروه جمعه کنسرت برگزار می‌کند."
+    ]
+  ],
+  "machen": [
+    [
+      "در مجموع شدن، هنگام حساب کردن",
+      "Zwei Getränke und ein Brot, das macht neun Euro.",
+      "دو نوشیدنی و یک نان، روی‌هم می‌شود نه یورو."
+    ]
+  ],
+  "sehen": [
+    [
+      "متوجه شدن، دریافتن",
+      "Jetzt sehe ich, warum du wartest.",
+      "حالا می‌فهمم چرا منتظری."
+    ]
+  ],
+  "finden": [
+    [
+      "نظر داشتن دربارهٔ چیزی",
+      "Ich finde den Kurs sehr praktisch.",
+      "به نظرم این دوره خیلی کاربردی است."
+    ]
+  ],
+  "aufheben": [
+    [
+      "از زمین برداشتن",
+      "Sie hebt den Schlüssel vom Boden auf.",
+      "او کلید را از روی زمین برمی‌دارد."
+    ],
+    [
+      "لغو کردن، از اعتبار انداختن",
+      "Die Stadt hebt das Parkverbot auf.",
+      "شهرداری ممنوعیت پارک را لغو می‌کند."
+    ]
+  ],
+  "abheben": [
+    [
+      "از زمین بلند شدنِ هواپیما",
+      "Unser Flugzeug hebt gleich ab.",
+      "هواپیمای ما همین حالا از زمین بلند می‌شود."
+    ],
+    [
+      "گوشی تلفن را برداشتن",
+      "Das Telefon klingelt, aber niemand hebt ab.",
+      "تلفن زنگ می‌زند، ولی کسی گوشی را برنمی‌دارد."
+    ]
+  ],
+  "abgeben": [
+    [
+      "واگذار کردن، به دیگری بخشیدن",
+      "Kannst du mir einen Stift abgeben?",
+      "می‌توانی یکی از خودکارهایت را به من بدهی؟"
+    ]
+  ],
+  "ablaufen": [
+    [
+      "پیش رفتن، به شکلی برگزار شدن",
+      "Wie läuft das Gespräch ab?",
+      "جلسهٔ گفت‌وگو چطور پیش می‌رود؟"
+    ]
+  ],
+  "abschließen": [
+    [
+      "به نتیجه رساندن یا تمام کردن یک کار",
+      "Wir schließen das Projekt im April ab.",
+      "پروژه را در آوریل به پایان می‌رسانیم."
+    ],
+    [
+      "قراردادی بستن",
+      "Er schließt eine Versicherung ab.",
+      "او قرارداد بیمه می‌بندد."
+    ]
+  ],
+  "angeben": [
+    [
+      "پز دادن، خودنمایی کردن",
+      "Er gibt oft mit seinem neuen Auto an.",
+      "او اغلب با ماشین جدیدش پز می‌دهد."
+    ]
+  ],
+  "anzeigen": [
+    [
+      "به پلیس گزارش دادن",
+      "Sie zeigt den Diebstahl bei der Polizei an.",
+      "او دزدی را به پلیس گزارش می‌دهد."
+    ]
+  ],
+  "anrufen": [
+    [
+      "تلفنی کسی را صدا زدن یا با او تماس گرفتن",
+      "Ruf mich bitte nach dem Kurs an.",
+      "لطفاً بعد از کلاس به من زنگ بزن."
+    ]
+  ],
+  "ankommen": [
+    [
+      "بستگی داشتن، با «auf»",
+      "Beim Lernen kommt es auf die Übung an.",
+      "در یادگیری، تمرین است که اهمیت دارد."
+    ],
+    [
+      "مورد استقبال قرار گرفتن",
+      "Der neue Kurs kommt gut an.",
+      "از دورهٔ جدید خوب استقبال می‌شود."
+    ]
+  ],
+  "aufführen": [
+    [
+      "روی صحنه اجرا کردن",
+      "Die Kinder führen ein Stück auf.",
+      "بچه‌ها یک نمایش اجرا می‌کنند."
+    ]
+  ],
+  "aufladen": [
+    [
+      "بار زدن روی وسیلهٔ نقلیه",
+      "Wir laden die Kisten auf den Wagen auf.",
+      "جعبه‌ها را روی ماشین بار می‌زنیم."
+    ]
+  ],
+  "aufstehen": [
+    [
+      "از حالت نشسته بلند شدن",
+      "Alle stehen zur Begrüßung auf.",
+      "همه برای خوشامدگویی از جا بلند می‌شوند."
+    ]
+  ],
+  "auftreten": [
+    [
+      "پدیدار شدن، پیش آمدن",
+      "Das Problem tritt nur im Winter auf.",
+      "این مشکل فقط زمستان پیش می‌آید."
+    ]
+  ],
+  "ausfallen": [
+    [
+      "ریختنِ مو یا دندان",
+      "Dem Kind fällt der erste Milchzahn aus.",
+      "اولین دندان شیری کودک می‌افتد."
+    ],
+    [
+      "از کار افتادن",
+      "Im ganzen Haus fällt der Strom aus.",
+      "برق تمام ساختمان قطع می‌شود."
+    ]
+  ],
+  "ausstellen": [
+    [
+      "به نمایش گذاشتن",
+      "Das Museum stellt alte Karten aus.",
+      "موزه نقشه‌های قدیمی را به نمایش می‌گذارد."
+    ]
+  ],
+  "ausgleichen": [
+    [
+      "مساوی کردنِ نتیجه",
+      "Kurz vor Schluss gleicht unser Team aus.",
+      "تیم ما کمی پیش از پایان بازی نتیجه را مساوی می‌کند."
+    ]
+  ],
+  "belegen": [
+    [
+      "در یک کلاس ثبت‌نام کردن",
+      "Nina belegt einen Deutschkurs.",
+      "نینا یک دورهٔ آلمانی برمی‌دارد."
+    ],
+    [
+      "روی چیزی مواد غذایی گذاشتن",
+      "Ich belege mein Brot mit Käse.",
+      "روی نانم پنیر می‌گذارم."
+    ]
+  ],
+  "bestehen": [
+    [
+      "تشکیل شدن از چیزی، با «aus»",
+      "Die Prüfung besteht aus vier Teilen.",
+      "آزمون از چهار بخش تشکیل شده است."
+    ],
+    [
+      "اصرار داشتن، با «auf»",
+      "Die Kundin besteht auf einer Quittung.",
+      "مشتری اصرار دارد رسید بگیرد."
+    ]
+  ],
+  "bestellen": [
+    [
+      "سفارش خرید دادن",
+      "Ich bestelle das Buch im Internet.",
+      "کتاب را از اینترنت سفارش می‌دهم."
+    ],
+    [
+      "پیام یا سلامِ کسی را رساندن",
+      "Bestell deiner Mutter schöne Grüße!",
+      "سلام مرا به مادرت برسان!"
+    ]
+  ],
+  "besuchen": [
+    [
+      "در کلاس یا مدرسه حضور یافتن",
+      "Mein Vater besucht einen Abendkurs.",
+      "پدرم به کلاس شبانه می‌رود."
+    ]
+  ],
+  "bleiben": [
+    [
+      "همچنان در یک وضعیت بودن",
+      "Auch im Sommer bleibt der Keller kühl.",
+      "زیرزمین حتی تابستان هم خنک می‌ماند."
+    ]
+  ],
+  "bringen": [
+    [
+      "فایده یا نتیجه داشتن",
+      "Die Änderung bringt uns mehr Zeit.",
+      "این تغییر برایمان وقت بیشتری فراهم می‌کند."
+    ]
+  ],
+  "buchen": [
+    [
+      "در حساب ثبت کردن",
+      "Die Bank bucht den Betrag auf mein Konto.",
+      "بانک مبلغ را در حسابم ثبت می‌کند."
+    ]
+  ],
+  "einrichten": [
+    [
+      "چیدن وسایل و مبله کردن",
+      "Wir richten das Wohnzimmer neu ein.",
+      "وسایل اتاق نشیمن را از نو می‌چینیم."
+    ]
+  ],
+  "einziehen": [
+    [
+      "وصول یا برداشت کردنِ وجه",
+      "Der Verein zieht den Beitrag im Mai ein.",
+      "انجمن حق عضویت را در ماه مه برداشت می‌کند."
+    ]
+  ],
+  "erhalten": [
+    [
+      "حفظ کردن، سالم نگه داشتن",
+      "Wir möchten den alten Garten erhalten.",
+      "می‌خواهیم باغ قدیمی را حفظ کنیم."
+    ]
+  ],
+  "erreichen": [
+    [
+      "موفق به تماس با کسی شدن",
+      "Du erreichst mich ab acht im Büro.",
+      "از هشت به بعد می‌توانی در دفتر با من تماس بگیری."
+    ]
+  ],
+  "eröffnen": [
+    [
+      "شروع رسمیِ یک جلسه یا رویداد",
+      "Die Leiterin eröffnet die Sitzung.",
+      "مدیر جلسه را رسماً آغاز می‌کند."
+    ]
+  ],
+  "fehlen": [
+    [
+      "جای کسی خالی بودن، دلتنگش بودن",
+      "Meine Freunde fehlen mir.",
+      "دلم برای دوستانم تنگ شده است."
+    ]
+  ],
+  "festhalten": [
+    [
+      "محکم گرفتن",
+      "Halt bitte die Leiter fest!",
+      "لطفاً نردبان را محکم بگیر!"
+    ]
+  ],
+  "folgen": [
+    [
+      "سخن یا استدلالی را فهمیدن",
+      "Hier kann ich dir nicht ganz folgen.",
+      "این قسمت حرفت را کاملاً متوجه نمی‌شوم."
+    ]
+  ],
+  "gehören": [
+    [
+      "جزئی از یک مجموعه بودن، با «zu»",
+      "Das Frühstück gehört zum Angebot.",
+      "صبحانه جزو این پیشنهاد است."
+    ]
+  ],
+  "heißen": [
+    [
+      "معنی دادن",
+      "Was heißt dieses Wort auf Persisch?",
+      "این کلمه به فارسی چه معنی می‌دهد؟"
+    ]
+  ],
+  "kosten": [
+    [
+      "چشیدن",
+      "Möchtest du die Suppe kosten?",
+      "می‌خواهی سوپ را بچشی؟"
+    ]
+  ],
+  "kündigen": [
+    [
+      "استعفا دادن",
+      "Sie kündigt und sucht eine neue Stelle.",
+      "او استعفا می‌دهد و دنبال شغل تازه‌ای می‌گردد."
+    ]
+  ],
+  "lassen": [
+    [
+      "چیزی را جایی باقی گذاشتن",
+      "Lass die Tasche bitte hier.",
+      "لطفاً کیف را همین‌جا بگذار."
+    ]
+  ],
+  "liegen": [
+    [
+      "واقع شدن در یک مکان",
+      "Unser Dorf liegt direkt am See.",
+      "روستای ما درست کنار دریاچه قرار دارد."
+    ],
+    [
+      "ناشی شدن از چیزی، با «an»",
+      "Das liegt am Wetter.",
+      "دلیلش آب‌وهواست."
+    ]
+  ],
+  "löschen": [
+    [
+      "خاموش کردنِ آتش",
+      "Die Feuerwehr löscht das Feuer.",
+      "آتش‌نشانی آتش را خاموش می‌کند."
+    ]
+  ],
+  "melden": [
+    [
+      "ثبت کردن یا گزارش دادنِ حضور",
+      "Bitte melden Sie Ihren Besuch am Empfang.",
+      "لطفاً ورود مهمانتان را به پذیرش اطلاع دهید."
+    ]
+  ],
+  "nachlassen": [
+    [
+      "شل کردن، از شدت یا فشار کاستن",
+      "Der Wind lässt am Abend nach.",
+      "عصر از شدت باد کم می‌شود."
+    ]
+  ],
+  "passen": [
+    [
+      "اندازه بودنِ لباس یا کفش",
+      "Diese Schuhe passen mir gut.",
+      "این کفش‌ها اندازهٔ من هستند."
+    ],
+    [
+      "جور بودنِ دو چیز با هم",
+      "Die Jacke passt gut zur Hose.",
+      "این کت با شلوار خوب جور درمی‌آید."
+    ]
+  ],
+  "passieren": [
+    [
+      "از نقطه‌ای عبور کردن",
+      "Der Bus passiert die Grenze.",
+      "اتوبوس از مرز عبور می‌کند."
+    ]
+  ],
+  "schenken": [
+    [
+      "اختصاص دادنِ توجه یا زمان",
+      "Sie schenkt den Kindern viel Zeit.",
+      "او وقت زیادی برای بچه‌ها می‌گذارد."
+    ]
+  ],
+  "schätzen": [
+    [
+      "قدر دانستن، ارزش قائل شدن",
+      "Ich schätze deine Hilfe sehr.",
+      "برای کمکت خیلی ارزش قائلم."
+    ]
+  ],
+  "sich vorstellen": [
+    [
+      "تصور کردن",
+      "Ich kann mir das gut vorstellen.",
+      "می‌توانم آن را خوب تصور کنم."
+    ]
+  ],
+  "spielen": [
+    [
+      "نواختنِ ساز",
+      "Mein Bruder spielt jeden Abend Klavier.",
+      "برادرم هر شب پیانو می‌نوازد."
+    ],
+    [
+      "نقش بازی کردن",
+      "Sie spielt die Ärztin im Film.",
+      "او در فیلم نقش پزشک را بازی می‌کند."
+    ]
+  ],
+  "stehen": [
+    [
+      "نوشته بودن",
+      "Die Nummer steht auf der Karte.",
+      "شماره روی کارت نوشته شده است."
+    ],
+    [
+      "به کسی آمدن، دربارهٔ لباس یا رنگ",
+      "Das Blau steht dir gut.",
+      "این رنگ آبی به تو می‌آید."
+    ]
+  ],
+  "stellen": [
+    [
+      "چیزی را در جایی قرار دادن",
+      "Stell die Tasche bitte neben die Tür.",
+      "لطفاً کیف را کنار در بگذار."
+    ]
+  ],
+  "steigen": [
+    [
+      "بالا رفتن یا صعود کردن",
+      "Wir steigen auf den Turm.",
+      "ما از برج بالا می‌رویم."
+    ]
+  ],
+  "streichen": [
+    [
+      "خط زدن، حذف کردن",
+      "Bitte streichen Sie das falsche Wort.",
+      "لطفاً روی واژهٔ نادرست خط بکشید."
+    ],
+    [
+      "مالیدن چیزی روی سطح",
+      "Ich streiche Butter aufs Brot.",
+      "روی نان کره می‌مالم."
+    ]
+  ],
+  "teilen": [
+    [
+      "به اشتراک گذاشتن",
+      "Wir teilen die Fotos mit unseren Freunden.",
+      "عکس‌ها را با دوستانمان به اشتراک می‌گذاریم."
+    ]
+  ],
+  "treffen": [
+    [
+      "به هدف زدن",
+      "Der Ball trifft das Fenster.",
+      "توپ به پنجره می‌خورد."
+    ],
+    [
+      "گرفتنِ تصمیم در ترکیب «eine Entscheidung treffen»",
+      "Wir müssen heute eine Entscheidung treffen.",
+      "باید امروز تصمیم بگیریم."
+    ]
+  ],
+  "überweisen": [
+    [
+      "ارجاع دادنِ بیمار به پزشک دیگر",
+      "Die Ärztin überweist mich zum Facharzt.",
+      "پزشک مرا به متخصص ارجاع می‌دهد."
+    ]
+  ],
+  "umziehen": [
+    [
+      "لباس عوض کردن، با «sich»",
+      "Ich ziehe mich nach der Arbeit um.",
+      "بعد از کار لباسم را عوض می‌کنم."
+    ]
+  ],
+  "verfolgen": [
+    [
+      "دنبال کردنِ یک شخص یا رویداد",
+      "Wir verfolgen die Wahl im Radio.",
+      "نتیجهٔ انتخابات را از رادیو دنبال می‌کنیم."
+    ]
+  ],
+  "verlegen": [
+    [
+      "جایی گذاشتن و پیدایش نکردن",
+      "Ich habe meinen Schlüssel verlegt.",
+      "کلیدم را جایی گذاشته‌ام و پیدایش نمی‌کنم."
+    ],
+    [
+      "منتشر کردنِ کتاب",
+      "Dieser Verlag verlegt Kinderbücher.",
+      "این ناشر کتاب کودک منتشر می‌کند."
+    ]
+  ],
+  "verstehen": [
+    [
+      "با کسی ساختن، در ساختار «sich verstehen»",
+      "Wir verstehen uns gut.",
+      "ما با هم خوب کنار می‌آییم."
+    ]
+  ],
+  "verteilen": [
+    [
+      "پخش کردن میان چند نفر",
+      "Wir verteilen die Aufgaben im Team.",
+      "کارها را بین اعضای تیم تقسیم می‌کنیم."
+    ]
+  ],
+  "wechseln": [
+    [
+      "پول خرد کردن یا ارز تبدیل کردن",
+      "Kann ich hier Geld wechseln?",
+      "می‌توانم اینجا پول تبدیل کنم؟"
+    ]
+  ],
+  "wirken": [
+    [
+      "اثر کردن",
+      "Das Medikament wirkt schon.",
+      "دارو دارد اثر می‌کند."
+    ]
+  ],
+  "ziehen": [
+    [
+      "کشیدنِ چیزی به سمت خود",
+      "Zieh bitte an der Tür.",
+      "لطفاً در را به طرف خودت بکش."
+    ],
+    [
+      "به جای دیگری نقل مکان کردن",
+      "Wir ziehen im Mai nach Köln.",
+      "در ماه مه به کلن نقل مکان می‌کنیم."
+    ]
+  ],
+  "die Karte": [
+    [
+      "نقشهٔ جغرافیایی",
+      "Auf der Karte finde ich unseren Wanderweg.",
+      "مسیر پیاده‌روی‌مان را روی نقشه پیدا می‌کنم."
+    ],
+    [
+      "بلیتِ ورود",
+      "Für das Konzert kostet eine Karte zwölf Euro.",
+      "یک بلیت کنسرت دوازده یورو قیمت دارد."
+    ],
+    [
+      "فهرست غذاها در رستوران",
+      "Könnten wir bitte die Karte bekommen?",
+      "لطفاً می‌شود منو را به ما بدهید؟"
+    ]
+  ],
+  "das Land": [
+    [
+      "ناحیهٔ روستایی، بیرون شهر",
+      "Meine Großeltern wohnen auf dem Land.",
+      "پدربزرگ و مادربزرگم در روستا زندگی می‌کنند."
+    ]
+  ],
+  "der Satz": [
+    [
+      "یک دست یا یک مجموعه",
+      "Für das Fahrrad brauche ich einen Satz Reifen.",
+      "برای دوچرخه یک دست لاستیک لازم دارم."
+    ],
+    [
+      "یک سِت در ورزش",
+      "Sie gewinnt den ersten Satz.",
+      "او ست اول را می‌برد."
+    ]
+  ],
+  "der Stift": [
+    [
+      "میله یا پینِ کوچک",
+      "Ein kleiner Stift hält das Rad fest.",
+      "یک پین کوچک چرخ را ثابت نگه می‌دارد."
+    ]
+  ],
+  "die Sprache": [
+    [
+      "شیوهٔ بیان",
+      "Der Brief ist in einfacher Sprache geschrieben.",
+      "نامه به زبانی ساده نوشته شده است."
+    ]
+  ],
+  "die Frau": [
+    [
+      "همسرِ زن",
+      "Meine Frau arbeitet heute zu Hause.",
+      "همسرم امروز در خانه کار می‌کند."
+    ]
+  ],
+  "der Mann": [
+    [
+      "شوهر، همسرِ مرد",
+      "Ihr Mann fährt heute nach Kiel.",
+      "شوهرش امروز به کیل می‌رود."
+    ]
+  ],
+  "der Freund": [
+    [
+      "شریک عاطفیِ مرد",
+      "Sie wohnt mit ihrem Freund zusammen.",
+      "او با شریک عاطفی‌اش زندگی می‌کند."
+    ]
+  ],
+  "die Freundin": [
+    [
+      "شریک عاطفیِ زن",
+      "Er kommt mit seiner Freundin zur Feier.",
+      "او با شریک عاطفی‌اش به مهمانی می‌آید."
+    ]
+  ],
+  "die Uhr": [
+    [
+      "ساعت به عنوان نشانهٔ زمان",
+      "Der Kurs beginnt um acht Uhr.",
+      "کلاس ساعت هشت شروع می‌شود."
+    ]
+  ],
+  "die Stunde": [
+    [
+      "جلسهٔ درس",
+      "Unsere letzte Stunde fällt aus.",
+      "آخرین زنگ درسمان لغو شده است."
+    ]
+  ],
+  "die Rechnung": [
+    [
+      "محاسبه",
+      "Deine Rechnung stimmt.",
+      "محاسبه‌ات درست است."
+    ]
+  ],
+  "das Glas": [
+    [
+      "شیشه، جنسِ یک وسیله",
+      "Die Schale ist aus Glas.",
+      "کاسه از شیشه ساخته شده است."
+    ]
+  ],
+  "der Preis": [
+    [
+      "جایزه",
+      "Ihr Foto gewinnt den ersten Preis.",
+      "عکس او جایزهٔ اول را می‌برد."
+    ]
+  ],
+  "die Größe": [
+    [
+      "قد، بلندیِ قامت",
+      "Für das Formular brauche ich Ihre Größe.",
+      "برای فرم باید قدتان را بدانم."
+    ]
+  ],
+  "das Geschäft": [
+    [
+      "معامله یا کسب‌وکار",
+      "Mit dem Café machen sie ein gutes Geschäft.",
+      "با کافه کسب‌وکار خوبی راه انداخته‌اند."
+    ]
+  ],
+  "der Zug": [
+    [
+      "نوبتِ حرکت در بازی",
+      "Beim Schach bist du jetzt am Zug.",
+      "در شطرنج حالا نوبت حرکت توست."
+    ],
+    [
+      "جریان هوا",
+      "Mach bitte das Fenster zu, hier ist Zug.",
+      "لطفاً پنجره را ببند، اینجا باد می‌کشد."
+    ]
+  ],
+  "der Ausgang": [
+    [
+      "نتیجه، سرانجام",
+      "Der Ausgang des Spiels ist noch offen.",
+      "نتیجهٔ بازی هنوز معلوم نیست."
+    ]
+  ],
+  "der Plan": [
+    [
+      "نقشه یا طرح ترسیمی",
+      "Der Plan zeigt alle Räume der Schule.",
+      "نقشه تمام اتاق‌های مدرسه را نشان می‌دهد."
+    ]
+  ],
+  "der Schlüssel": [
+    [
+      "راه حل یا عامل اصلی",
+      "Geduld ist der Schlüssel zum Erfolg.",
+      "صبر کلید موفقیت است."
+    ]
+  ],
+  "die Praxis": [
+    [
+      "عمل، در برابر نظریه",
+      "In der Praxis ist das oft schwieriger.",
+      "این کار در عمل اغلب دشوارتر است."
+    ]
+  ],
+  "das Rezept": [
+    [
+      "دستور تهیهٔ غذا",
+      "Ich suche ein Rezept für Linsensuppe.",
+      "دنبال دستور تهیهٔ سوپ عدس می‌گردم."
+    ]
+  ],
+  "der Kopf": [
+    [
+      "نفر، هنگام شمارش افراد",
+      "Das Essen kostet zehn Euro pro Kopf.",
+      "هزینهٔ غذا نفری ده یوروست."
+    ]
+  ],
+  "die Post": [
+    [
+      "مرسوله‌ها و نامه‌ها",
+      "Heute ist noch keine Post gekommen.",
+      "امروز هنوز نامه‌ای نرسیده است."
+    ]
+  ],
+  "der Umschlag": [
+    [
+      "جلد یا روکشِ کتاب",
+      "Der Umschlag des Buches ist blau.",
+      "جلد کتاب آبی است."
+    ]
+  ],
+  "die Anzeige": [
+    [
+      "شکایت یا گزارش رسمی به پلیس",
+      "Nach dem Diebstahl erstattet sie Anzeige.",
+      "پس از دزدی، او به پلیس شکایت می‌کند."
+    ],
+    [
+      "نمایشگر یا عددِ روی آن",
+      "Die Anzeige zeigt zwanzig Grad.",
+      "نمایشگر بیست درجه را نشان می‌دهد."
+    ]
+  ],
+  "die Gesellschaft": [
+    [
+      "هم‌نشینی و همراهی",
+      "Beim Warten leistet sie mir Gesellschaft.",
+      "هنگام انتظار کنارم می‌ماند و همراهم است."
+    ],
+    [
+      "شرکت یا مؤسسهٔ تجاری",
+      "Die Gesellschaft beschäftigt zwanzig Personen.",
+      "این شرکت بیست نفر را استخدام کرده است."
+    ]
+  ],
+  "die Stimmung": [
+    [
+      "حال‌وهوا یا فضای جمع",
+      "Beim Fest war die Stimmung fröhlich.",
+      "فضای جشن شاد بود."
+    ]
+  ],
+  "das Muster": [
+    [
+      "نمونه یا الگو",
+      "Hier ist ein Muster für den Brief.",
+      "این یک نمونه برای نوشتن نامه است."
+    ]
+  ],
+  "der Stoff": [
+    [
+      "موضوع و مطالب درسی",
+      "Wir wiederholen den Stoff für die Prüfung.",
+      "مطالب درسی را برای امتحان مرور می‌کنیم."
+    ]
+  ],
+  "der Anschluss": [
+    [
+      "محل اتصالِ دستگاه",
+      "Wo ist der Anschluss für den Drucker?",
+      "محل اتصال چاپگر کجاست؟"
+    ]
+  ],
+  "die Verbindung": [
+    [
+      "رابطه یا پیوند",
+      "Die Verbindung zwischen den Vereinen ist gut.",
+      "رابطهٔ بین دو انجمن خوب است."
+    ]
+  ],
+  "die Grenze": [
+    [
+      "حد و مرزِ چیزی",
+      "Auch meine Geduld hat eine Grenze.",
+      "صبر من هم حدی دارد."
+    ]
+  ],
+  "der Verband": [
+    [
+      "انجمن یا اتحادیه",
+      "Der Verband unterstützt kleine Sportvereine.",
+      "اتحادیه از باشگاه‌های ورزشی کوچک حمایت می‌کند."
+    ]
+  ],
+  "die Stelle": [
+    [
+      "محل یا نقطهٔ مشخص",
+      "An dieser Stelle ist der Weg eng.",
+      "در این نقطه مسیر باریک است."
+    ],
+    [
+      "بخشی از متن",
+      "Lies bitte die erste Stelle noch einmal.",
+      "لطفاً بخش اول را یک بار دیگر بخوان."
+    ]
+  ],
+  "die Schicht": [
+    [
+      "لایه",
+      "Auf dem Dach liegt eine dünne Schicht Schnee.",
+      "روی بام لایهٔ نازکی از برف نشسته است."
+    ]
+  ],
+  "der Betrieb": [
+    [
+      "فعالیت یا کارکرد یک دستگاه",
+      "Die neue Anlage ist jetzt in Betrieb.",
+      "دستگاه جدید اکنون در حال کار است."
+    ]
+  ],
+  "die Aufgabe": [
+    [
+      "تمرین یا مسئلهٔ درسی",
+      "Die zweite Aufgabe im Heft ist schwer.",
+      "تمرین دوم دفتر دشوار است."
+    ]
+  ],
+  "der Empfang": [
+    [
+      "آنتن‌دهی یا دریافت سیگنال",
+      "Im Keller haben wir keinen Empfang.",
+      "در زیرزمین آنتن نداریم."
+    ],
+    [
+      "مراسم استقبال",
+      "Die Stadt organisiert einen Empfang für die Gäste.",
+      "شهرداری برای مهمانان مراسم استقبال برگزار می‌کند."
+    ]
+  ],
+  "der Schalter": [
+    [
+      "کلیدِ روشن و خاموش",
+      "Der Schalter für das Licht ist an der Tür.",
+      "کلید چراغ کنار در است."
+    ]
+  ],
+  "der Beleg": [
+    [
+      "مدرک یا شاهد یک ادعا",
+      "Hast du einen Beleg für diese Aussage?",
+      "برای این گفته مدرکی داری؟"
+    ]
+  ],
+  "das Ziel": [
+    [
+      "مقصدِ سفر",
+      "Unser Ziel ist ein Dorf am See.",
+      "مقصد ما روستایی کنار دریاچه است."
+    ]
+  ],
+  "der Ordner": [
+    [
+      "زونکن یا پوشهٔ کاغذی",
+      "Die Verträge liegen im grünen Ordner.",
+      "قراردادها در زونکن سبز هستند."
+    ]
+  ],
+  "der Ausdruck": [
+    [
+      "نسخهٔ چاپی",
+      "Bitte bringen Sie einen Ausdruck der E-Mail mit.",
+      "لطفاً نسخهٔ چاپی ایمیل را همراه بیاورید."
+    ],
+    [
+      "حالتِ چهره",
+      "Sein Gesicht hatte einen freundlichen Ausdruck.",
+      "چهره‌اش حالتی دوستانه داشت."
+    ]
+  ],
+  "die Aussprache": [
+    [
+      "گفت‌وگوی صریح برای حل اختلاف",
+      "Nach dem Streit half uns eine ruhige Aussprache.",
+      "پس از دعوا، یک گفت‌وگوی آرام و صریح به ما کمک کرد."
+    ]
+  ],
+  "die Vorstellung": [
+    [
+      "تصور یا تصویر ذهنی",
+      "Ich habe eine genaue Vorstellung von der Wohnung.",
+      "تصویر روشنی از آن خانه در ذهن دارم."
+    ],
+    [
+      "معرفیِ یک شخص یا طرح",
+      "Nach der Vorstellung der Gäste begann das Essen.",
+      "پس از معرفی مهمان‌ها، صرف غذا شروع شد."
+    ]
+  ],
+  "der Stand": [
+    [
+      "وضعیت فعلی یا مرحلهٔ پیشرفت",
+      "Wie ist der Stand der Reparatur?",
+      "تعمیر در چه مرحله‌ای است؟"
+    ]
+  ],
+  "die Führung": [
+    [
+      "مدیریت یا هدایت",
+      "Sie übernimmt die Führung des Teams.",
+      "او هدایت تیم را بر عهده می‌گیرد."
+    ]
+  ],
+  "die Aussicht": [
+    [
+      "چشم‌انداز یا امید به یک نتیجه",
+      "Wir haben gute Aussichten auf Erfolg.",
+      "شانس خوبی برای موفقیت داریم."
+    ]
+  ],
+  "die Quelle": [
+    [
+      "چشمهٔ آب",
+      "Aus der Quelle fließt kaltes Wasser.",
+      "از چشمه آب سرد جاری است."
+    ]
+  ],
+  "der Beitrag": [
+    [
+      "سهم یا مشارکت در انجام کار",
+      "Deine Idee ist ein wichtiger Beitrag.",
+      "ایده‌ات نقش مهمی در این کار دارد."
+    ]
+  ],
+  "die Leistung": [
+    [
+      "عملکرد یا دستاورد",
+      "Die Lehrerin lobt seine Leistung im Kurs.",
+      "معلم از عملکرد او در کلاس تعریف می‌کند."
+    ]
+  ],
+  "die Aufnahme": [
+    [
+      "عکس یا ضبط صدا و تصویر",
+      "Auf der Aufnahme hört man den Regen.",
+      "در فایل ضبط‌شده صدای باران شنیده می‌شود."
+    ],
+    [
+      "پذیرش یا عضویت",
+      "Sie beantragt die Aufnahme in den Verein.",
+      "او برای عضویت در انجمن درخواست می‌دهد."
+    ]
+  ],
+  "die Ausgabe": [
+    [
+      "نسخه یا شمارهٔ نشریه",
+      "Die neue Ausgabe der Zeitung ist da.",
+      "شمارهٔ تازهٔ روزنامه رسیده است."
+    ]
+  ],
+  "das Lager": [
+    [
+      "اردوگاه",
+      "Im Sommer schlafen wir in einem Lager am See.",
+      "تابستان در اردوگاهی کنار دریاچه می‌خوابیم."
+    ]
+  ],
+  "die Nachfrage": [
+    [
+      "تقاضا در بازار",
+      "Die Nachfrage nach Fahrrädern steigt.",
+      "تقاضا برای دوچرخه در حال افزایش است."
+    ]
+  ],
+  "die Bewegung": [
+    [
+      "جنبش اجتماعی",
+      "Die Bewegung setzt sich für saubere Luft ein.",
+      "این جنبش برای هوای پاک تلاش می‌کند."
+    ]
+  ],
+  "der Einsatz": [
+    [
+      "مأموریت عملیاتی",
+      "Die Feuerwehr ist seit fünf Uhr im Einsatz.",
+      "آتش‌نشانی از ساعت پنج در مأموریت است."
+    ]
+  ],
+  "der Ablauf": [
+    [
+      "روند یا ترتیب رویدادها",
+      "Wir besprechen den Ablauf des Festes.",
+      "دربارهٔ برنامه و ترتیب بخش‌های جشن صحبت می‌کنیم."
+    ]
+  ],
+  "frei": [
+    [
+      "آزاد، دارای اختیار",
+      "Du bist frei in deiner Entscheidung.",
+      "در تصمیم‌گیری اختیار داری."
+    ],
+    [
+      "خالی و در دسترس",
+      "Ist dieser Platz noch frei?",
+      "این صندلی هنوز خالی است؟"
+    ]
+  ],
+  "offen": [
+    [
+      "حل‌نشده یا بی‌پاسخ",
+      "Eine Frage ist noch offen.",
+      "یک سؤال هنوز بی‌پاسخ مانده است."
+    ]
+  ],
+  "eng": [
+    [
+      "صمیمی و نزدیک",
+      "Wir sind seit Jahren eng befreundet.",
+      "سال‌هاست با هم دوست صمیمی هستیم."
+    ]
+  ],
+  "ruhig": [
+    [
+      "آرام و بدون نگرانی",
+      "Bleib ruhig, wir haben genug Zeit.",
+      "آرام باش، وقت کافی داریم."
+    ]
+  ],
+  "bitte": [
+    [
+      "خواهش می‌کنم، در پاسخ به تشکر",
+      "Danke für die Hilfe! – Bitte!",
+      "ممنون از کمکت! – خواهش می‌کنم!"
+    ]
+  ],
+  "sie": [
+    [
+      "آن‌ها، ضمیر سوم‌شخص جمع",
+      "Heute kommen sie zusammen.",
+      "آن‌ها امروز با هم می‌آیند."
+    ]
+  ],
+  "ihr": [
+    [
+      "«به او»، ضمیر داتیو برای مؤنث",
+      "Ich gebe ihr den Stift.",
+      "خودکار را به او می‌دهم."
+    ],
+    [
+      "مالِ او یا آن‌ها، پیش از اسم",
+      "Das ist ihr Fahrrad.",
+      "این دوچرخهٔ او یا آن‌هاست."
+    ]
+  ]
+}

@@ -1,25 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#FAF8F2">
-  <title>Lernhaus | میز مطالعه</title>
-  <script>try{document.documentElement.dataset.theme=localStorage.getItem('lernhaus-theme') || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
-  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="lessons.js"></script>
-  <script defer src="app.js"></script>
-</head>
-<body>
-  <a class="skip" href="#main">رفتن به محتوای اصلی</a>
-  <div id="layout">
-    <aside id="sidebar" aria-label="منوی کناری"></aside>
-    <div id="scrim" hidden></div>
-    <div id="workspace"><header id="topbar"></header><main id="main" tabindex="-1"></main></div>
-  </div>
-  <dialog id="sheet" aria-labelledby="sheet-title"><header class="sheet-head"><h2 id="sheet-title"></h2><button class="icon-btn" data-act="close" aria-label="بستن" id="sheet-close"></button></header><div id="sheet-body"></div></dialog>
-  <div id="toast" role="status" aria-live="polite"></div>
-</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<title>باز کردن Lernhaus</title>
+<main style="max-width:36rem;margin:8vh auto;padding:1.5rem">
+  <h1>لرن‌هاوس محلی</h1>
+  <p>فایل <bdi>Start Lernhaus.command</bdi> را اجرا کن و میز مطالعه را باز کن.</p>
+  <p><a class="primary" id="launch" href="http://127.0.0.1:4876/">باز کردن میز مطالعه</a></p>
+  <section id="legacy" hidden>
+    <h2>انتقال پیشرفت قبلی</h2>
+    <p>فایل پیشرفت شخصی این مرورگر را بگیر. بعد در حساب جدیدت، از «حساب من» آن را وارد کن.</p>
+    <button class="secondary" id="export">دریافت فایل پیشرفت</button>
+  </section>
+</main>
+<script>
+if (location.protocol === 'file:') {
+  document.querySelector('#launch').hash = location.hash;
+} else if (!location.search.includes('export')) {
+  location.replace('./index.php' + location.hash);
+}
+try {
+  const old = localStorage.getItem('lernhaus-v1-personal');
+  if (old) {
+    document.querySelector('#legacy').hidden = false;
+    document.querySelector('#export').onclick = () => {
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(new Blob([old], {type:'application/json'}));
+      link.download = 'lernhaus-progress.json';
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    };
+  }
+} catch {}
+</script>
 </html>

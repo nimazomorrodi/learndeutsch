@@ -1,0 +1,2234 @@
+[
+  {
+    "id": "kasus",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "مقایسهٔ چهار حالت آرتیکل",
+    "german": "Die vier Fälle",
+    "keywords": "نقش اسم جدول آرتیکل حالت‌ها مقایسه نومیناتیو آکوزاتیو داتیو گنیتیو Nominativ Akkusativ Dativ Genitiv Kasus",
+    "examples": [
+      [
+        "Der Mann sieht den Hund. Der Hund folgt dem Mann.",
+        "مرد سگ را می‌بیند. سگ دنبال مرد می‌رود.",
+        "در جملهٔ اول مرد فاعل و سگ مفعول است. در جملهٔ دوم فعل folgen برای کسی که دنبالش می‌رویم داتیو می‌خواهد."
+      ],
+      [
+        "Das Halsband des Hundes ist neu.",
+        "قلادهٔ سگ نو است.",
+        "وقتی سگ صاحب قلاده است، برای der Hund شکل گنیتیو یعنی des Hundes می‌آید."
+      ]
+    ],
+    "related": {
+      "kurs": [
+        0
+      ],
+      "cafe": [
+        1
+      ],
+      "behoerde": [
+        0
+      ],
+      "umweltprojekt": [
+        0
+      ]
+    },
+    "explanation": "برای انتخاب آرتیکل دو سؤال جدا بپرس. اول، جنس و تعدادِ اسم چیست؟ دوم، در این جمله چه نقشی دارد یا بعد از کدام حرف اضافه می‌آید؟ در جدول، یک ستون را از بالا تا پایین بخوان تا ببینی همان اسم چطور شکل عوض می‌کند.",
+    "table": [
+      [
+        "حالت",
+        "مذکر",
+        "مؤنث",
+        "خنثی",
+        "جمع"
+      ],
+      [
+        "Nominativ",
+        "der",
+        "die",
+        "das",
+        "die"
+      ],
+      [
+        "Akkusativ",
+        "den",
+        "die",
+        "das",
+        "die"
+      ],
+      [
+        "Dativ",
+        "dem",
+        "der",
+        "dem",
+        "den"
+      ],
+      [
+        "Genitiv",
+        "des",
+        "der",
+        "des",
+        "der"
+      ]
+    ]
+  },
+  {
+    "id": "zeiten",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "یک فعل در پنج زمان چه معنی می‌دهد؟",
+    "german": "Zeitformen im Vergleich",
+    "keywords": "زمان‌ها حال گذشته آینده ماضی بعید گذشته ساده کامل Futur Perfekt Plusquamperfekt Präteritum Präsens Zeit",
+    "examples": [
+      [
+        "Ich habe Deutsch gelernt. Als ich umzog, hatte ich schon Deutsch gelernt.",
+        "آلمانی یاد گرفتم. وقتی اسباب‌کشی کردم، از قبل آلمانی یاد گرفته بودم.",
+        "در جملهٔ دوم یادگیری به زمانی پیش از اسباب‌کشی نسبت داده شده است."
+      ],
+      [
+        "Morgen lerne ich zu Hause. Ich werde für die Prüfung lernen.",
+        "فردا در خانه درس می‌خوانم. برای امتحان درس خواهم خواند.",
+        "قید morgen برای رساندن آینده کافی است. werde … lernen آینده را با خودِ فعل بیان می‌کند."
+      ]
+    ],
+    "related": {
+      "hallo": [
+        0
+      ],
+      "urlaub": [
+        0
+      ],
+      "einladung": [
+        2
+      ],
+      "lebenswege": [
+        1
+      ],
+      "stadtteilfest": [
+        3
+      ]
+    },
+    "explanation": "با مثالِ lernen رویداد را روی خط زمان بگذار. برای «الان» حال، برای گزارش کارِ انجام‌شده معمولاً Perfekt یا Präteritum و برای کاری که پیش از رویداد گذشتهٔ دیگری تمام شده Plusquamperfekt به کار می‌رود. آینده را می‌توان با werden یا با زمان حال و یک قید گفت.",
+    "table": [
+      [
+        "زمان",
+        "جمله",
+        "معنی در این بافت"
+      ],
+      [
+        "Präsens",
+        "Ich lerne.",
+        "درس می‌خوانم."
+      ],
+      [
+        "Präteritum",
+        "Ich lernte.",
+        "درس خواندم (در روایت)."
+      ],
+      [
+        "Perfekt",
+        "Ich habe gelernt.",
+        "درس خواندم / خوانده‌ام."
+      ],
+      [
+        "Plusquamperfekt",
+        "Ich hatte gelernt.",
+        "درس خوانده بودم."
+      ],
+      [
+        "Futur I",
+        "Ich werde lernen.",
+        "درس خواهم خواند."
+      ]
+    ],
+    "source": [
+      "مرجع زمان‌های فعل · مؤسسهٔ زبان آلمانی لایبنیتس",
+      "https://grammis.ids-mannheim.de/progr%40mm/6905"
+    ]
+  },
+  {
+    "id": "artikel",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "آرتیکل معرفه و نکره",
+    "german": "Artikel",
+    "keywords": "آرتیکل ارتیکل جنسیت حرف تعریف نکره معرفه der die das ein eine bestimmter unbestimmter Nullartikel",
+    "examples": [
+      [
+        "Das ist eine Lampe. Die Lampe ist neu.",
+        "این یک چراغ است. آن چراغ نو است.",
+        "بار اول یک چراغ را معرفی می‌کنی؛ بار دوم شنونده می‌داند کدام چراغ را می‌گویی."
+      ],
+      [
+        "Das sind Bücher. Die Bücher gehören Sara.",
+        "این‌ها کتاب‌اند. آن کتاب‌ها مال سارا هستند.",
+        "برای جمع معادل ein نداریم. وقتی کتاب‌ها مشخص شدند die می‌آید."
+      ]
+    ],
+    "related": {
+      "kurs": [
+        0
+      ]
+    },
+    "explanation": "در شکل پایه، اسم مفرد را با der برای مذکر، die برای مؤنث و das برای خنثی یاد بگیر. وقتی چیزی را اولین بار معرفی می‌کنی، برای مذکر و خنثی ein و برای مؤنث eine بیاور. برای اشارهٔ دوباره به همان چیز، آرتیکل معرفه بیاور. جمعِ نامعین و نام بیشتر زبان‌ها و شهرها آرتیکل نمی‌خواهند.",
+    "table": [
+      [
+        "جنس و تعداد",
+        "معرفه",
+        "نکره"
+      ],
+      [
+        "مذکر",
+        "der Tisch",
+        "ein Tisch"
+      ],
+      [
+        "مؤنث",
+        "die Tasche",
+        "eine Tasche"
+      ],
+      [
+        "خنثی",
+        "das Buch",
+        "ein Buch"
+      ],
+      [
+        "جمع",
+        "die Bücher",
+        "Bücher"
+      ]
+    ]
+  },
+  {
+    "id": "nominativ",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "نومیناتیو؛ فاعل جمله",
+    "german": "Nominativ",
+    "keywords": "نومیناتیو نومیناتیف نامیناتیو فاعلی حالت فاعل wer was",
+    "examples": [
+      [
+        "Heute kommt der Lehrer.",
+        "امروز معلم می‌آید.",
+        "با اینکه heute اول جمله است، فاعل der Lehrer است. جای اول همیشه جای فاعل نیست."
+      ],
+      [
+        "Mein Bruder ist ein guter Koch.",
+        "برادرم آشپز خوبی است.",
+        "دو طرفِ ist به یک نفر اشاره می‌کنند. برای شغل در این عبارت ein می‌آید."
+      ]
+    ],
+    "related": {
+      "hallo": [
+        0
+      ],
+      "familie": [
+        1
+      ]
+    },
+    "explanation": "اول فعل را پیدا کن، بعد بپرس «چه کسی یا چه چیزی این کار را می‌کند؟». پاسخ در حالت فاعلی است. فعل از نظر شخص و تعداد با همین فاعل هماهنگ می‌شود. اسمی که با sein شغل یا هویت فاعل را معرفی می‌کند هم در این حالت می‌آید."
+  },
+  {
+    "id": "akkusativ",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "آکوزاتیو؛ مفعول مستقیم",
+    "german": "Akkusativ",
+    "keywords": "اکوزاتیو اکوزاتیف آکوزاتیف آکوزاتیو مفعولی wen was einen den mich dich",
+    "examples": [
+      [
+        "Der Tisch ist schön. Ich kaufe den Tisch.",
+        "میز زیباست. میز را می‌خرم.",
+        "همان میز یک بار فاعل است و یک بار مفعول. برای همین آرتیکل عوض شده است."
+      ],
+      [
+        "Es gibt einen Park. Wir gehen ohne den Hund.",
+        "یک پارک هست. بدون سگ می‌رویم.",
+        "بعد از es gibt و بعد از ohne شکل مفعولی می‌آید، حتی وقتی در فارسی «را» نمی‌گوییم."
+      ]
+    ],
+    "related": {
+      "cafe": [
+        1
+      ],
+      "zuhause": [
+        1
+      ],
+      "konto": [
+        0
+      ]
+    },
+    "explanation": "در «من یک میز می‌خرم»، میز چیزی است که خریده می‌شود. فعل kaufen برای این نقش آکوزاتیو می‌خواهد. در آرتیکل معرفهٔ مفرد تغییر مهم برای اسم مذکر است؛ der به den تبدیل می‌شود. بعضی حرف‌های اضافه مثل für و ohne هم آکوزاتیو می‌خواهند.",
+    "table": [
+      [
+        "نوع اسم",
+        "فاعل",
+        "مفعول مشخص",
+        "مفعول نامعین"
+      ],
+      [
+        "مذکر",
+        "der Mann",
+        "den Mann",
+        "einen Mann"
+      ],
+      [
+        "مؤنث",
+        "die Frau",
+        "die Frau",
+        "eine Frau"
+      ],
+      [
+        "خنثی",
+        "das Kind",
+        "das Kind",
+        "ein Kind"
+      ],
+      [
+        "جمع",
+        "die Gäste",
+        "die Gäste",
+        "Gäste"
+      ]
+    ]
+  },
+  {
+    "id": "dativ",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "داتیو؛ گیرنده و متمم",
+    "german": "Dativ",
+    "keywords": "داتیف داتیو مفعول غیرمستقیم متمم wem dem einem mir dir",
+    "examples": [
+      [
+        "Ich gebe dem Kind den Ball.",
+        "توپ را به بچه می‌دهم.",
+        "بچه گیرنده است، پس das Kind به dem Kind تبدیل می‌شود. توپ مفعول مستقیم است، پس der Ball به den Ball تبدیل می‌شود."
+      ],
+      [
+        "Ich helfe meiner Schwester. Ich fahre mit den Kindern.",
+        "به خواهرم کمک می‌کنم. با بچه‌ها می‌روم.",
+        "helfen و mit داتیو می‌خواهند. در جمعِ داتیو معمولاً به اسم هم n اضافه می‌شود، مگر جمع از قبل به n یا s ختم شود."
+      ]
+    ],
+    "related": {
+      "gesund": [
+        1
+      ],
+      "behoerde": [
+        0
+      ],
+      "nachbarn": [
+        0,
+        2
+      ],
+      "lebenswege": [
+        3
+      ]
+    },
+    "explanation": "در «کتاب را به بچه می‌دهم»، بچه گیرنده است و در آلمانی داتیو می‌گیرد. گاهی خودِ فعل، مثل helfen، یا حرف اضافه، مثل mit، این حالت را تعیین می‌کند. ترجمهٔ فارسی به‌تنهایی برای انتخاب حالت کافی نیست.",
+    "table": [
+      [
+        "نوع اسم",
+        "معرفه",
+        "نامعین یا ملکی"
+      ],
+      [
+        "مذکر",
+        "dem Mann",
+        "einem Mann"
+      ],
+      [
+        "مؤنث",
+        "der Frau",
+        "einer Frau"
+      ],
+      [
+        "خنثی",
+        "dem Kind",
+        "einem Kind"
+      ],
+      [
+        "جمع",
+        "den Kindern",
+        "meinen Kindern"
+      ]
+    ]
+  },
+  {
+    "id": "genitiv",
+    "level": "B1",
+    "category": "اسم و حالت‌ها",
+    "title": "گنیتیو؛ مالکیت و وابستگی",
+    "german": "Genitiv",
+    "keywords": "گنتیو گنتیف گنیتیو گنیتیف اضافهٔ ملکی wessen des wegen trotz innerhalb",
+    "examples": [
+      [
+        "Der Schlüssel des Hauses liegt hier.",
+        "کلید خانه اینجاست.",
+        "Haus خنثی است. das Haus در این عبارت به des Hauses تبدیل شده است."
+      ],
+      [
+        "Trotz der Verspätung bekommen wir den Anschluss.",
+        "با وجود تأخیر به قطار بعدی می‌رسیم.",
+        "Verspätung مؤنث است. شکل گنیتیو آن der Verspätung است."
+      ]
+    ],
+    "related": {
+      "umweltprojekt": [
+        0
+      ],
+      "schriftverkehr": [
+        1
+      ]
+    },
+    "explanation": "وقتی می‌گویی «کلیدِ خانه»، اسم دوم توضیح می‌دهد کلید به چه چیزی تعلق دارد. در نوشتار آلمانی می‌توان اسم دوم را در گنیتیو آورد. آرتیکل مذکر و خنثی des می‌شود و خودِ اسم معمولاً s یا es می‌گیرد. بعد از wegen، trotz و innerhalb هم در نوشتار معمولاً گنیتیو می‌آید.",
+    "table": [
+      [
+        "نوع اسم",
+        "شکل پایه",
+        "گنیتیو"
+      ],
+      [
+        "مذکر",
+        "der Vater",
+        "des Vaters"
+      ],
+      [
+        "مؤنث",
+        "die Lehrerin",
+        "der Lehrerin"
+      ],
+      [
+        "خنثی",
+        "das Kind",
+        "des Kindes"
+      ],
+      [
+        "جمع",
+        "die Kinder",
+        "der Kinder"
+      ]
+    ]
+  },
+  {
+    "id": "plural",
+    "level": "A1",
+    "category": "اسم و حالت‌ها",
+    "title": "جمع اسم‌ها و املای اسم",
+    "german": "Plural und Nomen",
+    "keywords": "مفرد جمع جمع بستن املای اسم Umlaut Großschreibung",
+    "examples": [
+      [
+        "Ein Buch liegt hier. Zwei Bücher liegen dort.",
+        "یک کتاب اینجاست. دو کتاب آنجاست.",
+        "در Bücher هم u به ü تغییر کرده و هم er اضافه شده است. فعل جمع هم liegen است."
+      ],
+      [
+        "Die Tasche ist blau. Die Taschen sind blau.",
+        "کیف آبی است. کیف‌ها آبی‌اند.",
+        "برای Tasche فقط n اضافه شد. آرتیکل جمعِ مشخص در حالت پایه همیشه die است."
+      ]
+    ],
+    "related": {
+      "kurs": [
+        1
+      ]
+    },
+    "explanation": "اسم را با حرف بزرگ می‌نویسیم. جمع می‌تواند با e، er، n، en یا s ساخته شود؛ گاهی شکل اسم ثابت می‌ماند یا صدادارش هم تغییر می‌کند. برای همین بهتر است هر اسم را همراه آرتیکل و جمعش یاد بگیری."
+  },
+  {
+    "id": "n-deklination",
+    "level": "B1",
+    "category": "اسم و حالت‌ها",
+    "title": "صرف ضعیف بعضی اسم‌های مذکر",
+    "german": "N-Deklination",
+    "keywords": "اسم ضعیف مذکر Kunden Kollegen Menschen",
+    "examples": [
+      [
+        "Der Kunde wartet. Ich rufe den Kunden an.",
+        "مشتری منتظر است. به مشتری زنگ می‌زنم.",
+        "Kunde فاعل است، ولی بعد از anrufen مفعول مستقیم می‌شود و n می‌گیرد."
+      ],
+      [
+        "Ich spreche mit einem Kollegen.",
+        "با یک همکار صحبت می‌کنم.",
+        "پس از mit، شکل داتیو همکار einen نیست؛ گروه کامل einem Kollegen است."
+      ]
+    ],
+    "related": {
+      "absichern": [
+        3
+      ]
+    },
+    "explanation": "بعضی اسم‌های مذکر مثل Kunde، Kollege و Mensch در مفرد، به‌جز حالت فاعلی، پایان n یا en می‌گیرند. وقتی آرتیکل را عوض می‌کنی، خودِ اسم را هم بررسی کن."
+  },
+  {
+    "id": "pronomen",
+    "level": "A1",
+    "category": "ضمیر و صفت",
+    "title": "ضمیرهای شخصی در سه حالت",
+    "german": "Personalpronomen",
+    "keywords": "ضمیر شخصی ضمایر ضمائر فاعلی مفعولی داتیو آکوزاتیو mir mich ihm ihn Sie رسمی",
+    "examples": [
+      [
+        "Sie zeigt mir den Brief. Ich lese ihn.",
+        "او نامه را به من نشان می‌دهد. آن را می‌خوانم.",
+        "mir گیرنده است. ihn جای den Brief نشسته و شکل آکوزاتیو دارد."
+      ],
+      [
+        "Ich schicke es dir.",
+        "آن را برایت می‌فرستم.",
+        "اگر هر دو مفعول ضمیر باشند، معمولاً اول ضمیر آکوزاتیو و بعد ضمیر داتیو می‌آید."
+      ]
+    ],
+    "related": {
+      "hallo": [
+        2
+      ],
+      "wetter": [
+        2
+      ],
+      "digital": [
+        1
+      ]
+    },
+    "explanation": "ضمیر را اول با شخص و بعد با نقشش انتخاب کن. برای «من» فاعل ich، مفعول مستقیم mich و گیرنده mir است. در خطاب محترمانه به یک یا چند نفر، Sie و Ihnen را با حرف بزرگ بنویس.",
+    "table": [
+      [
+        "فاعل",
+        "آکوزاتیو",
+        "داتیو"
+      ],
+      [
+        "ich",
+        "mich",
+        "mir"
+      ],
+      [
+        "du",
+        "dich",
+        "dir"
+      ],
+      [
+        "er / sie / es",
+        "ihn / sie / es",
+        "ihm / ihr / ihm"
+      ],
+      [
+        "wir",
+        "uns",
+        "uns"
+      ],
+      [
+        "ihr",
+        "euch",
+        "euch"
+      ],
+      [
+        "sie / Sie",
+        "sie / Sie",
+        "ihnen / Ihnen"
+      ]
+    ]
+  },
+  {
+    "id": "possessiv",
+    "level": "A1",
+    "category": "ضمیر و صفت",
+    "title": "گفتن «مال من، تو، او»",
+    "german": "Possessivartikel",
+    "keywords": "مالکیت صفت ملکی ضمیر ملکی mein dein sein ihr unser euer Ihr",
+    "examples": [
+      [
+        "Das ist mein Bruder. Ich sehe meinen Bruder.",
+        "این برادر من است. برادرم را می‌بینم.",
+        "مالک عوض نشده؛ چون Bruder در جملهٔ دوم مفعول مذکر است، mein به meinen تبدیل می‌شود."
+      ],
+      [
+        "Lea fährt mit ihrem Sohn.",
+        "لئا با پسرش می‌رود.",
+        "مالک زن است، پس ریشه ihr است. mit داتیو می‌خواهد و Sohn مذکر است، پس ihrem می‌شود."
+      ]
+    ],
+    "related": {
+      "familie": [
+        0
+      ],
+      "behoerde": [
+        1
+      ],
+      "medienwelt": [
+        3
+      ]
+    },
+    "explanation": "ریشهٔ واژهٔ ملکی را صاحبِ چیز تعیین می‌کند. برای من mein، برای تو dein، برای او sein یا ihr است. پایانه به اسمِ بعدش و نقش همان اسم بستگی دارد. برای «شما»ی رسمی از Ihr استفاده کن.",
+    "table": [
+      [
+        "صاحبِ چیز",
+        "ریشهٔ ملکی",
+        "نمونه"
+      ],
+      [
+        "ich",
+        "mein",
+        "mein Buch"
+      ],
+      [
+        "du",
+        "dein",
+        "dein Buch"
+      ],
+      [
+        "er / es",
+        "sein",
+        "sein Buch"
+      ],
+      [
+        "sie (مفرد)",
+        "ihr",
+        "ihr Buch"
+      ],
+      [
+        "wir",
+        "unser",
+        "unser Buch"
+      ],
+      [
+        "ihr",
+        "euer",
+        "euer Buch"
+      ],
+      [
+        "sie (جمع) / Sie",
+        "ihr / Ihr",
+        "ihr Buch / Ihr Buch"
+      ]
+    ]
+  },
+  {
+    "id": "demonstrativ",
+    "level": "A2",
+    "category": "ضمیر و صفت",
+    "title": "اشاره و پرسیدن «کدام؟»",
+    "german": "dieser und welcher",
+    "keywords": "اشاره پرسشی کدام این آن dieser diese dieses welcher",
+    "examples": [
+      [
+        "Welchen Mantel meinst du? Diesen Mantel.",
+        "منظورت کدام پالتوست؟ این پالتو.",
+        "Mantel مذکر و مفعول است؛ پس هر دو واژه پایان en دارند."
+      ],
+      [
+        "Welche Tasche gehört dir? Diese hier.",
+        "کدام کیف مال توست؟ این یکی.",
+        "Tasche مؤنث است و در این سؤال فاعل؛ برای همین welche می‌آید."
+      ]
+    ],
+    "related": {
+      "umtausch": [
+        2
+      ],
+      "markt": [
+        2
+      ]
+    },
+    "explanation": "برای اشاره از dieser و برای پرسیدن «کدام» از welcher استفاده کن. پایانهٔ این واژه‌ها جنس، تعداد و حالت اسم را نشان می‌دهد؛ مثل der، die و das."
+  },
+  {
+    "id": "indefinit",
+    "level": "A2",
+    "category": "ضمیر و صفت",
+    "title": "شخص، چیز یا مقدار نامشخص",
+    "german": "Indefinitpronomen und Mengen",
+    "keywords": "نامعین نامشخص man einen einem jemand niemand etwas nichts jeder alle einige",
+    "examples": [
+      [
+        "Hier spricht man Deutsch. Hat jemand etwas gefragt?",
+        "اینجا آلمانی صحبت می‌کنند. کسی چیزی پرسید؟",
+        "man فاعل مفرد است. jemand شخص را و etwas موضوع سؤال را نامشخص می‌گذارد."
+      ],
+      [
+        "Jedes Kind bekommt ein Heft. Alle Kinder schreiben.",
+        "هر بچه یک دفتر می‌گیرد. همهٔ بچه‌ها می‌نویسند.",
+        "بعد از jedes یک اسم و فعل مفرد داری؛ بعد از alle از جمع استفاده کن."
+      ]
+    ],
+    "related": {
+      "digital": [
+        3
+      ],
+      "behoerde": [
+        2
+      ],
+      "weiterlernen": [
+        3
+      ],
+      "konto": [
+        1
+      ]
+    },
+    "explanation": "man یعنی «آدم، مردم به‌طور کلی» و فعلش مفرد است. jemand برای شخصی نامعلوم و etwas برای چیزی نامعلوم است. برای مقدار، jeder به تک‌تک افراد و alle به کل گروه اشاره می‌کند."
+  },
+  {
+    "id": "adjektive",
+    "level": "A2",
+    "category": "ضمیر و صفت",
+    "title": "پایانهٔ صفت پیش از اسم",
+    "german": "Adjektivdeklination",
+    "keywords": "صرف صفت صفت بعد از آرتیکل قوی ضعیف مختلط Adjektivendung Endungen",
+    "examples": [
+      [
+        "Das Hemd ist neu. Das ist ein neues Hemd.",
+        "پیراهن نو است. این یک پیراهن نو است.",
+        "ein در اینجا نشانهٔ خنثی ندارد؛ neues با es آن را نشان می‌دهد."
+      ],
+      [
+        "Ich trage den warmen Mantel. Ich trinke kaltes Wasser.",
+        "پالتوی گرم را می‌پوشم. آب سرد می‌نوشم.",
+        "در مثال اول den علامت مفعول مذکر را دارد. در مثال دوم پیش از صفت آرتیکلی نیست و kaltes نشانهٔ خنثی می‌گیرد."
+      ]
+    ],
+    "related": {
+      "umtausch": [
+        0,
+        3
+      ],
+      "kulturzeit": [
+        0
+      ],
+      "schriftverkehr": [
+        2
+      ]
+    },
+    "explanation": "صفت بعد از sein معمولاً همان شکل ساده می‌ماند. پیش از اسم، پایانهٔ آن به حالت، جنس و واژهٔ قبل بستگی دارد. اگر آرتیکل خودش نشانهٔ جنس را نشان ندهد، صفت اغلب آن نشانه را می‌گیرد. در داتیو بعد از آرتیکل معین یا ein تقریباً همیشه en می‌بینی.",
+    "table": [
+      [
+        "الگو",
+        "با آرتیکل معرفه",
+        "با ein یا ملکی",
+        "بدون آرتیکل"
+      ],
+      [
+        "مذکر فاعلی",
+        "der gute Tee",
+        "ein guter Tee",
+        "guter Tee"
+      ],
+      [
+        "مؤنث فاعلی",
+        "die warme Milch",
+        "eine warme Milch",
+        "warme Milch"
+      ],
+      [
+        "خنثی فاعلی",
+        "das kalte Wasser",
+        "ein kaltes Wasser",
+        "kaltes Wasser"
+      ],
+      [
+        "مذکر مفعولی",
+        "den guten Tee",
+        "einen guten Tee",
+        "guten Tee"
+      ],
+      [
+        "مذکر داتیو",
+        "mit dem guten Tee",
+        "mit meinem guten Tee",
+        "mit gutem Tee"
+      ],
+      [
+        "جمع فاعلی",
+        "die roten Äpfel",
+        "meine roten Äpfel",
+        "rote Äpfel"
+      ],
+      [
+        "مؤنث مفعولی",
+        "die warme Milch",
+        "meine warme Milch",
+        "warme Milch"
+      ],
+      [
+        "خنثی مفعولی",
+        "das kalte Wasser",
+        "mein kaltes Wasser",
+        "kaltes Wasser"
+      ],
+      [
+        "جمع مفعولی",
+        "die roten Äpfel",
+        "meine roten Äpfel",
+        "rote Äpfel"
+      ],
+      [
+        "مؤنث داتیو",
+        "mit der warmen Milch",
+        "mit meiner warmen Milch",
+        "mit warmer Milch"
+      ],
+      [
+        "خنثی داتیو",
+        "mit dem kalten Wasser",
+        "mit meinem kalten Wasser",
+        "mit kaltem Wasser"
+      ],
+      [
+        "جمع داتیو",
+        "mit den roten Äpfeln",
+        "mit meinen roten Äpfeln",
+        "mit roten Äpfeln"
+      ],
+      [
+        "مذکر گنیتیو",
+        "des guten Tees",
+        "meines guten Tees",
+        "guten Tees"
+      ],
+      [
+        "مؤنث گنیتیو",
+        "der warmen Milch",
+        "meiner warmen Milch",
+        "warmer Milch"
+      ],
+      [
+        "خنثی گنیتیو",
+        "des kalten Wassers",
+        "meines kalten Wassers",
+        "kalten Wassers"
+      ],
+      [
+        "جمع گنیتیو",
+        "der roten Äpfel",
+        "meiner roten Äpfel",
+        "roter Äpfel"
+      ]
+    ]
+  },
+  {
+    "id": "vergleich",
+    "level": "A2",
+    "category": "ضمیر و صفت",
+    "title": "مقایسه و برتری",
+    "german": "Komparativ und Superlativ",
+    "keywords": "صفت تفضیلی عالی lieber am liebsten besser am besten als wie je desto",
+    "examples": [
+      [
+        "Der Bus ist günstiger als der Zug. Das Rad ist am günstigsten.",
+        "اتوبوس از قطار ارزان‌تر است. دوچرخه از همه ارزان‌تر است.",
+        "günstiger دو گزینه را مقایسه می‌کند؛ am günstigsten بهترین گزینه از نظر قیمت را نشان می‌دهد."
+      ],
+      [
+        "Je früher wir buchen, desto weniger zahlen wir.",
+        "هرچه زودتر رزرو کنیم، کمتر می‌پردازیم.",
+        "در بند je فعل آخر و در بند desto فعل پس از عبارت مقایسه می‌آید."
+      ]
+    ],
+    "related": {
+      "umtausch": [
+        1
+      ],
+      "lernweg": [
+        2
+      ],
+      "kulturzeit": [
+        1
+      ],
+      "umweltprojekt": [
+        1,
+        3
+      ],
+      "wetter": [
+        1
+      ]
+    },
+    "explanation": "برای تفاوت از شکل مقایسه‌ای و als، برای برابری از so … wie استفاده کن. برای بالاترین درجه بعد از فعل اغلب am …sten می‌آید. gut، viel و gern شکل‌های ویژه دارند.",
+    "table": [
+      [
+        "ساده",
+        "تفضیلی",
+        "عالی"
+      ],
+      [
+        "gut",
+        "besser",
+        "am besten"
+      ],
+      [
+        "viel",
+        "mehr",
+        "am meisten"
+      ],
+      [
+        "gern",
+        "lieber",
+        "am liebsten"
+      ],
+      [
+        "hoch",
+        "höher",
+        "am höchsten"
+      ]
+    ]
+  },
+  {
+    "id": "praesens",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "زمان حال و صرف فعل",
+    "german": "Präsens",
+    "keywords": "پرزنس حال ساده صرف فعل شناسه باقاعده بی‌قاعده شخص du فعل کمکی sein haben",
+    "examples": [
+      [
+        "Ich lerne Deutsch. Sie liest ein Buch.",
+        "من آلمانی یاد می‌گیرم. او کتاب می‌خواند.",
+        "برای ich در lernen پایان e داریم. در lesen شکل سوم‌شخص liest است."
+      ],
+      [
+        "Morgen haben wir Unterricht.",
+        "فردا کلاس داریم.",
+        "اگر زمان آینده از قید معلوم باشد، زمان حال برای یک برنامهٔ آینده هم کافی است."
+      ]
+    ],
+    "related": {
+      "hallo": [
+        0,
+        1
+      ],
+      "familie": [
+        1
+      ]
+    },
+    "explanation": "مصدر شکل واژه‌نامه‌ای فعل است. برای فعل باقاعده‌ای مثل lernen، از lern شروع کن و پایان مناسب فاعل را اضافه کن. بعضی فعل‌ها مثل lesen در du و er/sie/es صدای دیگری دارند. sein و haben شکل‌های ویژه دارند.",
+    "table": [
+      [
+        "فاعل",
+        "lernen",
+        "lesen",
+        "sein",
+        "haben"
+      ],
+      [
+        "ich",
+        "lerne",
+        "lese",
+        "bin",
+        "habe"
+      ],
+      [
+        "du",
+        "lernst",
+        "liest",
+        "bist",
+        "hast"
+      ],
+      [
+        "er / sie / es",
+        "lernt",
+        "liest",
+        "ist",
+        "hat"
+      ],
+      [
+        "wir",
+        "lernen",
+        "lesen",
+        "sind",
+        "haben"
+      ],
+      [
+        "ihr",
+        "lernt",
+        "lest",
+        "seid",
+        "habt"
+      ],
+      [
+        "sie / Sie",
+        "lernen",
+        "lesen",
+        "sind",
+        "haben"
+      ]
+    ]
+  },
+  {
+    "id": "trennbar",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "فعل جداشدنی و جدانشدنی",
+    "german": "Trennbare und untrennbare Verben",
+    "keywords": "پیشوند جداشدنی غیرقابل تفکیک قاب جمله aufstehen anrufen besuchen verstehen Satzklammer",
+    "examples": [
+      [
+        "Ich rufe dich heute an. Ich will dich heute anrufen.",
+        "امروز به تو زنگ می‌زنم. می‌خواهم امروز به تو زنگ بزنم.",
+        "در جملهٔ اول an جداست. در جملهٔ دوم will صرف شده و anrufen به صورت مصدر باقی مانده است."
+      ],
+      [
+        "Ich weiß, dass sie morgen ankommt. Wir besuchen sie dann.",
+        "می‌دانم که او فردا می‌رسد. آن‌وقت به دیدنش می‌رویم.",
+        "در پایان بند dass می‌گویی ankommt. در besuchen هم be همیشه به فعل چسبیده است."
+      ]
+    ],
+    "related": {
+      "alltag": [
+        0
+      ]
+    },
+    "explanation": "بعضی فعل‌ها پیشوندِ تکیه‌دار دارند. در جملهٔ اصلی بخش صرف‌شده کنار فاعل می‌آید و پیشوند جداشدنی در پایان. پیشوندهایی مانند be و ver جدا نمی‌شوند. وقتی فعل به صورت مصدر یا در پایان یک بند وابسته بیاید، پیشوند جداشدنی هم به آن می‌چسبد."
+  },
+  {
+    "id": "modal",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "توانایی، اجبار، اجازه، خواسته و توصیه",
+    "german": "Modalverben",
+    "keywords": "فعل وجهی مدال können dürfen müssen sollen wollen mögen möchten sollte",
+    "examples": [
+      [
+        "Ich muss morgen arbeiten. Du musst nicht kommen.",
+        "من فردا باید کار کنم. لازم نیست تو بیایی.",
+        "müssen اجبار می‌سازد. با nicht این اجبار برداشته می‌شود."
+      ],
+      [
+        "Sie dürfen hier nicht parken. Sie sollen am Tor warten.",
+        "اینجا اجازهٔ پارک ندارید. گفته‌اند جلوی در منتظر بمانید.",
+        "nicht dürfen ممنوعیت است؛ sollen دستور یا خواستهٔ کسی را منتقل می‌کند."
+      ]
+    ],
+    "related": {
+      "beruf": [
+        0,
+        1,
+        2
+      ],
+      "cafe": [
+        0
+      ],
+      "wohlbefinden": [
+        0
+      ],
+      "nachbarn": [
+        1
+      ],
+      "gesundbleiben": [
+        1
+      ],
+      "zeitplan": [
+        2
+      ]
+    },
+    "explanation": "فعل وجهی معنی فعل اصلی را تغییر می‌دهد. فعل وجهی را برای فاعل صرف کن و فعل اصلی را به صورت مصدر در انتها بگذار. برای نفی به تفاوت «لازم نیست» و «اجازه نداری» دقت کن.",
+    "table": [
+      [
+        "فعل یا شکل",
+        "معنی رایج",
+        "نمونه"
+      ],
+      [
+        "können",
+        "توانستن",
+        "Ich kann lesen."
+      ],
+      [
+        "müssen",
+        "مجبور بودن",
+        "Ich muss gehen."
+      ],
+      [
+        "dürfen",
+        "اجازه داشتن",
+        "Du darfst bleiben."
+      ],
+      [
+        "sollen",
+        "باید، طبق درخواست کسی",
+        "Ich soll anrufen."
+      ],
+      [
+        "wollen",
+        "خواستن یا قصد داشتن",
+        "Wir wollen lernen."
+      ],
+      [
+        "mögen / möchten",
+        "دوست داشتن / میل داشتن",
+        "Ich mag Tee. Ich möchte Tee."
+      ]
+    ]
+  },
+  {
+    "id": "imperativ",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "دستور و درخواست",
+    "german": "Imperativ",
+    "keywords": "امری امر دستور bitte Sie du ihr",
+    "examples": [
+      [
+        "Lies bitte den Brief! Lest bitte den Brief!",
+        "لطفاً نامه را بخوان! لطفاً نامه را بخوانید!",
+        "اولی برای یک دوست و دومی برای چند دوست است. lesen در شکل مفرد به lies تبدیل می‌شود."
+      ],
+      [
+        "Rufen Sie mich bitte an! Sei bitte pünktlich!",
+        "لطفاً به من زنگ بزنید! لطفاً سر وقت باش!",
+        "پیشوند an آخر جمله می‌ماند. شکل امری دوستانهٔ sein برای یک نفر sei است."
+      ]
+    ],
+    "related": {
+      "gesund": [
+        0
+      ]
+    },
+    "explanation": "برای خطاب دوستانهٔ یک‌نفره معمولاً du را نمی‌آوری. برای جمع دوستانه شکل ihr را بدون ihr بگو. برای خطاب رسمی فعل را اول و Sie را بعد از آن بیاور. bitte درخواست را مؤدبانه‌تر می‌کند."
+  },
+  {
+    "id": "perfekt",
+    "level": "A1",
+    "category": "فعل و زمان",
+    "title": "گذشتهٔ گفتاری و قسمت سوم فعل",
+    "german": "Perfekt und Partizip II",
+    "keywords": "پرفکت ماضی نقلی گذشته کامل محاوره Partizip haben sein گذشته فعل کمکی",
+    "examples": [
+      [
+        "Wir haben die Tür geöffnet. Dann sind wir nach Hause gegangen.",
+        "در را باز کردیم. بعد به خانه رفتیم.",
+        "باز کردن مفعول دارد و با haben آمده است. برای رفتن به مقصد، sein به کار رفته است."
+      ],
+      [
+        "Ich habe sie angerufen. Sie hat den Text übersetzt.",
+        "به او زنگ زدم. او متن را ترجمه کرد.",
+        "در anrufen، بخش ge بین پیشوند و فعل می‌آید. übersetzen به معنی «ترجمه کردن» در این شکل ge نمی‌گیرد."
+      ]
+    ],
+    "related": {
+      "urlaub": [
+        0,
+        1
+      ],
+      "reise": [
+        0,
+        1
+      ],
+      "bewerbung": [
+        2
+      ]
+    },
+    "explanation": "برای تعریف کاری که انجام شده، اغلب haben یا sein را در زمان حال صرف می‌کنی و قسمت سوم فعل را در آخر می‌گذاری. بیشتر فعل‌ها haben می‌گیرند؛ بسیاری از فعل‌های تغییر مکان یا حالت، مانند ankommen، با sein می‌آیند. فعل و شکل گذشته‌اش را با هم یاد بگیر.",
+    "table": [
+      [
+        "نوع فعل",
+        "مصدر",
+        "قسمت سوم"
+      ],
+      [
+        "باقاعده",
+        "machen",
+        "gemacht"
+      ],
+      [
+        "قوی",
+        "schreiben",
+        "geschrieben"
+      ],
+      [
+        "جداشدنی",
+        "einkaufen",
+        "eingekauft"
+      ],
+      [
+        "جدانشدنی",
+        "bezahlen",
+        "bezahlt"
+      ],
+      [
+        "با پایان ieren",
+        "studieren",
+        "studiert"
+      ]
+    ],
+    "source": [
+      "مرجع زمان‌های فعل · مؤسسهٔ زبان آلمانی لایبنیتس",
+      "https://grammis.ids-mannheim.de/progr%40mm/6905"
+    ]
+  },
+  {
+    "id": "praeteritum",
+    "level": "A2",
+    "category": "فعل و زمان",
+    "title": "گذشتهٔ ساده",
+    "german": "Präteritum",
+    "keywords": "پرتریتوم پرتریتوم گذشته ساده روایی داستان war hatte konnte wollte",
+    "examples": [
+      [
+        "Früher wohnte ich in Bonn. Am Wochenende fuhr ich oft nach Köln.",
+        "قبلاً در بن زندگی می‌کردم. آخر هفته‌ها اغلب به کلن می‌رفتم.",
+        "wohnen شکل باقاعدهٔ wohnte دارد. برای fahren باید fuhr را جداگانه یاد بگیری."
+      ],
+      [
+        "Gestern hatte ich Zeit, aber ich konnte nicht kommen.",
+        "دیروز وقت داشتم، ولی نتوانستم بیایم.",
+        "konnte صرف شده و مصدر kommen در آخر مانده است."
+      ]
+    ],
+    "related": {
+      "einladung": [
+        2
+      ],
+      "zeitplan": [
+        2
+      ],
+      "lebenswege": [
+        2
+      ]
+    },
+    "explanation": "برای روایت نوشتاری اغلب گذشتهٔ ساده می‌آید. war، hatte و شکل گذشتهٔ فعل‌های وجهی در گفت‌وگو هم رایج‌اند. فعل باقاعده معمولاً te می‌گیرد؛ فعل قوی ممکن است ریشه‌اش عوض شود. Ich ging و ich bin gegangen می‌توانند به یک اتفاق گذشته اشاره کنند.",
+    "table": [
+      [
+        "مصدر",
+        "سوم‌شخص گذشته",
+        "معنی"
+      ],
+      [
+        "sein",
+        "war",
+        "بود"
+      ],
+      [
+        "haben",
+        "hatte",
+        "داشت"
+      ],
+      [
+        "werden",
+        "wurde",
+        "شد"
+      ],
+      [
+        "gehen",
+        "ging",
+        "رفت"
+      ],
+      [
+        "müssen",
+        "musste",
+        "مجبور بود"
+      ]
+    ],
+    "source": [
+      "مرجع زمان‌های فعل · مؤسسهٔ زبان آلمانی لایبنیتس",
+      "https://grammis.ids-mannheim.de/progr%40mm/6905"
+    ]
+  },
+  {
+    "id": "plusquamperfekt",
+    "level": "B1",
+    "category": "فعل و زمان",
+    "title": "گذشتهٔ دور؛ اتفاق قبل‌تر",
+    "german": "Plusquamperfekt",
+    "keywords": "ماضی بعید گذشته دور پلاسکوام‌پرفکت بعدما nachdem war hatte",
+    "examples": [
+      [
+        "Als ich ankam, hatte der Kurs schon begonnen.",
+        "وقتی رسیدم، کلاس از قبل شروع شده بود.",
+        "رسیدن نقطهٔ روایت است. شروع کلاس زودتر بوده، پس hatte … begonnen داری."
+      ],
+      [
+        "Nachdem der Bus abgefahren war, rief ich ein Taxi.",
+        "بعد از اینکه اتوبوس رفته بود، تاکسی گرفتم.",
+        "abfahren با sein می‌آید؛ در بند nachdem شکل war آخر می‌رود."
+      ]
+    ],
+    "related": {
+      "lebenswege": [
+        1
+      ],
+      "unterwegs": [
+        1
+      ]
+    },
+    "explanation": "اگر دو اتفاق در گذشته رخ داده‌اند و می‌خواهی کار زودتر را مشخص کنی، برای آن hatte یا war و قسمت سوم فعل را به کار ببر. فعل کمکیِ همان Perfekt را بردار و به گذشته ببر.",
+    "source": [
+      "مرجع زمان‌های فعل · مؤسسهٔ زبان آلمانی لایبنیتس",
+      "https://grammis.ids-mannheim.de/progr%40mm/6905"
+    ]
+  },
+  {
+    "id": "futur",
+    "level": "B1",
+    "category": "فعل و زمان",
+    "title": "آینده، وعده و پیش‌بینی",
+    "german": "Futur I",
+    "keywords": "آینده مستقبل فوتور فردا werden werde werden plus Infinitiv",
+    "examples": [
+      [
+        "Ich werde dir morgen helfen. Morgen helfe ich dir.",
+        "فردا کمکت خواهم کرد. فردا کمکت می‌کنم.",
+        "اولی را می‌توان به‌عنوان وعده گفت؛ در دومی فردا زمان را مشخص می‌کند."
+      ],
+      [
+        "Es wird kalt. Es wird morgen regnen.",
+        "هوا سرد می‌شود. فردا باران خواهد بارید.",
+        "در مثال اول بعد از wird یک صفت آمده و معنی «شدن» می‌دهد. در دومی مصدر regnen آینده را می‌سازد."
+      ]
+    ],
+    "related": {
+      "stadtteilfest": [
+        3
+      ]
+    },
+    "explanation": "برای یک پیش‌بینی یا وعده، werden را صرف کن و مصدر کار را به آخر ببر. برای برنامه‌ای با تاریخ مشخص، جملهٔ زمان حال هم طبیعی است. خودِ werden بدون مصدر می‌تواند معنی «شدن» بدهد.",
+    "source": [
+      "مرجع زمان‌های فعل · مؤسسهٔ زبان آلمانی لایبنیتس",
+      "https://grammis.ids-mannheim.de/progr%40mm/6905"
+    ]
+  },
+  {
+    "id": "konjunktiv",
+    "level": "A2",
+    "category": "فعل و زمان",
+    "title": "درخواست مؤدبانه، فرض و آرزو",
+    "german": "Konjunktiv II",
+    "keywords": "شرطی التزامی فرضی آرزو کان‌یونکتیو کنیونکتیو hätte wäre würde könnte sollte möchte",
+    "examples": [
+      [
+        "Könnten Sie das Fenster öffnen? Ich hätte gern einen Tee.",
+        "می‌شود پنجره را باز کنید؟ یک چای میل دارم.",
+        "هر دو، درخواست را ملایم می‌کنند."
+      ],
+      [
+        "Wenn ich mehr Zeit hätte, würde ich öfter lesen.",
+        "اگر وقت بیشتری داشتم بیشتر کتاب می‌خواندم.",
+        "hätte شرایط فرضی را می‌سازد. würde … lesen کاری است که در آن شرایط انجام می‌دادی."
+      ]
+    ],
+    "related": {
+      "wohnung": [
+        2
+      ],
+      "wohlbefinden": [
+        0
+      ],
+      "gemeinsam": [
+        0
+      ],
+      "arbeit": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "stadtteilfest": [
+        1
+      ]
+    },
+    "explanation": "برای نرم‌تر کردن درخواست یا تصور وضعیتی فرضی، شکل‌هایی مثل könnte، wäre و hätte کاربرد دارند. برای بسیاری از کارها می‌توان از würde و مصدر استفاده کرد. شکل گذشتهٔ ساده معمولاً اتفاق واقعی را گزارش می‌کند؛ شکل فرضی می‌تواند به حال یا آینده اشاره کند."
+  },
+  {
+    "id": "passiv",
+    "level": "B1",
+    "category": "فعل و زمان",
+    "title": "مجهول؛ عمل و وضعیت حاصل",
+    "german": "Vorgangspassiv und Zustandspassiv",
+    "keywords": "مجهول پاسیو passive werden sein wurde worden تعمیر",
+    "examples": [
+      [
+        "Die Tür wird geschlossen. Die Tür ist geschlossen.",
+        "در دارد بسته می‌شود. در بسته است.",
+        "جملهٔ اول روی عمل و دومی روی وضعیت در تمرکز دارد."
+      ],
+      [
+        "Die Tür muss repariert werden. Sie ist gestern repariert worden.",
+        "در باید تعمیر شود. دیروز تعمیر شده است.",
+        "بعد از فعل وجهی در آخر repariert werden می‌آید. برای گزارش کارِ انجام‌شده از ist … worden استفاده می‌کنی."
+      ]
+    ],
+    "related": {
+      "reklamation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "explanation": "اگر مهم است چه بر سر چیزی می‌آید، آن چیز را ابتدای جمله بیاور. برای خودِ عمل از werden و قسمت سوم فعل استفاده کن. اگر وضعیت حاصل را می‌گویی، sein مناسب است. در Perfekt مجهول، worden به کار می‌رود.",
+    "table": [
+      [
+        "ساخت",
+        "مثال",
+        "معنی"
+      ],
+      [
+        "حال",
+        "Der Brief wird geschickt.",
+        "نامه فرستاده می‌شود."
+      ],
+      [
+        "گذشتهٔ ساده",
+        "Der Brief wurde geschickt.",
+        "نامه فرستاده شد."
+      ],
+      [
+        "گذشتهٔ کامل گفتاری",
+        "Der Brief ist geschickt worden.",
+        "نامه فرستاده شده است."
+      ]
+    ]
+  },
+  {
+    "id": "reflexiv",
+    "level": "A2",
+    "category": "فعل و زمان",
+    "title": "فعل بازتابی و عمل دوطرفه",
+    "german": "Reflexiv und reziprok",
+    "keywords": "انعکاسی بازتابی ضمیر بازگشتی sich mich mir einander miteinander",
+    "examples": [
+      [
+        "Ich wasche mich. Ich wasche mir die Hände.",
+        "خودم را می‌شویم. دست‌هایم را می‌شویم.",
+        "در دومی دست‌ها مفعول مستقیم‌اند و ضمیر mich به mir تبدیل شده است."
+      ],
+      [
+        "Wir treffen uns. Wir sprechen miteinander.",
+        "همدیگر را می‌بینیم. با هم حرف می‌زنیم.",
+        "uns در این مثال رابطه‌ای دوطرفه را نشان می‌دهد. miteinander یعنی «با یکدیگر»."
+      ]
+    ],
+    "related": {
+      "kontakte": [
+        0
+      ],
+      "wohlbefinden": [
+        1
+      ],
+      "gesundbleiben": [
+        2
+      ],
+      "mitmachen": [
+        2
+      ]
+    },
+    "explanation": "وقتی کنش به خودِ فاعل برمی‌گردد، ضمیر بازتابی را با شخص هماهنگ کن. بعضی فعل‌ها در یک معنی مشخص همیشه با sich یاد گرفته می‌شوند. اگر عضو بدن خودش مفعول مستقیم باشد، ضمیرِ شخص معمولاً داتیو است.",
+    "table": [
+      [
+        "شخص",
+        "بازتابی آکوزاتیو",
+        "بازتابی داتیو"
+      ],
+      [
+        "ich",
+        "mich",
+        "mir"
+      ],
+      [
+        "du",
+        "dich",
+        "dir"
+      ],
+      [
+        "er / sie / es",
+        "sich",
+        "sich"
+      ],
+      [
+        "wir",
+        "uns",
+        "uns"
+      ],
+      [
+        "ihr",
+        "euch",
+        "euch"
+      ],
+      [
+        "sie / Sie",
+        "sich",
+        "sich"
+      ]
+    ]
+  },
+  {
+    "id": "infinitiv",
+    "level": "A2",
+    "category": "فعل و زمان",
+    "title": "مصدر با zu و بیان هدف",
+    "german": "Infinitiv mit zu und damit",
+    "keywords": "مصدر با تسو um zu damit ohne zu statt zu هدف",
+    "examples": [
+      [
+        "Ich versuche, früh aufzustehen, um den Bus zu erreichen.",
+        "تلاش می‌کنم زود بلند شوم تا به اتوبوس برسم.",
+        "در aufstehen جای zu میان دو بخش است. هر دو کار را ich انجام می‌دهد."
+      ],
+      [
+        "Ich schicke den Plan, damit meine Freundin ihn lesen kann.",
+        "نقشه را می‌فرستم تا دوستم بتواند آن را بخواند.",
+        "فرستنده و خواننده دو نفرند. بعد از damit فاعل جدید می‌آید و kann در پایان است."
+      ]
+    ],
+    "related": {
+      "lernweg": [
+        1
+      ],
+      "nachbarn": [
+        3
+      ],
+      "weiterlernen": [
+        0,
+        1,
+        2
+      ],
+      "arbeit": [
+        2
+      ]
+    },
+    "explanation": "بعد از فعل‌هایی مثل versuchen و planen می‌توان کار بعدی را با zu و مصدر گفت. در فعل جداشدنی، zu بین دو بخش می‌آید. برای هدفِ یک فاعل از um … zu و برای هدف با فاعل متفاوت از damit و جملهٔ کامل استفاده کن. بدون انجام کاری می‌شود ohne … zu و به‌جای آن statt … zu."
+  },
+  {
+    "id": "verbpraep",
+    "level": "A2",
+    "category": "فعل و زمان",
+    "title": "فعل با حرف اضافهٔ ثابت",
+    "german": "Verben mit Präpositionen",
+    "keywords": "حرف اضافه فعل افعال warten auf teilnehmen an sich interessieren für worüber darauf da wo",
+    "examples": [
+      [
+        "Worauf wartest du? Ich warte auf den Bus.",
+        "منتظر چه هستی؟ منتظر اتوبوسم.",
+        "auf را از warten auf گرفته‌ای. wo و auf با r به هم وصل می‌شوند."
+      ],
+      [
+        "Auf wen wartest du? Auf meine Kollegin. Wir nehmen zusammen am Kurs teil.",
+        "منتظر چه کسی هستی؟ همکارم. با هم در دوره شرکت می‌کنیم.",
+        "برای شخص از auf wen استفاده می‌کنی. در am Kurs، شکل an dem کوتاه شده است."
+      ]
+    ],
+    "related": {
+      "kontakte": [
+        1
+      ],
+      "medienwelt": [
+        0,
+        1
+      ],
+      "mitmachen": [
+        0
+      ]
+    },
+    "explanation": "بعضی فعل‌ها برای یک معنی، حرف اضافه و حالت معینی می‌خواهند. کل ترکیب را یاد بگیر؛ مثلاً warten auf با آکوزاتیو و teilnehmen an با داتیو. برای پرسش از یک چیز wo و برای اشاره به آن da را با حرف اضافه ترکیب کن. پیش از صدادار r اضافه می‌شود."
+  },
+  {
+    "id": "ort",
+    "level": "A1",
+    "category": "حرف اضافه، زمان و مقدار",
+    "title": "مکان، مقصد و حرف اضافهٔ دوحالتی",
+    "german": "Wo, wohin, woher?",
+    "keywords": "حروف اضافه مکان جهت مقصد مبدأ حرکت سکون Wechselpräpositionen nach zu in an auf im am ins ans",
+    "examples": [
+      [
+        "Ich laufe im Park. Ich laufe in den Park.",
+        "در پارک می‌دوم. به داخل پارک می‌دوم.",
+        "در اولی پارک محل دویدن است؛ در دومی مقصد ورود. im کوتاه‌شدهٔ in dem است."
+      ],
+      [
+        "Ich fahre nach Berlin und dann zur Schule.",
+        "به برلین می‌روم و بعد به مدرسه می‌روم.",
+        "برای شهر معمولاً nach می‌آید؛ zu همیشه داتیو می‌خواهد و zur یعنی zu der."
+      ]
+    ],
+    "related": {
+      "zuhause": [
+        0
+      ],
+      "bahn": [
+        1
+      ],
+      "wohnung": [
+        0,
+        1,
+        3
+      ],
+      "reise": [
+        3
+      ]
+    },
+    "explanation": "با wo مکان، با wohin مقصد و با woher مبدأ را می‌پرسی. حرف‌های اضافهٔ an، auf، hinter، in، neben، über، unter، vor و zwischen دوحالتی‌اند. در کاربرد مکانی، محلِ یک عمل داتیو و مقصدِ تغییر مکان آکوزاتیو می‌گیرد. صرف حرکت کردن تعیین‌کننده نیست؛ ممکن است کسی داخل یک پارک بدود."
+  },
+  {
+    "id": "praep-kasus",
+    "level": "A2",
+    "category": "حرف اضافه، زمان و مقدار",
+    "title": "کدام حرف اضافه کدام حالت را می‌خواهد؟",
+    "german": "Präpositionen und Kasus",
+    "keywords": "حروف اضافه آکوزاتیو داتیو گنیتیو für ohne durch gegen um mit nach bei seit von zu aus gegenüber",
+    "examples": [
+      [
+        "Das Geschenk ist für meinen Bruder. Ich fahre mit meinem Bruder.",
+        "هدیه برای برادرم است. با برادرم می‌روم.",
+        "Bruder یک اسم ثابت است. für شکل meinen و mit شکل meinem را تعیین کرده است."
+      ],
+      [
+        "Trotz des Regens komme ich aus dem Haus.",
+        "با وجود باران از خانه بیرون می‌آیم.",
+        "در نوشتار بعد از trotz گنیتیو و بعد از aus داتیو می‌آید."
+      ]
+    ],
+    "related": {
+      "konto": [
+        0
+      ],
+      "bahn": [
+        1
+      ],
+      "umweltprojekt": [
+        0
+      ]
+    },
+    "explanation": "بعد از یک حرف اضافه، حالت اسم اغلب از قبل مشخص است. مثلاً mit حتی برای یک سفر به مقصدی تازه داتیو می‌گیرد. عبارت کامل را بخوان تا آن را با فعل یا حرف اضافهٔ دیگری در همان جمله اشتباه نگیری.",
+    "table": [
+      [
+        "حالت",
+        "حرف‌های اضافهٔ پرکاربرد",
+        "نمونه"
+      ],
+      [
+        "آکوزاتیو",
+        "durch, für, gegen, ohne, um",
+        "ohne einen Termin"
+      ],
+      [
+        "داتیو",
+        "aus, bei, mit, nach, seit, von, zu, gegenüber",
+        "mit dem Zug"
+      ],
+      [
+        "گنیتیو در نوشتار",
+        "wegen, trotz, während, innerhalb",
+        "innerhalb einer Woche"
+      ]
+    ]
+  },
+  {
+    "id": "zeit",
+    "level": "A1",
+    "category": "حرف اضافه، زمان و مقدار",
+    "title": "ساعت، تاریخ، تکرار و مهلت",
+    "german": "Zeitangaben",
+    "keywords": "زمان ساعت تاریخ روز ماه فصل am um im seit vor in bis von halb innerhalb jeden",
+    "examples": [
+      [
+        "Am dritten Mai beginnt der Kurs um halb neun.",
+        "سوم مه دوره ساعت هشت‌ونیم شروع می‌شود.",
+        "halb neun یعنی نیم ساعت مانده به نه. در am dritten Mai عدد ترتیبی پایانه دارد."
+      ],
+      [
+        "Seit zwei Wochen lerne ich. In drei Tagen habe ich eine Prüfung.",
+        "دو هفته است درس می‌خوانم. سه روز دیگر آزمون دارم.",
+        "بعد از seit اگر یادگیری ادامه دارد، از زمان حال استفاده کن."
+      ]
+    ],
+    "related": {
+      "alltag": [
+        1,
+        2
+      ],
+      "einladung": [
+        1,
+        3
+      ],
+      "wetter": [
+        0
+      ],
+      "zeitplan": [
+        1
+      ],
+      "wohlbefinden": [
+        2
+      ],
+      "konto": [
+        2
+      ],
+      "gemeinsam": [
+        1
+      ],
+      "schriftverkehr": [
+        1
+      ]
+    },
+    "explanation": "برای ساعت دقیق um، برای روز یا تاریخ am و برای ماه و فصل im بیاور. seit برای وضعیتی است که از گذشته ادامه دارد. vor برای فاصله تا گذشته و in برای فاصله تا آینده است. bis پایان مهلت را نشان می‌دهد."
+  },
+  {
+    "id": "mengen",
+    "level": "A1",
+    "category": "حرف اضافه، زمان و مقدار",
+    "title": "اعداد، قیمت، هجی و مقدار",
+    "german": "Zahlen und Mengen",
+    "keywords": "عدد تلفظ هجی الفبا جمع حروف الفبا Wieviel Wie viele Alphabet Buchstabieren Preis",
+    "examples": [
+      [
+        "Zweiundvierzig Plätze sind frei. Wie viele Plätze brauchen Sie?",
+        "چهل‌ودو جا خالی است. چند جا لازم دارید؟",
+        "zwei و vierzig روی‌هم عدد ۴۲ می‌شوند. Plätze قابل شمارش است."
+      ],
+      [
+        "Wie viel kostet ein Kilo Reis? Können Sie „Reis“ buchstabieren?",
+        "یک کیلو برنج چقدر است؟ می‌توانید «Reis» را هجی کنید؟",
+        "در سؤال اول قیمت می‌خواهی؛ در دومی ترتیب حروف R، E، I و S را."
+      ]
+    ],
+    "related": {
+      "kurs": [
+        2,
+        3,
+        4
+      ],
+      "markt": [
+        1
+      ],
+      "konto": [
+        1,
+        2
+      ]
+    },
+    "explanation": "در بیشتر عددهای دورقمی آلمانی یکان را اول بگو و با und به دهگان وصل کن. برای تعداد چیزهای قابل‌شمارش wie viele و برای مقدار کلی یا قیمت wie viel به کار می‌رود. هنگام هجی، نام تک‌تک حروف را می‌گویی."
+  },
+  {
+    "id": "satzbau",
+    "level": "A1",
+    "category": "جمله و پیوندها",
+    "title": "ترتیب جملهٔ خبری و سؤال",
+    "german": "Hauptsatz und Fragen",
+    "keywords": "جای فعل وارونگی سؤال پرسش پرسشی بله خیر W-Frage Ja Nein Satzklammer Verbzweit Inversion",
+    "examples": [
+      [
+        "Am frühen Morgen fährt Sara los. Fährt Sara heute los?",
+        "صبح زود سارا راه می‌افتد. آیا سارا امروز راه می‌افتد؟",
+        "Am frühen Morgen یک بخش زمانی است، پس fährt هنوز در جایگاه دوم است."
+      ],
+      [
+        "Wann kannst du kommen? Dann kann ich den Tisch reservieren.",
+        "کی می‌توانی بیایی؟ آن‌وقت می‌توانم میز را رزرو کنم.",
+        "در سؤال kannst پشت wann می‌آید؛ در جملهٔ خبری kann بعد از dann است."
+      ]
+    ],
+    "related": {
+      "bahn": [
+        0
+      ],
+      "alltag": [
+        0
+      ],
+      "digital": [
+        2
+      ]
+    },
+    "explanation": "در جملهٔ خبریِ اصلی، فعل صرف‌شده معمولاً دومین بخش است. بخش اول ممکن است چند کلمه باشد. در سؤال بله یا خیر فعل را اول بیاور. در سؤال اطلاعاتی اول واژهٔ پرسشی، بعد فعل می‌آید. بخش دوم فعل، مثل مصدر یا پیشوند جداشدنی، معمولاً در انتها قرار دارد."
+  },
+  {
+    "id": "negation",
+    "level": "A1",
+    "category": "جمله و پیوندها",
+    "title": "نفی با nicht و kein و پاسخ با doch",
+    "german": "Negation",
+    "keywords": "منفی نفی kein keine keinen nicht doch nie niemand nichts noch nicht",
+    "examples": [
+      [
+        "Ich habe kein Auto. Das Auto ist nicht teuer.",
+        "ماشین ندارم. آن ماشین گران نیست.",
+        "در اولی داشتن یک چیز را رد می‌کنی، در دومی یک ویژگی را."
+      ],
+      [
+        "Hast du noch nicht bezahlt? – Doch, ich habe schon bezahlt.",
+        "هنوز پرداخت نکرده‌ای؟ چرا، قبلاً پرداخت کرده‌ام.",
+        "noch nicht یعنی «هنوز نه». با doch تصور منفی مخاطب را اصلاح می‌کنی."
+      ]
+    ],
+    "related": {
+      "markt": [
+        0
+      ],
+      "digital": [
+        0
+      ],
+      "gemeinsam": [
+        3
+      ],
+      "nachbarn": [
+        1
+      ]
+    },
+    "explanation": "برای منفی کردن اسمِ نامعین یا اسم بدون آرتیکل معمولاً kein به کار می‌رود؛ پایانه‌اش مثل ein تغییر می‌کند. برای صفت، قید، یک عبارت مشخص یا کل خبر از nicht استفاده کن. doch در پاسخ به پرسش منفی یعنی «چرا، اتفاقاً بله»."
+  },
+  {
+    "id": "es",
+    "level": "A1",
+    "category": "جمله و پیوندها",
+    "title": "فاعل صوری es و عبارت «وجود دارد»",
+    "german": "Unpersönliches es und es gibt",
+    "keywords": "هوا آب‌وهوا باران وجود داشتن es ist es gibt es regnet",
+    "examples": [
+      [
+        "Heute schneit es. Am Abend wird es kalt.",
+        "امروز برف می‌بارد. عصر هوا سرد می‌شود.",
+        "اگر زمان را اول بگویی، es بعد از فعل قرار می‌گیرد."
+      ],
+      [
+        "In unserem Haus gibt es zwei Aufzüge.",
+        "در ساختمان ما دو آسانسور هست.",
+        "zwei Aufzüge مفعول عبارت es gibt است؛ فعل همچنان gibt می‌ماند."
+      ]
+    ],
+    "related": {
+      "wetter": [
+        0
+      ],
+      "zuhause": [
+        1
+      ]
+    },
+    "explanation": "برای جمله‌هایی مثل «باران می‌بارد» در آلمانی یک es می‌آید که به شیء مشخصی برنمی‌گردد. برای معرفی چیزی در یک محل می‌توانی es gibt و اسم در آکوزاتیو بیاوری؛ gibt حتی اگر اسم بعدی جمع باشد مفرد می‌ماند."
+  },
+  {
+    "id": "grund",
+    "level": "A1",
+    "category": "جمله و پیوندها",
+    "title": "وصل کردن دو خبر و دلیل آوردن",
+    "german": "und, aber, oder, denn, weil",
+    "keywords": "ربط همپایه وابسته دلیل زیرا چون deswegen deshalb darum weil denn und aber oder",
+    "examples": [
+      [
+        "Ich bleibe zu Hause, denn ich bin krank.",
+        "در خانه می‌مانم چون بیمارم.",
+        "بعد از denn، فاعل ich پیش از فعل bin است."
+      ],
+      [
+        "Weil ich krank bin, bleibe ich zu Hause.",
+        "چون بیمارم در خانه می‌مانم.",
+        "bin انتهای دلیل است. چون کل بند دلیل ابتدای جمله آمده، بعد از ویرگول bleibe قبل از ich قرار می‌گیرد."
+      ]
+    ],
+    "related": {
+      "einladung": [
+        0
+      ],
+      "kontakte": [
+        2,
+        3
+      ],
+      "meinung": [
+        2
+      ],
+      "gemeinsam": [
+        2
+      ]
+    },
+    "explanation": "und برای افزودن، oder برای انتخاب و aber برای مخالفت است. این رابط‌ها ترتیب معمول جملهٔ اصلی را حفظ می‌کنند. denn هم دو جملهٔ اصلی را برای بیان دلیل وصل می‌کند. بعد از weil یک بند وابسته می‌آید و فعل صرف‌شده آخر می‌رود."
+  },
+  {
+    "id": "indirekt",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "بازگویی خبر و سؤال غیرمستقیم",
+    "german": "dass, ob und indirekte Fragen",
+    "keywords": "جمله وابسته سؤال غیرمستقیم گزارش نقل قول آیا ob dass wann wo",
+    "examples": [
+      [
+        "Sie sagt, dass der Bus später kommt.",
+        "می‌گوید که اتوبوس دیرتر می‌آید.",
+        "دیر آمدن اتوبوس محتوای یک خبر است."
+      ],
+      [
+        "Ich frage, ob der Bus fährt und wann er ankommt.",
+        "می‌پرسم آیا اتوبوس حرکت می‌کند و چه زمانی می‌رسد.",
+        "اولین سؤال بله یا خیر است. در دومی دنبال ساعت می‌گردی."
+      ]
+    ],
+    "related": {
+      "bewerbung": [
+        0,
+        1
+      ],
+      "absichern": [
+        0,
+        1
+      ],
+      "medienwelt": [
+        2
+      ]
+    },
+    "explanation": "برای آوردن محتوای یک خبر پس از «می‌گوید» می‌توانی dass بیاوری. اگر سؤال بله یا خیر را داخل یک جمله جا می‌دهی از ob استفاده کن. اگر سؤال واژه‌ای مثل wann یا wo دارد، همان را نگه دار. فعل صرف‌شده در هر سه ساخت به آخر می‌رود."
+  },
+  {
+    "id": "bedingung",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "شرط واقعی و احتمالی",
+    "german": "wenn, falls und sofern",
+    "keywords": "اگر شرط مشروط به شرط کافی falls wenn sofern",
+    "examples": [
+      [
+        "Wenn du Zeit hast, treffen wir uns am Bahnhof.",
+        "اگر وقت داری در ایستگاه همدیگر را ببینیم.",
+        "hast در پایان شرط و treffen در آغاز بخش اصلی است."
+      ],
+      [
+        "Wir nehmen den Raum, sofern er frei ist.",
+        "اتاق را می‌گیریم به شرطی که آزاد باشد.",
+        "آزاد بودن شرط پذیرفتن اتاق است."
+      ]
+    ],
+    "related": {
+      "zeitplan": [
+        0
+      ],
+      "gemeinsam": [
+        2
+      ],
+      "absichern": [
+        2
+      ],
+      "stadtteilfest": [
+        1
+      ]
+    },
+    "explanation": "با wenn شرط را معرفی کن. falls زمانی طبیعی است که رخ دادن شرط قطعی نیست. sofern لحن رسمی‌تری دارد و معنی «به شرط آنکه» می‌دهد. اگر بند شرط اول بیاید، فعل جملهٔ اصلی بلافاصله بعد از ویرگول می‌آید."
+  },
+  {
+    "id": "temporalsaetze",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "رویدادهای هم‌زمان و پشت سر هم",
+    "german": "Temporalsätze",
+    "keywords": "زمانی als wenn während nachdem bevor bis seitdem sobald گذشته وقتی که هر بار",
+    "examples": [
+      [
+        "Als ich zum ersten Mal kam, war es still. Immer wenn ich später kam, war Musik zu hören.",
+        "دفعهٔ اول که آمدم ساکت بود. هر بار که بعدها می‌آمدم موسیقی شنیده می‌شد.",
+        "als یک موقعیت مشخص و immer wenn چند بار تکرار را نشان می‌دهد."
+      ],
+      [
+        "Bevor wir losfahren, prüfen wir die Adresse. Wir warten, bis alle da sind.",
+        "قبل از حرکت آدرس را بررسی می‌کنیم. صبر می‌کنیم تا همه برسند.",
+        "اول آدرس را بررسی می‌کنیم. انتظار وقتی تمام می‌شود که همه حاضر باشند."
+      ]
+    ],
+    "related": {
+      "lernweg": [
+        0
+      ],
+      "lebenswege": [
+        0
+      ],
+      "unterwegs": [
+        0,
+        1,
+        2
+      ],
+      "stadtteilfest": [
+        2
+      ]
+    },
+    "explanation": "برای یک رویداد یا دورهٔ مشخص در گذشته als و برای تکرار آن immer wenn به کار می‌رود. während هم‌زمانی، bevor کارِ بعدی و nachdem کارِ زودتر را معرفی می‌کند. bis نقطهٔ پایان و seitdem نقطهٔ شروع یک وضعیت را نشان می‌دهند."
+  },
+  {
+    "id": "folge",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "نتیجه، تضاد و انتظار برآورده‌نشده",
+    "german": "deshalb, sodass, trotzdem, obwohl",
+    "keywords": "در نتیجه با این حال اگرچه با اینکه پس بنابراین sodass deshalb trotzdem obwohl",
+    "examples": [
+      [
+        "Es war laut. Deshalb schloss ich das Fenster, sodass es ruhiger wurde.",
+        "سروصدا زیاد بود. برای همین پنجره را بستم و در نتیجه آرام‌تر شد.",
+        "deshalb تصمیم را به دلیلش وصل می‌کند. بعد از sodass نتیجه را می‌خوانی."
+      ],
+      [
+        "Obwohl es regnet, gehen wir raus. Es regnet. Trotzdem gehen wir raus.",
+        "با اینکه باران می‌بارد بیرون می‌رویم. باران می‌بارد. با این حال بیرون می‌رویم.",
+        "معنی نزدیک است، اما جای فعل در دو ساخت فرق دارد."
+      ]
+    ],
+    "related": {
+      "reise": [
+        2
+      ],
+      "kulturzeit": [
+        2
+      ],
+      "meinung": [
+        0,
+        1
+      ],
+      "umweltprojekt": [
+        2
+      ],
+      "stadtteilfest": [
+        2
+      ]
+    },
+    "explanation": "deshalb و trotzdem در جملهٔ اصلی می‌آیند؛ اگر اول باشند، بعدشان فعل صرف‌شده قرار می‌گیرد. sodass یک پیامد و obwohl یک مانع را در بند وابسته با فعل پایانی بیان می‌کنند. damit هدفِ موردنظر را می‌گوید و sodass نتیجه‌ای را که رخ داده است."
+  },
+  {
+    "id": "relativ",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "توضیح دادن یک اسم با جملهٔ موصولی",
+    "german": "Relativsätze und Relativpronomen",
+    "keywords": "موصولی ضمیر موصولی der den dem denen dessen deren mit der",
+    "examples": [
+      [
+        "Das ist der Mann, den ich kenne. Das ist der Mann, dem ich helfe.",
+        "این مردی است که می‌شناسم. این مردی است که به او کمک می‌کنم.",
+        "هر دو بار Mann مذکر است. kennen آکوزاتیو و helfen داتیو می‌خواهد."
+      ],
+      [
+        "Die Frau, mit der ich arbeite, ist hier. Der Mann, dessen Sohn hier wohnt, kommt auch.",
+        "زنی که با او کار می‌کنم اینجاست. مردی که پسرش اینجا زندگی می‌کند هم می‌آید.",
+        "بعد از mit داتیو می‌آید. dessen مالکیتِ مرد را نشان می‌دهد."
+      ]
+    ],
+    "related": {
+      "kulturzeit": [
+        3
+      ],
+      "mietshaus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mitmachen": [
+        0
+      ]
+    },
+    "explanation": "جنس و تعدادِ ضمیر موصولی را از اسم قبلش بگیر. حالت را از نقشش در بند موصولی انتخاب کن. فعلِ آن بند در پایان است. اگر فعل به حرف اضافه نیاز دارد، آن را پیش از ضمیر بیاور.",
+    "table": [
+      [
+        "حالت",
+        "مذکر",
+        "مؤنث",
+        "خنثی",
+        "جمع"
+      ],
+      [
+        "فاعل",
+        "der",
+        "die",
+        "das",
+        "die"
+      ],
+      [
+        "آکوزاتیو",
+        "den",
+        "die",
+        "das",
+        "die"
+      ],
+      [
+        "داتیو",
+        "dem",
+        "der",
+        "dem",
+        "denen"
+      ],
+      [
+        "مالکیت",
+        "dessen",
+        "deren",
+        "dessen",
+        "deren"
+      ]
+    ]
+  },
+  {
+    "id": "doppel",
+    "level": "B1",
+    "category": "جمله و پیوندها",
+    "title": "رابط‌های دوتایی و سنجیدن دو جنبه",
+    "german": "Zweiteilige Konnektoren",
+    "keywords": "یا یا نه نه هم هم sowohl als auch entweder oder weder noch nicht nur sondern auch einerseits andererseits je desto",
+    "examples": [
+      [
+        "Wir kommen entweder am Samstag oder am Sonntag.",
+        "یا شنبه می‌آییم یا یکشنبه.",
+        "هر دو گزینه یک عبارت زمان‌اند. در ساخت weder … noch نیازی به nicht اضافه نیست."
+      ],
+      [
+        "Sie hilft nicht nur im Büro, sondern auch im Lager.",
+        "او هم در اداره و هم در انبار کمک می‌کند.",
+        "مورد دوم به مورد اول اضافه شده است."
+      ]
+    ],
+    "related": {
+      "gesundbleiben": [
+        0
+      ],
+      "mitmachen": [
+        1
+      ],
+      "stadtteilfest": [
+        0
+      ],
+      "umweltprojekt": [
+        1
+      ]
+    },
+    "explanation": "دو بخش هم‌نقش را دو طرف رابط بگذار. sowohl … als auch هر دو را تأیید می‌کند، weder … noch هر دو را رد می‌کند و entweder … oder انتخاب می‌دهد. برای دو جنبهٔ یک تصمیم از einerseits … andererseits کمک بگیر."
+  },
+  {
+    "id": "nominalisierung",
+    "level": "B1",
+    "category": "اسم و حالت‌ها",
+    "title": "اسم ساختن از فعل",
+    "german": "Nominalisierung",
+    "keywords": "مصدر اسمی اسمی‌سازی اسم سازی zum beim das Lesen",
+    "examples": [
+      [
+        "Zum Lesen brauche ich meine Brille.",
+        "برای خواندن به عینکم نیاز دارم.",
+        "در اینجا Lesen نام فعالیت است. در Ich will lesen همان فعل با حرف کوچک نوشته می‌شود."
+      ],
+      [
+        "Beim Kochen höre ich Musik.",
+        "هنگام آشپزی موسیقی گوش می‌دهم.",
+        "beim و Kochen زمان انجام کارِ دیگر را مشخص می‌کنند."
+      ]
+    ],
+    "related": {
+      "schriftverkehr": [
+        0
+      ],
+      "gemeinsam": [
+        1
+      ]
+    },
+    "explanation": "مصدر می‌تواند نام یک کار باشد. در آن صورت با حرف بزرگ نوشته می‌شود و جنسش خنثی است. zum یعنی zu dem و beim یعنی bei dem؛ پس بعد از آن‌ها مصدر اسمی‌شده را اغلب با حرف بزرگ می‌بینی."
+  },
+  {
+    "id": "mittelfeld",
+    "level": "A2",
+    "category": "جمله و پیوندها",
+    "title": "ترتیب مفعول‌ها و قیدها در جمله",
+    "german": "Objekte und Angaben im Mittelfeld",
+    "keywords": "ترتیب کلمات جای مفعول جای قید زمان علت شیوه مکان TeKaMoLo Satzglieder Satzstellung",
+    "examples": [
+      [
+        "Ich gebe meinem Bruder das Buch. Ich gebe es ihm.",
+        "کتاب را به برادرم می‌دهم. آن را به او می‌دهم.",
+        "دو اسم به ترتیب گیرنده و چیز آمده‌اند. با دو ضمیر، es پیش از ihm قرار می‌گیرد."
+      ],
+      [
+        "Ich fahre morgen wegen des Streiks mit dem Rad ins Büro.",
+        "فردا به‌علت اعتصاب با دوچرخه به اداره می‌روم.",
+        "morgen زمان، wegen des Streiks دلیل، mit dem Rad شیوه و ins Büro مقصد است."
+      ]
+    ],
+    "related": {
+      "behoerde": [
+        0
+      ],
+      "digital": [
+        1,
+        2
+      ],
+      "alltag": [
+        1
+      ]
+    },
+    "explanation": "برای یک جملهٔ خنثی، اگر دو مفعول اسم باشند معمولاً اول گیرندهٔ داتیو و بعد چیزِ آکوزاتیو می‌آید. ضمیر کوتاه معمولاً زودتر از گروه اسمی می‌آید. برای مرتب کردن چند قید، «زمان، دلیل، شیوه، مکان یا مقصد» نقطهٔ شروع خوبی است. تأکید و اطلاعات قبلی می‌تواند ترتیب را عوض کند."
+  },
+  {
+    "id": "lassen",
+    "level": "B1",
+    "category": "فعل و زمان",
+    "title": "اجازه دادن یا سپردن کار به دیگری",
+    "german": "lassen mit Infinitiv",
+    "keywords": "لاسن lassen lassen reparieren Ersatzinfinitiv مصدر جایگزین دو مصدر مو را کوتاه کردن",
+    "examples": [
+      [
+        "Ich lasse die Kinder spielen. Ich lasse mein Rad reparieren.",
+        "می‌گذارم بچه‌ها بازی کنند. دوچرخه‌ام را می‌دهم تعمیر کنند.",
+        "در مثال اول اجازهٔ بازی می‌دهی. در دومی سفارش تعمیر می‌دهی."
+      ],
+      [
+        "Ich habe die Jacke reinigen lassen. Ich habe die Jacke zu Hause gelassen.",
+        "کت را دادم تمیز کنند. کت را در خانه گذاشتم.",
+        "با reinigen در پایان lassen می‌آید. وقتی lassen فعل اصلیِ مستقل است، شکل gelassen را می‌بینی."
+      ]
+    ],
+    "related": {
+      "lernweg": [
+        1
+      ],
+      "reklamation": [
+        1
+      ]
+    },
+    "explanation": "lassen با یک مصدر ساده می‌تواند یعنی «اجازه می‌دهم کسی کاری کند» یا «می‌سپارم کاری را انجام دهند». در حال، lassen صرف می‌شود و فعل اصلی به شکل مصدر می‌ماند. در Perfekt وقتی مصدر دیگری همراهش باشد، معمولاً در پایان دو مصدر می‌آیند."
+  },
+  {
+    "id": "wortbildung",
+    "level": "A2",
+    "category": "اسم و حالت‌ها",
+    "title": "معنی اسم مرکب و پسوندها",
+    "german": "Komposita und Wortbildung",
+    "keywords": "اسم مرکب کلمه‌سازی پسوند پیشوند Wortbildung Zusammensetzung ung heit keit chen",
+    "examples": [
+      [
+        "Die Tür ist offen. Die Haustür ist offen.",
+        "در باز است. درِ ورودی خانه باز است.",
+        "در Haustür واژهٔ اصلی Tür است، پس آرتیکل همچنان die می‌ماند."
+      ],
+      [
+        "Wir buchen eine Reise. Die Buchung dauert nur kurz.",
+        "یک سفر رزرو می‌کنیم. رزرو فقط مدت کوتاهی طول می‌کشد.",
+        "از فعل buchen اسمِ عمل یعنی Buchung ساخته شده است."
+      ]
+    ],
+    "related": {
+      "kurs": [
+        1
+      ],
+      "schriftverkehr": [
+        0
+      ]
+    },
+    "explanation": "برای فهم اسم مرکب از آخرش شروع کن. قسمت آخر می‌گوید با چه نوع چیزی روبه‌رویی و آرتیکل را تعیین می‌کند. پسوندها هم سرنخ می‌دهند؛ اسم‌های پایان‌یافته به ung، heit و keit معمولاً die دارند. شکل کوچک‌ساز chen، das می‌گیرد."
+  },
+  {
+    "id": "partizip-attribut",
+    "level": "B1",
+    "category": "ضمیر و صفت",
+    "title": "توصیف اسم با شکل فعلی",
+    "german": "Partizip als Adjektiv",
+    "keywords": "پارتیسیپ صفت فاعلی صفت مفعولی Partizip I Partizip II wartend geschlossen",
+    "examples": [
+      [
+        "Der wartende Kunde liest. Die geschlossene Tür ist rot.",
+        "مشتریِ منتظر می‌خواند. درِ بسته قرمز است.",
+        "wartend کسی را در حال انتظار نشان می‌دهد. geschlossen وضعیت در را توصیف می‌کند. هر دو پیش از اسم پایان صفت گرفته‌اند."
+      ],
+      [
+        "Bitte senden Sie das ausgefüllte Formular.",
+        "لطفاً فرم تکمیل‌شده را بفرستید.",
+        "ausgefüllt قسمت سوم ausfüllen است. بعد از das، صفت در این مثال e می‌گیرد."
+      ]
+    ],
+    "related": {
+      "schriftverkehr": [
+        2
+      ],
+      "reklamation": [
+        2
+      ],
+      "umtausch": [
+        0
+      ]
+    },
+    "explanation": "اگر می‌خواهی کسی را با کاری که در حال انجام است بشناسانی، برای شکل فاعلی به مصدر معمولاً d اضافه کن و بعد پایانهٔ صفت را بیاور. قسمت سوم فعل هم می‌تواند مثل صفت، نتیجه یا وضعیت چیزی را توصیف کند."
+  }
+]
