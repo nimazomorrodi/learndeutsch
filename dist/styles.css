@@ -238,16 +238,18 @@ h1,h2,h3,p{margin:0}
 .review-face.back{transform:rotateX(180deg);background-color:var(--mint)}
 .review-sheet.article-answered{transform:rotateX(-180deg)}
 .article-practice .review-face{min-height:clamp(265px,29vw,340px);gap:14px}
+.article-practice .review-face.back{--answer-ink:#18582f;background-color:#d7f0dd;border-color:#88bc95}
+.article-practice .review-face.back:has(.article-verdict.wrong){--answer-ink:#8d2830;background-color:#f9dadb;border-color:#d58e94}
+[data-theme=dark] .article-practice .review-face.back{--answer-ink:#b2ebc1;background-color:#234733;border-color:#548263}
+[data-theme=dark] .article-practice .review-face.back:has(.article-verdict.wrong){--answer-ink:#ffc4c6;background-color:#502e34;border-color:#976269}
 .article-practice .review-face:not([inert]) button{pointer-events:auto}
 .article-choices{display:grid;width:min(100%,23rem);grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .article-choices button{min-height:46px;border:1px solid var(--pine);border-radius:9px;background:var(--surface);color:var(--mint-ink);font:600 1.2rem Georgia,serif}
 .article-choices button:hover{background:var(--mint)}
-.article-verdict{display:flex;align-items:center;gap:6px;font-weight:700}
-.article-verdict.right{color:var(--mint-ink)}
-.article-verdict.wrong{border-radius:7px;padding:2px 9px;background:var(--sand);color:var(--sand-ink)}
+.article-verdict{display:flex;align-items:center;gap:6px;font-weight:700;color:var(--answer-ink)}
 .article-forms{display:grid;justify-items:center;gap:5px;min-width:0;max-width:100%;overflow-wrap:anywhere}
 .article-forms p>span,.article-forms small{color:var(--sub);font-size:.85rem}
-.article-forms .lex-article,.article-forms em{color:var(--mint-ink);font-weight:700;font-style:normal}
+.article-forms .lex-article,.article-forms em{color:var(--answer-ink);font-weight:700;font-style:normal}
 .article-forms bdi{font:500 1.3rem Georgia,serif}
 .article-practice .review-meta{flex-wrap:wrap;gap:5px 12px}
 .review-language,.turn-hint{font-size:.82rem;color:var(--sub)}

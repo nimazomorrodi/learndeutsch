@@ -59,6 +59,8 @@ try {
     http_response_code(503);
     $offline = true;
 }
+$releaseFile = __DIR__ . '/lernhaus-release.txt';
+$assetVersion = is_file($releaseFile) ? '?v=' . rawurlencode(trim(file_get_contents($releaseFile))) : '';
 ?>
 <!doctype html>
 <html lang="fa" dir="rtl">
@@ -70,8 +72,8 @@ try {
   <title><?= $bootstrap ? 'میز مطالعه' : ($register ? 'ساخت حساب' : 'ورود') ?> | Lernhaus</title>
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('lernhaus-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{}</script>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="styles.css<?= $assetVersion ?>">
+  <link rel="stylesheet" href="tailwind.css<?= $assetVersion ?>">
 </head>
 <body>
 <?php if ($offline): ?>
@@ -93,16 +95,9 @@ try {
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
   </form>
   <script id="account-data" type="application/json"><?= json_encode($bootstrap, JSON_HEX_TAG | JSON_HEX_AMP | JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE) ?></script>
-  <script defer src="lessons.js"></script>
-  <script defer src="account.js"></script>
-  <script defer src="practice-data.js"></script>
-  <script defer src="chapter.js"></script>
-  <script defer src="study-pages.js"></script>
-  <script defer src="conjugation.js"></script>
-  <script defer src="reference.js"></script>
-  <script defer src="dictionary.js"></script>
-  <script defer src="article-practice.js"></script>
-  <script defer src="app.js"></script>
+  <?php foreach (['lessons', 'account', 'practice-data', 'chapter', 'study-pages', 'conjugation', 'reference', 'dictionary', 'article-practice', 'app'] as $script): ?>
+    <script defer src="<?= $script ?>.js<?= $assetVersion ?>"></script>
+  <?php endforeach; ?>
 <?php endif; ?>
 </body>
 </html>
