@@ -1,0 +1,3764 @@
+{
+  "heißen": {
+    "نام داشتن": "to be called",
+    "معنی دادن": "to mean"
+  },
+  "wohnen": {
+    "ساکن بودن": "to live, to reside"
+  },
+  "der Name": {
+    "نام": "name"
+  },
+  "sein": {
+    "بودن": "to be"
+  },
+  "kommen": {
+    "آمدن": "to come",
+    "رسیدنِ نوبت یا زمان": "to come next, to be due"
+  },
+  "sprechen": {
+    "صحبت کردن": "to speak"
+  },
+  "lernen": {
+    "یاد گرفتن": "to learn"
+  },
+  "der Vorname": {
+    "نام کوچک": "first name"
+  },
+  "der Nachname": {
+    "نام خانوادگی": "last name"
+  },
+  "die Sprache": {
+    "زبان": "language",
+    "شیوهٔ بیان": "manner of speaking"
+  },
+  "die Stadt": {
+    "شهر": "city, town"
+  },
+  "hallo": {
+    "سلام": "hello"
+  },
+  "Guten Morgen": {
+    "صبح بخیر": "good morning"
+  },
+  "danke": {
+    "ممنون": "thank you"
+  },
+  "bitte": {
+    "لطفاً": "please",
+    "بفرمایید": "here you are",
+    "خواهش می‌کنم، در پاسخ به تشکر": "you're welcome"
+  },
+  "tschüss": {
+    "خداحافظ": "bye"
+  },
+  "woher": {
+    "از کجا": "where from"
+  },
+  "Deutsch": {
+    "آلمانی": "German"
+  },
+  "Persisch": {
+    "فارسی": "Persian"
+  },
+  "Englisch": {
+    "انگلیسی": "English"
+  },
+  "Französisch": {
+    "فرانسوی": "French"
+  },
+  "Arabisch": {
+    "عربی": "Arabic"
+  },
+  "Türkisch": {
+    "ترکی": "Turkish"
+  },
+  "Spanisch": {
+    "اسپانیایی": "Spanish"
+  },
+  "Italienisch": {
+    "ایتالیایی": "Italian"
+  },
+  "ich": {
+    "من": "I"
+  },
+  "du": {
+    "تو": "you"
+  },
+  "er": {
+    "او (مذکر)": "he"
+  },
+  "sie": {
+    "او (مؤنث)": "she",
+    "آن‌ها": "they",
+    "آن‌ها، ضمیر سوم‌شخص جمع": "they"
+  },
+  "es": {
+    "آن (خنثی)": "it"
+  },
+  "wir": {
+    "ما": "we"
+  },
+  "ihr": {
+    "شما (جمع دوستانه)": "you (plural)",
+    "«به او»، ضمیر داتیو برای مؤنث": "to her",
+    "مالِ او یا آن‌ها، پیش از اسم": "her, their"
+  },
+  "Sie": {
+    "شما (رسمی)": "you (formal)"
+  },
+  "gut": {
+    "خوب": "good"
+  },
+  "Auf Wiedersehen": {
+    "خداحافظ (رسمی)": "goodbye"
+  },
+  "das Land": {
+    "کشور": "country",
+    "روستا در ترکیب auf dem Land": "the countryside",
+    "ناحیهٔ روستایی، بیرون شهر": "rural area, countryside"
+  },
+  "hier": {
+    "اینجا": "here"
+  },
+  "auch": {
+    "هم": "also",
+    "نیز": "too"
+  },
+  "ein bisschen": {
+    "کمی": "a little"
+  },
+  "Deutschland": {
+    "آلمان": "Germany"
+  },
+  "Österreich": {
+    "اتریش": "Austria"
+  },
+  "Italien": {
+    "ایتالیا": "Italy"
+  },
+  "Spanien": {
+    "اسپانیا": "Spain"
+  },
+  "Frankreich": {
+    "فرانسه": "France"
+  },
+  "das Buch": {
+    "کتاب": "book"
+  },
+  "das Heft": {
+    "دفتر": "notebook"
+  },
+  "der Stift": {
+    "قلم": "pen",
+    "میله یا پینِ کوچک": "pin, peg"
+  },
+  "buchstabieren": {
+    "هجی کردن": "to spell"
+  },
+  "die Adresse": {
+    "نشانی": "address"
+  },
+  "die Straße": {
+    "خیابان": "street"
+  },
+  "die Hausnummer": {
+    "پلاک خانه": "house number"
+  },
+  "die Postleitzahl": {
+    "کد پستی": "postal code"
+  },
+  "die Telefonnummer": {
+    "شماره تلفن": "phone number"
+  },
+  "das Formular": {
+    "فرم": "form"
+  },
+  "lesen": {
+    "خواندن": "to read"
+  },
+  "schreiben": {
+    "نوشتن": "to write"
+  },
+  "verstehen": {
+    "فهمیدن": "to understand",
+    "با کسی ساختن، در ساختار «sich verstehen»": "to get along with someone"
+  },
+  "wiederholen": {
+    "تکرار کردن": "to repeat"
+  },
+  "null": {
+    "۰": "zero"
+  },
+  "eins": {
+    "۱": "one"
+  },
+  "zwei": {
+    "۲": "two"
+  },
+  "drei": {
+    "۳": "three"
+  },
+  "vier": {
+    "۴": "four"
+  },
+  "fünf": {
+    "۵": "five"
+  },
+  "sechs": {
+    "۶": "six"
+  },
+  "sieben": {
+    "۷": "seven"
+  },
+  "acht": {
+    "۸": "eight"
+  },
+  "neun": {
+    "۹": "nine"
+  },
+  "zehn": {
+    "۱۰": "ten"
+  },
+  "elf": {
+    "۱۱": "eleven"
+  },
+  "zwölf": {
+    "۱۲": "twelve"
+  },
+  "dreizehn": {
+    "۱۳": "thirteen"
+  },
+  "vierzehn": {
+    "۱۴": "fourteen"
+  },
+  "fünfzehn": {
+    "۱۵": "fifteen"
+  },
+  "sechzehn": {
+    "۱۶": "sixteen"
+  },
+  "siebzehn": {
+    "۱۷": "seventeen"
+  },
+  "achtzehn": {
+    "۱۸": "eighteen"
+  },
+  "neunzehn": {
+    "۱۹": "nineteen"
+  },
+  "zwanzig": {
+    "۲۰": "twenty"
+  },
+  "einundzwanzig": {
+    "۲۱": "twenty-one"
+  },
+  "zweiundzwanzig": {
+    "۲۲": "twenty-two"
+  },
+  "dreiundzwanzig": {
+    "۲۳": "twenty-three"
+  },
+  "dreißig": {
+    "۳۰": "thirty"
+  },
+  "vierzig": {
+    "۴۰": "forty"
+  },
+  "fünfzig": {
+    "۵۰": "fifty"
+  },
+  "sechzig": {
+    "۶۰": "sixty"
+  },
+  "siebzig": {
+    "۷۰": "seventy"
+  },
+  "achtzig": {
+    "۸۰": "eighty"
+  },
+  "neunzig": {
+    "۹۰": "ninety"
+  },
+  "hundert": {
+    "۱۰۰": "one hundred"
+  },
+  "tausend": {
+    "۱۰۰۰": "one thousand"
+  },
+  "der Satz": {
+    "جمله": "sentence",
+    "یک دست یا یک مجموعه": "set, collection",
+    "یک سِت در ورزش": "set (sports)"
+  },
+  "die Frage": {
+    "سؤال": "question"
+  },
+  "der Buchstabe": {
+    "حرف الفبا": "letter of the alphabet"
+  },
+  "die Antwort": {
+    "پاسخ": "answer"
+  },
+  "richtig": {
+    "درست": "correct"
+  },
+  "falsch": {
+    "غلط": "wrong"
+  },
+  "geben": {
+    "دادن": "to give",
+    "وجود داشتن، در ساختار «es gibt»": "there is, there are",
+    "برگزار کردن": "to give, to hold (an event)"
+  },
+  "sitzen": {
+    "نشستن، نشسته بودن": "to sit, to be seated"
+  },
+  "die Familie": {
+    "خانواده": "family"
+  },
+  "die Eltern": {
+    "پدر و مادر": "parents"
+  },
+  "der Bruder": {
+    "برادر": "brother"
+  },
+  "die Schwester": {
+    "خواهر": "sister"
+  },
+  "das Kind": {
+    "کودک": "child",
+    "فرزند": "son or daughter"
+  },
+  "die Geschwister": {
+    "خواهر و برادرها": "siblings"
+  },
+  "das Foto": {
+    "عکس": "photo"
+  },
+  "verheiratet": {
+    "متأهل": "married"
+  },
+  "ledig": {
+    "مجرد": "single"
+  },
+  "das Alter": {
+    "سن": "age"
+  },
+  "haben": {
+    "داشتن": "to have"
+  },
+  "der Vater": {
+    "پدر": "father"
+  },
+  "der Sohn": {
+    "پسر": "son"
+  },
+  "der Onkel": {
+    "عمو یا دایی": "uncle"
+  },
+  "der Opa": {
+    "پدربزرگ": "grandfather"
+  },
+  "der Freund": {
+    "دوستِ مرد": "male friend",
+    "شریک عاطفیِ مرد": "boyfriend"
+  },
+  "die Mutter": {
+    "مادر": "mother"
+  },
+  "die Tochter": {
+    "دختر": "daughter"
+  },
+  "die Tante": {
+    "عمه یا خاله": "aunt"
+  },
+  "die Oma": {
+    "مادربزرگ": "grandmother"
+  },
+  "die Freundin": {
+    "دوستِ زن": "female friend",
+    "شریک عاطفیِ زن": "girlfriend"
+  },
+  "jung": {
+    "جوان": "young"
+  },
+  "alt": {
+    "سال‌دار": "old",
+    "ساله": "years old",
+    "قدیمی": "old, not new"
+  },
+  "besuchen": {
+    "به دیدن رفتن": "to visit",
+    "در کلاس یا مدرسه حضور یافتن": "to attend"
+  },
+  "der Mann": {
+    "مرد": "man",
+    "شوهر": "husband",
+    "شوهر، همسرِ مرد": "husband"
+  },
+  "die Frau": {
+    "زن": "woman",
+    "همسر": "wife",
+    "همسرِ زن": "wife"
+  },
+  "aufstehen": {
+    "از خواب یا جا بلند شدن": "to get up",
+    "از حالت نشسته بلند شدن": "to stand up"
+  },
+  "frühstücken": {
+    "صبحانه خوردن": "to have breakfast"
+  },
+  "schlafen": {
+    "خوابیدن": "to sleep"
+  },
+  "anrufen": {
+    "زنگ زدن": "to call",
+    "تماس تلفنی گرفتن": "to phone",
+    "تلفنی کسی را صدا زدن یا با او تماس گرفتن": "to call someone"
+  },
+  "die Uhr": {
+    "ساعت": "clock, watch",
+    "ساعت به عنوان نشانهٔ زمان": "o'clock"
+  },
+  "die Minute": {
+    "دقیقه": "minute"
+  },
+  "die Stunde": {
+    "ساعت به‌عنوان مدت": "hour",
+    "جلسهٔ درس": "lesson, class period"
+  },
+  "die Pause": {
+    "زنگ تفریح": "school break",
+    "استراحت": "break, rest"
+  },
+  "heute": {
+    "امروز": "today"
+  },
+  "morgen": {
+    "فردا": "tomorrow"
+  },
+  "früh": {
+    "زود": "early"
+  },
+  "spät": {
+    "دیر": "late"
+  },
+  "der Montag": {
+    "دوشنبه": "Monday"
+  },
+  "der Dienstag": {
+    "سه‌شنبه": "Tuesday"
+  },
+  "der Mittwoch": {
+    "چهارشنبه": "Wednesday"
+  },
+  "der Donnerstag": {
+    "پنجشنبه": "Thursday"
+  },
+  "der Freitag": {
+    "جمعه": "Friday"
+  },
+  "der Samstag": {
+    "شنبه": "Saturday"
+  },
+  "der Sonntag": {
+    "یکشنبه": "Sunday"
+  },
+  "der Morgen": {
+    "صبح": "morning"
+  },
+  "der Vormittag": {
+    "پیش از ظهر": "midmorning, before noon"
+  },
+  "der Mittag": {
+    "ظهر": "noon"
+  },
+  "der Nachmittag": {
+    "بعدازظهر": "afternoon"
+  },
+  "der Abend": {
+    "عصر": "evening"
+  },
+  "die Woche": {
+    "هفته": "week"
+  },
+  "das Wochenende": {
+    "آخر هفته": "weekend"
+  },
+  "immer": {
+    "همیشه": "always"
+  },
+  "oft": {
+    "اغلب": "often"
+  },
+  "manchmal": {
+    "گاهی": "sometimes"
+  },
+  "nie": {
+    "هرگز": "never"
+  },
+  "zuerst": {
+    "اول": "first"
+  },
+  "dann": {
+    "بعد": "then"
+  },
+  "der Kaffee": {
+    "قهوه": "coffee"
+  },
+  "die Milch": {
+    "شیر": "milk"
+  },
+  "die Rechnung": {
+    "صورت‌حساب": "bill, invoice",
+    "محاسبه": "calculation"
+  },
+  "bezahlen": {
+    "پرداخت کردن": "to pay"
+  },
+  "der Tee": {
+    "چای": "tea"
+  },
+  "das Wasser": {
+    "آب": "water"
+  },
+  "das Brot": {
+    "نان": "bread"
+  },
+  "der Saft": {
+    "آب‌میوه": "juice"
+  },
+  "die Suppe": {
+    "سوپ": "soup"
+  },
+  "der Salat": {
+    "سالاد": "salad"
+  },
+  "die Speisekarte": {
+    "منو": "menu"
+  },
+  "bestellen": {
+    "سفارش دادن": "to order",
+    "سفارش خرید دادن": "to place an order",
+    "پیام یا سلامِ کسی را رساندن": "to pass on a message or regards"
+  },
+  "trinken": {
+    "نوشیدن": "to drink"
+  },
+  "essen": {
+    "خوردن": "to eat"
+  },
+  "ohne": {
+    "بدون": "without"
+  },
+  "zusammen": {
+    "با هم": "together"
+  },
+  "der Zucker": {
+    "شکر": "sugar"
+  },
+  "das Salz": {
+    "نمک": "salt"
+  },
+  "der Käse": {
+    "پنیر": "cheese"
+  },
+  "die Butter": {
+    "کره": "butter"
+  },
+  "das Fleisch": {
+    "گوشت": "meat"
+  },
+  "der Fisch": {
+    "ماهی": "fish"
+  },
+  "der Reis": {
+    "برنج": "rice"
+  },
+  "das Öl": {
+    "روغن": "oil"
+  },
+  "das Gemüse": {
+    "سبزیجات": "vegetables"
+  },
+  "das Obst": {
+    "میوه": "fruit"
+  },
+  "der Honig": {
+    "عسل": "honey"
+  },
+  "der Joghurt": {
+    "ماست": "yogurt"
+  },
+  "das Mehl": {
+    "آرد": "flour"
+  },
+  "das Glas": {
+    "لیوان": "drinking glass",
+    "شیشه": "glass",
+    "شیشه، جنسِ یک وسیله": "glass (material)"
+  },
+  "die Tasse": {
+    "فنجان": "cup"
+  },
+  "nehmen": {
+    "گرفتن": "to take",
+    "انتخاب کردن": "to choose",
+    "سوار شدن به یک وسیله": "to take (transport)"
+  },
+  "getrennt": {
+    "جداگانه": "separately"
+  },
+  "mögen": {
+    "دوست داشتن، پسندیدن": "to like"
+  },
+  "der Preis": {
+    "قیمت": "price",
+    "جایزه": "prize"
+  },
+  "das Geld": {
+    "پول": "money"
+  },
+  "das Kilo": {
+    "کیلوگرم": "kilogram"
+  },
+  "die Flasche": {
+    "بطری": "bottle"
+  },
+  "kosten": {
+    "قیمت داشتن": "to cost",
+    "چشیدن": "to taste"
+  },
+  "kaufen": {
+    "خریدن": "to buy"
+  },
+  "billig": {
+    "ارزان": "cheap"
+  },
+  "teuer": {
+    "گران": "expensive"
+  },
+  "die Größe": {
+    "اندازه": "size",
+    "سایز": "clothing size",
+    "قد، بلندیِ قامت": "height"
+  },
+  "die Kasse": {
+    "صندوق": "checkout, cash register"
+  },
+  "die Tüte": {
+    "کیسهٔ خرید": "shopping bag"
+  },
+  "der Apfel": {
+    "سیب": "apple"
+  },
+  "die Birne": {
+    "گلابی": "pear"
+  },
+  "die Banane": {
+    "موز": "banana"
+  },
+  "die Tomate": {
+    "گوجه‌فرنگی": "tomato"
+  },
+  "die Kartoffel": {
+    "سیب‌زمینی": "potato"
+  },
+  "die Orange": {
+    "پرتقال": "orange (fruit)"
+  },
+  "die Zwiebel": {
+    "پیاز": "onion"
+  },
+  "das Ei": {
+    "تخم‌مرغ": "egg"
+  },
+  "die Gurke": {
+    "خیار": "cucumber"
+  },
+  "die Karotte": {
+    "هویج": "carrot"
+  },
+  "rot": {
+    "قرمز": "red"
+  },
+  "gelb": {
+    "زرد": "yellow"
+  },
+  "blau": {
+    "آبی": "blue"
+  },
+  "grün": {
+    "سبز": "green"
+  },
+  "weiß": {
+    "سفید": "white"
+  },
+  "schwarz": {
+    "سیاه": "black"
+  },
+  "braun": {
+    "قهوه‌ای": "brown"
+  },
+  "grau": {
+    "خاکستری": "grey"
+  },
+  "rosa": {
+    "صورتی": "pink"
+  },
+  "orange": {
+    "نارنجی": "orange (colour)"
+  },
+  "das Geschäft": {
+    "مغازه": "shop",
+    "معامله یا کسب‌وکار": "business, deal"
+  },
+  "offen": {
+    "باز": "open",
+    "حل‌نشده یا بی‌پاسخ": "unresolved, unanswered"
+  },
+  "geschlossen": {
+    "بسته": "closed"
+  },
+  "die Hose": {
+    "شلوار": "trousers"
+  },
+  "die Jacke": {
+    "کاپشن": "jacket"
+  },
+  "der Pullover": {
+    "پلیور": "sweater"
+  },
+  "das Kleid": {
+    "پیراهن زنانه": "dress"
+  },
+  "das Hemd": {
+    "پیراهن مردانه": "shirt"
+  },
+  "der Rock": {
+    "دامن": "skirt"
+  },
+  "der Schuh": {
+    "کفش": "shoe"
+  },
+  "das T-Shirt": {
+    "تی‌شرت": "T-shirt"
+  },
+  "der Mantel": {
+    "پالتو": "coat"
+  },
+  "der Zug": {
+    "قطار": "train",
+    "نوبتِ حرکت در بازی": "move, turn in a game",
+    "جریان هوا": "draught, current of air"
+  },
+  "das Gleis": {
+    "خط یا سکوی قطار": "track (at a station)",
+    "خط راه‌آهن": "railway track"
+  },
+  "abfahren": {
+    "حرکت کردن": "to depart"
+  },
+  "der Bahnhof": {
+    "ایستگاه قطار": "train station"
+  },
+  "die Haltestelle": {
+    "ایستگاه اتوبوس یا تراموا": "bus or tram stop"
+  },
+  "umsteigen": {
+    "عوض کردن وسیله در مسیر": "to change trains or buses"
+  },
+  "einsteigen": {
+    "سوار شدن": "to get on, to get in"
+  },
+  "aussteigen": {
+    "پیاده شدن": "to get off, to get out"
+  },
+  "links": {
+    "سمت چپ": "left"
+  },
+  "rechts": {
+    "سمت راست": "right"
+  },
+  "geradeaus": {
+    "مستقیم": "straight ahead"
+  },
+  "die Fahrkarte": {
+    "بلیت سفر": "ticket"
+  },
+  "die Verspätung": {
+    "تأخیر": "delay"
+  },
+  "fahren": {
+    "رفتن با وسیله": "to travel by vehicle",
+    "راندنِ وسیلهٔ نقلیه": "to drive"
+  },
+  "der Bus": {
+    "اتوبوس": "bus"
+  },
+  "die Straßenbahn": {
+    "تراموا": "tram"
+  },
+  "das Fahrrad": {
+    "دوچرخه": "bicycle"
+  },
+  "die U-Bahn": {
+    "مترو": "underground, subway"
+  },
+  "das Taxi": {
+    "تاکسی": "taxi"
+  },
+  "das Auto": {
+    "ماشین": "car"
+  },
+  "die S-Bahn": {
+    "قطار شهری": "suburban train"
+  },
+  "das Schiff": {
+    "کشتی": "ship"
+  },
+  "das Flugzeug": {
+    "هواپیما": "airplane"
+  },
+  "zu Fuß": {
+    "پیاده": "on foot"
+  },
+  "die Ampel": {
+    "چراغ راهنمایی": "traffic light"
+  },
+  "der Eingang": {
+    "ورودی": "entrance",
+    "دریافت نامه یا درخواست": "receipt (of a letter or request)"
+  },
+  "der Ausgang": {
+    "خروجی": "exit",
+    "نتیجه، سرانجام": "outcome"
+  },
+  "der Plan": {
+    "نقشه": "map",
+    "برنامه": "plan",
+    "نقشه یا طرح ترسیمی": "drawing, plan"
+  },
+  "gehen": {
+    "رفتن، پیاده رفتن": "to go, to walk",
+    "کار کردن، درست عمل کردن": "to work, to function",
+    "ممکن یا عملی بودن": "to be possible, to work out",
+    "حال داشتن، در عبارت «wie geht es …?»": "to be doing (as in “How are you?”)"
+  },
+  "das Zimmer": {
+    "اتاق": "room"
+  },
+  "die Wohnung": {
+    "واحد مسکونی": "flat, apartment"
+  },
+  "die Miete": {
+    "اجاره‌بها": "rent"
+  },
+  "der Schlüssel": {
+    "کلید": "key",
+    "راه حل یا عامل اصلی": "key, solution"
+  },
+  "der Flur": {
+    "راهرو": "hallway"
+  },
+  "die Tür": {
+    "در": "door"
+  },
+  "das Fenster": {
+    "پنجره": "window"
+  },
+  "der Garten": {
+    "باغ": "garden",
+    "حیاط سبز": "yard, garden"
+  },
+  "der Balkon": {
+    "بالکن": "balcony"
+  },
+  "mieten": {
+    "اجاره کردن": "to rent"
+  },
+  "suchen": {
+    "جست‌وجو کردن": "to look for"
+  },
+  "frei": {
+    "آزاد": "free",
+    "خالی": "vacant",
+    "آزاد، دارای اختیار": "free, at liberty",
+    "خالی و در دسترس": "available, unoccupied"
+  },
+  "der Tisch": {
+    "میز": "table"
+  },
+  "der Schrank": {
+    "کمد": "cupboard, wardrobe"
+  },
+  "der Stuhl": {
+    "صندلی": "chair"
+  },
+  "das Bett": {
+    "تخت": "bed"
+  },
+  "das Sofa": {
+    "کاناپه": "sofa"
+  },
+  "die Lampe": {
+    "چراغ": "lamp"
+  },
+  "der Kühlschrank": {
+    "یخچال": "refrigerator"
+  },
+  "der Herd": {
+    "اجاق": "stove"
+  },
+  "die Waschmaschine": {
+    "ماشین لباس‌شویی": "washing machine"
+  },
+  "das Regal": {
+    "قفسه": "shelf, shelving unit"
+  },
+  "das Bad": {
+    "حمام": "bathroom"
+  },
+  "die Küche": {
+    "آشپزخانه": "kitchen"
+  },
+  "das Wohnzimmer": {
+    "اتاق نشیمن": "living room"
+  },
+  "das Schlafzimmer": {
+    "اتاق خواب": "bedroom"
+  },
+  "der Keller": {
+    "زیرزمین": "basement"
+  },
+  "groß": {
+    "بزرگ": "big, large"
+  },
+  "klein": {
+    "کوچک": "small"
+  },
+  "die Heizung": {
+    "وسیلهٔ گرمایش": "heater, heating system"
+  },
+  "an": {
+    "روشن": "on (switched on)",
+    "کنار یا روی سطح عمودی": "at, on"
+  },
+  "aus": {
+    "خاموش": "off (switched off)",
+    "از": "from, out of"
+  },
+  "liegen": {
+    "به حالت افقی قرار داشتن": "to lie, to be lying",
+    "واقع شدن در یک مکان": "to be located",
+    "ناشی شدن از چیزی، با «an»": "to be due to"
+  },
+  "der Beruf": {
+    "شغل": "occupation"
+  },
+  "das Büro": {
+    "دفتر کار": "office"
+  },
+  "die Arbeit": {
+    "کار": "work"
+  },
+  "arbeiten": {
+    "کار کردن": "to work"
+  },
+  "der Kollege": {
+    "همکار مرد": "male colleague"
+  },
+  "die Kollegin": {
+    "همکار زن": "female colleague"
+  },
+  "der Computer": {
+    "رایانه": "computer"
+  },
+  "die E-Mail": {
+    "ایمیل": "email"
+  },
+  "anfangen": {
+    "شروع کردن": "to start"
+  },
+  "helfen": {
+    "کمک کردن": "to help"
+  },
+  "können": {
+    "توانستن": "can, to be able to"
+  },
+  "müssen": {
+    "باید": "must, to have to",
+    "ناچار بودن": "to be obliged to"
+  },
+  "der Koch": {
+    "آشپز مرد": "cook (male)"
+  },
+  "die Köchin": {
+    "آشپز زن": "cook (female)"
+  },
+  "der Verkäufer": {
+    "فروشندهٔ مرد": "salesperson (male)"
+  },
+  "die Verkäuferin": {
+    "فروشندهٔ زن": "salesperson (female)"
+  },
+  "der Lehrer": {
+    "معلم مرد": "teacher (male)"
+  },
+  "die Lehrerin": {
+    "معلم زن": "teacher (female)"
+  },
+  "der Arzt": {
+    "پزشک مرد": "doctor (male)"
+  },
+  "die Ärztin": {
+    "پزشک زن": "doctor (female)"
+  },
+  "der Fahrer": {
+    "رانندهٔ مرد": "driver (male)"
+  },
+  "die Fahrerin": {
+    "رانندهٔ زن": "driver (female)"
+  },
+  "dürfen": {
+    "اجازه داشتن": "may, to be allowed to"
+  },
+  "wollen": {
+    "خواستن": "to want"
+  },
+  "der Chef": {
+    "رئیس مرد": "boss (male)"
+  },
+  "die Chefin": {
+    "رئیس زن": "boss (female)"
+  },
+  "machen": {
+    "انجام دادن، ساختن": "to do, to make",
+    "در مجموع شدن، هنگام حساب کردن": "to come to, to total"
+  },
+  "der Termin": {
+    "وقت ملاقات": "appointment"
+  },
+  "die Praxis": {
+    "مطب": "medical practice",
+    "عمل، در برابر نظریه": "practice (as opposed to theory)"
+  },
+  "die Apotheke": {
+    "داروخانه": "pharmacy"
+  },
+  "das Fieber": {
+    "تب": "fever"
+  },
+  "krank": {
+    "بیمار": "ill, sick"
+  },
+  "gesund": {
+    "سالم": "healthy"
+  },
+  "die Tablette": {
+    "قرص": "tablet, pill"
+  },
+  "das Rezept": {
+    "نسخه": "prescription",
+    "دستور تهیه": "recipe",
+    "دستور تهیهٔ غذا": "cooking recipe"
+  },
+  "warten": {
+    "منتظر ماندن": "to wait"
+  },
+  "wehtun": {
+    "درد کردن": "to hurt"
+  },
+  "der Arm": {
+    "بازو": "arm"
+  },
+  "das Bein": {
+    "پا": "leg"
+  },
+  "die Hand": {
+    "دست": "hand"
+  },
+  "der Fuß": {
+    "پا از مچ به پایین": "foot"
+  },
+  "das Auge": {
+    "چشم": "eye"
+  },
+  "das Ohr": {
+    "گوش": "ear"
+  },
+  "der Finger": {
+    "انگشت دست": "finger"
+  },
+  "der Zahn": {
+    "دندان": "tooth"
+  },
+  "der Rücken": {
+    "کمر": "back"
+  },
+  "der Bauch": {
+    "شکم": "belly, abdomen"
+  },
+  "der Kopf": {
+    "سر": "head",
+    "نفر، هنگام شمارش افراد": "person, head (when counting)"
+  },
+  "der Hals": {
+    "گلو": "throat, neck"
+  },
+  "die Karte": {
+    "کارت": "card",
+    "نقشه": "map",
+    "نقشهٔ جغرافیایی": "geographical map",
+    "بلیتِ ورود": "ticket",
+    "فهرست غذاها در رستوران": "menu"
+  },
+  "die Hilfe": {
+    "کمک": "help"
+  },
+  "der Schmerz": {
+    "درد": "pain"
+  },
+  "sollen": {
+    "باید، طبق توصیه یا خواستهٔ کسی": "should, to be supposed to"
+  },
+  "tun": {
+    "انجام دادن": "to do"
+  },
+  "das Wetter": {
+    "آب‌وهوا": "weather"
+  },
+  "der Regen": {
+    "باران": "rain"
+  },
+  "die Sonne": {
+    "خورشید": "sun"
+  },
+  "der Schnee": {
+    "برف": "snow"
+  },
+  "der Wind": {
+    "باد": "wind"
+  },
+  "kalt": {
+    "سرد": "cold"
+  },
+  "warm": {
+    "گرم": "warm"
+  },
+  "die Freizeit": {
+    "اوقات فراغت": "free time"
+  },
+  "spazieren gehen": {
+    "به پیاده‌روی رفتن": "to go for a walk"
+  },
+  "schwimmen": {
+    "شنا کردن": "to swim"
+  },
+  "spielen": {
+    "بازی کردن": "to play (a game)",
+    "نواختن": "to play music",
+    "نواختنِ ساز": "to play an instrument",
+    "نقش بازی کردن": "to act, to play a role"
+  },
+  "gern": {
+    "با علاقه": "gladly, with pleasure"
+  },
+  "der Frühling": {
+    "بهار": "spring"
+  },
+  "der Sommer": {
+    "تابستان": "summer"
+  },
+  "der Herbst": {
+    "پاییز": "autumn"
+  },
+  "der Winter": {
+    "زمستان": "winter"
+  },
+  "das Hobby": {
+    "سرگرمی": "hobby"
+  },
+  "das Kino": {
+    "سینما": "cinema"
+  },
+  "der Park": {
+    "پارک": "park"
+  },
+  "tanzen": {
+    "رقصیدن": "to dance"
+  },
+  "das Tier": {
+    "حیوان": "animal"
+  },
+  "sehen": {
+    "دیدن": "to see",
+    "متوجه شدن، دریافتن": "to realise, to understand"
+  },
+  "das Hotel": {
+    "هتل": "hotel"
+  },
+  "das Einzelzimmer": {
+    "اتاق یک‌نفره": "single room"
+  },
+  "das Doppelzimmer": {
+    "اتاق دونفره": "double room"
+  },
+  "der Koffer": {
+    "چمدان": "suitcase"
+  },
+  "der Pass": {
+    "گذرنامه": "passport"
+  },
+  "die Nacht": {
+    "شب": "night"
+  },
+  "der Urlaub": {
+    "مرخصی": "leave, time off",
+    "تعطیلات": "holiday, vacation"
+  },
+  "das Frühstück": {
+    "صبحانه": "breakfast"
+  },
+  "buchen": {
+    "رزرو کردن": "to book",
+    "در حساب ثبت کردن": "to enter in the accounts"
+  },
+  "bleiben": {
+    "ماندن": "to stay",
+    "همچنان در یک وضعیت بودن": "to remain"
+  },
+  "gestern": {
+    "دیروز": "yesterday"
+  },
+  "Januar": {
+    "ژانویه": "January"
+  },
+  "Februar": {
+    "فوریه": "February"
+  },
+  "März": {
+    "مارس": "March"
+  },
+  "April": {
+    "آوریل": "April"
+  },
+  "Mai": {
+    "مه": "May"
+  },
+  "Juni": {
+    "ژوئن": "June"
+  },
+  "Juli": {
+    "ژوئیه": "July"
+  },
+  "August": {
+    "اوت": "August"
+  },
+  "September": {
+    "سپتامبر": "September"
+  },
+  "Oktober": {
+    "اکتبر": "October"
+  },
+  "November": {
+    "نوامبر": "November"
+  },
+  "Dezember": {
+    "دسامبر": "December"
+  },
+  "das Meer": {
+    "دریا": "sea"
+  },
+  "der Strand": {
+    "ساحل": "beach"
+  },
+  "der Flughafen": {
+    "فرودگاه": "airport"
+  },
+  "der Ausweis": {
+    "کارت شناسایی": "ID card"
+  },
+  "die Einladung": {
+    "دعوت": "invitation",
+    "دعوت‌نامه": "invitation card"
+  },
+  "der Geburtstag": {
+    "تولد": "birthday"
+  },
+  "die Nachricht": {
+    "پیام": "message"
+  },
+  "der Brief": {
+    "نامه": "letter"
+  },
+  "die Post": {
+    "ادارهٔ پست": "post office",
+    "پست": "postal service",
+    "مرسوله‌ها و نامه‌ها": "mail"
+  },
+  "mitbringen": {
+    "همراه آوردن": "to bring along"
+  },
+  "einladen": {
+    "دعوت کردن": "to invite"
+  },
+  "feiern": {
+    "جشن گرفتن": "to celebrate"
+  },
+  "antworten": {
+    "پاسخ دادن": "to answer"
+  },
+  "leider": {
+    "متأسفانه": "unfortunately"
+  },
+  "treffen": {
+    "دیدن": "to see someone",
+    "ملاقات کردن": "to meet",
+    "به هدف زدن": "to hit a target",
+    "گرفتنِ تصمیم در ترکیب «eine Entscheidung treffen»": "to make a decision"
+  },
+  "wann": {
+    "کِی": "when"
+  },
+  "wer": {
+    "چه کسی": "who"
+  },
+  "was": {
+    "چه چیز": "what"
+  },
+  "wo": {
+    "کجا": "where"
+  },
+  "wie viel": {
+    "چقدر": "how much"
+  },
+  "wie viele": {
+    "چند تا": "how many"
+  },
+  "und": {
+    "و": "and"
+  },
+  "aber": {
+    "اما": "but"
+  },
+  "oder": {
+    "یا": "or"
+  },
+  "der Umschlag": {
+    "پاکت نامه": "envelope",
+    "جلد یا روکشِ کتاب": "book cover"
+  },
+  "die Briefmarke": {
+    "تمبر": "postage stamp"
+  },
+  "das Geschenk": {
+    "هدیه": "gift"
+  },
+  "schenken": {
+    "هدیه دادن": "to give as a gift",
+    "اختصاص دادنِ توجه یا زمان": "to give one's attention or time"
+  },
+  "bringen": {
+    "آوردن": "to bring",
+    "فایده یا نتیجه داشتن": "to yield, to achieve"
+  },
+  "der Umzug": {
+    "اسباب‌کشی": "move, relocation"
+  },
+  "umziehen": {
+    "نقل مکان کردن": "to move house",
+    "لباس عوض کردن، با «sich»": "to change clothes"
+  },
+  "die Besichtigung": {
+    "بازدید از ملک": "property viewing",
+    "بازدید": "visit, tour"
+  },
+  "vereinbaren": {
+    "هماهنگ کردن": "to arrange, to agree on"
+  },
+  "der Vermieter": {
+    "صاحب‌خانهٔ مرد": "landlord"
+  },
+  "erreichbar": {
+    "در دسترس": "reachable, accessible"
+  },
+  "die Mieterin": {
+    "مستأجر زن": "tenant (female)"
+  },
+  "einziehen": {
+    "به خانهٔ جدید آمدن": "to move in",
+    "وصول یا برداشت کردنِ وجه": "to collect, to debit"
+  },
+  "die Kaution": {
+    "ودیعه": "security deposit"
+  },
+  "überweisen": {
+    "حواله کردن پول": "to transfer money",
+    "انتقال بانکی دادن": "to make a bank transfer",
+    "ارجاع دادنِ بیمار به پزشک دیگر": "to refer a patient"
+  },
+  "die Nebenkosten": {
+    "هزینه‌های جانبی": "additional costs",
+    "هزینه‌های جانبی مسکن": "housing service charges"
+  },
+  "monatlich": {
+    "ماهانه": "monthly"
+  },
+  "die Kaltmiete": {
+    "اجارهٔ پایه": "rent excluding utilities"
+  },
+  "betragen": {
+    "بالغ شدن به": "to amount to",
+    "معادل بودن": "to equal, to total"
+  },
+  "der Mietvertrag": {
+    "قرارداد اجاره": "rental agreement"
+  },
+  "unterschreiben": {
+    "امضا کردن": "to sign"
+  },
+  "der Karton": {
+    "کارتن": "cardboard box"
+  },
+  "einpacken": {
+    "بسته‌بندی کردن": "to pack"
+  },
+  "aufbauen": {
+    "سرهم کردن": "to assemble",
+    "برپا کردن": "to set up"
+  },
+  "die Wand": {
+    "دیوار": "wall"
+  },
+  "streichen": {
+    "رنگ زدن": "to paint",
+    "خط زدن، حذف کردن": "to cross out, to delete",
+    "مالیدن چیزی روی سطح": "to spread on a surface"
+  },
+  "der Innenhof": {
+    "حیاط داخلی": "courtyard"
+  },
+  "ruhig": {
+    "آرام": "quiet, calm",
+    "آرام و بدون نگرانی": "calm, untroubled"
+  },
+  "der Dachboden": {
+    "زیرشیروانی": "attic"
+  },
+  "lagern": {
+    "انبار کردن": "to store"
+  },
+  "die Übergabe": {
+    "تحویل": "handover",
+    "تحویل کار": "handover of work"
+  },
+  "der Ersatzschlüssel": {
+    "کلید یدکی": "spare key"
+  },
+  "möbliert": {
+    "مبله": "furnished"
+  },
+  "die Anzeige": {
+    "آگهی": "advertisement",
+    "شکایت یا گزارش رسمی به پلیس": "police report",
+    "نمایشگر یا عددِ روی آن": "display, reading"
+  },
+  "renovieren": {
+    "بازسازی یا نوسازی کردن": "to renovate"
+  },
+  "vor dem Einzug": {
+    "پیش از نقل‌مکان به خانه": "before moving in"
+  },
+  "die Wohnfläche": {
+    "مساحت قابل سکونت": "living space, floor area"
+  },
+  "der Quadratmeter": {
+    "متر مربع": "square metre"
+  },
+  "stehen": {
+    "ایستاده بودن، قرار داشتن": "to stand, to be situated",
+    "نوشته بودن": "to be written, to say",
+    "به کسی آمدن، دربارهٔ لباس یا رنگ": "to suit someone"
+  },
+  "legen": {
+    "گذاشتن به صورت خوابیده": "to lay, to put down flat"
+  },
+  "das Gefühl": {
+    "احساس": "feeling"
+  },
+  "beschreiben": {
+    "توصیف کردن": "to describe"
+  },
+  "die Freude": {
+    "شادی": "joy"
+  },
+  "teilen": {
+    "شریک شدن": "to share",
+    "تقسیم کردن": "to divide",
+    "به اشتراک گذاشتن": "to share something"
+  },
+  "traurig": {
+    "غمگین": "sad"
+  },
+  "trösten": {
+    "دلداری دادن": "to comfort"
+  },
+  "sich freuen auf": {
+    "مشتاق چیزی در آینده بودن": "to look forward to"
+  },
+  "das Wiedersehen": {
+    "دیدار دوباره": "reunion"
+  },
+  "sich ärgern über": {
+    "از چیزی ناراحت یا عصبانی شدن": "to be annoyed about"
+  },
+  "der Streit": {
+    "مشاجره": "argument"
+  },
+  "die Überraschung": {
+    "غافلگیری": "surprise"
+  },
+  "gelingen": {
+    "موفقیت‌آمیز بودن": "to succeed, to turn out well"
+  },
+  "sich interessieren für": {
+    "علاقه‌مند بودن به": "to be interested in"
+  },
+  "der Chor": {
+    "گروه کر": "choir"
+  },
+  "die Bekanntschaft": {
+    "آشنایی": "acquaintance, familiarity",
+    "آشنا": "an acquaintance"
+  },
+  "zufällig": {
+    "اتفاقی": "by chance"
+  },
+  "einsam": {
+    "تنها و بی‌همدم": "lonely"
+  },
+  "die Gesellschaft": {
+    "همراهی": "company, companionship",
+    "جمع": "gathering, group",
+    "هم‌نشینی و همراهی": "companionship",
+    "شرکت یا مؤسسهٔ تجاری": "company, business"
+  },
+  "sich melden bei": {
+    "با کسی تماس گرفتن": "to get in touch with"
+  },
+  "regelmäßig": {
+    "مرتب": "regularly",
+    "منظم": "regular",
+    "به‌طور منظم": "on a regular basis"
+  },
+  "dankbar": {
+    "سپاسگزار": "grateful"
+  },
+  "die Unterstützung": {
+    "حمایت": "support",
+    "پشتیبانی": "assistance"
+  },
+  "zuhören": {
+    "گوش دادن به کسی": "to listen to someone"
+  },
+  "geduldig": {
+    "صبور": "patient"
+  },
+  "die Stimmung": {
+    "حال‌وهوای جمع": "mood, atmosphere",
+    "حال‌وهوا یا فضای جمع": "atmosphere, mood"
+  },
+  "entspannt": {
+    "آرام و راحت": "relaxed"
+  },
+  "jemanden vermissen": {
+    "دلتنگ کسی بودن": "to miss someone"
+  },
+  "die Heimat": {
+    "زادبوم": "homeland",
+    "زادبوم یا خانهٔ آشنا": "home, native place"
+  },
+  "enttäuscht": {
+    "ناامید": "disappointed"
+  },
+  "sich entschuldigen": {
+    "عذرخواهی کردن": "to apologise"
+  },
+  "sich verabreden": {
+    "قرار گذاشتن": "to arrange to meet"
+  },
+  "das Café um die Ecke": {
+    "کافهٔ سر کوچه": "the café around the corner"
+  },
+  "der Kalender": {
+    "تقویم": "calendar"
+  },
+  "eintragen": {
+    "وارد کردن": "to enter",
+    "ثبت کردن": "to record"
+  },
+  "verschieben": {
+    "عقب یا جلو انداختن زمان": "to reschedule",
+    "به زمان دیگری انداختن": "to put off, to reschedule"
+  },
+  "der Elternabend": {
+    "جلسهٔ اولیا": "parents' evening"
+  },
+  "absagen": {
+    "لغو کردن": "to cancel"
+  },
+  "kurzfristig": {
+    "در فاصلهٔ زمانی کوتاه": "at short notice",
+    "با فاصلهٔ زمانی کم": "on short notice"
+  },
+  "die Bestätigung": {
+    "تأییدیه": "confirmation"
+  },
+  "schriftlich": {
+    "کتبی": "written",
+    "به صورت کتبی": "in writing"
+  },
+  "die Sprechstunde": {
+    "ساعت مشاوره": "office hours",
+    "ساعت پذیرش پزشک": "consultation hours"
+  },
+  "stattfinden": {
+    "برگزار شدن": "to take place"
+  },
+  "sich verspäten": {
+    "دیر رسیدن": "to be late"
+  },
+  "unterwegs": {
+    "در راه": "on the way"
+  },
+  "die Vertretung": {
+    "جانشین": "substitute, stand-in",
+    "جانشینی": "standing in, cover"
+  },
+  "übernehmen": {
+    "به عهده گرفتن": "to take over",
+    "بر عهده گرفتن": "to take responsibility for"
+  },
+  "rechtzeitig": {
+    "به‌موقع": "in time",
+    "پیش از دیر شدن": "before it is too late"
+  },
+  "Bescheid geben": {
+    "خبر دادن": "to let someone know"
+  },
+  "die Dauer": {
+    "مدت": "duration"
+  },
+  "schätzen": {
+    "تخمین زدن": "to estimate",
+    "قدر دانستن، ارزش قائل شدن": "to appreciate, to value"
+  },
+  "vorher": {
+    "پیش از آن": "beforehand"
+  },
+  "spätestens": {
+    "حداکثر تا": "no later than",
+    "دیرترین زمان": "at the latest"
+  },
+  "zurück sein": {
+    "برگشته بودن": "to be back"
+  },
+  "der Ersatztermin": {
+    "وقت جایگزین": "alternative appointment"
+  },
+  "passen": {
+    "مناسب بودن": "to be suitable",
+    "اندازه بودنِ لباس یا کفش": "to fit",
+    "جور بودنِ دو چیز با هم": "to match, to go together"
+  },
+  "inzwischen": {
+    "در این فاصله": "in the meantime",
+    "حالا": "by now"
+  },
+  "ausgebucht": {
+    "کاملاً رزروشده": "fully booked"
+  },
+  "der Vormittagstermin": {
+    "وقت پیش از ظهر": "morning appointment"
+  },
+  "bevorzugen": {
+    "ترجیح دادن": "to prefer"
+  },
+  "der Babysitter": {
+    "پرستار بچه": "babysitter"
+  },
+  "organisieren": {
+    "هماهنگ یا تهیه کردن": "to organise"
+  },
+  "der Kassenbon": {
+    "رسید صندوق": "receipt"
+  },
+  "aufheben": {
+    "نگه داشتن": "to keep",
+    "از زمین برداشتن": "to pick up",
+    "لغو کردن، از اعتبار انداختن": "to revoke, to cancel"
+  },
+  "umtauschen": {
+    "تعویض کردن کالای خریداری‌شده": "to exchange a purchase"
+  },
+  "ungetragen": {
+    "پوشیده‌نشده": "unworn"
+  },
+  "anprobieren": {
+    "پرو کردن": "to try on"
+  },
+  "die Umkleidekabine": {
+    "اتاق پرو": "fitting room"
+  },
+  "der Ärmel": {
+    "آستین": "sleeve"
+  },
+  "zu kurz": {
+    "بیش از حد کوتاه": "too short"
+  },
+  "das Muster": {
+    "طرح": "design",
+    "نقش": "pattern",
+    "نمونه یا الگو": "sample, template"
+  },
+  "auffällig": {
+    "چشمگیر": "eye-catching"
+  },
+  "der Reißverschluss": {
+    "زیپ": "zipper"
+  },
+  "klemmen": {
+    "گیر کردن": "to stick, to jam"
+  },
+  "die Reklamation": {
+    "اعتراض به ایراد کالا": "complaint about a defect",
+    "شکایت دربارهٔ کالا": "product complaint"
+  },
+  "bearbeiten": {
+    "رسیدگی کردن": "to process, to handle"
+  },
+  "die Rückgabe": {
+    "پس دادن کالا": "return of goods"
+  },
+  "möglich": {
+    "ممکن": "possible"
+  },
+  "reduziert": {
+    "تخفیف‌خورده": "reduced in price"
+  },
+  "das Modell": {
+    "مدل": "model"
+  },
+  "der Rabatt": {
+    "تخفیف": "discount"
+  },
+  "gewähren": {
+    "اعطا کردن": "to grant"
+  },
+  "die Auswahl": {
+    "تنوع انتخاب": "selection, range"
+  },
+  "vergleichen": {
+    "مقایسه کردن": "to compare"
+  },
+  "das Material": {
+    "جنس": "material",
+    "ماده": "substance",
+    "ماده یا جنس": "material, substance"
+  },
+  "weich": {
+    "نرم": "soft"
+  },
+  "eng": {
+    "تنگ": "tight",
+    "صمیمی و نزدیک": "close, intimate"
+  },
+  "bequem": {
+    "راحت": "comfortable"
+  },
+  "ausverkauft": {
+    "تمام‌شده": "sold out",
+    "به‌فروش‌رفته": "all sold"
+  },
+  "lieferbar": {
+    "قابل ارسال": "available for delivery"
+  },
+  "die Baumwolle": {
+    "پنبه": "cotton",
+    "پارچهٔ نخی": "cotton fabric"
+  },
+  "der Stoff": {
+    "پارچه": "fabric",
+    "موضوع و مطالب درسی": "course material, subject matter"
+  },
+  "preiswert": {
+    "با قیمت مناسب": "reasonably priced"
+  },
+  "die Qualität": {
+    "کیفیت": "quality"
+  },
+  "die Reise": {
+    "سفر": "journey, trip"
+  },
+  "ankommen": {
+    "رسیدن": "to arrive",
+    "بستگی داشتن، با «auf»": "to depend on",
+    "مورد استقبال قرار گرفتن": "to be well received"
+  },
+  "der Anschluss": {
+    "وسیلهٔ بعدی در مسیر": "connecting service",
+    "ارتباط و پیوند": "connection, contact",
+    "محل اتصالِ دستگاه": "connector, port"
+  },
+  "verpassen": {
+    "از دست دادن": "to miss"
+  },
+  "die Verbindung": {
+    "مسیر یا ارتباط حمل‌ونقل": "transport connection",
+    "مسیر ارتباطی یا سرویس": "route, service",
+    "رابطه یا پیوند": "link, relationship"
+  },
+  "direkt": {
+    "مستقیم": "direct"
+  },
+  "die Strecke": {
+    "مسیر": "route, stretch"
+  },
+  "gesperrt": {
+    "بسته به روی رفت‌وآمد": "closed to traffic"
+  },
+  "der Ersatzbus": {
+    "اتوبوس جایگزین": "replacement bus"
+  },
+  "bereitstehen": {
+    "آمادهٔ حرکت بودن": "to stand ready"
+  },
+  "der Bahnsteig": {
+    "سکوی ایستگاه": "station platform",
+    "سکوی قطار": "train platform"
+  },
+  "wechseln": {
+    "عوض کردن": "to change",
+    "تغییر دادن": "to switch",
+    "پول خرد کردن یا ارز تبدیل کردن": "to change money"
+  },
+  "der Umweg": {
+    "راه غیرمستقیم": "detour"
+  },
+  "in Kauf nehmen": {
+    "به جان خریدن": "to put up with",
+    "پذیرفتن": "to accept a drawback"
+  },
+  "das Gepäck": {
+    "بار سفر": "luggage"
+  },
+  "abgeben": {
+    "تحویل دادن": "to hand in",
+    "واگذار کردن، به دیگری بخشیدن": "to give away"
+  },
+  "das Schließfach": {
+    "کمد قفل‌دار": "locker"
+  },
+  "abschließen": {
+    "قفل کردن": "to lock",
+    "با موفقیت تمام کردن": "to complete successfully",
+    "منعقد کردن": "to conclude (an agreement)",
+    "به پایان رساندن": "to finish",
+    "به نتیجه رساندن یا تمام کردن یک کار": "to bring to a conclusion",
+    "قراردادی بستن": "to enter into a contract"
+  },
+  "die Reservierung": {
+    "رزرو": "reservation"
+  },
+  "stornieren": {
+    "لغو کردن رزرو": "to cancel a booking"
+  },
+  "die Unterkunft": {
+    "اقامتگاه": "accommodation"
+  },
+  "übernachten": {
+    "شب را گذراندن": "to stay overnight"
+  },
+  "die Abfahrt": {
+    "حرکت": "departure",
+    "زمان حرکت": "departure time"
+  },
+  "die Ankunft": {
+    "رسیدن": "arrival",
+    "زمان رسیدن": "arrival time"
+  },
+  "die Durchsage": {
+    "اعلان بلندگو": "announcement",
+    "اعلام از بلندگو": "public address announcement"
+  },
+  "beachten": {
+    "توجه کردن به": "to pay attention to",
+    "رعایت کردن": "to observe, to follow",
+    "توجه کردن": "to take notice of"
+  },
+  "pünktlich": {
+    "سروقت": "punctual",
+    "به‌موقع": "on time"
+  },
+  "erreichen": {
+    "رسیدن به": "to reach",
+    "موفق به تماس با کسی شدن": "to get hold of someone"
+  },
+  "die Rückfahrt": {
+    "مسیر برگشت": "return journey"
+  },
+  "einplanen": {
+    "در برنامه گنجاندن": "to factor in, to schedule"
+  },
+  "die Grenze": {
+    "مرز": "border",
+    "حد و مرزِ چیزی": "limit, boundary"
+  },
+  "überqueren": {
+    "عبور کردن از": "to cross"
+  },
+  "die Jugendherberge": {
+    "مهمان‌خانهٔ جوانان": "youth hostel"
+  },
+  "ausgebucht sein": {
+    "ظرفیت خالی نداشتن": "to be fully booked"
+  },
+  "die Beschwerden": {
+    "ناراحتی‌ها": "discomfort, ailments",
+    "علائم": "symptoms"
+  },
+  "seitdem": {
+    "از آن زمان": "since then"
+  },
+  "sich ausruhen": {
+    "استراحت کردن": "to rest"
+  },
+  "erschöpft": {
+    "بسیار خسته": "exhausted"
+  },
+  "sich bewegen": {
+    "تحرک داشتن": "to move, to exercise"
+  },
+  "die Gewohnheit": {
+    "عادت": "habit"
+  },
+  "die Untersuchung": {
+    "معاینه": "examination, check-up"
+  },
+  "vereinbart": {
+    "تعیین‌شده با توافق": "arranged",
+    "توافق‌شده": "agreed upon"
+  },
+  "das Wartezimmer": {
+    "اتاق انتظار": "waiting room"
+  },
+  "Platz nehmen": {
+    "نشستن (محترمانه)": "to take a seat"
+  },
+  "die Versichertenkarte": {
+    "کارت بیمه": "health insurance card"
+  },
+  "vorzeigen": {
+    "نشان دادن مدرک": "to present a document"
+  },
+  "der Husten": {
+    "سرفه": "cough"
+  },
+  "nachlassen": {
+    "کم شدن": "to ease, to subside",
+    "شل کردن، از شدت یا فشار کاستن": "to loosen, to ease off"
+  },
+  "die Pflege": {
+    "مراقبت": "care",
+    "نگهداری": "maintenance, upkeep"
+  },
+  "die Haut": {
+    "پوست": "skin"
+  },
+  "der Kamm": {
+    "شانه": "comb"
+  },
+  "sich kämmen": {
+    "موهای خود را شانه کردن": "to comb one's hair"
+  },
+  "die Zahnbürste": {
+    "مسواک": "toothbrush"
+  },
+  "das Handtuch": {
+    "حوله": "towel"
+  },
+  "abtrocknen": {
+    "خشک کردن": "to dry off"
+  },
+  "die Erkältung": {
+    "سرماخوردگی": "a cold"
+  },
+  "sich erholen": {
+    "تجدید قوا کردن": "to recuperate",
+    "بهبود یافتن": "to recover"
+  },
+  "die Krankmeldung": {
+    "اعلام بیماری به محل کار": "notification of sick leave"
+  },
+  "Bescheid sagen": {
+    "اطلاع دادن": "to let someone know"
+  },
+  "der Verband": {
+    "پانسمان": "dressing",
+    "باند": "bandage",
+    "انجمن یا اتحادیه": "association, federation"
+  },
+  "erneuern": {
+    "تازه یا تعویض کردن": "to renew, to replace"
+  },
+  "der Unfall": {
+    "حادثه": "accident"
+  },
+  "passieren": {
+    "اتفاق افتادن": "to happen",
+    "از نقطه‌ای عبور کردن": "to pass through"
+  },
+  "die Stelle": {
+    "موقعیت شغلی": "job, position",
+    "محل یا نقطهٔ مشخص": "spot, location",
+    "بخشی از متن": "passage (in a text)"
+  },
+  "sich bewerben um": {
+    "برای چیزی درخواست دادن": "to apply for"
+  },
+  "der Lebenslauf": {
+    "رزومه": "résumé, CV"
+  },
+  "beilegen": {
+    "ضمیمه کردن": "to enclose"
+  },
+  "die Berufserfahrung": {
+    "تجربهٔ کاری": "work experience"
+  },
+  "sammeln": {
+    "گردآوری کردن": "to collect",
+    "کسب کردن": "to gain (experience)",
+    "کسب یا جمع‌آوری کردن": "to gain, to collect",
+    "جمع‌آوری کردن": "to gather"
+  },
+  "die Teilzeit": {
+    "کار پاره‌وقت": "part-time work"
+  },
+  "die Vollzeit": {
+    "کار تمام‌وقت": "full-time work"
+  },
+  "die Schicht": {
+    "نوبت کاری": "work shift",
+    "شیفت": "shift",
+    "لایه": "layer"
+  },
+  "tauschen": {
+    "عوض کردن با دیگری": "to swap with someone",
+    "عوض کردن": "to exchange"
+  },
+  "der Betrieb": {
+    "بنگاه یا محل کار": "business, workplace",
+    "فعالیت یا کارکرد یک دستگاه": "operation (of a machine)"
+  },
+  "beschäftigen": {
+    "استخدام کردن": "to employ",
+    "به کار گرفتن": "to give work to"
+  },
+  "das Vorstellungsgespräch": {
+    "مصاحبهٔ شغلی": "job interview"
+  },
+  "sich vorbereiten auf": {
+    "برای چیزی آماده شدن": "to prepare for"
+  },
+  "das Zeugnis": {
+    "گواهی یا کارنامه": "certificate, school report"
+  },
+  "nachweisen": {
+    "اثبات یا مستند کردن": "to document, to prove",
+    "اثبات کردن": "to demonstrate"
+  },
+  "zuverlässig": {
+    "قابل‌اعتماد": "reliable",
+    "قابل اعتماد": "dependable"
+  },
+  "selbstständig": {
+    "مستقل": "independent"
+  },
+  "die Aufgabe": {
+    "وظیفه": "task, duty",
+    "تمرین یا مسئلهٔ درسی": "exercise, problem"
+  },
+  "erledigen": {
+    "انجام دادن": "to get done"
+  },
+  "der Empfang": {
+    "پذیرش": "reception desk",
+    "دریافت یا پذیرش": "receipt, reception",
+    "آنتن‌دهی یا دریافت سیگنال": "signal reception",
+    "مراسم استقبال": "reception, welcoming event"
+  },
+  "sich vorstellen": {
+    "خود را معرفی کردن": "to introduce oneself",
+    "تصور کردن": "to imagine"
+  },
+  "die Probezeit": {
+    "دورهٔ آزمایشی": "probationary period"
+  },
+  "dauern": {
+    "طول کشیدن": "to last"
+  },
+  "die Ausschreibung": {
+    "فراخوان شغلی": "job advertisement"
+  },
+  "aktuell": {
+    "به‌روز": "up to date",
+    "فعلی": "current",
+    "جاری یا تازه": "current, recent"
+  },
+  "der Lohn": {
+    "دستمزد": "wages"
+  },
+  "pro Stunde": {
+    "به ازای هر ساعت": "per hour"
+  },
+  "das Praktikum": {
+    "کارآموزی": "internship"
+  },
+  "absolvieren": {
+    "گذراندن": "to complete (a course or placement)"
+  },
+  "die Arbeitszeit": {
+    "ساعت کاری": "working hours"
+  },
+  "flexibel": {
+    "انعطاف‌پذیر": "flexible"
+  },
+  "wissen": {
+    "دانستن": "to know"
+  },
+  "die Behörde": {
+    "نهاد اداری": "administrative authority",
+    "ادارهٔ دولتی": "government agency"
+  },
+  "zuständig": {
+    "مسئول و ذی‌صلاح": "responsible, competent",
+    "مسئول مربوطه": "in charge"
+  },
+  "der Antrag": {
+    "درخواست رسمی": "formal application"
+  },
+  "stellen": {
+    "مطرح کردن": "to put forward",
+    "ارائه دادن": "to submit (an application)",
+    "چیزی را در جایی قرار دادن": "to put, to place"
+  },
+  "die Unterlagen": {
+    "مدارک": "documents",
+    "مدارک یا جزوه‌ها": "documents, handouts"
+  },
+  "vollständig": {
+    "کامل": "complete"
+  },
+  "die Anschrift": {
+    "نشانی پستی": "postal address"
+  },
+  "angeben": {
+    "ذکر کردن": "to state, to specify",
+    "پز دادن، خودنمایی کردن": "to show off"
+  },
+  "die Bescheinigung": {
+    "گواهی": "certificate"
+  },
+  "ausstellen": {
+    "صادر کردن": "to issue",
+    "به نمایش گذاشتن": "to exhibit"
+  },
+  "das Original": {
+    "نسخهٔ اصلی": "original"
+  },
+  "die Kopie": {
+    "رونوشت": "copy"
+  },
+  "die Unterschrift": {
+    "امضا": "signature"
+  },
+  "fehlen": {
+    "کم بودن": "to be lacking",
+    "موجود نبودن": "to be missing",
+    "جای کسی خالی بودن، دلتنگش بودن": "to be missed"
+  },
+  "die Frist": {
+    "مهلت": "deadline"
+  },
+  "einhalten": {
+    "رعایت کردن": "to meet, to adhere to"
+  },
+  "nachreichen": {
+    "بعداً تحویل دادن": "to submit later",
+    "بعداً ارائه کردن": "to provide later"
+  },
+  "der Nachweis": {
+    "مدرک اثبات": "proof, supporting document",
+    "مدرک اثباتی": "documentary evidence"
+  },
+  "der Schalter": {
+    "باجه": "service counter",
+    "کلیدِ روشن و خاموش": "switch"
+  },
+  "aufrufen": {
+    "صدا زدن": "to call out"
+  },
+  "die Vollmacht": {
+    "وکالت‌نامه": "power of attorney",
+    "اجازه‌نامه": "authorisation"
+  },
+  "sich ausweisen": {
+    "هویت خود را با مدرک نشان دادن": "to show identification"
+  },
+  "abholen": {
+    "تحویل گرفتن": "to pick up, to collect"
+  },
+  "persönlich": {
+    "حضوری": "in person",
+    "شخصاً": "personally",
+    "شخصی": "personal"
+  },
+  "gültig": {
+    "معتبر": "valid"
+  },
+  "ablaufen": {
+    "منقضی شدن": "to expire",
+    "پیش رفتن، به شکلی برگزار شدن": "to proceed, to take place"
+  },
+  "lesbar": {
+    "خوانا": "legible"
+  },
+  "in Druckbuchstaben": {
+    "با حروف جدا و چاپی": "in block letters"
+  },
+  "die Staatsangehörigkeit": {
+    "تابعیت": "nationality, citizenship"
+  },
+  "das Geburtsland": {
+    "کشور محل تولد": "country of birth"
+  },
+  "die Wartemarke": {
+    "شمارهٔ نوبت": "queue ticket"
+  },
+  "ziehen": {
+    "گرفتن شماره از دستگاه": "to take a number",
+    "کشیدنِ چیزی به سمت خود": "to pull",
+    "به جای دیگری نقل مکان کردن": "to move, to relocate"
+  },
+  "das Konto": {
+    "حساب بانکی": "bank account"
+  },
+  "eröffnen": {
+    "افتتاح کردن": "to open",
+    "شروع رسمیِ یک جلسه یا رویداد": "to formally open an event"
+  },
+  "der Betrag": {
+    "مبلغ": "amount, sum"
+  },
+  "abbuchen": {
+    "از حساب برداشت کردن": "to debit an account"
+  },
+  "der Kontoauszug": {
+    "صورت‌حساب بانکی": "bank statement"
+  },
+  "prüfen": {
+    "بررسی کردن": "to check"
+  },
+  "die Überweisung": {
+    "انتقال بانکی": "bank transfer",
+    "برگهٔ ارجاع پزشکی": "medical referral"
+  },
+  "der Empfänger": {
+    "گیرنده": "recipient"
+  },
+  "die Kontonummer": {
+    "شمارهٔ حساب": "account number"
+  },
+  "verwechseln": {
+    "اشتباه گرفتن": "to mix up"
+  },
+  "der Geldautomat": {
+    "خودپرداز": "ATM, cash machine"
+  },
+  "abheben": {
+    "پول برداشت کردن": "to withdraw money",
+    "از زمین بلند شدنِ هواپیما": "to take off (of a plane)",
+    "گوشی تلفن را برداشتن": "to pick up the phone"
+  },
+  "das Bargeld": {
+    "پول نقد": "cash"
+  },
+  "einzahlen": {
+    "به حساب واریز کردن": "to deposit money"
+  },
+  "die Gebühr": {
+    "کارمزد": "fee",
+    "هزینهٔ خدمات": "service charge"
+  },
+  "einmalig": {
+    "یک‌باره": "one-off"
+  },
+  "der Mitgliedsbeitrag": {
+    "حق عضویت": "membership fee"
+  },
+  "fällig": {
+    "سررسیدشده": "due"
+  },
+  "der Beleg": {
+    "سند یا رسید پرداخت": "receipt, proof of payment",
+    "مدرک یا شاهد یک ادعا": "evidence for a claim"
+  },
+  "ausdrucken": {
+    "چاپ کردن": "to print out"
+  },
+  "das Wechselgeld": {
+    "باقی پول": "change (money)"
+  },
+  "nachzählen": {
+    "دوباره شمردن": "to recount"
+  },
+  "die Erstattung": {
+    "بازپرداخت": "refund, reimbursement"
+  },
+  "beantragen": {
+    "درخواست رسمی دادن": "to apply for"
+  },
+  "sparen": {
+    "پس‌انداز کردن": "to save money"
+  },
+  "das Ziel": {
+    "هدف": "goal",
+    "مقصدِ سفر": "destination"
+  },
+  "jährlich": {
+    "سالانه": "annually"
+  },
+  "vierteljährlich": {
+    "هر سه ماه یک‌بار": "quarterly"
+  },
+  "begleichen": {
+    "تسویه کردن": "to settle a bill"
+  },
+  "die Münze": {
+    "سکه": "coin"
+  },
+  "der Geldschein": {
+    "اسکناس": "banknote"
+  },
+  "die Datei": {
+    "فایل": "file"
+  },
+  "herunterladen": {
+    "دانلود کردن": "to download",
+    "بارگیری کردن": "to download"
+  },
+  "der Anhang": {
+    "پیوست": "attachment"
+  },
+  "öffnen": {
+    "باز کردن": "to open"
+  },
+  "die Bestellung": {
+    "سفارش": "order"
+  },
+  "verfolgen": {
+    "پیگیری کردن": "to track",
+    "دنبال کردنِ یک شخص یا رویداد": "to follow"
+  },
+  "die Lieferung": {
+    "تحویل یا ارسال کالا": "delivery, shipment",
+    "تحویل سفارش": "order delivery"
+  },
+  "sich verzögern": {
+    "با تأخیر انجام شدن": "to be delayed"
+  },
+  "das Passwort": {
+    "رمز عبور": "password"
+  },
+  "zurücksetzen": {
+    "بازنشانی کردن": "to reset"
+  },
+  "der Zugang": {
+    "دسترسی": "access"
+  },
+  "einrichten": {
+    "راه‌اندازی کردن": "to set up",
+    "چیدن وسایل و مبله کردن": "to furnish"
+  },
+  "der Bildschirm": {
+    "صفحه‌نمایش": "screen"
+  },
+  "anzeigen": {
+    "نشان دادن": "to display",
+    "به پلیس گزارش دادن": "to report to the police"
+  },
+  "weiterleiten": {
+    "بازفرستادن": "to forward",
+    "ارجاع دادن": "to pass on"
+  },
+  "die Betreffzeile": {
+    "سطر موضوع ایمیل": "email subject line"
+  },
+  "aussagekräftig": {
+    "گویا و روشن": "informative, descriptive"
+  },
+  "speichern": {
+    "ذخیره کردن": "to save"
+  },
+  "der Ordner": {
+    "پوشه": "folder",
+    "زونکن یا پوشهٔ کاغذی": "ring binder, file folder"
+  },
+  "löschen": {
+    "حذف کردن": "to delete",
+    "پاک کردن": "to erase",
+    "خاموش کردنِ آتش": "to extinguish"
+  },
+  "versehentlich": {
+    "سهواً": "accidentally"
+  },
+  "die App": {
+    "برنامهٔ کاربردی": "app, application"
+  },
+  "aktualisieren": {
+    "به‌روزرسانی کردن": "to update"
+  },
+  "der Kundenservice": {
+    "خدمات مشتریان": "customer service"
+  },
+  "kontaktieren": {
+    "تماس گرفتن با": "to contact"
+  },
+  "die Abholung": {
+    "تحویل گرفتن": "collection, pickup"
+  },
+  "benachrichtigen": {
+    "اطلاع دادن به": "to notify"
+  },
+  "die Suchmaschine": {
+    "موتور جست‌وجو": "search engine"
+  },
+  "der Suchbegriff": {
+    "عبارت جست‌وجو": "search term"
+  },
+  "der Akku": {
+    "باتری شارژی": "rechargeable battery"
+  },
+  "aufladen": {
+    "شارژ کردن": "to charge",
+    "بار زدن روی وسیلهٔ نقلیه": "to load onto a vehicle"
+  },
+  "die Ausbildung": {
+    "آموزش حرفه‌ای": "vocational training"
+  },
+  "die Voraussetzung": {
+    "پیش‌نیاز": "prerequisite"
+  },
+  "erfüllen": {
+    "برآورده کردن": "to fulfil"
+  },
+  "der Einstufungstest": {
+    "آزمون تعیین سطح": "placement test"
+  },
+  "teilnehmen an": {
+    "شرکت کردن در": "to participate in"
+  },
+  "der Unterricht": {
+    "تدریس": "instruction, teaching",
+    "کلاس": "class, lessons"
+  },
+  "nachholen": {
+    "جبران کردن": "to catch up on, to make up"
+  },
+  "die Kursgebühr": {
+    "شهریهٔ دوره": "course fee"
+  },
+  "enthalten sein": {
+    "گنجانده بودن": "to be included"
+  },
+  "die Aussprache": {
+    "تلفظ": "pronunciation",
+    "گفت‌وگوی صریح برای حل اختلاف": "frank discussion"
+  },
+  "verbessern": {
+    "بهتر کردن": "to improve"
+  },
+  "der Ausdruck": {
+    "واژه یا عبارت": "expression, term",
+    "نسخهٔ چاپی": "printout",
+    "حالتِ چهره": "facial expression"
+  },
+  "nachschlagen": {
+    "در فرهنگ یا مرجع جست‌وجو کردن": "to look up"
+  },
+  "der Fehler": {
+    "اشتباه": "mistake"
+  },
+  "verbessern lassen": {
+    "برای اصلاح به کسی سپردن": "to have something corrected"
+  },
+  "das Lernziel": {
+    "هدف یادگیری": "learning objective"
+  },
+  "die Prüfung": {
+    "آزمون": "exam"
+  },
+  "bestehen": {
+    "قبول شدن در": "to pass an exam",
+    "تشکیل شدن از چیزی، با «aus»": "to consist of",
+    "اصرار داشتن، با «auf»": "to insist on"
+  },
+  "die Lerngruppe": {
+    "گروه مطالعه": "study group"
+  },
+  "gründen": {
+    "تأسیس کردن": "to found",
+    "تشکیل دادن": "to form"
+  },
+  "mündlich": {
+    "شفاهی": "oral, spoken"
+  },
+  "die Grundschule": {
+    "دبستان": "primary school"
+  },
+  "die Kindheit": {
+    "دوران کودکی": "childhood"
+  },
+  "sich konzentrieren": {
+    "تمرکز کردن": "to concentrate"
+  },
+  "ungestört": {
+    "بدون مزاحمت": "undisturbed"
+  },
+  "die Hausaufgabe": {
+    "تکلیف خانه": "homework assignment"
+  },
+  "korrigieren": {
+    "تصحیح کردن": "to correct"
+  },
+  "das Gedächtnis": {
+    "حافظه": "memory"
+  },
+  "trainieren": {
+    "تمرین دادن": "to train"
+  },
+  "die Hausordnung": {
+    "مقررات ساختمان": "house rules"
+  },
+  "die Nachbarin": {
+    "همسایهٔ زن": "neighbour (female)"
+  },
+  "Rücksicht nehmen auf": {
+    "مراعات کسی یا چیزی را کردن": "to show consideration for",
+    "ملاحظهٔ کسی یا چیزی را کردن": "to be considerate of"
+  },
+  "das Treppenhaus": {
+    "راه‌پله": "stairwell"
+  },
+  "freihalten": {
+    "خالی نگه داشتن": "to keep clear"
+  },
+  "der Hausmeister": {
+    "سرایدار مرد": "caretaker"
+  },
+  "reparieren": {
+    "تعمیر کردن": "to repair"
+  },
+  "die Mülltonne": {
+    "سطل زبالهٔ بزرگ": "rubbish bin"
+  },
+  "leeren": {
+    "خالی کردن": "to empty"
+  },
+  "der Abfall": {
+    "پسماند": "waste"
+  },
+  "trennen": {
+    "تفکیک کردن": "to sort, to separate"
+  },
+  "die Verpackung": {
+    "بسته‌بندی": "packaging"
+  },
+  "entsorgen": {
+    "دور انداختن به روش مناسب": "to dispose of"
+  },
+  "das Altglas": {
+    "شیشهٔ دورریختنی": "waste glass for recycling"
+  },
+  "der Container": {
+    "مخزن بزرگ": "container"
+  },
+  "die Ruhezeit": {
+    "ساعات سکوت": "quiet hours"
+  },
+  "vermeiden": {
+    "پرهیز کردن از": "to avoid",
+    "جلوگیری کردن": "to prevent"
+  },
+  "die Reparatur": {
+    "تعمیر": "repair"
+  },
+  "dringend": {
+    "فوری": "urgent"
+  },
+  "der Aufzug": {
+    "آسانسور": "lift, elevator"
+  },
+  "außer Betrieb": {
+    "خارج از سرویس": "out of order"
+  },
+  "der Hof": {
+    "حیاط": "courtyard"
+  },
+  "fegen": {
+    "جارو کردن": "to sweep"
+  },
+  "der Aushang": {
+    "اطلاعیهٔ نصب‌شده": "posted notice"
+  },
+  "am schwarzen Brett": {
+    "روی تابلو اعلانات": "on the noticeboard"
+  },
+  "die Umwelt": {
+    "محیط‌زیست": "environment",
+    "محیط زیست": "environment"
+  },
+  "schonen": {
+    "مراقبت کردن و آسیب کمتری زدن": "to treat with care",
+    "محافظت کردن با کاهش فشار": "to spare, to protect"
+  },
+  "das Pfand": {
+    "ودیعهٔ بازگشت بطری یا کالا": "bottle deposit",
+    "ودیعهٔ قابل بازگشت": "refundable deposit"
+  },
+  "zurückbekommen": {
+    "پس گرفتن": "to get back"
+  },
+  "Strom sparen": {
+    "صرفه‌جویی در برق": "to save electricity"
+  },
+  "ausschalten": {
+    "خاموش کردن": "to switch off"
+  },
+  "gehören": {
+    "متعلق بودن": "to belong to",
+    "جزئی از یک مجموعه بودن، با «zu»": "to be part of"
+  },
+  "die Ausstellung": {
+    "نمایشگاه": "exhibition"
+  },
+  "die Vorstellung": {
+    "اجرا یا سانس": "performance, showing",
+    "تصور یا تصویر ذهنی": "idea, mental image",
+    "معرفیِ یک شخص یا طرح": "introduction, presentation"
+  },
+  "beginnen": {
+    "آغاز شدن": "to begin"
+  },
+  "der Einlass": {
+    "زمان یا امکان ورود": "admission, entry"
+  },
+  "die Eintrittskarte": {
+    "بلیت ورود": "admission ticket"
+  },
+  "die Ermäßigung": {
+    "تخفیف": "discount, concession"
+  },
+  "der Studierendenausweis": {
+    "کارت دانشجویی": "student ID card"
+  },
+  "die Bühne": {
+    "صحنهٔ اجرا": "performance stage",
+    "صحنه": "stage"
+  },
+  "auftreten": {
+    "اجرا داشتن": "to perform",
+    "پدیدار شدن، پیش آمدن": "to occur, to arise"
+  },
+  "das Publikum": {
+    "تماشاگران": "audience"
+  },
+  "klatschen": {
+    "دست زدن": "to clap"
+  },
+  "der Saal": {
+    "سالن": "hall"
+  },
+  "besetzt": {
+    "اشغال‌شده": "occupied",
+    "پر": "full, taken"
+  },
+  "die Abendkasse": {
+    "باجهٔ فروش بلیت در شب اجرا": "evening box office"
+  },
+  "übrig": {
+    "باقی‌مانده": "remaining, left over"
+  },
+  "das Straßenfest": {
+    "جشن خیابانی": "street festival"
+  },
+  "der Stand": {
+    "غرفه": "stall, stand",
+    "وضعیت فعلی یا مرحلهٔ پیشرفت": "current status, stage"
+  },
+  "das Büfett": {
+    "میز بوفه": "buffet"
+  },
+  "das Besteck": {
+    "قاشق و چنگال و کارد": "cutlery"
+  },
+  "das Dessert": {
+    "دسر": "dessert"
+  },
+  "anbieten": {
+    "عرضه یا تعارف کردن": "to offer",
+    "پیشنهاد دادن": "to propose"
+  },
+  "die Führung": {
+    "بازدید همراه راهنما": "guided tour",
+    "مدیریت یا هدایت": "leadership, management"
+  },
+  "besichtigen": {
+    "بازدید کردن": "to visit, to tour"
+  },
+  "die Eintrittszeit": {
+    "ساعت ورود": "admission time"
+  },
+  "auswählen": {
+    "انتخاب کردن": "to select"
+  },
+  "die Komödie": {
+    "اثر کمدی": "comedy"
+  },
+  "unterhaltsam": {
+    "سرگرم‌کننده": "entertaining"
+  },
+  "das Plakat": {
+    "پوستر": "poster"
+  },
+  "ankündigen": {
+    "از پیش اعلام کردن": "to announce in advance",
+    "اعلام کردن": "to announce"
+  },
+  "der Veranstalter": {
+    "برگزارکننده": "organiser"
+  },
+  "verlegen": {
+    "به زمان یا جای دیگری منتقل کردن": "to reschedule, to relocate",
+    "جایی گذاشتن و پیدایش نکردن": "to mislay",
+    "منتشر کردنِ کتاب": "to publish a book"
+  },
+  "der Vorschlag": {
+    "پیشنهاد": "suggestion"
+  },
+  "zustimmen": {
+    "موافقت کردن": "to agree"
+  },
+  "die Alternative": {
+    "راه جایگزین": "alternative",
+    "گزینهٔ جایگزین": "alternative option"
+  },
+  "vorschlagen": {
+    "پیشنهاد دادن": "to suggest"
+  },
+  "sich einigen auf": {
+    "بر سر چیزی توافق کردن": "to agree on"
+  },
+  "der Treffpunkt": {
+    "محل دیدار": "meeting point",
+    "محل قرار": "meeting place"
+  },
+  "sich kümmern um": {
+    "رسیدگی کردن به": "to take care of"
+  },
+  "die Verpflegung": {
+    "خوراک و نوشیدنی موردنیاز": "food and drink, catering"
+  },
+  "die Teilnehmerzahl": {
+    "تعداد شرکت‌کنندگان": "number of participants"
+  },
+  "feststehen": {
+    "قطعی و مشخص بودن": "to be settled, to be definite"
+  },
+  "die Gruppenkarte": {
+    "بلیت گروهی": "group ticket"
+  },
+  "sich lohnen": {
+    "ارزش یا صرفه داشتن": "to be worth it"
+  },
+  "die Kosten": {
+    "هزینه‌ها": "costs"
+  },
+  "aufteilen": {
+    "تقسیم کردن": "to divide up"
+  },
+  "die Rückmeldung": {
+    "پاسخ یا بازخورد": "response, feedback"
+  },
+  "abwarten": {
+    "منتظر ماندن تا چیزی روشن شود": "to wait and see"
+  },
+  "die Ausrüstung": {
+    "تجهیزات": "equipment"
+  },
+  "mitnehmen": {
+    "همراه بردن": "to take along"
+  },
+  "die Wanderung": {
+    "پیاده‌روی در طبیعت": "hike"
+  },
+  "die Aussicht": {
+    "چشم‌انداز": "view",
+    "چشم‌انداز یا امید به یک نتیجه": "prospect, outlook"
+  },
+  "die Entfernung": {
+    "فاصله": "distance"
+  },
+  "ungefähr": {
+    "تقریباً": "approximately"
+  },
+  "der Zwischenstopp": {
+    "توقف بین راه": "stopover"
+  },
+  "vorsehen": {
+    "در نظر گرفتن": "to allow for, to plan"
+  },
+  "einverstanden": {
+    "موافق": "in agreement"
+  },
+  "der Kompromiss": {
+    "توافق میانه": "compromise",
+    "راه‌حل میانه": "middle ground"
+  },
+  "abgemacht": {
+    "قبول": "agreed",
+    "پس توافق شد": "it's a deal"
+  },
+  "übermorgen": {
+    "پس‌فردا": "the day after tomorrow"
+  },
+  "übernehmen können": {
+    "توان به عهده گرفتن داشتن": "to be able to take on"
+  },
+  "die Verantwortung": {
+    "مسئولیت": "responsibility"
+  },
+  "der Proviant": {
+    "توشهٔ راه": "provisions"
+  },
+  "ausreichen": {
+    "کافی بودن": "to be sufficient"
+  },
+  "die Meinung": {
+    "نظر": "opinion"
+  },
+  "der Vorteil": {
+    "مزیت": "advantage"
+  },
+  "der Standpunkt": {
+    "دیدگاه": "point of view"
+  },
+  "begründen": {
+    "دلیل آوردن برای": "to give reasons for"
+  },
+  "jedenfalls": {
+    "به هر حال": "in any case"
+  },
+  "das Argument": {
+    "استدلال": "argument"
+  },
+  "überzeugen": {
+    "قانع کردن": "to convince"
+  },
+  "teilweise": {
+    "تا حدی": "partly"
+  },
+  "die Diskussion": {
+    "بحث": "discussion"
+  },
+  "sich beteiligen": {
+    "مشارکت کردن": "to take part"
+  },
+  "sachlich": {
+    "سنجیده و به‌دور از احساسات": "objective, factual"
+  },
+  "der Nachteil": {
+    "عیب، نقطه‌ضعف": "disadvantage"
+  },
+  "abwägen": {
+    "سنجیدن": "to weigh up"
+  },
+  "gründlich": {
+    "با دقت": "thoroughly"
+  },
+  "die Rücksicht": {
+    "ملاحظه": "consideration"
+  },
+  "gegenseitig": {
+    "متقابل": "mutual"
+  },
+  "widersprechen": {
+    "مخالفت کردن": "to disagree, to contradict"
+  },
+  "höflich": {
+    "مؤدبانه": "politely"
+  },
+  "der Einwand": {
+    "ایراد یا اعتراض": "objection"
+  },
+  "die Umfrage": {
+    "نظرسنجی": "survey"
+  },
+  "die Mehrheit": {
+    "اکثریت": "majority"
+  },
+  "dafür sein": {
+    "موافق بودن": "to be in favour"
+  },
+  "die Minderheit": {
+    "اقلیت": "minority"
+  },
+  "berücksichtigen": {
+    "در نظر گرفتن": "to take into account"
+  },
+  "der Wunsch": {
+    "خواسته": "wish"
+  },
+  "aushandeln": {
+    "با مذاکره به توافق رسیدن": "to negotiate"
+  },
+  "fair": {
+    "منصفانه": "fair"
+  },
+  "die Erfahrung": {
+    "تجربه": "experience"
+  },
+  "aus eigener Erfahrung": {
+    "از تجربهٔ شخصی": "from personal experience"
+  },
+  "schildern": {
+    "شرح دادن": "to describe"
+  },
+  "einspringen": {
+    "جای کسی کار کردن": "to fill in for someone"
+  },
+  "vorübergehend": {
+    "موقتاً": "temporarily"
+  },
+  "die Notiz": {
+    "یادداشت": "note"
+  },
+  "die Zuständigkeit": {
+    "حوزهٔ مسئولیت": "area of responsibility"
+  },
+  "klären": {
+    "روشن کردن": "to clarify"
+  },
+  "die Besprechung": {
+    "جلسهٔ کاری": "work meeting"
+  },
+  "ausnahmsweise": {
+    "استثنائاً": "as an exception"
+  },
+  "erwarten": {
+    "انتظار داشتن": "to expect"
+  },
+  "der Dienstplan": {
+    "برنامهٔ شیفت‌ها": "shift schedule"
+  },
+  "verbindlich": {
+    "قطعی و الزام‌آور": "binding"
+  },
+  "die Abteilung": {
+    "بخش سازمان": "department"
+  },
+  "intern": {
+    "درون‌سازمانی": "internal"
+  },
+  "der Bericht": {
+    "گزارش": "report"
+  },
+  "fertigstellen": {
+    "تکمیل کردن": "to complete"
+  },
+  "die Überstunde": {
+    "ساعت اضافه‌کاری": "hour of overtime"
+  },
+  "ausgleichen": {
+    "جبران کردن": "to compensate for",
+    "مساوی کردنِ نتیجه": "to equalise the score"
+  },
+  "genehmigen": {
+    "تأیید کردن": "to approve"
+  },
+  "befristet": {
+    "مدت‌دار": "fixed-term"
+  },
+  "die Rate": {
+    "قسط": "instalment"
+  },
+  "die Abrechnung": {
+    "صورت‌حساب": "billing statement"
+  },
+  "der Schaden": {
+    "آسیب یا خسارت": "damage, loss"
+  },
+  "melden": {
+    "گزارش کردن": "to report",
+    "ثبت کردن یا گزارش دادنِ حضور": "to register, to report one's presence"
+  },
+  "die Hausverwaltung": {
+    "مدیریت ساختمان": "property management"
+  },
+  "der Wasserhahn": {
+    "شیر آب": "tap, faucet"
+  },
+  "tropfen": {
+    "چکه کردن": "to drip"
+  },
+  "undicht": {
+    "نشتی‌دار": "leaky"
+  },
+  "der Monteur": {
+    "تعمیرکار یا نصاب": "fitter, technician"
+  },
+  "das Ersatzteil": {
+    "قطعهٔ یدکی": "spare part"
+  },
+  "einbauen": {
+    "نصب کردن": "to install"
+  },
+  "der Zutritt": {
+    "امکان ورود": "access, admission"
+  },
+  "ermöglichen": {
+    "ممکن کردن": "to make possible"
+  },
+  "der Schlüsselbund": {
+    "دسته‌کلید": "bunch of keys"
+  },
+  "hinterlegen": {
+    "به امانت گذاشتن": "to leave for safekeeping"
+  },
+  "beschriften": {
+    "برچسب زدن": "to label"
+  },
+  "der Mangel": {
+    "عیب": "defect"
+  },
+  "beheben": {
+    "رفع کردن": "to fix, to remedy"
+  },
+  "der Wohnort": {
+    "محل سکونت": "place of residence"
+  },
+  "die Herkunft": {
+    "خاستگاه": "origin"
+  },
+  "aufwachsen": {
+    "بزرگ شدن": "to grow up"
+  },
+  "ländlich": {
+    "روستایی": "rural"
+  },
+  "Anschluss finden": {
+    "با جمع ارتباط گرفتن": "to find one's place in a group"
+  },
+  "anfangs": {
+    "در آغاز": "at first"
+  },
+  "die Begegnung": {
+    "دیدار": "encounter"
+  },
+  "der Wendepunkt": {
+    "نقطهٔ عطف": "turning point"
+  },
+  "die Erinnerung": {
+    "خاطره": "memory, recollection"
+  },
+  "lebendig": {
+    "زنده": "alive, vivid"
+  },
+  "sich erinnern an": {
+    "به یاد آوردن": "to remember"
+  },
+  "vermissen": {
+    "دلتنگ بودن": "to miss someone"
+  },
+  "vertraut": {
+    "آشنا": "familiar"
+  },
+  "die Herausforderung": {
+    "چالش": "challenge"
+  },
+  "bewältigen": {
+    "از پس چیزی برآمدن": "to cope with, to overcome"
+  },
+  "allein": {
+    "به‌تنهایی": "alone"
+  },
+  "im Ausland": {
+    "در خارج از کشور": "abroad"
+  },
+  "die Station": {
+    "مرحله در یک مسیر": "stage, stop along the way"
+  },
+  "aufführen": {
+    "فهرست کردن": "to list",
+    "روی صحنه اجرا کردن": "to perform on stage"
+  },
+  "der Neuanfang": {
+    "شروع دوباره": "fresh start"
+  },
+  "wagen": {
+    "جرئت انجام کاری داشتن": "to dare"
+  },
+  "der Mut": {
+    "جرئت": "courage"
+  },
+  "finden": {
+    "پیدا کردن": "to find",
+    "نظر داشتن دربارهٔ چیزی": "to think, to consider"
+  },
+  "die Weiterbildung": {
+    "آموزش تکمیلی": "further education, professional development"
+  },
+  "beruflich": {
+    "شغلی": "professional, work-related"
+  },
+  "sich entwickeln": {
+    "رشد کردن": "to develop"
+  },
+  "die Teilnahme": {
+    "شرکت در یک برنامه": "participation"
+  },
+  "die Vorkenntnisse": {
+    "دانش قبلی": "prior knowledge"
+  },
+  "erforderlich": {
+    "لازم": "required"
+  },
+  "der Aufbaukurs": {
+    "دورهٔ تکمیلی": "advanced course"
+  },
+  "die Probestunde": {
+    "جلسهٔ آزمایشی": "trial lesson"
+  },
+  "unverbindlich": {
+    "بدون تعهد": "without obligation"
+  },
+  "festlegen": {
+    "تعیین کردن": "to set, to determine"
+  },
+  "gemeinsam": {
+    "با هم": "together"
+  },
+  "zugänglich": {
+    "در دسترس": "accessible"
+  },
+  "die Fähigkeit": {
+    "توانایی": "ability"
+  },
+  "anwenden": {
+    "به کار بردن": "to apply, to use"
+  },
+  "praktisch": {
+    "عملی": "practical"
+  },
+  "die Prüfungsvorbereitung": {
+    "آمادگی آزمون": "exam preparation"
+  },
+  "die Schwäche": {
+    "نقطه‌ضعف": "weakness"
+  },
+  "gezielt": {
+    "هدفمند": "targeted"
+  },
+  "der Fortschritt": {
+    "پیشرفت": "progress"
+  },
+  "feststellen": {
+    "متوجه یا مشخص شدن": "to determine, to notice"
+  },
+  "deutlich": {
+    "محسوس": "noticeable"
+  },
+  "die Kursleitung": {
+    "مسئول دوره": "course leader"
+  },
+  "der Kaufbeleg": {
+    "رسید خرید": "proof of purchase"
+  },
+  "aufbewahren": {
+    "نگه داشتن": "to keep, to retain"
+  },
+  "sorgfältig": {
+    "با دقت": "carefully"
+  },
+  "beschädigt": {
+    "آسیب‌دیده": "damaged"
+  },
+  "unversehrt": {
+    "سالم و دست‌نخورده": "intact, undamaged"
+  },
+  "wirken": {
+    "به نظر رسیدن": "to seem",
+    "اثر کردن": "to take effect"
+  },
+  "das Porto": {
+    "هزینهٔ پست": "postage"
+  },
+  "der Umtausch": {
+    "تعویض کالا": "exchange of goods"
+  },
+  "ausgeschlossen": {
+    "منتفی": "ruled out"
+  },
+  "gebraucht": {
+    "استفاده‌شده": "used, second-hand"
+  },
+  "die Rücksendung": {
+    "برگرداندن مرسوله": "return shipment"
+  },
+  "die Versandmarke": {
+    "برچسب پستی": "postage label"
+  },
+  "aufkleben": {
+    "چسباندن": "to stick on"
+  },
+  "der Gutschein": {
+    "بن خرید": "voucher"
+  },
+  "einlösen": {
+    "مصرف کردن بن": "to redeem a voucher"
+  },
+  "die Filiale": {
+    "شعبه": "branch"
+  },
+  "die Bestellnummer": {
+    "شمارهٔ سفارش": "order number"
+  },
+  "die Anfrage": {
+    "درخواست اطلاعات": "enquiry"
+  },
+  "verstreichen": {
+    "سپری شدن": "to elapse"
+  },
+  "lassen": {
+    "گذاشتن، اجازه دادن یا سفارش انجام کاری": "to let, to have something done",
+    "چیزی را جایی باقی گذاشتن": "to leave behind"
+  },
+  "verschieben lassen": {
+    "درخواست جابه‌جایی دادن": "to have something rescheduled"
+  },
+  "die Fachpraxis": {
+    "مطب تخصصی": "specialist medical practice"
+  },
+  "der Befund": {
+    "یافتهٔ معاینه": "medical finding"
+  },
+  "besprechen": {
+    "دربارهٔ چیزی صحبت کردن": "to discuss"
+  },
+  "ausführlich": {
+    "مفصل": "detailed, in detail"
+  },
+  "der Fragebogen": {
+    "پرسش‌نامه": "questionnaire"
+  },
+  "ausfüllen": {
+    "پر کردن": "to fill in"
+  },
+  "leserlich": {
+    "خوانا": "legible"
+  },
+  "vorverlegen": {
+    "جلو انداختن": "to bring forward"
+  },
+  "der Anruf": {
+    "تماس تلفنی": "phone call"
+  },
+  "die Erholung": {
+    "استراحت و بازیابی نیرو": "rest and recovery"
+  },
+  "die Belastung": {
+    "فشار": "strain, burden"
+  },
+  "die Bewegung": {
+    "تحرک": "movement, physical activity",
+    "جنبش اجتماعی": "social movement"
+  },
+  "der Spaziergang": {
+    "پیاده‌روی": "walk, stroll"
+  },
+  "die Arbeitsunfähigkeit": {
+    "ناتوانی موقت در کار": "incapacity for work"
+  },
+  "bestätigen": {
+    "تأیید کردن": "to confirm"
+  },
+  "die Krankenkasse": {
+    "صندوق بیمهٔ درمانی": "health insurance fund"
+  },
+  "die Wartezeit": {
+    "زمان انتظار": "waiting time"
+  },
+  "verkürzen": {
+    "کوتاه کردن": "to shorten"
+  },
+  "die Anmeldung": {
+    "پذیرش یا ثبت‌نام": "registration, reception"
+  },
+  "das Girokonto": {
+    "حساب جاری": "current account, checking account"
+  },
+  "der Automat": {
+    "دستگاه خودکار": "automatic machine"
+  },
+  "anfallen": {
+    "تعلق گرفتن": "to be incurred (of costs)"
+  },
+  "der Dauerauftrag": {
+    "دستور پرداخت دوره‌ای": "standing order"
+  },
+  "die Zustimmung": {
+    "رضایت": "consent"
+  },
+  "die Karte sperren": {
+    "کارت را مسدود کردن": "to block a card"
+  },
+  "der Verlust": {
+    "گم‌شدن": "loss"
+  },
+  "unverzüglich": {
+    "بی‌درنگ": "immediately"
+  },
+  "die Versicherung": {
+    "بیمه": "insurance"
+  },
+  "der Beitrag": {
+    "مبلغ حق بیمه یا عضویت": "premium, membership fee",
+    "مطلب رسانه‌ای": "article, broadcast segment",
+    "سهم یا مشارکت در انجام کار": "contribution"
+  },
+  "die Leistung": {
+    "خدمت": "service, benefit",
+    "عملکرد یا دستاورد": "performance, achievement"
+  },
+  "enthalten": {
+    "شامل بودن": "to contain"
+  },
+  "der Tarif": {
+    "طرح قیمت‌گذاری": "rate plan, tariff"
+  },
+  "der Schadensfall": {
+    "مورد خسارت": "claim, incident involving damage"
+  },
+  "die Aufnahme": {
+    "تصویر ثبت‌شده": "captured image",
+    "عکس یا ضبط صدا و تصویر": "photograph, recording",
+    "پذیرش یا عضویت": "admission, acceptance"
+  },
+  "der Vertrag": {
+    "قرارداد": "contract"
+  },
+  "kündigen": {
+    "فسخ کردن": "to terminate a contract",
+    "استعفا دادن": "to resign"
+  },
+  "die Laufzeit": {
+    "مدت اعتبار قرارداد": "contract term"
+  },
+  "ausfallen": {
+    "لغو شدن": "to be cancelled",
+    "ریختنِ مو یا دندان": "to fall out",
+    "از کار افتادن": "to break down"
+  },
+  "die Baustelle": {
+    "کارگاه ساختمانی": "construction site"
+  },
+  "verkehren": {
+    "در یک مسیر تردد کردن": "to run, to operate on a route"
+  },
+  "stündlich": {
+    "هر ساعت": "hourly"
+  },
+  "der Anschlusszug": {
+    "قطار بعدیِ مسیر": "connecting train"
+  },
+  "knapp": {
+    "لب مرز یا فشرده": "tight, barely enough"
+  },
+  "die Umleitung": {
+    "مسیر انحرافی": "diversion, detour"
+  },
+  "folgen": {
+    "دنبال کردن": "to follow",
+    "سخن یا استدلالی را فهمیدن": "to follow an argument"
+  },
+  "ausgeschildert": {
+    "دارای تابلو راهنما": "signposted"
+  },
+  "gegenüber": {
+    "روبه‌رو": "opposite, across from"
+  },
+  "die Rolltreppe": {
+    "پله‌برقی": "escalator"
+  },
+  "voraussichtlich": {
+    "طبق برآورد": "expected, in all likelihood"
+  },
+  "die Mitnahme": {
+    "همراه بردن": "taking something along"
+  },
+  "gestattet": {
+    "مجاز": "permitted"
+  },
+  "umbuchen": {
+    "رزرو را تغییر دادن": "to rebook"
+  },
+  "kostenlos": {
+    "رایگان": "free of charge"
+  },
+  "die Quelle": {
+    "منبع": "source",
+    "چشمهٔ آب": "spring (of water)"
+  },
+  "überprüfen": {
+    "بررسی صحت کردن": "to verify"
+  },
+  "die Meldung": {
+    "خبر کوتاه": "news brief"
+  },
+  "veröffentlichen": {
+    "منتشر کردن": "to publish"
+  },
+  "die Redaktion": {
+    "تحریریه": "editorial team"
+  },
+  "ergänzen": {
+    "تکمیل کردن": "to supplement, to complete"
+  },
+  "die Angabe": {
+    "اطلاعات مشخص": "detail, piece of information"
+  },
+  "das Gerücht": {
+    "شایعه": "rumour"
+  },
+  "verbreiten": {
+    "پخش کردن": "to spread"
+  },
+  "unbestätigt": {
+    "تأییدنشده": "unconfirmed"
+  },
+  "die Behauptung": {
+    "ادعا": "claim, assertion"
+  },
+  "belegen": {
+    "مستند کردن": "to substantiate",
+    "در یک کلاس ثبت‌نام کردن": "to enrol in a class",
+    "روی چیزی مواد غذایی گذاشتن": "to top with food"
+  },
+  "die Zahl": {
+    "عدد یا آمار": "number, figure"
+  },
+  "die Schlagzeile": {
+    "تیتر خبری": "headline"
+  },
+  "auffallen": {
+    "جلب توجه کردن": "to stand out, to attract attention"
+  },
+  "übertrieben": {
+    "اغراق‌آمیز": "exaggerated"
+  },
+  "die Erlaubnis": {
+    "اجازه": "permission"
+  },
+  "einholen": {
+    "گرفتن اجازه یا نظر": "to obtain permission or advice"
+  },
+  "die Veröffentlichung": {
+    "انتشار": "publication"
+  },
+  "der Zugriff": {
+    "دسترسی": "access"
+  },
+  "beschränken": {
+    "محدود کردن": "to restrict"
+  },
+  "unbekannt": {
+    "ناشناس": "unknown"
+  },
+  "der Kommentar": {
+    "نظر زیر یک مطلب": "online comment"
+  },
+  "beleidigend": {
+    "توهین‌آمیز": "insulting"
+  },
+  "unnötig": {
+    "غیرضروری": "unnecessary"
+  },
+  "der Mehrwegbecher": {
+    "لیوان چندبارمصرف": "reusable cup"
+  },
+  "wiederverwenden": {
+    "دوباره استفاده کردن": "to reuse"
+  },
+  "geeignet": {
+    "مناسب": "suitable"
+  },
+  "die Mülltrennung": {
+    "تفکیک زباله": "waste sorting"
+  },
+  "der Behälter": {
+    "ظرف یا مخزن": "container"
+  },
+  "sortieren": {
+    "جدا و دسته‌بندی کردن": "to sort"
+  },
+  "der Energieverbrauch": {
+    "مصرف انرژی": "energy consumption"
+  },
+  "senken": {
+    "کاهش دادن": "to lower, to reduce"
+  },
+  "langfristig": {
+    "در بلندمدت": "in the long term"
+  },
+  "regional": {
+    "محلی یا منطقه‌ای": "regional, local"
+  },
+  "die Haltbarkeit": {
+    "دوام یا ماندگاری": "durability, shelf life"
+  },
+  "verlängern": {
+    "افزایش دادن": "to extend"
+  },
+  "die Werkstatt": {
+    "تعمیرگاه": "repair shop, workshop"
+  },
+  "der Kostenvoranschlag": {
+    "برآورد کتبی هزینه": "written cost estimate"
+  },
+  "anfordern": {
+    "درخواست کردن": "to request"
+  },
+  "die Nachfrage": {
+    "تقاضا": "demand",
+    "تقاضا در بازار": "market demand"
+  },
+  "steigen": {
+    "افزایش یافتن": "to increase",
+    "بالا رفتن یا صعود کردن": "to climb"
+  },
+  "das Angebot": {
+    "عرضه یا پیشنهاد": "supply, offer"
+  },
+  "die Leihgabe": {
+    "شیء امانتی": "item on loan"
+  },
+  "zurückgeben": {
+    "پس دادن": "to give back"
+  },
+  "unbeschädigt": {
+    "سالم و بدون آسیب": "undamaged"
+  },
+  "das Ehrenamt": {
+    "کار داوطلبانهٔ اجتماعی": "voluntary work, honorary office"
+  },
+  "ausüben": {
+    "انجام دادن یک نقش": "to carry out, to perform"
+  },
+  "freiwillig": {
+    "داوطلبانه": "voluntarily"
+  },
+  "der Verein": {
+    "انجمن": "association, club"
+  },
+  "beitreten": {
+    "عضو شدن": "to join"
+  },
+  "das Mitglied": {
+    "عضو": "member"
+  },
+  "die Spende": {
+    "کمک اهدایی": "donation"
+  },
+  "gemeinnützig": {
+    "عام‌المنفعه": "non-profit, charitable"
+  },
+  "die Ausgabe": {
+    "محل یا کار توزیع": "distribution, distribution point",
+    "هزینه": "expense",
+    "نسخه یا شمارهٔ نشریه": "edition, issue"
+  },
+  "verteilen": {
+    "توزیع کردن": "to distribute",
+    "پخش کردن میان چند نفر": "to hand out"
+  },
+  "die Lebensmittel": {
+    "مواد غذایی": "food, groceries"
+  },
+  "das Lager": {
+    "انبار": "warehouse",
+    "اردوگاه": "camp"
+  },
+  "die Kiste": {
+    "صندوق یا جعبه": "crate, box"
+  },
+  "stapeln": {
+    "روی هم چیدن": "to stack"
+  },
+  "die Begleitung": {
+    "همراهی یا فرد همراه": "accompaniment, companion"
+  },
+  "der Führerschein": {
+    "گواهی‌نامهٔ رانندگی": "driving licence"
+  },
+  "mitfahren": {
+    "همراه کسی سوار شدن": "to ride along"
+  },
+  "der Einsatz": {
+    "نوبت انجام کار": "shift, assignment",
+    "مأموریت عملیاتی": "operation, mission"
+  },
+  "sich verlassen auf": {
+    "روی کسی حساب کردن": "to rely on"
+  },
+  "die Zusage": {
+    "قول قطعی": "firm commitment"
+  },
+  "zählen auf": {
+    "روی کسی یا چیزی حساب کردن": "to count on"
+  },
+  "die Einführung": {
+    "جلسهٔ آشنایی": "introductory session"
+  },
+  "der Ablauf": {
+    "روند انجام کار": "process, procedure",
+    "روند یا ترتیب رویدادها": "sequence of events"
+  },
+  "erläutern": {
+    "توضیح دادن": "to explain"
+  },
+  "einreichen": {
+    "تسلیم یا ارائه کردن": "to submit"
+  },
+  "fristgerecht": {
+    "در مهلت مقرر": "within the deadline"
+  },
+  "das Aktenzeichen": {
+    "شمارهٔ پرونده": "file reference number"
+  },
+  "der Betreff": {
+    "موضوع نامه": "subject (of a letter)"
+  },
+  "nennen": {
+    "ذکر کردن": "to name, to mention"
+  },
+  "fehlend": {
+    "جاافتاده یا موجودنبودن": "missing"
+  },
+  "unterschrieben": {
+    "امضاشده": "signed"
+  },
+  "zurücksenden": {
+    "پس فرستادن": "to send back"
+  },
+  "genügen": {
+    "کافی بودن": "to be sufficient"
+  },
+  "die Bearbeitung": {
+    "رسیدگی": "processing"
+  },
+  "der Vorgang": {
+    "پرونده یا فرایند": "case, procedure"
+  },
+  "der Wohnsitz": {
+    "محل اقامت": "place of residence"
+  },
+  "die Rückfrage": {
+    "پرسش تکمیلی": "follow-up question"
+  },
+  "sich wenden an": {
+    "مراجعه کردن به": "to turn to, to contact"
+  },
+  "die Sachbearbeiterin": {
+    "کارشناس زن پرونده": "caseworker (female)"
+  },
+  "bestätigen lassen": {
+    "درخواست تأیید کردن": "to have something confirmed"
+  },
+  "der Bescheid": {
+    "ابلاغ یا پاسخ رسمی": "official notice, decision"
+  },
+  "erhalten": {
+    "دریافت کردن": "to receive",
+    "حفظ کردن، سالم نگه داشتن": "to preserve"
+  },
+  "vorläufig": {
+    "موقت یا اولیه": "provisional"
+  },
+  "das Stadtteilfest": {
+    "جشن محله": "neighbourhood festival"
+  },
+  "veranstalten": {
+    "برگزار کردن": "to organise, to hold"
+  },
+  "der Schulhof": {
+    "حیاط مدرسه": "schoolyard"
+  },
+  "die Genehmigung": {
+    "مجوز": "permit, approval"
+  },
+  "vorliegen": {
+    "موجود یا در دست بودن": "to be available, to be on hand"
+  },
+  "das Abschließen": {
+    "قفل کردن": "locking up"
+  },
+  "das Budget": {
+    "بودجه": "budget"
+  },
+  "der Auftritt": {
+    "اجرای جلوی تماشاگران": "performance, appearance"
+  },
+  "das Werkzeug": {
+    "ابزار": "tool"
+  },
+  "die Absprache": {
+    "هماهنگی یا قرار": "arrangement, agreement"
+  },
+  "eine Absprache treffen": {
+    "با کسی هماهنگ کردن": "to make an arrangement"
+  },
+  "im Voraus": {
+    "از پیش": "in advance"
+  },
+  "infrage kommen": {
+    "گزینه‌ای ممکن بودن": "to be an option"
+  },
+  "bei Regen": {
+    "در صورت بارش": "in case of rain"
+  },
+  "das Protokoll": {
+    "صورت‌جلسه": "minutes of a meeting"
+  },
+  "festhalten": {
+    "ثبت کردن": "to record",
+    "محکم گرفتن": "to hold on to"
+  },
+  "das Ergebnis": {
+    "نتیجه": "result"
+  },
+  "werden": {
+    "شدن، فعل کمکی آینده و مجهول": "to become (also a future and passive auxiliary)"
+  }
+}

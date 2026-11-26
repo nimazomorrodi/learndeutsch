@@ -386,7 +386,7 @@ h1,h2,h3,p{margin:0}
 .lex-level,.lex-meta span{font-weight:650;font-size:.77rem;line-height:1.55;border-radius:5px;padding:2px 7px;background:var(--mint);color:var(--mint-ink)}
 .lex-row>.ic{color:var(--muted)}
 .lex-popover .lex-row{border:0;border-radius:0;padding-block:7px;border-top:1px solid var(--softline)}
-.lex-popover .lex-row-copy{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:12px}
+.english-gloss{display:block;color:var(--sub);font-size:.86rem;line-height:1.55;overflow-wrap:anywhere;text-align:match-parent}
 .lex-back{margin-bottom:10px}
 .lex-hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:clamp(17px,3vw,32px);border-inline-start:5px solid var(--pine);background:linear-gradient(115deg,var(--surface) 40%,var(--mint))}
 .lex-hero>div{min-width:0}

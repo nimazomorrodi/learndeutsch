@@ -38,6 +38,14 @@ function wordUrl(de, {level='all',query='',tense='present',lessonId=''} = {}) {
   return '#word/'+encodeURIComponent(de)+(params.size?'?'+params:'');
 }
 
+function englishGloss(entry, meaning) {
+  const senses = account.reference.english?.[entry.de];
+  if (!senses) return '';
+  const translations = meaning.split('؛').map(sense=>senses[sense.trim()]).filter(Boolean);
+  const english = [...new Set(translations)].join(' / ');
+  return english ? '<span class="english-gloss" lang="en" dir="ltr">'+esc(english)+'</span>' : '';
+}
+
 function dictionaryMatches(route) {
   const term = normalized(route.query);
   if (!term) return [];
@@ -72,7 +80,7 @@ function dictionaryMatches(route) {
 
 function wordSuggestion({entry,source,meaning,url}, index) {
   return '<a class="lex-row" href="'+esc(url)+'" role="option" id="word-option-'+index+'" aria-selected="false" tabindex="-1"><span class="lex-row-copy">'+
-    '<b lang="de" dir="ltr">'+esc(entry.de)+'</b><span>'+esc(meaning)+'</span></span>'+
+    '<b lang="de" dir="ltr">'+esc(entry.de)+'</b><span>'+esc(meaning)+'</span>'+englishGloss(entry,meaning)+'</span>'+
     '<small class="lex-level" dir="ltr">'+esc(source.lesson.level)+'</small>'+ic('left',16)+'</a>';
 }
 
@@ -157,10 +165,10 @@ function wordPage(route) {
   const summary = verb ? verbSummary(verb) : entry.noun ? nounSummary(entry.noun) : '';
   const headword = verb ? verbHeadword(entry.de,verb) : entry.noun ? nounFormMarkup(entry.de) : esc(entry.de);
   const hero = '<header class="panel lex-hero'+(summary?' has-forms':'')+'"><div class="lex-heading"><div class="lex-meta"><span dir="ltr">'+levelsText+'</span>'+
-    (type?'<span>'+type+'</span>':'')+'</div><h1 lang="de" dir="ltr">'+headword+'</h1><p>'+esc(source.fa)+'</p></div>'+
+    (type?'<span>'+type+'</span>':'')+'</div><h1 lang="de" dir="ltr">'+headword+'</h1><p>'+esc(source.fa)+'</p>'+englishGloss(entry,source.fa)+'</div>'+
     summary+wordButton(source)+'</header>';
   const definitions = '<section class="panel lex-section lex-definitions"><h2>'+ic('vocab',20)+'معنی و کاربرد</h2><ul>'+
-    entry.meanings.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ul></section>';
+    entry.meanings.map(s=>'<li>'+esc(s)+englishGloss(entry,s)+'</li>').join('')+'</ul></section>';
   const examples = new Map();
   const distinguishUses = entry.lessons.some(w=>w.fa!==source.fa);
   for (const w of [source,...otherLessons]) {

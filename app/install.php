@@ -29,7 +29,8 @@ function installCurriculum(PDO $pdo): void
     }
     $reference = $pdo->prepare('INSERT INTO reference_materials (name,content) VALUES (?,?)
         ON DUPLICATE KEY UPDATE content=VALUES(content)');
-    foreach (['grammar' => 'grammar-reference', 'verbs' => 'verb-forms', 'nouns' => 'noun-forms', 'senses' => 'dictionary-senses'] as $name => $file) {
+    foreach (['grammar' => 'grammar-reference', 'verbs' => 'verb-forms', 'nouns' => 'noun-forms',
+        'senses' => 'dictionary-senses', 'english' => 'english-glosses'] as $name => $file) {
         $reference->execute([$name, file_get_contents(APP_ROOT . "/database/$file.json")]);
     }
     $pdo->commit();

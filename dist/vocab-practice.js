@@ -71,7 +71,7 @@ function vocabAnswerFace(card, round) {
     '<div class="vocab-answer"><div class="article-headword" dir="ltr"><strong lang="de"'+(reverse?' id="vocab-answer"':'')+'>'+esc(entry.de)+'</strong>'+
     pronunciationButton(source.id,'de','word','تلفظ '+entry.de)+practiceWordButton(card)+'</div>'+
     '<div class="review-utterance" dir="rtl"><b lang="fa"'+(reverse?'':' id="vocab-answer"')+'>'+esc(card.meaning)+'</b>'+
-    pronunciationButton(source.id,'fa','word','تلفظ معنی فارسی')+'</div>'+
+    pronunciationButton(source.id,'fa','word','تلفظ معنی فارسی')+'</div>'+englishGloss(entry,card.meaning)+
     (entry.meanings.length>1?'<p class="vocab-other-senses">معنی‌های دیگر · '+esc(entry.meanings.filter(s=>s!==card.meaning).join('، '))+'</p>':'')+
     (example?'<div class="vocab-example">'+sentence(example[0],'de')+sentence(example[1],'fa')+'</div>':'')+'</div>'+
     '<button class="primary" type="button" data-act="vocab-next">واژهٔ بعدی'+ic('left',17)+'</button>';
