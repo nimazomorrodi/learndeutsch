@@ -3,7 +3,7 @@
 :root[data-theme=dark]{color-scheme:dark;--paper:#17221f;--surface:#1f2c28;--side:#1b2723;--line:#374740;--softline:#304039;--ink:#e7efe8;--sub:#c0cdc4;--muted:#a2b5a9;--pine:#95d7bd;--mint:#29473a;--mint-ink:#b8e1c9;--sage:#374531;--sage-ink:#c1d09c;--sand:#4a402d;--sand-ink:#f1cf87;--tint:#383427;--title:#edf3e9}
 *,*:before,*:after{box-sizing:border-box}
 html{min-width:280px;scrollbar-gutter:stable}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
 button,a,input{font:inherit;-webkit-tap-highlight-color:transparent}
 button,a{touch-action:manipulation}
 button{border:0;background:none;color:inherit;cursor:pointer}
@@ -16,10 +16,10 @@ button{transition:background .16s,color .16s,box-shadow .16s}
 button:disabled{opacity:.62}
 h1,h2,h3,p{margin:0}
 #main:focus{outline:0}
-.skip{position:fixed;top:-100px;right:12px;z-index:100;background:var(--surface);padding:10px}.skip:focus{top:8px}
+.skip{position:fixed;top:-100px;right:calc(12px + env(safe-area-inset-right,0px));z-index:100;background:var(--surface);padding:10px}.skip:focus{top:calc(8px + env(safe-area-inset-top,0px))}
 #layout{direction:ltr;min-height:100vh}
 #workspace{min-width:0;direction:rtl}
-#sidebar{direction:rtl;position:fixed;top:0;bottom:0;left:0;width:min(285px,86vw);background:var(--side);border-right:1px solid var(--line);z-index:30;display:flex;flex-direction:column;padding:22px 17px 12px;overflow-y:auto;transform:translateX(-100%);visibility:hidden;transition:transform .2s ease,visibility .2s}
+#sidebar{direction:rtl;position:fixed;top:env(safe-area-inset-top,0px);bottom:env(safe-area-inset-bottom,0px);left:env(safe-area-inset-left,0px);width:min(285px,86vw);background:var(--side);border-right:1px solid var(--line);z-index:30;display:flex;flex-direction:column;padding:22px 17px 12px;overflow-y:auto;transform:translateX(-100%);visibility:hidden;transition:transform .2s ease,visibility .2s}
 .nav-open #sidebar{transform:none;visibility:visible}
 #scrim{position:fixed;inset:0;background:#0b191968;z-index:25}
 .nav-open{overflow:hidden}
@@ -483,3 +483,23 @@ h1,h2,h3,p{margin:0}
 .vocab-example{margin:7px auto 0;display:grid;gap:4px;border-top:1px solid var(--line);padding-top:8px}
 .vocab-example .review-utterance span{overflow-wrap:anywhere;min-width:0}
 @media(max-width:520px){.vocab-choices{grid-template-columns:1fr}}
+
+#toast{bottom:calc(22px + env(safe-area-inset-bottom,0px))}
+@supports (min-height:100dvh){
+  #layout,body .auth-page{min-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))}
+}
+.offline-page main{max-width:38rem;margin:auto;padding:clamp(28px,8vh,80px) 20px}
+.offline-heading{display:grid;justify-items:start;gap:12px}
+.offline-heading img{border-radius:12px}
+.offline-heading h1{font-size:clamp(1.45rem,4vw,2rem);line-height:1.5}
+.offline-heading p,.offline-reader dd{color:var(--sub)}
+.offline-heading .primary,.offline-reader select{min-height:44px}
+.offline-reader{margin-top:32px;border-top:1px solid var(--line);padding-top:20px}
+.offline-reader h2{font-size:1.2rem;margin-bottom:12px}
+.offline-reader label{display:block;margin-bottom:4px}
+.offline-reader select{width:100%;font:inherit;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);padding:6px 10px}
+.offline-reader select:focus-visible{outline:3px solid var(--pine);outline-offset:2px}
+.offline-reader dl{margin:12px 0 0}
+.offline-reader dl>div{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);direction:ltr;overflow-wrap:anywhere}
+.offline-reader dt{font-weight:700}.offline-reader dd{margin:0;direction:rtl}
+.offline-reader .english-gloss{text-align:right}

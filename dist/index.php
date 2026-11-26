@@ -69,8 +69,17 @@ $assetVersion = is_file($releaseFile) ? '?v=' . rawurlencode(trim(file_get_conte
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#FAF8F2">
-  <title><?= $bootstrap ? 'میز مطالعه' : ($register ? 'ساخت حساب' : 'ورود') ?> | Lernhaus</title>
-  <script>try{document.documentElement.dataset.theme=localStorage.getItem('lernhaus-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{}</script>
+  <meta name="application-name" content="Lernhaus">
+  <meta name="apple-mobile-web-app-title" content="Lernhaus">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title lang="en" dir="ltr">Lernhaus</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/lernhaus-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="assets/icons/lernhaus-167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/lernhaus-152.png">
+  <script src="theme.js<?= $assetVersion ?>"></script>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css<?= $assetVersion ?>">
   <link rel="stylesheet" href="tailwind.css<?= $assetVersion ?>">
@@ -99,5 +108,6 @@ $assetVersion = is_file($releaseFile) ? '?v=' . rawurlencode(trim(file_get_conte
     <script defer src="<?= $script ?>.js<?= $assetVersion ?>"></script>
   <?php endforeach; ?>
 <?php endif; ?>
+  <script defer src="pwa.js<?= $assetVersion ?>"></script>
 </body>
 </html>

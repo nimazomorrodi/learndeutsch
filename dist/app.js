@@ -156,7 +156,11 @@ function render(){
    default: content=dashboard();
  }
  topbar();sidebar();$('#main').innerHTML=content;
- document.title=(route.page==='lesson'?route.lesson.fa:route.page==='word'?route.entry.de:pageTitles[route.page])+' | Lernhaus';
+ if (route.page === 'home' || navigator.standalone || matchMedia('(display-mode: standalone)').matches) {
+   document.title = 'Lernhaus';
+ } else {
+   document.title = (route.page==='lesson'?route.lesson.fa:route.page==='word'?route.entry.de:pageTitles[route.page])+' | Lernhaus';
+ }
 }
 function routeChanged(){boxReviewIndex=0;reviewId=null;reviewResult=null;revealed=false;closeNav();render();window.scrollTo(0,0);$('#main').focus({preventScroll:true})}
 function study(){state.days[key(today())]=(state.days[key(today())]||0)+1;save()}
@@ -166,7 +170,7 @@ function act(action,value,el){
  case 'home':goHome();break;
  case 'nav-open':openNav();break;
  case 'nav-close':closeNav();$('[data-act="nav-open"]')?.focus();break;
- case 'theme':{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;store.set('lernhaus-theme',t);topbar();$('[data-act="theme"]').focus();break}
+ case 'theme':LernhausTheme.toggle();$('[data-act="theme"]').focus();break;
  case 'course':navigate('courses/'+value+'/'+defaultCourseSection(value));break;
  case 'review':case 'profile':navigate(action);break;
  case 'logout':signOut(el);break;
@@ -223,6 +227,6 @@ document.addEventListener('click',event=>{
 $('#scrim').addEventListener('click',()=>act('nav-close'));
 document.addEventListener('keydown',e=>{if(!document.body.classList.contains('nav-open'))return;if(e.key==='Escape')act('nav-close');if(e.key==='Tab'){const buttons=[...$('#sidebar').querySelectorAll('a,button')].filter(b=>b.offsetWidth>0),first=buttons[0],last=buttons.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
 matchMedia('(min-width: 900px)').addEventListener('change',e=>{if(e.matches)closeNav()});
-matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{if(!store.get('lernhaus-theme')){document.documentElement.dataset.theme=e.matches?'dark':'light';topbar()}});
+window.addEventListener('lernhaus-theme-changed',topbar);
 window.addEventListener('hashchange',routeChanged);
 render();

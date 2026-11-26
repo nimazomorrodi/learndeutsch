@@ -38,11 +38,15 @@ function wordUrl(de, {level='all',query='',tense='present',lessonId=''} = {}) {
   return '#word/'+encodeURIComponent(de)+(params.size?'?'+params:'');
 }
 
-function englishGloss(entry, meaning) {
-  const senses = account.reference.english?.[entry.de];
+function englishTranslation(word, meaning) {
+  const senses = account.reference.english?.[word];
   if (!senses) return '';
   const translations = meaning.split('؛').map(sense=>senses[sense.trim()]).filter(Boolean);
-  const english = [...new Set(translations)].join(' / ');
+  return [...new Set(translations)].join(' / ');
+}
+
+function englishGloss(entry, meaning) {
+  const english = englishTranslation(entry.de, meaning);
   return english ? '<span class="english-gloss" lang="en" dir="ltr">'+esc(english)+'</span>' : '';
 }
 

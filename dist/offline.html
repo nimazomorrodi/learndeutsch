@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="apple-mobile-web-app-title" content="Lernhaus">
+  <title lang="en" dir="ltr">Lernhaus</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/lernhaus-180.png">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="offline.js"></script>
+</head>
+<body class="offline-page">
+  <main>
+    <header class="offline-heading">
+      <img src="assets/icons/lernhaus-180.png" width="52" height="52" alt="Lernhaus">
+      <h1>اتصال به لرن‌هاوس برقرار نیست</h1>
+      <p>برای ورود به حساب و ثبت پیشرفت، اتصال لازم است.</p>
+      <a class="primary" id="retry" href="./index.php">تلاش دوباره</a>
+    </header>
+    <section class="offline-reader" aria-labelledby="reader-heading" hidden>
+      <h2 id="reader-heading">مرور آفلاین واژه‌ها</h2>
+      <label for="lesson-select">درس را انتخاب کن</label>
+      <select id="lesson-select"></select>
+      <dl id="offline-words"></dl>
+    </section>
+  </main>
+</body>
+</html>

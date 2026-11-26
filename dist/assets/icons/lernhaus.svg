@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Lernhaus</title>
+  <defs>
+    <linearGradient id="pine" x2="0.8" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#277969"/>
+      <stop offset=".6" stop-color="#15594f"/>
+      <stop offset="1" stop-color="#0d403a"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#pine)" d="M0 0h512v512H0z"/>
+  <circle cx="334" cy="142" r="31" fill="#f3c969"/>
+  <path fill="#f8f2df" d="M117 154c47-7 92 7 127 34v155c-35-26-78-38-127-34z"/>
+  <path fill="#e2ecdd" d="M268 194c26-14 50-18 74-17 17 0 33 3 52 9v133c-45-7-89 1-126 24z"/>
+  <path d="M94 192v143c62-6 112 8 155 36a13 13 0 0 0 14 0c45-28 92-36 151-30"
+        fill="none" stroke="#f3c969" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

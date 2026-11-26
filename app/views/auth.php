@@ -32,10 +32,6 @@
   </div>
 </main>
 <script>
-document.querySelector('#auth-theme').onclick = () => {
-  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  document.documentElement.dataset.theme = theme;
-  try { localStorage.setItem('lernhaus-theme', theme) } catch {}
-};
+document.querySelector('#auth-theme').onclick = LernhausTheme.toggle;
 window.addEventListener('pageshow', event => { if (event.persisted) location.reload() });
 </script>
