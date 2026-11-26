@@ -42,7 +42,7 @@ const wordList=lessons.flatMap(l=>l.words.map(([de,fa],i)=>({id:l.id+':'+i,lesso
 const dictionaryIndex=buildDictionaryIndex(wordList);
 const state = account.state;
 let monthAnchor=today(),selectedDay=null,reviewId=null,revealed=false;
-let boxReviewIndex=0;
+let boxReviewIndex=0, reviewResult=null;
 const current=()=>lessonById(state.last)||lessons[0];
 const done=l=>state.done[l.id]||[];
 const canResumeLesson=l=>done(l).length<lessonParts.length && (done(l).length>0 || (state.part!==tutorialPart && revision>0));
@@ -62,9 +62,9 @@ function navigate(path){
 function goHome(){navigate('home')}
 function sidebar(){
  const page=readRoute().page;
- const section=page==='lesson'?'courses':page==='quiz'?'exams':page==='word'?'vocab':page==='articleReport'?'articles':page;
+ const section=page==='lesson'?'courses':page==='quiz'?'exams':page==='word'?'vocab':page==='articleReport'?'articles':page==='reviewReport'?'review':page==='wordsReport'?'words':page;
  const nav=(target,icon,label,badge='')=>'<a class="nav-item '+(section===target?'active':'')+'" href="#'+target+'" '+(section===target?'aria-current="page"':'')+'>'+ic(icon)+'<span>'+label+'</span>'+badge+'</a>';
- $('#sidebar').innerHTML='<div class="brand-row"><a class="brand" href="#home" data-act="home" aria-label="لرن‌هاوس، خانه"><img src="assets/mark.svg" alt=""><b lang="de">Lernhaus<span>.</span></b></a><button class="mobile-only icon-btn" data-act="nav-close" aria-label="بستن منو">'+ic('close')+'</button></div><div class="side-label">فضای یادگیری</div><nav>'+nav('home','grid','میز مطالعه')+nav('courses','path','مسیر یادگیری')+nav('grammar','book','مرجع گرامر')+nav('vocab','vocab','واژه‌نامه')+nav('articles','layers','تمرین آرتیکل')+nav('review','cards','جعبهٔ لایتنر',dueWords().length?'<em>'+num(dueWords().length)+'</em>':'')+'</nav><div class="side-label second">آمادگی آزمون</div><nav>'+nav('exams','exam','آزمون‌ها و منابع')+'</nav><div class="side-bottom"><div class="review-invite"><div class="invite-icon">'+ic('cards',25)+'</div><b>مرور امروز</b><p>'+num(dueWords().length)+' واژه در صف مرور</p><button data-act="review">ورود به لایتنر</button></div><button class="profile" data-act="profile"><span class="avatar">'+ic('person',21)+'</span><span><b data-account-name dir="auto">'+esc(accountName())+'</b><small>حساب من</small></span>'+ic('swap',16)+'</button></div>';
+ $('#sidebar').innerHTML='<div class="brand-row"><a class="brand" href="#home" data-act="home" aria-label="لرن‌هاوس، خانه"><img src="assets/mark.svg" alt=""><b lang="de">Lernhaus<span>.</span></b></a><button class="mobile-only icon-btn" data-act="nav-close" aria-label="بستن منو">'+ic('close')+'</button></div><div class="side-label">فضای یادگیری</div><nav>'+nav('home','grid','میز مطالعه')+nav('courses','path','مسیر یادگیری')+nav('grammar','book','مرجع گرامر')+nav('vocab','vocab','واژه‌نامه')+nav('words','target','تمرین لغات')+nav('articles','layers','تمرین آرتیکل')+nav('review','cards','جعبهٔ لایتنر',dueWords().length?'<em>'+num(dueWords().length)+'</em>':'')+'</nav><div class="side-label second">آمادگی آزمون</div><nav>'+nav('exams','exam','آزمون‌ها و منابع')+'</nav><div class="side-bottom"><div class="review-invite"><div class="invite-icon">'+ic('cards',25)+'</div><b>مرور امروز</b><p>'+num(dueWords().length)+' واژه در صف مرور</p><button data-act="review">ورود به لایتنر</button></div><button class="profile" data-act="profile"><span class="avatar">'+ic('person',21)+'</span><span><b data-account-name dir="auto">'+esc(accountName())+'</b><small>حساب من</small></span>'+ic('swap',16)+'</button></div>';
 }
 function topbar(){
  const dark=document.documentElement.dataset.theme==='dark';
@@ -97,9 +97,12 @@ function calendar(){
 function dashboard(){
  return '<div class="heading"><div><h1>میز مطالعه<span class="head-dot">.</span></h1><p>سلام <bdi class="welcome-name" data-account-name>'+esc(accountName())+'</bdi>، خوش برگشتی!</p></div><span class="greeting" lang="de" dir="ltr">Guten Tag! <span>☀</span></span></div>'+hero(current())+'<div class="metrics grid grid-cols-3">'+metric('fire',streak(),'روز پیاپی مطالعه','warm')+metric('book',completeCount(),'درس تکمیل‌شده','green')+metric('cards',Object.keys(state.cards).length,'واژه در لایتنر','sand')+'</div><div class="lower-grid">'+pathCard()+calendar()+'</div>';
 }
-function wordButton(w){
+function wordButton(w, compact=false){
  const added=!!state.cards[w.id];
- return '<button class="word-add" data-act="add-word" data-value="'+w.id+'" '+(added?'disabled':'')+'>'+ic(added?'check':'plus',16)+(added?'در لایتنر':'افزودن به لایتنر')+'</button>';
+ const label=added?'در لایتنر':'افزودن به لایتنر';
+ return '<button type="button" class="word-add'+(compact?' compact':'')+'" data-act="add-word" data-value="'+esc(w.id)+'" '+
+   (compact?'aria-label="'+esc(label+' · '+w.de)+'" title="'+esc(label+' · '+w.de)+'" ':'')+(added?'disabled':'')+'>'+
+   ic(added?'check':'plus',16)+(compact?'':label)+'</button>';
 }
 function vocabRow(w){
  return '<div class="word-row"><div><a class="word-link" dir="ltr" lang="de" href="'+esc(wordUrl(w.de,{level:w.lesson.level,lessonId:w.lesson.id}))+'">'+esc(w.de)+'</a><span>'+esc(w.fa)+'</span></div>'+wordButton(w)+'</div>'+
@@ -142,6 +145,9 @@ function render(){
    case 'vocab': content=dictionaryPage(route);break;
    case 'word': content=wordPage(route);break;
    case 'review': content=reviewPage(route);break;
+   case 'reviewReport': content=reviewReportPage(route.level || 'all');break;
+   case 'words': content=vocabPracticePage(route.level);break;
+   case 'wordsReport': content=vocabPracticeReport(route.level || 'all');break;
    case 'articles': content=articlePracticePage(route.level);break;
    case 'articleReport': content=articleReportPage(route.level || 'all');break;
    case 'exams': content=examsPage(route);break;
@@ -152,7 +158,7 @@ function render(){
  topbar();sidebar();$('#main').innerHTML=content;
  document.title=(route.page==='lesson'?route.lesson.fa:route.page==='word'?route.entry.de:pageTitles[route.page])+' | Lernhaus';
 }
-function routeChanged(){boxReviewIndex=0;reviewId=null;revealed=false;closeNav();render();window.scrollTo(0,0);$('#main').focus({preventScroll:true})}
+function routeChanged(){boxReviewIndex=0;reviewId=null;reviewResult=null;revealed=false;closeNav();render();window.scrollTo(0,0);$('#main').focus({preventScroll:true})}
 function study(){state.days[key(today())]=(state.days[key(today())]||0)+1;save()}
 function changeMonth(step){monthAnchor=monthStart(monthAnchor,step);selectedDay=null;$('#calendar').outerHTML=calendar();$('[data-act="month-'+(step<0?'prev':'next')+'"]').focus()}
 function act(action,value,el){
@@ -170,7 +176,16 @@ function act(action,value,el){
  case 'month-prev':changeMonth(-1);break;
  case 'month-next':changeMonth(1);break;
  case 'day':selectedDay=value;$('#calendar').outerHTML=calendar();$('#calendar [aria-pressed="true"]').focus();break;
- case 'add-word':if(!state.cards[value]){state.cards[value]={box:1,due:key(today())};save();el.disabled=true;el.innerHTML=ic('check',16)+'در لایتنر';sidebar();flash('واژه به لایتنر اضافه شد')}break;
+ case 'add-word':{
+   const word=wordList.find(w=>w.id===value);
+   if(!word||state.cards[value])break;
+   state.cards[value]={box:1,due:key(today())};
+   save();
+   for(const button of document.querySelectorAll('[data-act="add-word"]')){
+     if(button.dataset.value===value)button.outerHTML=wordButton(word,button.classList.contains('compact'));
+   }
+   sidebar();flash('واژه به لایتنر اضافه شد');break;
+ }
  case 'quiz-answer':case 'quiz-next':case 'retry-quiz':updateQuiz(action,value);break;
  case 'finish-part':{
    const {lesson:l,part:p}=readRoute();
@@ -180,29 +195,21 @@ function act(action,value,el){
    study();goLesson(l.id,next.id);break;
  }
  case 'flip-card':flipReviewCard(el);break;
+ case 'vocab-answer':answerVocab(value);break;
  case 'article-answer':answerArticle(value);break;
- case 'article-autoplay':
-   state.articleAutoplay = state.articleAutoplay !== true;
-   el.setAttribute('aria-checked', String(state.articleAutoplay));
-   if (!state.articleAutoplay) stopReviewAudio();
+ case 'article-autoplay':case 'review-autoplay':case 'vocab-autoplay':{
+   const setting={'article-autoplay':'articleAutoplay','review-autoplay':'reviewAutoplay','vocab-autoplay':'vocabAutoplay'}[action];
+   state[setting] = state[setting] !== true;
+   el.setAttribute('aria-checked', String(state[setting]));
+   if (!state[setting]) stopReviewAudio();
    save();
    break;
- case 'article-next':nextArticle();break;
- case 'article-restart':nextArticle(true);break;
+ }
+ case 'article-next':case 'vocab-next':nextPractice();break;
+ case 'article-restart':case 'vocab-restart':nextPractice(true);break;
  case 'pronounce':playReviewAudio(el);break;
- case 'next-box-card':case 'restart-box':{
-   if(!readRoute().box)break;
-   if(action==='next-box-card'){
-     if(!revealed)break;
-     boxReviewIndex++;
-     study();
-   }else boxReviewIndex=0;
-   reviewId=null;revealed=false;render();
-   ($('#main .review-card')||$('#main .empty button')||$('#main .lex-back'))?.focus();break}
- case 'know':case 'again':{
-   const card=state.cards[reviewId];if(!card||!revealed||readRoute().box)break;card.box=action==='know'?Math.min(5,card.box+1):1;
-   card.due=key(moveDay(today(),boxDays[card.box-1]));study();reviewId=null;revealed=false;
-   render();($('#main [data-act="flip-card"]')||$('#main .empty a'))?.focus({preventScroll:true});break}
+ case 'review-rate':rateReview(value);break;
+ case 'review-next':case 'restart-box':nextReview(action==='restart-box');break;
  }
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(b){e.preventDefault();act(b.dataset.act,b.dataset.value,b)}});

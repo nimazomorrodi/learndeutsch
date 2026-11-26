@@ -95,7 +95,7 @@ function applyReviewDirection(direction) {
   account.reviewDirection = direction;
   if (readRoute().page !== 'review') return;
   const keepFocus = document.activeElement?.name === 'review-direction';
-  revealed = false;
+  revealed = reviewResult !== null;
   render();
   if (keepFocus) $('#main input[name="review-direction"]:checked').focus({preventScroll:true});
 }

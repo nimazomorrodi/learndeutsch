@@ -44,5 +44,6 @@ function curriculum(PDO $db): array
 function initialProgress(): stdClass
 {
     return (object)['last' => 'hallo', 'part' => 4, 'partsVersion' => 2, 'done' => (object)[], 'days' => (object)[],
-        'cards' => (object)[], 'articleCards' => (object)[], 'articleAutoplay' => false, 'quizzes' => (object)[]];
+        'cards' => (object)[], 'articleCards' => (object)[], 'articleAutoplay' => false, 'reviewAutoplay' => false,
+        'vocabPracticeCards' => (object)[], 'vocabAutoplay' => false, 'quizzes' => (object)[]];
 }

@@ -238,10 +238,15 @@ h1,h2,h3,p{margin:0}
 .review-face.back{transform:rotateX(180deg);background-color:var(--mint)}
 .review-sheet.article-answered{transform:rotateX(-180deg)}
 .article-practice .review-face{min-height:clamp(265px,29vw,340px);gap:14px}
-.article-practice .review-face.back{--answer-ink:#18582f;background-color:#d7f0dd;border-color:#88bc95}
-.article-practice .review-face.back:has(.article-verdict.wrong){--answer-ink:#8d2830;background-color:#f9dadb;border-color:#d58e94}
-[data-theme=dark] .article-practice .review-face.back{--answer-ink:#b2ebc1;background-color:#234733;border-color:#548263}
-[data-theme=dark] .article-practice .review-face.back:has(.article-verdict.wrong){--answer-ink:#ffc4c6;background-color:#502e34;border-color:#976269}
+.article-practice .review-face.back,.review-sheet[data-review-result=correct] .back{--answer-ink:#18582f;background-color:#d7f0dd;border-color:#88bc95}
+.article-practice .review-face.back:has(.article-verdict.wrong),.review-sheet:is([data-review-result=wrong],[data-review-result=unknown]) .back{--answer-ink:#8d2830;background-color:#f9dadb;border-color:#d58e94}
+[data-theme=dark] :is(.article-practice .review-face.back,.review-sheet[data-review-result=correct] .back){--answer-ink:#b2ebc1;background-color:#234733;border-color:#548263}
+[data-theme=dark] :is(.article-practice .review-face.back:has(.article-verdict.wrong),.review-sheet:is([data-review-result=wrong],[data-review-result=unknown]) .back){--answer-ink:#ffc4c6;background-color:#502e34;border-color:#976269}
+.review-sheet[data-review-result] .back .turn-hint{color:var(--answer-ink);font-weight:700}
+.article-headword,.article-forms .review-utterance{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;min-width:0;max-width:100%}
+.article-practice .word-add,.review-actions button{min-height:44px}
+.review-actions{flex-wrap:wrap}.review-actions button{justify-content:center;white-space:nowrap}
+.review-actions>.review-skip{flex-basis:100%}
 .article-practice .review-face:not([inert]) button{pointer-events:auto}
 .article-choices{display:grid;width:min(100%,23rem);grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .article-choices button{min-height:46px;border:1px solid var(--pine);border-radius:9px;background:var(--surface);color:var(--mint-ink);font:600 1.2rem Georgia,serif}
@@ -367,6 +372,11 @@ h1,h2,h3,p{margin:0}
 .lex-popover{position:absolute;inset-inline:0;top:calc(100% + 6px);z-index:12;max-height:min(23rem,54vh);overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:0 12px 32px #102a2022}
 .lex-pop-title{padding:9px 14px 5px;font-size:.8rem;color:var(--sub);font-weight:700}
 .lex-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:8px}
+.lex-result,.course-word{display:flex;align-items:center;gap:4px;min-width:0}
+.lex-result .lex-row{flex:1}
+.word-add.compact{width:44px;height:44px;flex:none;justify-content:center;padding:0}
+.course-word{max-width:100%;border:1px solid var(--line);border-radius:9px}
+.course-word a{min-width:0;overflow-wrap:anywhere}
 .lex-row{display:flex;gap:10px;align-items:center;min-width:0;padding:12px 14px;border:1px solid var(--line);background:var(--surface);border-radius:12px;color:var(--ink)}
 .lex-row:hover,.lex-row[aria-selected=true]{background:var(--mint);border-color:var(--pine)}
 .lex-row-copy{display:grid;gap:1px;min-width:0;flex:1}
@@ -463,3 +473,13 @@ h1,h2,h3,p{margin:0}
 .tense-tabs button:active{transform:translateY(1px);box-shadow:none}
 .verb-paradigm:focus-visible{outline:2px solid var(--pine);outline-offset:4px}
 @container(max-width:21rem){.tense-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.vocab-practice-link{flex:none;align-self:flex-start;min-height:44px}
+.vocab-choices{width:min(100%,38rem)}
+.vocab-choices button{font:inherit;font-weight:650;overflow-wrap:anywhere;padding:8px}
+.vocab-choices button[data-value=unknown]{grid-column:1/-1;background:var(--paper);color:var(--sub);border-color:var(--line)}
+.vocab-answer{display:grid;gap:5px;min-width:0;width:100%}
+.vocab-other-senses,.vocab-example{color:var(--sub);font-size:.92rem}
+.vocab-example{margin:7px auto 0;display:grid;gap:4px;border-top:1px solid var(--line);padding-top:8px}
+.vocab-example .review-utterance span{overflow-wrap:anywhere;min-width:0}
+@media(max-width:520px){.vocab-choices{grid-template-columns:1fr}}

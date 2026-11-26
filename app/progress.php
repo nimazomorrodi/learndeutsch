@@ -53,18 +53,21 @@ function validProgress(mixed $s, array $lessons): bool
     foreach ($s->days as $day => $count) {
         if (!validDate($day) || !inRange($count, 1, 1000000)) return false;
     }
-    $decks = ['cards' => $s->cards];
-    if (property_exists($s, 'articleAutoplay') && !is_bool($s->articleAutoplay)) return false;
-    if (property_exists($s, 'articleCards')) {
-        if (!($s->articleCards instanceof stdClass)) return false;
-        $decks['articles'] = $s->articleCards;
+    $decks = [$s->cards];
+    foreach (['articleAutoplay', 'reviewAutoplay', 'vocabAutoplay'] as $setting) {
+        if (property_exists($s, $setting) && !is_bool($s->$setting)) return false;
     }
-    foreach ($decks as $kind => $deck) {
+    foreach (['articleCards', 'vocabPracticeCards'] as $field) {
+        if (!property_exists($s, $field)) continue;
+        if (!($s->$field instanceof stdClass)) return false;
+        $decks[] = $s->$field;
+    }
+    foreach ($decks as $deck) {
         foreach ($deck as $key => $card) {
             if (!preg_match('/^([a-z0-9_-]+):(0|[1-9]\d*)$/D', $key, $m) ||
                 !isset($catalog[$m[1]]->words[(int)$m[2]]) || !inRange($card->box ?? null, 1, 5) ||
                 !validDate($card->due ?? null)) return false;
-            if ($kind === 'articles' && property_exists($card, 'lastResult') &&
+            if (property_exists($card, 'lastResult') &&
                 !in_array($card->lastResult, ['correct', 'wrong', 'unknown'], true)) return false;
         }
     }

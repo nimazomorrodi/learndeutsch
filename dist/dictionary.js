@@ -81,12 +81,13 @@ function wordRow({entry,source,meaning,url}, suggestionIndex) {
 function resultList(rows,limit=dictionaryBatch) {
   if (!rows.length) return '<div class="panel empty"><h2>واژه‌ای پیدا نشد</h2><p>املا یا سطح انتخاب‌شده را تغییر بده.</p></div>';
   return '<p class="result-count" role="status">'+num(rows.length)+' مدخل</p><div class="lex-list">'+
-    rows.slice(0,limit).map(r=>wordRow(r)).join('')+'</div>'+
+    rows.slice(0,limit).map(r=>'<div class="lex-result">'+wordRow(r)+wordButton(r.source,true)+'</div>').join('')+'</div>'+
     (rows.length>limit?'<button class="secondary lex-more" data-word-limit="'+limit+'">نمایش واژه‌های بیشتر</button>':'');
 }
 
 function dictionaryPage(route) {
-  return heading('واژه‌نامه','واژه را با معنی فارسی، شکل جمع یا صرف فعل هم می‌توانی پیدا کنی.')+
+  return heading('واژه‌نامه','واژه را با معنی فارسی، شکل جمع یا صرف فعل هم می‌توانی پیدا کنی.',
+    '<a class="secondary vocab-practice-link" href="'+vocabPracticeUrl(route.level)+'">'+ic('target',18)+'تمرین لغات</a>')+
     '<div class="lex-search"><label class="search-field">'+ic('search',21)+
     '<input id="word-search" type="search" role="combobox" aria-label="جست‌وجوی واژه" aria-autocomplete="list" aria-controls="word-suggestions" aria-expanded="false" dir="auto" autocomplete="off" spellcheck="false" placeholder="مثلاً gehen، ging یا رفتن" value="'+esc(route.query)+'"></label>'+
     '<div class="lex-popover" hidden><div class="lex-pop-title">پیشنهادها</div><div id="word-suggestions" role="listbox" aria-label="واژه‌های پیشنهادی"></div></div></div>'+

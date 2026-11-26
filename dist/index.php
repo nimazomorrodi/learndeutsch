@@ -95,7 +95,7 @@ $assetVersion = is_file($releaseFile) ? '?v=' . rawurlencode(trim(file_get_conte
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
   </form>
   <script id="account-data" type="application/json"><?= json_encode($bootstrap, JSON_HEX_TAG | JSON_HEX_AMP | JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE) ?></script>
-  <?php foreach (['lessons', 'account', 'practice-data', 'chapter', 'study-pages', 'conjugation', 'reference', 'dictionary', 'article-practice', 'app'] as $script): ?>
+  <?php foreach (['lessons', 'account', 'practice-data', 'chapter', 'study-pages', 'conjugation', 'reference', 'dictionary', 'article-practice', 'vocab-practice', 'app'] as $script): ?>
     <script defer src="<?= $script ?>.js<?= $assetVersion ?>"></script>
   <?php endforeach; ?>
 <?php endif; ?>
