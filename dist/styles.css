@@ -245,6 +245,7 @@ h1,h2,h3,p{margin:0}
 .article-practice .review-face:not([inert]) button{pointer-events:auto}
 .article-choices{display:grid;width:min(100%,23rem);grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .article-choices button{min-height:46px;border:1px solid var(--pine);border-radius:9px;background:var(--surface);color:var(--mint-ink);font:600 1.2rem Georgia,serif}
+.article-choices button[lang=fa]{grid-column:1/-1;font:inherit;font-weight:600;color:var(--sub);border-color:var(--line)}
 .article-choices button:hover{background:var(--mint)}
 .article-verdict{display:flex;align-items:center;gap:6px;font-weight:700;color:var(--answer-ink)}
 .article-forms{display:grid;justify-items:center;gap:5px;min-width:0;max-width:100%;overflow-wrap:anywhere}

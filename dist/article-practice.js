@@ -1,6 +1,6 @@
 'use strict';
 
-const articleChoices = ['der', 'die', 'das'];
+const articleChoices = {der:'der', die:'die', das:'das', unknown:'نمی‌دانم'};
 let articleRound = null;
 
 function shuffleArticles(cards) {
@@ -36,10 +36,12 @@ function startArticleRound(level) {
 function articleBack(card, answer) {
   const {noun, meanings} = card.entry;
   const correct = answer === card.article;
-  const verdict = correct ? 'درست انتخاب کردی' : 'پاسخ تو <bdi lang="de">'+esc(answer)+'</bdi> بود';
+  let verdict = 'آرتیکل درست این اسم';
+  if (correct) verdict = 'درست انتخاب کردی';
+  else if (answer !== 'unknown') verdict = 'نادرست، پاسخ تو <bdi lang="de">'+esc(answer)+'</bdi> بود';
   const plural = noun.plural ? '<bdi lang="de">'+nounFormMarkup(noun.plural,noun.singular)+'</bdi>' : 'در این معنی جمع رایج ندارد';
   return '<div class="article-verdict '+(correct?'right':'wrong')+'" id="article-verdict" tabindex="-1" aria-describedby="article-forms">'+
-    ic(correct?'check':'close',18)+(correct?'':'نادرست، ')+verdict+'</div>'+
+    ic(answer==='unknown'?'book':correct?'check':'close',18)+verdict+'</div>'+
     '<div id="article-forms" class="article-forms"><strong lang="de" dir="ltr">'+nounFormMarkup(noun.singular)+'</strong>'+
     '<p><span>جمع</span> '+plural+'</p><p><span>معنی</span> '+esc(meanings.join('، '))+'</p>'+
     (noun.note?'<small>'+esc(noun.note)+'</small>':'')+'</div>'+
@@ -62,7 +64,10 @@ function articlePracticePage(level) {
   const saved = state.articleCards?.[card.id];
   const mode = free ? 'مرور آزاد' : !saved ? 'کارت تازه' : 'خانهٔ '+num(saved.box);
   const answered = answer !== null;
-  const choices = articleChoices.map(a => '<button type="button" data-act="article-answer" data-value="'+a+'">'+a+'</button>').join('');
+  const choices = Object.entries(articleChoices).map(([value,label]) =>
+    '<button type="button" data-act="article-answer" data-value="'+value+'"'+
+    (value==='unknown'?' lang="fa" dir="rtl"':'')+'>'+label+'</button>'
+  ).join('');
   return intro+'<section class="panel review-surface article-practice"><div class="review-meta"><span>'+ic('cards')+
     'کارت '+num(number)+' · <bdi>'+esc(card.level)+'</bdi></span><span id="article-schedule">'+mode+'</span></div>'+
     '<div class="review-card-stage"><div class="review-sheet'+(answered?' article-answered':'')+'">'+
@@ -75,7 +80,7 @@ function articlePracticePage(level) {
 
 function answerArticle(answer) {
   const round = articleRound;
-  if (readRoute().page !== 'articles' || !round?.queue.length || round.answer !== null || !articleChoices.includes(answer)) return;
+  if (readRoute().page !== 'articles' || !round?.queue.length || round.answer !== null || !Object.hasOwn(articleChoices,answer)) return;
   const card = round.queue[0];
   round.answer = answer;
   const cards = state.articleCards ??= {};
