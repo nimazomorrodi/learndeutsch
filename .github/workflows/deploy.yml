@@ -91,7 +91,7 @@ jobs:
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: dist/assets/audio/leitner/v1/${{ matrix.language }}
-          key: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-${{ hashFiles('database/curriculum.json') }}
+          key: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-${{ hashFiles('database/curriculum.json') }}${{ matrix.language == 'de' && format('-{0}', hashFiles('database/noun-forms.json')) || '' }}
           restore-keys: clips-v1-${{ matrix.language }}-${{ matrix.shard }}-
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         if: steps.clips.outputs.cache-hit != 'true'
@@ -138,19 +138,7 @@ jobs:
           path: dist/assets/audio/leitner/v1
           merge-multiple: true
       - name: Verify audio coverage
-        run: |
-          python3 - <<'PY'
-          import hashlib, json
-          from pathlib import Path
-          for lesson in json.loads(Path("database/curriculum.json").read_text())["lessons"]:
-              for word in lesson["words"]:
-                  pair = next(p for p in lesson["examples"][word[0]] if all(p))
-                  for col, lang in enumerate(("de", "fa")):
-                      for text in (word[col], pair[col]):
-                          name = hashlib.sha256(text.encode()).hexdigest()
-                          if not Path(f"dist/assets/audio/leitner/v1/{lang}/{name}.mp3").stat().st_size:
-                              raise ValueError(f"Empty audio for {text}")
-          PY
+        run: python3 bin/deck_audio.py
       - name: Publish release over SSH and verify public HTTPS
         env:
           DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}

@@ -12,12 +12,14 @@ $card = $_GET['card'] ?? '';
 $lang = $_GET['lang'] ?? '';
 $part = $_GET['part'] ?? '';
 if (!is_string($card) || !preg_match('/^([a-z0-9_-]+):(0|[1-9]\d*)$/D', $card, $match) ||
-    !in_array($lang, ['de', 'fa'], true) || !in_array($part, ['word', 'example'], true)) {
+    !in_array($lang, ['de', 'fa'], true) || !in_array($part, ['word', 'example', 'article'], true) ||
+    ($part === 'article' && $lang !== 'de')) {
     reply(400, ['error' => 'card']);
 }
 
 try {
-    $read = db()->prepare('SELECT content FROM lessons WHERE id=?');
+    $pdo = db();
+    $read = $pdo->prepare('SELECT content FROM lessons WHERE id=?');
     $read->execute([$match[1]]);
     $content = $read->fetchColumn();
     $lesson = $content ? json_decode($content, true, flags: JSON_THROW_ON_ERROR) : [];
@@ -25,7 +27,12 @@ try {
     if (!$word) reply(404, ['error' => 'card']);
     $column = $lang === 'de' ? 0 : 1;
     $text = $word[$column];
-    if ($part === 'example') {
+    if ($part === 'article') {
+        $content = $pdo->query("SELECT content FROM reference_materials WHERE name='nouns'")->fetchColumn();
+        $nouns = $content ? json_decode($content, true, flags: JSON_THROW_ON_ERROR) : [];
+        $text = $nouns[$word[0]]['singular'] ?? '';
+        if (!preg_match('/^(der|die|das) /u', $text)) reply(404, ['error' => 'article']);
+    } elseif ($part === 'example') {
         $text = '';
         foreach ($lesson['examples'][$word[0]] ?? [] as $pair) {
             if (!empty($pair[0]) && !empty($pair[1])) {

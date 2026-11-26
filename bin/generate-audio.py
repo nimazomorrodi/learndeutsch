@@ -9,6 +9,8 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile
 from zlib import crc32
 
+from deck_audio import deck_texts
+
 import numpy as np
 import onnxruntime
 from supertonic import TTS
@@ -67,15 +69,7 @@ def main():
             parser.error("Unknown lesson IDs: " + ", ".join(sorted(missing)))
 
     def render_deck(render_clip):
-        col = 0 if args.deck == "de" else 1
-        texts = set()
-        for lesson in lessons:
-            if args.lessons and lesson["id"] not in args.lessons:
-                continue
-            for word in lesson["words"]:
-                texts.add(word[col])
-                pair = next(p for p in lesson["examples"][word[0]] if all(p))
-                texts.add(pair[col])
+        texts = deck_texts((lesson for lesson in lessons if not args.lessons or lesson["id"] in args.lessons), args.deck)
         out = ROOT / "dist/assets/audio/leitner/v1" / args.deck
         for n, value in enumerate(sorted(texts), 1):
             digest = hashlib.sha256(value.encode("utf-8")).hexdigest()

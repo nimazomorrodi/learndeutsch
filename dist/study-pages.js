@@ -1,6 +1,6 @@
 const pageTitles = {
   home:'میز مطالعه', courses:'مسیر یادگیری', grammar:'مرجع گرامر', vocab:'واژه‌نامه', word:'مدخل واژه‌نامه', review:'جعبهٔ لایتنر',
-  articles:'تمرین آرتیکل', exams:'آزمون‌ها', quiz:'آزمون درس', lesson:'صفحهٔ درس', profile:'حساب من'
+  articles:'تمرین آرتیکل', articleReport:'کارنامهٔ آرتیکل‌ها', exams:'آزمون‌ها', quiz:'آزمون درس', lesson:'صفحهٔ درس', profile:'حساب من'
 };
 const quizTitles = {grammar:'آزمون گرامر', words:'آزمون واژگان', mixed:'آزمون پایان درس', chapter:'آزمون پایان فصل'};
 const topics = {lessons:'درس‌ها', grammar:'گرامر', words:'واژگان'};
@@ -25,7 +25,7 @@ function readRoute() {
     return {page, lesson, kind:Object.hasOwn(quizTitles, section) && (section!=='chapter' || lesson.listening) ? section : endQuiz(lesson)};
   }
   const validLevel = levels.some(l => l.code === item);
-  if (page === 'articles') return {page, level:validLevel ? item : 'all'};
+  if (page === 'articles') return {page:item === 'report' || section === 'report' ? 'articleReport' : page, level:validLevel ? item : 'all'};
   if (page === 'word') {
     const level = params.get('level');
     let de;
@@ -49,8 +49,8 @@ function readRoute() {
   return {page:Object.hasOwn(pageTitles, page) ? page : 'home'};
 }
 
-function heading(title, description) {
-  return '<div class="heading section-heading"><div><h1>'+title+'</h1><p>'+description+'</p></div></div>';
+function heading(title, description, control = '') {
+  return '<div class="heading section-heading"><div><h1>'+title+'</h1><p>'+description+'</p></div>'+control+'</div>';
 }
 function choiceLinks(items, selected, href, label) {
   return '<nav class="choice-links" aria-label="'+label+'">'+items.map(([value,title]) =>
@@ -104,6 +104,12 @@ function reviewDirectionPicker() {
   ).join('')+'</div></fieldset>';
 }
 
+function pronunciationButton(id, lang, part, label) {
+  const query = new URLSearchParams({card:id, lang, part});
+  return '<button type="button" lang="fa" class="review-speaker" data-act="pronounce" data-src="pronunciation.php?'+esc(query.toString())+
+    '" aria-label="'+esc(label)+'" title="'+esc(label)+'" aria-pressed="false">'+ic('volume',19)+'</button>';
+}
+
 function reviewCard(card) {
   const [front,back] = account.reviewDirection.split('-');
   const languages = {de:'آلمانی',fa:'فارسی'};
@@ -113,9 +119,7 @@ function reviewCard(card) {
     const example = pair?.[language === 'de' ? 0 : 1];
     function speaker(part) {
       const label='تلفظ '+(part==='word'?'واژه':'جمله')+' به '+languages[language];
-      const query=new URLSearchParams({card:card.id,lang:language,part});
-      return '<button type="button" lang="fa" class="review-speaker" data-act="pronounce" data-src="pronunciation.php?'+esc(query.toString())+
-        '" aria-label="'+label+'" title="'+label+'" aria-pressed="false">'+ic('volume',19)+'</button>';
+      return pronunciationButton(card.id,language,part,label);
     }
     return '<div class="review-face '+side+'" aria-hidden="'+hidden+'"'+(hidden?' inert':'')+'><span class="review-language">'+languages[language]+'</span>'+
       '<div class="review-entry" lang="'+language+'" dir="'+dir+'"><div class="review-utterance"><strong id="review-'+side+'-word" lang="'+language+'" dir="'+dir+'">'+esc(card[language])+'</strong>'+speaker('word')+'</div>'+

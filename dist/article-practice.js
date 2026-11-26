@@ -11,9 +11,8 @@ function shuffleArticles(cards) {
   return cards;
 }
 
-function startArticleRound(level) {
-  const day = key(today());
-  const due = [], fresh = [], later = [];
+function articleDeck(level) {
+  const cards = [];
   for (const entry of dictionaryIndex.values()) {
     const noun = entry.noun;
     const match = /^(der|die|das) (.+)$/.exec(noun?.singular || '');
@@ -22,8 +21,16 @@ function startArticleRound(level) {
     if (!source) continue;
     // The same noun keeps one schedule even when it occurs in several courses.
     const id = entry.lessons[0].id;
-    const card = {id, entry, level:source.lesson.level, article:match[1], word:match[2]};
-    const saved = state.articleCards?.[id];
+    cards.push({id, entry, level:source.lesson.level, article:match[1], word:match[2]});
+  }
+  return cards;
+}
+
+function startArticleRound(level) {
+  const day = key(today());
+  const due = [], fresh = [], later = [];
+  for (const card of articleDeck(level)) {
+    const saved = state.articleCards?.[card.id];
     if (!saved) fresh.push(card);
     else if (saved.due <= day) due.push(card);
     else later.push(card);
@@ -31,6 +38,50 @@ function startArticleRound(level) {
   const free = due.length + fresh.length === 0;
   const queue = free ? shuffleArticles(later) : shuffleArticles(due).concat(shuffleArticles(fresh));
   return {level, day, queue, free, number:1, answer:null};
+}
+
+function articleUrl(level, report = false) {
+  return '#articles'+(level === 'all' ? '' : '/'+level)+(report ? '/report' : '');
+}
+
+function articleToolbar(level, report = false) {
+  return '<div class="article-toolbar">'+levelLinks(level, l => articleUrl(l, report), true)+
+    '<a class="article-report-link" href="'+articleUrl(level, true)+'"'+(report?' aria-current="page"':'')+'>'+
+    ic('exam',17)+'کارنامه</a></div>';
+}
+
+function articleReportPage(level) {
+  const deck = articleDeck(level);
+  const counts = {correct:0, wrong:0, unknown:0, unsplit:0};
+  let practiced = 0, legacy = 0;
+  for (const card of deck) {
+    const saved = state.articleCards?.[card.id];
+    if (!saved) continue;
+    practiced++;
+    if (saved.lastResult) counts[saved.lastResult]++;
+    else {
+      legacy++;
+      // Older schedules record a pass in boxes 2–5. Box 1 combines both kinds of miss.
+      counts[saved.box > 1 ? 'correct' : 'unsplit']++;
+    }
+  }
+  const percent = (n, total) => total ? num(Math.round(1000*n/total)/10)+'٪' : '—';
+  const rows = [['تمرین‌شده',practiced],['بلدم',counts.correct],['نمی‌دانم',counts.unknown],['اشتباه زدم',counts.wrong]];
+  if (counts.unsplit) rows.push(['اشتباه یا نمی‌دانم (قدیمی)', counts.unsplit]);
+  const scope = level === 'all' ? 'همهٔ سطح‌ها' : 'سطح <bdi>'+esc(level)+'</bdi>';
+  const coverage = (label, value) => '<div class="article-coverage-line"><span>'+label+'</span><bdi>'+
+    percent(value,deck.length)+'</bdi></div><progress aria-label="'+label+'" max="'+(deck.length || 1)+'" value="'+value+'"></progress>';
+  return heading('کارنامهٔ آرتیکل‌ها','هر واژه یک‌بار شمرده می‌شود. «بلدم» یعنی آخرین پاسخ ثبت‌شده‌ات به آن واژه درست بوده.')+
+    articleToolbar(level,true)+'<section class="panel article-report"><h2>از واژه‌های تمرین‌شده چقدر بلدم؟</h2>'+
+    '<strong class="article-score"><bdi>'+percent(counts.correct,practiced)+'</bdi></strong>'+
+    '<p>'+(practiced ? 'پاسخ درست برای '+num(counts.correct)+' واژه از '+num(practiced)+' واژهٔ تمرین‌شده' :
+      'با پاسخ به اولین کارت، درصدت اینجا نمایش داده می‌شود.')+'</p>'+
+    '<dl class="article-counts">'+rows.map(([label,value])=>'<div><dt>'+label+'</dt><dd>'+num(value)+'</dd></div>').join('')+'</dl>'+
+    (legacy?'<p class="article-legacy">برای '+num(legacy)+' واژهٔ قدیمی، آخرین مرور زمان‌بندی‌شده ملاک است. در خانهٔ اول، «اشتباه» و «نمی‌دانم» جدا ثبت نمی‌شدند.</p>':'')+
+    '</section><section class="panel article-report article-coverage"><h2>پیشرفت در '+scope+'</h2><p>از مجموع '+num(deck.length)+' اسم، '+
+    num(deck.length-practiced)+' اسم هنوز تمرین نشده است.</p>'+coverage('درصد واژه‌های تمرین‌شده از کل',practiced)+
+    coverage('درصد واژه‌هایی که از کل بلدم',counts.correct)+
+    '<a class="primary" href="'+articleUrl(level)+'">'+(practiced?'ادامهٔ تمرین':'شروع تمرین')+ic('left',17)+'</a></section>';
 }
 
 function articleBack(card, answer) {
@@ -42,7 +93,8 @@ function articleBack(card, answer) {
   const plural = noun.plural ? '<bdi lang="de">'+nounFormMarkup(noun.plural,noun.singular)+'</bdi>' : 'در این معنی جمع رایج ندارد';
   return '<div class="article-verdict '+(correct?'right':'wrong')+'" id="article-verdict" tabindex="-1" aria-describedby="article-forms">'+
     ic(answer==='unknown'?'book':correct?'check':'close',18)+verdict+'</div>'+
-    '<div id="article-forms" class="article-forms"><strong lang="de" dir="ltr">'+nounFormMarkup(noun.singular)+'</strong>'+
+    '<div id="article-forms" class="article-forms"><div class="review-utterance" dir="ltr"><strong lang="de" dir="ltr">'+nounFormMarkup(noun.singular)+'</strong>'+
+    pronunciationButton(card.id,'de',card.entry.de === noun.singular ? 'word' : 'article','تلفظ '+noun.singular)+'</div>'+
     '<p><span>جمع</span> '+plural+'</p><p><span>معنی</span> '+esc(meanings.join('، '))+'</p>'+
     (noun.note?'<small>'+esc(noun.note)+'</small>':'')+'</div>'+
     '<button type="button" class="primary" data-act="article-next">کارت بعدی'+ic('left',17)+'</button>';
@@ -54,8 +106,10 @@ function articlePracticePage(level) {
   }
   const {queue, answer, number, free} = articleRound;
   const card = queue[0];
-  const intro = heading('تمرین آرتیکل', 'آرتیکل اسم را انتخاب کن تا شکل مفرد، جمع و معنی آن را ببینی.')+
-    levelLinks(level, l => l === 'all' ? '#articles' : '#articles/'+l, true);
+  const autoplay = '<button type="button" class="article-autoplay" role="switch" data-act="article-autoplay" aria-checked="'+
+    (state.articleAutoplay === true)+'"><span class="article-autoplay-track" aria-hidden="true"></span>تلفظ خودکار</button>';
+  const intro = heading('تمرین آرتیکل', 'آرتیکل اسم را انتخاب کن تا شکل مفرد، جمع و معنی آن را ببینی.', autoplay)+
+    articleToolbar(level);
   if (!card) {
     return intro+'<section class="panel review-surface empty"><h2>'+
       (number > 1 ? 'این دور تمام شد' : 'برای این سطح کارتی پیدا نشد')+'</h2>'+
@@ -85,12 +139,13 @@ function answerArticle(answer) {
   round.answer = answer;
   const cards = state.articleCards ??= {};
   const previous = cards[card.id];
+  const correct = answer === card.article;
   if (!round.free && (!previous || previous.due <= key(today()))) {
-    const correct = answer === card.article;
     const box = correct ? Math.min(boxDays.length, (previous?.box || 1) + 1) : 1;
     cards[card.id] = {box, due:key(moveDay(today(), boxDays[box-1]))};
     if (!correct) round.queue.splice(4, 0, card);
   }
+  cards[card.id].lastResult = correct ? 'correct' : answer === 'unknown' ? 'unknown' : 'wrong';
   study();
   const sheet = $('.article-practice .review-sheet');
   const front = sheet.querySelector('.front'), back = sheet.querySelector('.back');
@@ -103,6 +158,7 @@ function answerArticle(answer) {
   const schedule = cards[card.id];
   $('#article-schedule').textContent = 'خانهٔ '+num(schedule.box)+' · مرور بعدی '+fmt(new Date(schedule.due+'T12:00:00'),{day:'numeric',month:'long'});
   $('#article-verdict').focus({preventScroll:true});
+  if (state.articleAutoplay === true) playReviewAudio(back.querySelector('[data-act="pronounce"]'));
 }
 
 function nextArticle(restart = false) {
