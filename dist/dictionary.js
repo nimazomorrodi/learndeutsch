@@ -1,6 +1,5 @@
 'use strict';
 
-const dictionaryBatch = 36;
 const dictionaryOrder = new Intl.Collator('de');
 
 function buildDictionaryIndex(words) {
@@ -41,6 +40,7 @@ function wordUrl(de, {level='all',query='',tense='present',lessonId=''} = {}) {
 
 function dictionaryMatches(route) {
   const term = normalized(route.query);
+  if (!term) return [];
   const joined = term.replaceAll(' ','');
   const exactForms = findVerbForms(term);
   const partialForms = new Map();
@@ -56,7 +56,7 @@ function dictionaryMatches(route) {
     const source = entry.lessons.find(w=>route.level==='all' || w.lesson.level===route.level);
     if (!source) continue;
     let rank;
-    if (!term || entry.de === route.query.trim() || entry.bare === route.query.trim()) rank=0;
+    if (entry.de === route.query.trim() || entry.bare === route.query.trim()) rank=0;
     else if (entry.keys.includes(term)) rank=1;
     else if (exactForms.has(entry.de)) rank=2;
     else if (entry.keys.some(key=>key.startsWith(term))) rank=3;
@@ -64,35 +64,31 @@ function dictionaryMatches(route) {
     else if (entry.keys.some(key=>key.includes(term) || key.replaceAll(' ','').includes(joined))) rank=5;
     else continue;
     const tense = exactForms.get(entry.de) || (rank === 4 && partialForms.get(entry.de)) || 'present';
-    const meaning = term && entry.meanings.find((_,i)=>entry.keys[i+2].includes(term));
+    const meaning = entry.meanings.find((_,i)=>entry.keys[i+2].includes(term));
     rows.push({entry,source,meaning:meaning || source.fa,rank,url:wordUrl(entry.de,{...route,lessonId:source.lesson.id,tense})});
   }
-  return rows.sort((a,b)=>a.rank-b.rank || dictionaryOrder.compare(a.entry.bare,b.entry.bare));
+  return rows.sort((a,b)=>a.rank-b.rank || dictionaryOrder.compare(a.entry.bare,b.entry.bare)).slice(0,6);
 }
 
-function wordRow({entry,source,meaning,url}, suggestionIndex) {
-  const suggestion = Number.isInteger(suggestionIndex);
-  const attributes = suggestion ? ' role="option" id="word-option-'+suggestionIndex+'" aria-selected="false" tabindex="-1"' : '';
-  return '<a class="lex-row" href="'+esc(url)+'"'+attributes+'><span class="lex-row-copy">'+
+function wordSuggestion({entry,source,meaning,url}, index) {
+  return '<a class="lex-row" href="'+esc(url)+'" role="option" id="word-option-'+index+'" aria-selected="false" tabindex="-1"><span class="lex-row-copy">'+
     '<b lang="de" dir="ltr">'+esc(entry.de)+'</b><span>'+esc(meaning)+'</span></span>'+
     '<small class="lex-level" dir="ltr">'+esc(source.lesson.level)+'</small>'+ic('left',16)+'</a>';
 }
 
-function resultList(rows,limit=dictionaryBatch) {
-  if (!rows.length) return '<div class="panel empty"><h2>واژه‌ای پیدا نشد</h2><p>املا یا سطح انتخاب‌شده را تغییر بده.</p></div>';
-  return '<p class="result-count" role="status">'+num(rows.length)+' مدخل</p><div class="lex-list">'+
-    rows.slice(0,limit).map(r=>'<div class="lex-result">'+wordRow(r)+wordButton(r.source,true)+'</div>').join('')+'</div>'+
-    (rows.length>limit?'<button class="secondary lex-more" data-word-limit="'+limit+'">نمایش واژه‌های بیشتر</button>':'');
+function wordSearchStatus(query, matches) {
+  return query.trim() && matches?.length===0 ? 'واژه‌ای پیدا نشد.' : '';
 }
 
 function dictionaryPage(route) {
+  const matches = dictionaryMatches(route);
   return heading('واژه‌نامه','واژه را با معنی فارسی، شکل جمع یا صرف فعل هم می‌توانی پیدا کنی.',
     '<a class="secondary vocab-practice-link" href="'+vocabPracticeUrl(route.level)+'">'+ic('target',18)+'تمرین لغات</a>')+
-    '<div class="lex-search"><label class="search-field">'+ic('search',21)+
-    '<input id="word-search" type="search" role="combobox" aria-label="جست‌وجوی واژه" aria-autocomplete="list" aria-controls="word-suggestions" aria-expanded="false" dir="auto" autocomplete="off" spellcheck="false" placeholder="مثلاً gehen، ging یا رفتن" value="'+esc(route.query)+'"></label>'+
-    '<div class="lex-popover" hidden><div class="lex-pop-title">پیشنهادها</div><div id="word-suggestions" role="listbox" aria-label="واژه‌های پیشنهادی"></div></div></div>'+
     '<div id="dictionary-levels">'+levelLinks(route.level,l=>vocabUrl(l,route.query),true)+'</div>'+
-    '<div id="word-results">'+resultList(dictionaryMatches(route))+'</div>';
+    '<div class="lex-search"><label class="search-field">'+ic('search',21)+
+    '<input id="word-search" type="search" role="combobox" aria-label="جست‌وجوی واژه" aria-autocomplete="list" aria-controls="word-suggestions" aria-expanded="'+(matches.length>0)+'" dir="auto" autocomplete="off" spellcheck="false" placeholder="مثلاً gehen، ging یا رفتن" value="'+esc(route.query)+'"></label>'+
+    '<div class="lex-popover" id="word-suggestions" role="listbox" aria-label="واژه‌های پیشنهادی"'+(matches.length?'':' hidden')+'>'+matches.map(wordSuggestion).join('')+'</div>'+
+    '<p class="hint" role="status" id="word-search-status">'+wordSearchStatus(route.query,matches)+'</p></div>';
 }
 
 function formItem(label, markup, german = true) {
@@ -182,13 +178,13 @@ function wordPage(route) {
     (verb?conjugationPanel(entry.de,tense):'')+sampleCard+'</div>'+contexts;
 }
 
-function showWordSuggestions(input,rows) {
+function showWordSuggestions(input,matches) {
   const list = document.getElementById('word-suggestions');
-  const matches = input.value.trim() && rows ? rows.slice(0,6) : [];
-  list.innerHTML = matches.map((r,i)=>wordRow(r,i)).join('');
-  list.parentElement.hidden = matches.length===0;
-  input.setAttribute('aria-expanded',String(matches.length>0));
+  list.innerHTML = (matches ?? []).map(wordSuggestion).join('');
+  list.hidden = !matches?.length;
+  input.setAttribute('aria-expanded',String(!list.hidden));
   input.removeAttribute('aria-activedescendant');
+  document.getElementById('word-search-status').textContent=wordSearchStatus(input.value,matches);
 }
 
 document.addEventListener('input',event=>{
@@ -198,7 +194,6 @@ document.addEventListener('input',event=>{
   history.replaceState(null,'',vocabUrl(route.level,route.query));
   const rows = dictionaryMatches(route);
   document.getElementById('dictionary-levels').innerHTML=levelLinks(route.level,l=>vocabUrl(l,route.query),true);
-  document.getElementById('word-results').innerHTML=resultList(rows);
   showWordSuggestions(input,rows);
 });
 
@@ -206,11 +201,11 @@ document.addEventListener('focusin',event=>{
   if (event.target.id==='word-search' && event.target.value.trim()) showWordSuggestions(event.target,dictionaryMatches(readRoute()));
 });
 document.addEventListener('focusout',event=>{
-  if (event.target.id==='word-search' && !event.relatedTarget?.closest('.lex-search')) showWordSuggestions(event.target,[]);
+  if (event.target.id==='word-search' && !event.relatedTarget?.closest('.lex-search')) showWordSuggestions(event.target);
 });
 document.addEventListener('pointerdown',event=>{
   const input = document.getElementById('word-search');
-  if (input && !event.target.closest('.lex-search')) showWordSuggestions(input,[]);
+  if (input && !event.target.closest('.lex-search')) showWordSuggestions(input);
 });
 document.addEventListener('mousedown',event=>{
   if (event.target.closest('#word-suggestions [role=option]')) event.preventDefault();
@@ -219,7 +214,7 @@ document.addEventListener('mousedown',event=>{
 document.addEventListener('keydown',event=>{
   const input = event.target;
   if (input.id!=='word-search' || event.isComposing) return;
-  if (event.key==='Escape') { event.preventDefault(); showWordSuggestions(input,[]); return; }
+  if (event.key==='Escape') { event.preventDefault(); showWordSuggestions(input); return; }
   if (!['ArrowDown','ArrowUp','Enter'].includes(event.key) || !input.value.trim()) return;
   if (input.getAttribute('aria-expanded')==='false') showWordSuggestions(input,dictionaryMatches(readRoute()));
   const options = [...document.querySelectorAll('#word-suggestions [role=option]')];
@@ -232,12 +227,4 @@ document.addEventListener('keydown',event=>{
   options[pos].setAttribute('aria-selected','true');
   input.setAttribute('aria-activedescendant',options[pos].id);
   options[pos].scrollIntoView({block:'nearest'});
-});
-document.addEventListener('click',event=>{
-  const button = event.target.closest('[data-word-limit]');
-  if (!button) return;
-  const rows = dictionaryMatches(readRoute()), limit = Number(button.dataset.wordLimit);
-  const results = document.getElementById('word-results');
-  results.innerHTML = resultList(rows,limit+dictionaryBatch);
-  results.querySelectorAll('.lex-row')[limit]?.focus();
 });

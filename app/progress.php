@@ -57,6 +57,7 @@ function validProgress(mixed $s, array $lessons): bool
     foreach (['articleAutoplay', 'reviewAutoplay', 'vocabAutoplay'] as $setting) {
         if (property_exists($s, $setting) && !is_bool($s->$setting)) return false;
     }
+    if (property_exists($s, 'vocabDirection') && !in_array($s->vocabDirection, ['de-fa', 'fa-de'], true)) return false;
     foreach (['articleCards', 'vocabPracticeCards'] as $field) {
         if (!property_exists($s, $field)) continue;
         if (!($s->$field instanceof stdClass)) return false;

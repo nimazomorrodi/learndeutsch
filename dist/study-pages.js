@@ -1,5 +1,5 @@
 const pageTitles = {
-  home:'میز مطالعه', courses:'مسیر یادگیری', grammar:'مرجع گرامر', vocab:'واژه‌نامه', word:'مدخل واژه‌نامه', review:'جعبهٔ لایتنر', reviewReport:'کارنامهٔ لایتنر',
+  home:'میز مطالعه', courses:'مسیر یادگیری', grammar:'مرجع گرامر', vocab:'واژه‌نامه', word:'جزئیات واژه', review:'جعبهٔ لایتنر', reviewReport:'کارنامهٔ لایتنر',
   words:'تمرین لغات', wordsReport:'کارنامهٔ تمرین لغات', articles:'تمرین آرتیکل', articleReport:'کارنامهٔ آرتیکل‌ها', exams:'آزمون‌ها', quiz:'آزمون درس', lesson:'صفحهٔ درس', profile:'حساب من'
 };
 const quizTitles = {grammar:'آزمون گرامر', words:'آزمون واژگان', mixed:'آزمون پایان درس', chapter:'آزمون پایان فصل'};
@@ -129,10 +129,10 @@ function pairedSentences(pairs) {
   return '<ul class="examples">'+pairs.map(([de,fa])=>'<li><p lang="de" dir="ltr">'+esc(de)+'</p><p>'+esc(fa)+'</p></li>').join('')+'</ul>';
 }
 
-function reviewDirectionPicker() {
+function directionPicker(name, legend, selected) {
   const choices = [['de-fa','آلمانی به فارسی'],['fa-de','فارسی به آلمانی']];
-  return '<fieldset class="review-direction"><legend>جهت مرور</legend><div>'+choices.map(([value,label])=>
-    '<label><input type="radio" name="review-direction" value="'+value+'"'+(account.reviewDirection===value?' checked':'')+'>'+label+'</label>'
+  return '<fieldset class="review-direction"><legend>'+legend+'</legend><div>'+choices.map(([value,label])=>
+    '<label><input type="radio" name="'+name+'" value="'+value+'"'+(selected===value?' checked':'')+'>'+label+'</label>'
   ).join('')+'</div></fieldset>';
 }
 
@@ -336,7 +336,7 @@ function reviewPage({box,level}){
     heading('مرور آزاد خانهٔ '+num(box),'پاسخت در کارنامه ثبت می‌شود. موعد بعدی کارت طبق برنامه می‌ماند.',autoplay) :
     heading('جعبهٔ لایتنر','کارت‌های امروز را مرور کن یا برای مرور آزاد، یکی از پنج خانه را انتخاب کن.',autoplay);
   return intro+practiceToolbar(level,l=>reviewUrl(l,box?'/box/'+box:''),reviewUrl(level,'/report'),false)+
-    '<section class="panel review-surface">'+reviewDirectionPicker()+exercise+'</section>'+
+    '<section class="panel review-surface">'+directionPicker('review-direction','جهت مرور',account.reviewDirection)+exercise+'</section>'+
     '<section class="panel box-panel"><h2>کارت‌های من در پنج خانه</h2><div class="box-grid grid">'+reviewBoxLinks(cards,box,level)+'</div></section>';
 }
 
