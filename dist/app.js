@@ -64,7 +64,7 @@ function sidebar(){
  const page=readRoute().page;
  const section=page==='lesson'?'courses':page==='quiz'?'exams':page==='word'?'vocab':page;
  const nav=(target,icon,label,badge='')=>'<a class="nav-item '+(section===target?'active':'')+'" href="#'+target+'" '+(section===target?'aria-current="page"':'')+'>'+ic(icon)+'<span>'+label+'</span>'+badge+'</a>';
- $('#sidebar').innerHTML='<div class="brand-row"><a class="brand" href="#home" data-act="home" aria-label="لرن‌هاوس، خانه"><img src="assets/mark.svg" alt=""><b lang="de">Lernhaus<span>.</span></b></a><button class="mobile-only icon-btn" data-act="nav-close" aria-label="بستن منو">'+ic('close')+'</button></div><div class="side-label">فضای یادگیری</div><nav>'+nav('home','grid','میز مطالعه')+nav('courses','path','مسیر یادگیری')+nav('grammar','book','مرجع گرامر')+nav('vocab','vocab','واژه‌نامه')+nav('review','cards','جعبهٔ لایتنر',dueWords().length?'<em>'+num(dueWords().length)+'</em>':'')+'</nav><div class="side-label second">آمادگی آزمون</div><nav>'+nav('exams','exam','آزمون‌ها و منابع')+'</nav><div class="side-bottom"><div class="review-invite"><div class="invite-icon">'+ic('cards',25)+'</div><b>مرور امروز</b><p>'+num(dueWords().length)+' واژه در صف مرور</p><button data-act="review">ورود به لایتنر</button></div><button class="profile" data-act="profile"><span class="avatar">'+ic('person',21)+'</span><span><b data-account-name dir="auto">'+esc(accountName())+'</b><small>حساب من</small></span>'+ic('swap',16)+'</button></div>';
+ $('#sidebar').innerHTML='<div class="brand-row"><a class="brand" href="#home" data-act="home" aria-label="لرن‌هاوس، خانه"><img src="assets/mark.svg" alt=""><b lang="de">Lernhaus<span>.</span></b></a><button class="mobile-only icon-btn" data-act="nav-close" aria-label="بستن منو">'+ic('close')+'</button></div><div class="side-label">فضای یادگیری</div><nav>'+nav('home','grid','میز مطالعه')+nav('courses','path','مسیر یادگیری')+nav('grammar','book','مرجع گرامر')+nav('vocab','vocab','واژه‌نامه')+nav('articles','layers','تمرین آرتیکل')+nav('review','cards','جعبهٔ لایتنر',dueWords().length?'<em>'+num(dueWords().length)+'</em>':'')+'</nav><div class="side-label second">آمادگی آزمون</div><nav>'+nav('exams','exam','آزمون‌ها و منابع')+'</nav><div class="side-bottom"><div class="review-invite"><div class="invite-icon">'+ic('cards',25)+'</div><b>مرور امروز</b><p>'+num(dueWords().length)+' واژه در صف مرور</p><button data-act="review">ورود به لایتنر</button></div><button class="profile" data-act="profile"><span class="avatar">'+ic('person',21)+'</span><span><b data-account-name dir="auto">'+esc(accountName())+'</b><small>حساب من</small></span>'+ic('swap',16)+'</button></div>';
 }
 function topbar(){
  const dark=document.documentElement.dataset.theme==='dark';
@@ -142,6 +142,7 @@ function render(){
    case 'vocab': content=dictionaryPage(route);break;
    case 'word': content=wordPage(route);break;
    case 'review': content=reviewPage(route);break;
+   case 'articles': content=articlePracticePage(route.level);break;
    case 'exams': content=examsPage(route);break;
    case 'quiz': content=quizPage(route);break;
    case 'profile': content=profilePage();break;
@@ -178,6 +179,9 @@ function act(action,value,el){
    study();goLesson(l.id,next.id);break;
  }
  case 'flip-card':flipReviewCard(el);break;
+ case 'article-answer':answerArticle(value);break;
+ case 'article-next':nextArticle();break;
+ case 'article-restart':nextArticle(true);break;
  case 'pronounce':playReviewAudio(el);break;
  case 'next-box-card':case 'restart-box':{
    if(!readRoute().box)break;

@@ -1,6 +1,6 @@
 const pageTitles = {
   home:'میز مطالعه', courses:'مسیر یادگیری', grammar:'مرجع گرامر', vocab:'واژه‌نامه', word:'مدخل واژه‌نامه', review:'جعبهٔ لایتنر',
-  exams:'آزمون‌ها', quiz:'آزمون درس', lesson:'صفحهٔ درس', profile:'حساب من'
+  articles:'تمرین آرتیکل', exams:'آزمون‌ها', quiz:'آزمون درس', lesson:'صفحهٔ درس', profile:'حساب من'
 };
 const quizTitles = {grammar:'آزمون گرامر', words:'آزمون واژگان', mixed:'آزمون پایان درس', chapter:'آزمون پایان فصل'};
 const topics = {lessons:'درس‌ها', grammar:'گرامر', words:'واژگان'};
@@ -25,6 +25,7 @@ function readRoute() {
     return {page, lesson, kind:Object.hasOwn(quizTitles, section) && (section!=='chapter' || lesson.listening) ? section : endQuiz(lesson)};
   }
   const validLevel = levels.some(l => l.code === item);
+  if (page === 'articles') return {page, level:validLevel ? item : 'all'};
   if (page === 'word') {
     const level = params.get('level');
     let de;

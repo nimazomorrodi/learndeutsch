@@ -53,10 +53,17 @@ function validProgress(mixed $s, array $lessons): bool
     foreach ($s->days as $day => $count) {
         if (!validDate($day) || !inRange($count, 1, 1000000)) return false;
     }
-    foreach ($s->cards as $key => $card) {
-        if (!preg_match('/^([a-z0-9_-]+):(0|[1-9]\d*)$/D', $key, $m) ||
-            !isset($catalog[$m[1]]->words[(int)$m[2]]) || !inRange($card->box ?? null, 1, 5) ||
-            !validDate($card->due ?? null)) return false;
+    $decks = [$s->cards];
+    if (property_exists($s, 'articleCards')) {
+        if (!($s->articleCards instanceof stdClass)) return false;
+        $decks[] = $s->articleCards;
+    }
+    foreach ($decks as $deck) {
+        foreach ($deck as $key => $card) {
+            if (!preg_match('/^([a-z0-9_-]+):(0|[1-9]\d*)$/D', $key, $m) ||
+                !isset($catalog[$m[1]]->words[(int)$m[2]]) || !inRange($card->box ?? null, 1, 5) ||
+                !validDate($card->due ?? null)) return false;
+        }
     }
     if (property_exists($s, 'practice')) {
         if (!($s->practice instanceof stdClass)) return false;

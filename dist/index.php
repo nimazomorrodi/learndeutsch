@@ -101,6 +101,7 @@ try {
   <script defer src="conjugation.js"></script>
   <script defer src="reference.js"></script>
   <script defer src="dictionary.js"></script>
+  <script defer src="article-practice.js"></script>
   <script defer src="app.js"></script>
 <?php endif; ?>
 </body>
