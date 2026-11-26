@@ -154,7 +154,7 @@ function revealPracticeAnswer(markup, schedule, autoplay) {
   sheet.classList.add('article-answered');
   $('.practice-schedule').textContent = 'خانهٔ '+num(schedule.box)+' · مرور بعدی '+fmt(new Date(schedule.due+'T12:00:00'),{day:'numeric',month:'long'});
   back.querySelector('.article-verdict').focus({preventScroll:true});
-  if (autoplay === true) playReviewAudio(back.querySelector('[data-act="pronounce"]'));
+  if (autoplay === true) playReviewAudio(...back.querySelectorAll('[data-act="pronounce"]'));
 }
 
 function nextPractice(restart = false) {

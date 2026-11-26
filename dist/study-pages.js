@@ -92,8 +92,12 @@ function levelLinks(selected, href, all = false) {
   if (all) items.unshift(['all','همهٔ سطح‌ها']);
   return choiceLinks(items, selected, href, 'انتخاب سطح');
 }
-function quizLink(l, kind) {
-  return '<a class="secondary practice-link" href="#quiz/'+l.id+'/'+kind+'">'+ic('exam',16)+quizTitles[kind]+'</a>';
+function quizLink(lesson, kind, showResult = false) {
+  const key = quizKey({lesson,kind});
+  const last = showResult && state.quizzes?.[key]?.last;
+  const result = last ? '<span class="exam-result">انجام‌شده<small>آخرین نمره '+num(last.score)+' از '+num(last.answers.length)+'</small></span>' : '';
+  return '<a class="secondary practice-link'+(last?' exam-complete':'')+'" href="#quiz/'+key+'">'+
+    ic(last?'check':'exam',16)+'<span>'+quizTitles[kind]+'</span>'+result+'</a>';
 }
 function coursePage(route) {
   const level=levels.find(l=>l.code===route.level), group=lessons.filter(l=>l.level===route.level);
@@ -186,6 +190,12 @@ function flipReviewCard(button) {
 
 let reviewPlayback = null;
 
+function resetReviewSpeaker(button) {
+  button.removeAttribute('aria-busy');
+  button.setAttribute('aria-pressed','false');
+  button.innerHTML=ic('volume',19);
+}
+
 function stopReviewAudio() {
   if (!reviewPlayback) return;
   const {audio,button}=reviewPlayback;
@@ -193,33 +203,45 @@ function stopReviewAudio() {
   audio.pause();
   audio.removeAttribute('src');
   audio.load();
-  button.removeAttribute('aria-busy');
-  button.setAttribute('aria-pressed','false');
-  button.innerHTML=ic('volume',19);
+  resetReviewSpeaker(button);
 }
 
-async function playReviewAudio(button) {
+function playReviewAudio(button, ...followingButtons) {
   const wasPlaying=reviewPlayback?.button===button;
   stopReviewAudio();
-  if (wasPlaying) return;
-  const audio=new Audio(button.dataset.src);
-  reviewPlayback={audio,button};
-  button.setAttribute('aria-busy','true');
-  button.setAttribute('aria-pressed','true');
-  button.innerHTML=ic('clock',19);
+  if (!button || wasPlaying) return;
+  const audio=new Audio();
+  const playback={audio,button};
+  reviewPlayback=playback;
   const failed=()=>{
-    if (reviewPlayback?.audio!==audio) return;
+    if (reviewPlayback!==playback) return;
     stopReviewAudio();
     flash('تلفظ پخش نشد. برای تلاش دوباره روی بلندگو بزن.');
   };
+  async function playClip(speaker) {
+    playback.button=speaker;
+    speaker.setAttribute('aria-busy','true');
+    speaker.setAttribute('aria-pressed','true');
+    speaker.innerHTML=ic('clock',19);
+    audio.src=speaker.dataset.src;
+    try {
+      await audio.play();
+      if (reviewPlayback!==playback || playback.button!==speaker) return;
+      speaker.removeAttribute('aria-busy');
+      speaker.innerHTML=ic('stop',17);
+    } catch {
+      if (playback.button===speaker) failed();
+    }
+  }
   audio.addEventListener('error',failed);
-  audio.addEventListener('ended',()=>{if(reviewPlayback?.audio===audio)stopReviewAudio();});
-  try {
-    await audio.play();
-    if (reviewPlayback?.audio!==audio) return;
-    button.removeAttribute('aria-busy');
-    button.innerHTML=ic('stop',17);
-  } catch { failed(); }
+  audio.addEventListener('ended',()=>{
+    if (reviewPlayback!==playback) return;
+    const next=followingButtons.shift();
+    if (!next) { stopReviewAudio(); return; }
+    resetReviewSpeaker(playback.button);
+    playClip(next);
+  });
+  playClip(button);
 }
 window.addEventListener('pagehide',stopReviewAudio);
 
@@ -345,7 +367,13 @@ function examsPage(route) {
   const group=lessons.filter(l=>selected==='all'||l.level===selected);
   const official=exams.filter(([level])=>selected==='all'||level===selected).map(([level,title,url])=>
     '<div class="resource-row"><bdi>'+level+'</bdi><a href="'+url+'" target="_blank" rel="noopener noreferrer">telc · '+title+'</a><a href="https://www.goethe.de/de/spr/prf/ueb/'+({A1:'pa1',A2:'pa2',B1:'pb1'}[level])+'.html" target="_blank" rel="noopener noreferrer">Goethe · '+level+'</a></div>').join('');
-  const list=group.map(l=>'<article class="panel curriculum-card"><div class="card-meta"><bdi>'+l.level+'</bdi><span lang="de" dir="ltr">'+l.name+'</span></div><h3>'+l.fa+'</h3><p>'+l.rule+'</p><div class="course-actions">'+quizLink(l,'grammar')+quizLink(l,'words')+quizLink(l,endQuiz(l))+'</div></article>').join('');
+  const list=group.map(lesson=>{
+    const finalKind=endQuiz(lesson);
+    const kinds=['grammar','words',finalKind];
+    if (finalKind!=='mixed' && state.quizzes?.[quizKey({lesson,kind:'mixed'})]?.last) kinds.push('mixed');
+    return '<article class="panel curriculum-card"><div class="card-meta"><bdi>'+lesson.level+'</bdi><span lang="de" dir="ltr">'+lesson.name+'</span></div><h3>'+lesson.fa+'</h3><p>'+lesson.rule+'</p><div class="course-actions exam-links">'+
+      kinds.map(kind=>quizLink(lesson,kind,true)).join('')+'</div></article>';
+  }).join('');
   return heading('آزمون‌ها','از هر درس یک آزمون گرامر، واژگان یا پایان درس انتخاب کن.')+
     levelLinks(selected,l=>'#exams/'+l,true)+'<div class="catalog-grid grid">'+list+'</div>'+
     '<section class="panel resource-panel"><h2>نمونه‌آزمون‌های رسمی</h2><p class="hint">دریافت نمونه‌آزمون و فایل شنیداری از سایت مؤسسه به اینترنت نیاز دارد.</p>'+official+'</section>';

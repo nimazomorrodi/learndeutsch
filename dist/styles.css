@@ -213,6 +213,11 @@ h1,h2,h3,p{margin:0}
 .course-actions{margin-top:auto;padding-top:12px}
 .course-actions>a:not(.secondary):not(.primary),.word-link,.resource-row a{color:var(--pine);text-decoration:underline;text-underline-offset:4px}
 .practice-link{width:fit-content;min-height:39px;padding:6px 10px;font-size:.85rem}
+.exam-links{display:grid}
+.exam-links .practice-link{width:100%;min-height:44px;justify-content:flex-start;text-align:start}
+.exam-links .exam-complete{background:var(--mint);border-color:var(--pine);color:var(--mint-ink)}
+.exam-result{margin-inline-start:auto;flex-shrink:0;text-align:end;font-size:.76rem;line-height:1.55}
+.exam-result small{display:block;font-size:inherit;font-weight:500}
 .part-content>.practice-link{margin-top:16px}.word-link{font-weight:680}
 .word-chips a{padding:4px 9px;background:var(--mint);color:var(--mint-ink);border-radius:7px;font-size:.86rem}
 .search-field{display:flex;align-items:center;gap:12px;padding:10px 15px;min-height:52px;background:var(--surface);border:1px solid var(--line);border-radius:11px;color:var(--pine)}
